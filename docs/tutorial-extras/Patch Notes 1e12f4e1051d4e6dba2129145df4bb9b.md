@@ -6,19 +6,6 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
-## Patch x.x.x
-
-Additions
-
-- Support For Bedrock Client 1.21.2
-
-Changes
-
-- /phome command moved to Silver Rank
-- Lottery Max Bet Per Round 1M
-- Better Land Database
-- TNT No longer break blocks in wilderness (resource world still works)
-
 ## Patch 1.9.1
 
 > 06/07/2024
