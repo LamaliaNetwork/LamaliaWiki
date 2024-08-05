@@ -4,10 +4,16 @@
  */
 
 .heroBanner {
+  height: 50vh; /* Make the hero banner take the full viewport height */
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url('/img/background.png'); /* Change this to your image path */
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image */
+  color: #fffcfc; /* Change this to your desired text color */
 }
 
 @media screen and (max-width: 996px) {

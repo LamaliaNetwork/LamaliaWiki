@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Lamalia Wiki',
   tagline: 'Center of Knowledge in Lamalia',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.ico',
 
   // Set the production url of your site here
   url: 'https://play.lamalia.net:25590',
@@ -66,10 +66,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Lamalia Wiki',
+        title: 'Lamalia Network',
         logo: {
           alt: 'Lamalia Logo',
-          src: 'img/logo.svg',
+          src: 'img/ico.png',
         },
         items: [
           {
@@ -129,7 +129,7 @@ const config = {
       },
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        darkTheme: prismThemes.oneDark,
       },
     }),
 };
