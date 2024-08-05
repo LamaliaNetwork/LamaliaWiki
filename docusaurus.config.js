@@ -78,7 +78,8 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/rules', label: 'Rules', position: 'left'},
+          {to: '/privacy', label: 'Privacy Policy', position: 'left'},
           {
             href: 'https://github.com/LamaliaNetwork/LamaliaWiki',
             label: 'GitHub',
@@ -114,10 +115,14 @@ const config = {
           {
             title: 'More',
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
+              {
+                label: 'Rules',
+                to: '/rules',
+              },
+              {
+                label: 'Privacy Policy',
+                to: '/privacy',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/LamaliaNetwork/LamaliaWiki',
