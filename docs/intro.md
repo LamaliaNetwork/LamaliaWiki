@@ -1,46 +1,33 @@
 ---
 sidebar_position: 1
 ---
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Getting Started
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+## How to join Lamalia?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+1. Use Minecraft 1.20.x (1.20.4 is recommended).
+2. Enter the IP into multiplayer (Ensure you enable the server resource pack for the full experience).
 
-### What you'll need
+    - IP: `play.lamalia.net`
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+   ![Server IP](features/img/joinServer.png)
 
-## Generate a new site
+3. Register using the command /register (pass) (pass).
+4. Now, you're in!
 
-Generate a new Docusaurus site using the **classic template**.
+## Returning Members
 
-The classic template will automatically be added to your project after you run the command:
+If you're returning for the second time, use this command instead:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- /login (pass)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Premium Users Auto Login
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+If you're a premium Minecraft user and want to avoid logging in each time you enter the server, follow these steps:
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.Javaplugin.css = this
+1. Use the command /premium (pass).
+2. Confirm the statement with /premiumconfirm.
+3. You will be logged out and won't need to log in the next time you enter.

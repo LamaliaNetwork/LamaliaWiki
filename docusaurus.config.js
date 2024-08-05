@@ -78,6 +78,7 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
+          {to: '/patchNotes', label: 'Patch Notes', position: 'left'},
           {to: '/rules', label: 'Rules', position: 'left'},
           {to: '/privacy', label: 'Privacy Policy', position: 'left'},
           {
@@ -122,6 +123,10 @@ const config = {
               {
                 label: 'Privacy Policy',
                 to: '/privacy',
+              },
+              {
+                label: 'Patch Notes', 
+                to: '/patchNotes',
               },
               {
                 label: 'GitHub',
