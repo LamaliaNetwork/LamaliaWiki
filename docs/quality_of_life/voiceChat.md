@@ -14,7 +14,7 @@ after that run your minecraft Launcher with Simple Voice Chat mod
 
 ## Voice Chat Setting / How to use
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/972451fd-a730-47ce-9a23-6f4b45d72f34/Untitled.png)
+![Voice Chat](./img/voiceChat/voiceChat.png)
 
 You can press **V** as default button or setting in options > controls > keybinds and find voice chat gui and change it
 
@@ -24,7 +24,7 @@ and beside it it speaker icon on right side of microphone icon you turn on/off s
 
 you can click at Settings Menu
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/c2854322-12eb-448c-88bb-7a57bdc92d6b/Untitled.png)
+![Voice Chat Setting](./img/voiceChat/vcSetting.png)
 
 This menu offers the ability to change the general voice chat volume and your microphone amplification. In addition, there is the possibility to specify the recording and playback device.
 
@@ -38,8 +38,8 @@ Group chats allow you to talk to players that are not in your vicinity. To open 
 
 To create a new group, just type a name in the text field and press the button next to it.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/d8034290-263a-47dd-a5db-31d35e1c8d79/Untitled.png)
+![Group Chat1](./img/voiceChat/vcGroupChat1.png)
 
 Creating or joining a group will bring you into the group chat interface. You will also see the heads of the group members in the top left corner of your screen. Talking players will be outlined. You can disable these icons by pressing the third button from the left.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/003b5b8a-72f5-4a51-a0f3-583b1c203e59/Untitled.png)
+![Group Chat2](./img/voiceChat/vcGroupChat2.png)
