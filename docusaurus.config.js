@@ -76,9 +76,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'defaultSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wiki',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/LamaliaNetwork/LamaliaWiki',
             label: 'GitHub',
@@ -114,10 +114,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/LamaliaNetwork/LamaliaWiki',
