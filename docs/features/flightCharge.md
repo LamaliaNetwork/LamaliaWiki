@@ -24,7 +24,7 @@ Use the following command to recharge your flight:
 
 This will open an interface where you can purchase flight charges:
 
-![Flight Recharge Interface](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/52bc5e50-4d51-4726-887d-9efa70a4d399/javaw_OT7G6AeL2J.png)
+![Flight Recharge Interface](./img/filghtCharge/rechrage.png)
 
 ## Flight Usage
 
