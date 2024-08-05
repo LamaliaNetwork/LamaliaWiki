@@ -5,11 +5,11 @@ You can access the GUI by using the command `/lands menu`. If you possess multip
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-![Land Selection GUI](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/9ef5d4e8-a63c-459f-a484-a9c231cc5f18/Untitled.png)
+![Land Selection GUI](./img/landSetting/01landMenu.png)
 
 Once you select a land or choose to edit one, you'll be directed to this GUI:
 
-![Land Settings GUI](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/0bbe50a0-b781-4484-9e20-8d2bba220140/Untitled.png)
+![Land Settings GUI](./img/landSetting/02landMenuMange.png)
 
 1. **Player Management**: This feature allows you to manage players, including banning, inviting, and handling member requests.
 2. **Roles**: Use this option to set priority roles within the land.
@@ -31,7 +31,7 @@ The Ender pearl icon located on the top right GUI acts as the spawn button, tele
 You can set flags for each role and prioritize them accordingly.
 :::
 
-![Roles GUI](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/671d276a-3685-4d3d-b3e0-eef64621df10/Untitled.png)
+![Roles GUI](./img/landSetting/roles/rolesGUI.png)
 
 You can adjust the priority of roles by using Shift + left click to increase priority or Shift + right click to decrease priority.
 
@@ -39,7 +39,7 @@ Simply click to set flags for each role.
 
 ### Example: Untrusted Role
 
-![Untrusted Role Settings](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/dd7d1806-160a-4d60-84ed-8cd916911f0b/Untitled.png)
+![Untrusted Role Settings](./img/landSetting/roles/untrustRole.png)
 
 1. **Role Member**: Displays a list of players assigned to this role.
 2. **Rename**: Allows you to change the name of the role.
@@ -58,7 +58,7 @@ Simply click to set flags for each role.
 Toggle options for each role, such as trampling farmland, opening doors, accessing trapdoors, teleporting to spawn, and more.
 :::
 
-![Action Flags GUI](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/ec206eb3-1bbf-4154-a273-d7253c070103/Untitle1d.png)
+![Action Flags GUI](./img/landSetting/roles/actionFlagGUI.png)
 
 1. **Trample Farmland**: Grants permission for this role to trample farmland.
 2. **Open Doors**: Allows this role to open doors.
@@ -79,7 +79,7 @@ Toggle options for each role, such as trampling farmland, opening doors, accessi
 Toggle options for each role to trust players, untrust players, and set roles.
 :::
 
-![Management Flags GUI](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/a9a6f2de-6679-4165-8432-6a0f1b62760a/Screenshot_2024-03-14_163803.png)
+![Management Flags GUI](./img/landSetting/roles/managementFlagGUI.png)
 
 1. **Trust Players**: Enables this role to trust other players.
 2. **Set Roles**: Allows this role to assign roles to trusted players.
@@ -94,7 +94,7 @@ Toggle options for each role to trust players, untrust players, and set roles.
 Customize permissions for animals, fire, entities, and more.
 :::
 
-![Natural Flags GUI](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/d604ac9e-c716-40f8-9f79-676ba29e904d/Screenshot_2024-03-14_152526.png)
+![Natural Flags GUI](./img/landSetting/naturalFlag.png)
 
 1. **Animal Spawning**: Enables the spawning of animals.
 2. **Entity Griefing**: Grants permission for entities to affect blocks destructively.
@@ -118,7 +118,7 @@ Customize permissions for animals, fire, entities, and more.
 Adjust land name, entry messages, and icons.
 :::
 
-![Miscellaneous Settings GUI](https://prod-files-secure.s3.us-west-2.amazonaws.com/71138f3d-d8e3-416d-bd4d-97420409f3cb/849cdfa0-bbc1-4e51-b1d6-4bb78b0a1e25/Screenshot_2024-03-14_160537.png)
+![Miscellaneous Settings GUI](./img/landSetting/miscellaneousSettingGUI.png)
 
 1. **Land Name**: Allows you to rename your land.
 2. **Enter Message**: Enables you to modify the message that appears to players upon entering the land. You can toggle this feature.
