@@ -6,6 +6,21 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
+## Patch 1.9.2
+
+> 06/08/2024
+>
+
+**Additions**
+
+- Server Map at Map.lamalia.net
+- Wiki Moved to the new location -> wiki.lamalia.net
+- AI Chatbot (Beta) 
+  - Usage /askwiki [question]
+  - Quota: 10 per 6 hours
+  - Will be available in the wiki soon
+
+
 ## Patch 1.9.1
 
 > 06/07/2024
