@@ -31,21 +31,29 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'th'],
+    localeConfigs: {
+      th: {
+        label: 'ไทย',
+        direction: 'ltr',
+        htmlLang: 'th-TH',
+        calendar: 'buddhist',
+        path: 'th',
+      },
+    },
   },
-
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: {
-        //   sidebarPath: './sidebars.js',
+        docs: {
+        sidebarPath: './sidebars.js',
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
         //   editUrl:
         //     'https://github.com/LamaliaNetwork/LamaliaWiki/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+        },
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
@@ -74,13 +82,17 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'defaultSidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Wiki',
           },
           {to: '/patchNotes', label: 'Patch Notes', position: 'left'},
           {to: '/rules', label: 'Rules', position: 'left'},
           {to: '/privacy', label: 'Privacy Policy', position: 'left'},
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/LamaliaNetwork/LamaliaWiki',
             label: 'GitHub',
