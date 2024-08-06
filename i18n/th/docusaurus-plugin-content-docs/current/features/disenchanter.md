@@ -1,46 +1,46 @@
-﻿# Disenchanter
+﻿# Disenchanter 
 
-The Disenchanter allows you to extract enchantments from items, but it comes with risks and costs.
+Disenchanter ช่วยให้คุณถอด enchant ออกจากไอเทม แต่มีความเสี่ยงและค่าใช้จ่าย
 
-## Basic Mechanics
+## กลไกพื้นฐาน
 
-:::info Break Chance
-- Every item has a chance to break when scavenged.
-- This chance increases with each enchantment on the item.
-- Damaged items have a higher break chance.
+:::info โอกาสในการพัง
+- ทุกไอเทมมีโอกาสที่จะพังเมื่อถูก scavenge
+- โอกาสนี้เพิ่มขึ้นตามจำนวน enchantment บนไอเทม
+- ไอเทมที่เสียหายมีโอกาสพังสูงขึ้น
+  :::
+
+:::info การถอด Enchantment
+- แต่ละ enchantment มีโอกาสที่จะถอดไม่สำเร็จ
+- Enchantment ระดับสูงมีโอกาสล้มเหลวสูงขึ้น
+- ถ้าการถอดล้มเหลว มีโอกาสที่จะได้ enchantment ที่ระดับต่ำลง
+  :::
+
+:::info ค่าใช้จ่ายในการ Scavenge
+การ scavenge มีค่าใช้จ่ายคงที่
 :::
 
-:::info Enchantment Extraction
-- Each enchantment has a chance to fail when being extracted.
-- Higher level enchantments have a higher fail chance.
-- If extraction fails, there's a chance to get a downgraded enchantment.
-:::
+## วิธีการ Scavenge
 
-:::info Scavenge Cost
-Scavenging has a fixed cost.
-:::
+:::tip ขั้นตอนการ Scavenge
+1. **เตรียมไอเทม**
+   - ตรวจสอบความทนทานและ enchantment ของไอเทม
 
-## How to Scavenge
+2. **เริ่มการ Scavenge**
+   - ใช้คำสั่ง scavenge หรือใช้งานที่ scavenging station
 
-:::tip Scavenging Process
-1. **Prepare the Item**
-   - Check the item's durability and enchantments.
+3. **เข้าใจความเสี่ยง**
+   - รับทราบโอกาสในการพังและล้มเหลว
 
-2. **Initiate Scavenging**
-   - Use the scavenging command or interact with the scavenging station.
-
-3. **Understand the Risks**
-   - Be aware of the break and fail chances.
-
-4. **Proceed with Scavenging**
-   - Pay the required cost.
-   - Attempt to recover enchantments.
-:::
+4. **ดำเนินการ Scavenge**
+   - จ่ายค่าใช้จ่ายที่กำหนด
+   - พยายามถอด enchantment
+     :::
 
 :::caution
-Remember, scavenging is a risky process. There's always a chance you might lose your item or fail to extract the desired enchantments. Make sure the potential rewards outweigh the risks before proceeding.
+โปรดจำไว้ว่าการ scavenge มีความเสี่ยง มีโอกาสที่คุณอาจสูญเสียไอเทมหรือถอด enchantment ไม่สำเร็จ ตรวจสอบให้แน่ใจว่าผลที่อาจได้รับคุ้มค่ากับความเสี่ยงก่อนดำเนินการ
 :::
 
 :::note
-The success rate of scavenging can be influenced by various factors such as the item's material, the number and level of enchantments, and the item's durability. Always consider these factors before scavenging.
+อัตราความสำเร็จของการ scavenge อาจขึ้นอยู่กับปัจจัยต่างๆ เช่น วัสดุของไอเทม จำนวนและระดับของ enchantment และความทนทานของไอเทม ควรพิจารณาปัจจัยเหล่านี้ก่อนทำการ scavenge
 :::
