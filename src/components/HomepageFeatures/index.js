@@ -42,13 +42,13 @@ const FeatureList = [
 function Feature({Svg, ImgSrc, title, description, linkToPage, buttonDescription}) {
     return (
         <div className={clsx('col col--4')}>
-            <div className="text--center">
-                {Svg ? (
-                    <Svg className={styles.featureSvg} role="img"/>
-                ) : (
-                    <img src={ImgSrc} className={styles.featureImg} alt={title} role="img"/>
-                )}
-            </div>
+            {/*<div className="text--center">*/}
+            {/*    {Svg ? (*/}
+            {/*        <Svg className={styles.featureSvg} role="img"/>*/}
+            {/*    ) : (*/}
+            {/*        <img src={ImgSrc} className={styles.featureImg} alt={title} role="img"/>*/}
+            {/*    )}*/}
+            {/*</div>*/}
             <div className="text--center padding-horiz--md">
                 <Heading as="h3">{title}</Heading>
                 <p>{description}</p>
