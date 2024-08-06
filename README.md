@@ -1,41 +1,81 @@
-# Website
+# Lamalia Server Wiki
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the official wiki for the Lamalia Minecraft server! This wiki contains all the information players need to enjoy their time on our server.
 
-### Installation
+## 📚 Contributing to the Wiki
 
-```
-$ yarn
-```
+We welcome contributions from our community to keep this wiki up-to-date and comprehensive. Here's how you can help:
 
-### Local Development
+### Content Structure
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+All wiki content is located in the `docs/` directory. Each Markdown file in this directory represents a page on the wiki.
 
 ```
-$ yarn build
+docs/
+├── getting-started.md
+├── features/
+│   ├── land-claiming.md
+│   └── custom-enchants.md
+├── quality_of_life/
+│   ├── discord.md
+│   └── voiceChat.md
+└── ...
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### How to Contribute
 
-### Deployment
+1. **Browse the existing content**: Familiarize yourself with the current structure and content of the wiki.
 
-Using SSH:
+2. **Identify areas for improvement**: This could be updating outdated information, adding new content, or fixing typos and grammar.
 
+3. **Make your changes**:
+    - If you're comfortable with GitHub, you can fork the repository, make your changes, and submit a pull request.
+    - Alternatively, you can suggest changes by opening an issue in the GitHub repository or contacting a moderator on our Discord server.
+
+4. **Follow the style guide**:
+    - Use clear, concise language
+    - Use proper Markdown formatting
+    - Include screenshots or examples where appropriate
+
+### Markdown Basics
+
+Our wiki pages are written in Markdown. Here are some basics:
+
+```markdown
+# Main Title
+
+## Subheading
+
+Normal text goes here.
+
+- Bullet point 1
+- Bullet point 2
+
+1. Numbered list item 1
+2. Numbered list item 2
+
+[Link text](https://example.com)
+
+![Alt text for image](path/to/image.png)
 ```
-$ USE_SSH=true yarn deploy
-```
 
-Not using SSH:
+For more advanced Markdown and Docusaurus-specific features, please ask a moderator for guidance.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+## 🚀 Viewing Your Changes
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+While we handle the technical aspects of deploying changes, you can preview your modifications by deploying it locally using `npm start`.
+
+## 📝 Content Guidelines
+
+- Ensure all information is accurate and up-to-date
+- Write in a clear, friendly tone
+- Avoid sharing sensitive information (e.g., player data)
+- Include relevant command examples and explanations
+- When in doubt, ask a moderator for clarification
+
+## 🙏 Thank You!
+
+Your contributions help make our server community better. We appreciate your effort in improving the Lamalia Server Wiki!
+
+
+Happy editing! 🎉
