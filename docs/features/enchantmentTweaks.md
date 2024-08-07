@@ -26,17 +26,17 @@ import TabItem from '@theme/TabItem';
 | Depth Strider | 3 | Reduces underwater movement slowdown by **%placeholder%** | `%level% * 33.333333` |
 | Frost Walker | 2 | Turns water within a **%placeholder%** block radius of the player into ice | `%level% + 2` |
 | Soul Speed | 3 | Increases walking speed on soul sand and soul soil by **%placeholder%** | `(%level% * 0.105) + 1.3` |
-| Swift Sneak | 4 | Reduces sneaking movement slowdown by **%placeholder%** | `min(%level% * 15, 100)` |
+| <green> Swift Sneak </green> | <green> 4 </green> | Reduces sneaking movement slowdown by **%placeholder%** | `min(%level% * 15, 100)` |
 
 ## Weapon Enchantments
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
-| Sharpness | 20 | Deals **%placeholder%** bonus melee damage | `0.5 * %level% + 1` |
-| Smite | 6 | Gives a **%placeholder%** bonus to melee damage against undead mobs | `2.5 * %level%` |
-| Bane of Arthropods | 6 | Gives a **%damage%** bonus to melee damage against arthropods and gives up to **%seconds%** seconds of Slowness IV | damage: `2.5 * %level%`<br/>seconds: `0.5 * %level%` |
-| Knockback | 5 | Gives a **%placeholder%** bonus to attack knockback | `%level% * 85 + 20` |
-| Fire Aspect | 4 | Sets opponents on fire, dealing damage each fire tick | - |
+| <green> Sharpness </green> | <green> 20 </green>| Deals **%placeholder%** bonus melee damage | `0.5 * %level% + 1` |
+| <green> Smite </green> | <green> 6 </green> | Gives a **%placeholder%** bonus to melee damage against undead mobs | `2.5 * %level%` |
+| <green> Bane of Arthropods </green> | <green> 6 </green> | Gives a **%damage%** bonus to melee damage against arthropods and gives up to **%seconds%** seconds of Slowness IV | damage: `2.5 * %level%`<br/>seconds: `0.5 * %level%` |
+| <green> Knockback </green> | <green> 5 </green> | Gives a **%placeholder%** bonus to attack knockback | `%level% * 85 + 20` |
+| <green> Fire Aspect </green> | <green> 4 </green> | Sets opponents on fire, dealing damage each fire tick | - |
 | Looting | 3 | Increases maximum common drops by **%common%**, and the chance to get rare drops by **%rare%** | common: `%level%`<br/>rare: `%level%` |
 | Sweeping Edge | 3 | Increases sweeping attack damage by **%placeholder%** | `%level% / (%level% + 1)` |
 
@@ -44,26 +44,26 @@ import TabItem from '@theme/TabItem';
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
-| Efficiency | 10 | Increases mining speed by **%placeholder%** | `20 + 5 * %level%` |
+| <green> Efficiency </green> | <green> 1 </green>0 | Increases mining speed by **%placeholder%** | `20 + 5 * %level%` |
 | Silk Touch | 1 | Mined blocks drop themselves exactly | - |
-| Unbreaking | 7 | Increases item durability **%placeholder%x** | `%level% + 1` |
-| Fortune | 4 | Gives a **%placeholder%** boost to certain block drops | `ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)` |
+| <green> Unbreaking </green> | <green> 7 </green> | Increases item durability **%placeholder%x** | `%level% + 1` |
+| <green> Fortune </green> | <green> 4 </green> | Gives a **%placeholder%** boost to certain block drops | `ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)` |
 
 ## Bow Enchantments
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
-| Power | 8 | Gives a **%placeholder%** bonus to arrow damage | `25 * (%level% + 1)` |
-| Punch | 5 | Increases arrow knockback by **%placeholder%** blocks | `3 * %level%` |
+| <green> Power </green> | <green> 8 </green> | Gives a **%placeholder%** bonus to arrow damage | `25 * (%level% + 1)` |
+| <green> Punch </green> | <green> 5 </green> | Increases arrow knockback by **%placeholder%** blocks | `3 * %level%` |
 | Flame | 1 | Arrows set target on fire, dealing **5** fire damage | - |
-| Infinity | 1 | Stops regular arrows from being consumed when shot | - |
+| <green> Infinity </green> | 1 | Stops regular arrows from being consumed when shot <br/> <green> New! Do not conflict with mending </green> | - |
 
 ## Fishing Rod Enchantments
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
 | Luck of the Sea | 3 | Increases chance of getting treasure loot by **%placeholder%** | `2 * %level%` |
-| Lure | 4 | Decreases fishing wait time by **%placeholder%** seconds | `%level% * 5` |
+| <green> Lure </green> | <green> 4 </green> | Decreases fishing wait time by **%placeholder%** seconds | `%level% * 5` |
 
 ## Trident Enchantments
 
@@ -77,16 +77,16 @@ import TabItem from '@theme/TabItem';
 ## Crossbow Enchantments
 
 | Enchantment | Max Level | Description | Placeholder |
-|-------------|-----------|-------------|-------------|
+|-------------|-----------|-------------|-------------| 
 | Multishot | 1 | Shoots 3 arrows instead of 1 | - |
-| Quick Charge | 5 | Decreases crossbow charging time by **%placeholder%** seconds | `%level% * 0.25` |
+| <green> Quick Charge </green> | <green> 5 </green> | Decreases crossbow charging time by **%placeholder%** seconds | `%level% * 0.25` |
 | Piercing | 4 | Arrows pass through **%placeholder%** entities | `%level% + 1` |
 
 ## Special Enchantments
 
 | Enchantment | Max Level | Description | Notes |
 |-------------|-----------|-------------|-------|
-| Mending | 1 | Repair the item while gaining XP orbs | Does not conflict with Infinity |
+| <green> Mending </green> | 1 | Repair the item while gaining XP orbs | <green> Does not conflict with Infinity </green> |
 | Curse of Binding | 1 | Items cannot be removed from armor slots | Curse |
 | Curse of Vanishing | 1 | Item destroyed on death | Curse |
 
