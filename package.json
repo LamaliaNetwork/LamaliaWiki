@@ -5,6 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
+    "locale-th": "npm run start -- --locale th",
     "build": "npx docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
