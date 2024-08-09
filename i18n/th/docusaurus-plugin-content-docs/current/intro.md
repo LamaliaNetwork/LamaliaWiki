@@ -13,7 +13,7 @@ sidebar_position: 1
 
     - IP: `play.lamalia.net`
 
-   ![Server IP](features/img/joinServer.png)
+   ![Server IP](/img/doc/features/joinServer.png)
 
 3. Register using the command /register (pass) (pass).
 4. Now, you're in!
