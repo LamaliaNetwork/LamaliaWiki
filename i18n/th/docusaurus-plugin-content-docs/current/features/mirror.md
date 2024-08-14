@@ -28,7 +28,7 @@ This is a destructive feature. Use with caution!
 
 2. Define the mirror's center location.
 
-   ![Mirror Center Location](img/mirror/mirrorCenterSet.png)
+   ![Mirror Center Location](/img/doc/features/mirror/mirrorCenterSet.png)
 
 3. Adjust the mirror axis.
 

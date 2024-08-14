@@ -5,11 +5,11 @@ You can access the GUI by using the command `/lands menu`. If you possess multip
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-![Land Selection GUI](img/landSetting/01landMenu.png)
+![Land Selection GUI](/img/doc/features/landSetting/01landMenu.png)
 
 Once you select a land or choose to edit one, you'll be directed to this GUI:
 
-![Land Settings GUI](img/landSetting/02landMenuMange.png)
+![Land Settings GUI](/img/doc/features/landSetting/02landMenuMange.png)
 
 1. **Player Management**: This feature allows you to manage players, including banning, inviting, and handling member requests.
 2. **Roles**: Use this option to set priority roles within the land.
@@ -31,7 +31,7 @@ The Ender pearl icon located on the top right GUI acts as the spawn button, tele
 You can set flags for each role and prioritize them accordingly.
 :::
 
-![Roles GUI](img/landSetting/roles/rolesGUI.png)
+![Roles GUI](/img/doc/features/landSetting/roles/rolesGUI.png)
 
 You can adjust the priority of roles by using Shift + left click to increase priority or Shift + right click to decrease priority.
 
@@ -39,7 +39,7 @@ Simply click to set flags for each role.
 
 ### Example: Untrusted Role
 
-![Untrusted Role Settings](img/landSetting/roles/untrustRole.png)
+![Untrusted Role Settings](/img/doc/features/landSetting/roles/untrustRole.png)
 
 1. **Role Member**: Displays a list of players assigned to this role.
 2. **Rename**: Allows you to change the name of the role.
@@ -58,7 +58,7 @@ Simply click to set flags for each role.
 Toggle options for each role, such as trampling farmland, opening doors, accessing trapdoors, teleporting to spawn, and more.
 :::
 
-![Action Flags GUI](img/landSetting/roles/actionFlagGUI.png)
+![Action Flags GUI](/img/doc/features/landSetting/roles/actionFlagGUI.png)
 
 1. **Trample Farmland**: Grants permission for this role to trample farmland.
 2. **Open Doors**: Allows this role to open doors.
@@ -79,7 +79,7 @@ Toggle options for each role, such as trampling farmland, opening doors, accessi
 Toggle options for each role to trust players, untrust players, and set roles.
 :::
 
-![Management Flags GUI](img/landSetting/roles/managementFlagGUI.png)
+![Management Flags GUI](/img/doc/features/landSetting/roles/managementFlagGUI.png)
 
 1. **Trust Players**: Enables this role to trust other players.
 2. **Set Roles**: Allows this role to assign roles to trusted players.
@@ -94,7 +94,7 @@ Toggle options for each role to trust players, untrust players, and set roles.
 Customize permissions for animals, fire, entities, and more.
 :::
 
-![Natural Flags GUI](img/landSetting/naturalFlag.png)
+![Natural Flags GUI](/img/doc/features/landSetting/naturalFlag.png)
 
 1. **Animal Spawning**: Enables the spawning of animals.
 2. **Entity Griefing**: Grants permission for entities to affect blocks destructively.
@@ -118,7 +118,7 @@ Customize permissions for animals, fire, entities, and more.
 Adjust land name, entry messages, and icons.
 :::
 
-![Miscellaneous Settings GUI](img/landSetting/miscellaneousSettingGUI.png)
+![Miscellaneous Settings GUI](/img/doc/features/landSetting/miscellaneousSettingGUI.png)
 
 1. **Land Name**: Allows you to rename your land.
 2. **Enter Message**: Enables you to modify the message that appears to players upon entering the land. You can toggle this feature.
