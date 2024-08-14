@@ -13,6 +13,9 @@ Patch notes are updates written by the Minecraft server developers that detail c
 **Additions**
 
 - Added back command to be available in spawn
+- Added Super powered Rail 4x the speed of normal powered rail by using redstone block beneath powered rail
+- Added Super Stopper Rail 8x the stopping power of normal powered rail by using obsidian beneath powered rail
+- Added Damage Indicator to show how much damage you deal to the mob/ player
 
 ## Patch 1.9.2
 
