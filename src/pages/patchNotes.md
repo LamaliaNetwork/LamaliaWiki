@@ -7,12 +7,14 @@ Patch notes are updates written by the Minecraft server developers that detail c
 ---
 ## Patch 1.9.4
 
-> 15/08/2024
+> 17/08/2024
 >
 
 **Fixes**
 
 - Hotfix HighSpeed Rails: Change High Speed Rails Block From Redstone Block to Gold Block
+- Fixes Lands Rename and all name prompt in game
+- Player Shop Database Crash + Compensate all player shop items
 
 ## Patch 1.9.3
 
