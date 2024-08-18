@@ -1,4 +1,4 @@
-﻿# Custom Images
+﻿# Custom Images Maps
 
 :::caution
 This feature is an experimental feature and may be subject to change.
@@ -6,7 +6,7 @@ This feature is an experimental feature and may be subject to change.
 
 ## Overview
 
-Custom Map is an exciting feature on the Lamalia server that allows you to display custom images on maps and item frames. Whether you want to create stunning artwork, informative displays, or animated billboards, Custom Map gives you the tools to bring your creativity to life in Minecraft.
+Custom Image Maps is an exciting feature on the Lamalia server that allows you to display custom images on maps and item frames. Whether you want to create stunning artwork, informative displays, or animated billboards, Custom Image Map gives you the tools to bring your creativity to life in Minecraft.
 
 ## What You Can Do
 
@@ -23,7 +23,7 @@ Custom Map is an exciting feature on the Lamalia server that allows you to displ
    - The server automatically finds the right spot on item frame walls
 
 
-## How to Use Custom Maps
+## How to Use Custom Image Maps
 
 ### Basic Commands
 
