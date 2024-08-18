@@ -5,6 +5,31 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
+
+## Patch 1.10.0
+
+> 17/08/2024
+>
+
+**Additions**
+
+- Control your fly speed more precisely (Cosmic Rank) : /flyspeed [1-10]
+
+**Changes**
+
+- Land Delete Calculation: Calculate land delete based on the playtime and offline time 
+  - if you have less than 12 hours of playtime and offline for 30 days, your land will be deleted / owner will be changed
+  - if you have less than 1 days of playtime and offline for 60 days, your land will be deleted / owner will be changed
+  - if you have less than 30 days of playtime and offline for 120 days, your land will be deleted / owner will be changed
+  - your land will be deleted if you offline for 1 year
+- Eternity Member Now gain access to Discord supporter channel (gain access to early information/tests)
+> Increase Land chunk limit for ascension rank to ease the mega-projects
+- Lands Chunk Limit Changes (Ascension Rank and above only)
+    - Astral: 120 → 150
+    - Cosmic: 170 → 250
+    - Eternity: 220 → 400
+
+---
 ## Patch 1.9.4
 
 > 17/08/2024

@@ -156,26 +156,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - /ender command to open ender chest
   :::
 
-  </TabItem>
-  <TabItem value="cosmic" label="Cosmic (603 Hrs)">
-
-### Cosmic Rank
-
-:::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 15
-- Chunks Limit: 170
-- Support Chunks: 10
-- Lands Member: 25
-- Lands Availability: 12
-- Lands Role: 5
-  :::
-
-:::tip Functions
-- Flight Charge
-  :::
-
-  </TabItem>
+</TabItem>
   <TabItem value="astral" label="Astral (354 Hrs)">
 
 ### Astral Rank
@@ -183,7 +164,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 :::note Lands Limits
 - Free Lands: 1
 - Free Chunks: 15
-- Chunks Limit: 120
+- Chunks Limit: 150
 - Support Chunks: 8
 - Lands Member: 20
 - Lands Availability: 10
@@ -195,6 +176,28 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
   :::
 
   </TabItem>
+  <TabItem value="cosmic" label="Cosmic (603 Hrs)">
+
+### Cosmic Rank
+
+:::note Lands Limits
+- Free Lands: 1
+- Free Chunks: 15
+- Chunks Limit: 250
+- Support Chunks: 10
+- Lands Member: 25
+- Lands Availability: 12
+- Lands Role: 5
+  :::
+
+:::tip Functions
+- Flight Charge
+- Adjust Flyspeed using /flyspeed (1-10)
+  :::
+
+  
+
+  </TabItem>
   <TabItem value="eternity" label="Eternity (1080 Hrs)">
 
 ### Eternity Rank
@@ -202,7 +205,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 :::note Lands Limits
 - Free Lands: 1
 - Free Chunks: 15
-- Chunks Limit: 220
+- Chunks Limit: 400
 - Support Chunks: 15
 - Lands Member: 40
 - Lands Availability: 15

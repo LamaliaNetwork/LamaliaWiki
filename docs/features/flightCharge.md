@@ -38,6 +38,13 @@ To start or stop using Flight Charge, use the following command:
 Remember to monitor your flight charges. If you run out while flying, you'll start to fall!
 :::
 
+```
+/flyspeed (1-10)
+```
+
+:::note
+You can adjust your flight speed using the `/flyspeed` command.
+
 ## Tips for Efficient Flight Charge Use
 
 1. **Plan your flights:** Try to make the most of each flight to conserve charges.
