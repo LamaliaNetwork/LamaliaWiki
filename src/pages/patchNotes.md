@@ -28,6 +28,7 @@ Patch notes are updates written by the Minecraft server developers that detail c
     - Astral: 120 → 150
     - Cosmic: 170 → 250
     - Eternity: 220 → 400
+- Health Enchantment Removed from Elytra
 
 ---
 ## Patch 1.9.4
