@@ -8,6 +8,11 @@ This feature is an experimental feature and may be subject to change.
 
 Custom Image Maps is an exciting feature on the Lamalia server that allows you to display custom images on maps and item frames. Whether you want to create stunning artwork, informative displays, or animated billboards, Custom Image Map gives you the tools to bring your creativity to life in Minecraft.
 
+## Requirements
+
+- **Ranks**: Gold and above
+
+
 ## What You Can Do
 
 1. **Display Custom Images**

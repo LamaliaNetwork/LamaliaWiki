@@ -8,12 +8,38 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ## Patch 1.10.0
 
-> 17/08/2024
+> 21/08/2024
 >
 
 **Additions**
 
 - Control your fly speed more precisely (Cosmic Rank) : /flyspeed [1-10]
+- Nation wiki page
+- Image Map wiki Page
+- Custom Crafting Wiki Page
+- Land Management Flag Added
+  - Permission for user to edit land role settings
+  - Permission for user to edit land natural flag settings
+  - Permission for user to claim and unclaimed land
+  - Permission for user to ban player from land
+
+- New! Storage unit
+  - a new type of storage that can store up to 1 million items (of a single type)
+  - can store unstackable items
+- New! Custom Image Map (Gold Rank and above)
+  - For Builders who love customizations of their textures
+  - [Custom Image Map Wiki](https://wiki.lamalia.net/docs/quality_of_life/imageMap)
+  - limit of 10 for default
+  - limit of 15 for Supporter
+  - limit of 25 for Supporter+
+  - unlimited plan will have 99 max
+- New! Player Chest Shop (Gold Rank and above)
+  - For Traders who love to sell their items at home
+  - [Chest Shop Wiki](https://wiki.lamalia.net/docs/features/chestShop)
+  - limit of 5 for default
+  - limit of 10 for Supporter
+  - limit of 20 for Supporter+
+  - unlimited plan will have 99 max
 
 **Changes**
 
@@ -29,6 +55,19 @@ Patch notes are updates written by the Minecraft server developers that detail c
     - Cosmic: 170 → 250
     - Eternity: 220 → 400
 - Health Enchantment Removed from Elytra
+- Rules 4.2 Updated: Protected Areas Policy
+
+**Fixes**
+- Fishing Quest 3 has been patched (change objectives)
+
+**Notes**
+Why do We need to make some area protected? such as Old Spawn and End Island?
+- Old Spawn is a piece of server history, and we want to preserve it for future players to see. 
+- End Island is a central location for the server, and we want to keep it accessible for all players to use and appreciate. not filled with machines and farms for personal gain.
+- Also End Island portal is connected with old spawn. so farming and machine will harm old spawn indirectly.
+- So, what will happen with machines, farms and land in the end island?
+  - We will remove them gradually and give a warning to the owner. if the owner does not remove them, we will remove them for you.
+  - We will not remove any builds, only machines and farms.
 
 ---
 ## Patch 1.9.4

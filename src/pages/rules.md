@@ -76,6 +76,9 @@ Griefing includes, but is not limited to:
 
 - Always respect protected areas and builds, regardless of their location.
 - In unprotected areas, assume all structures belong to someone unless explicitly stated otherwise.
+- There are some server protected areas that are off-limits for building or altering. Rules stated below.
+  - Old Spawn (world 0,0) This region is protected and cannot be altered. as a piece of server history.
+  - End Island (world_the_end 0,0) Can be altered but not claimed and no machines can be built. except stated otherwise.
 
 ### 4.3 Stealing and Scamming
 

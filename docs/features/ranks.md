@@ -91,6 +91,8 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::tip Functions
 - /craft command to open workbench
+- Access to Image Maps
+- Access to ChestShop
   :::
 
   </TabItem>
@@ -210,6 +212,10 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Member: 40
 - Lands Availability: 15
 - Lands Role: 5
+  :::
+
+:::tip Functions
+- Early Access to new features
   :::
 
   </TabItem>
