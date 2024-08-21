@@ -1,8 +1,13 @@
 ﻿# Enchantments Guide
 
+<!-- Enchantments Guide TH -->
+<!-- Voyl_x 240821 -->
+
 :::tip How to get overloaded enchantments
-To get overloaded enchantments, simply combine 2 enchantments of the same level to get the next level.
-The cost will not get too expensive ever!
+วิธีได้เอนแชนท์เมนต์ที่เกินระดับ<br/>
+ให้รวมเอนแชนท์เมนต์สองอันที่มีระดับเดียวกันเพื่อให้ได้ระดับถัดไป
+<black>[ 4+4 = 5, 5+5 = 6, ... ]</black>
+<br/>ค่าใช้จ่ายจะไม่แพงมากเกินไป!
 :::
 
 import Tabs from '@theme/Tabs';
@@ -11,84 +16,87 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="vanilla" label="Vanilla Enchantments" default>
 
-## Armor Enchantments
+## Armor Enchantments [หมวดเกราะ]
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
-| Protection | 4 | Reduces incoming damage by **%placeholder%** | `%level% * 4` |
-| Fire Protection | 4 | Reduces incoming fire damage by **%damage%** and burn time by **%time%** | damage: `%level% * 8`<br/>time: `%level% * 15` |
-| Feather Falling | 4 | Reduces fall damage by **%placeholder%** | `%level% * 12` |
-| Blast Protection | 4 | Reduces incoming explosion damage by **%damage%** and incoming blast knockback by **%knockback%** | damage: `%level% * 8`<br/>knockback: `%level% * 15` |
-| Projectile Protection | 4 | Reduces incoming projectile damage by **%placeholder%** | `%level% * 8` |
-| Respiration | 3 | Extends underwater breathing time by **%seconds%** seconds and gives a **%chance%** chance to ignore drowning damage | seconds: `15 * %level%`<br/>chance: `%level% / (%level% + 1)` |
-| Aqua Affinity | 1 | Removes underwater mining speed penalty | - |
-| Thorns | 3 | Gives a **%placeholder%** chance to reflect some incoming damage to the attacker | `%level% * 15` |
-| Depth Strider | 3 | Reduces underwater movement slowdown by **%placeholder%** | `%level% * 33.333333` |
-| Frost Walker | 2 | Turns water within a **%placeholder%** block radius of the player into ice | `%level% + 2` |
-| Soul Speed | 3 | Increases walking speed on soul sand and soul soil by **%placeholder%** | `(%level% * 0.105) + 1.3` |
-| <green> Swift Sneak </green> | <green> 4 </green> | Reduces sneaking movement slowdown by **%placeholder%** | `min(%level% * 15, 100)` |
+| Protection | 4 | ลดความเสียหายที่ได้รับลง **%placeholder%** | `%level% * 4` |
+| Fire Protection | 4 | ลดความเสียหายจากไฟที่ได้รับลง **%damage%** และเวลาที่ถูกเผา **%time%** | damage: `%level% * 8`<br/>time: `%level% * 15` |
+| Feather Falling | 4 | ลดความเสียหายจากการตกลง **%placeholder%** | `%level% * 12` |
+| Blast Protection | 4 | ลดความเสียหายจากการระเบิดที่ได้รับลง **%damage%** และลดการกระแทกจากการระเบิดลง **%knockback%** | damage: `%level% * 8`<br/>knockback: `%level% * 15` |
+| Projectile Protection | 4 | ลดความเสียหายจากการยิงลูกธนูที่ได้รับลง **%placeholder%** | `%level% * 8` |
+| Respiration | 3 | ขยายเวลาการหายใจใต้น้ำออกไป **%seconds%** วินาที และให้โอกาส **%chance%** ที่จะไม่ได้รับความเสียหายจากการจมน้ำ | seconds: `15 * %level%`<br/>chance: `%level% / (%level% + 1)` |
+| Aqua Affinity | 1 | ยกเลิกการลดความเร็วในการขุดใต้น้ำ | - |
+| Thorns | 3 | ให้โอกาส **%placeholder%** ที่จะสะท้อนความเสียหายที่ได้รับกลับไปที่ผู้โจมตี | `%level% * 15` |
+| Depth Strider | 3 | ลดอัตราการชะลอการเคลื่อนที่ใต้น้ำลง **%placeholder%** | `%level% * 33.333333` |
+| Frost Walker | 2 | เปลี่ยนน้ำในรัศมี **%placeholder%** บล็อกรอบตัวผู้เล่นให้กลายเป็นน้ำแข็ง | `%level% + 2` |
+| Soul Speed | 3 | เพิ่มความเร็วในการเดินบน Soul Sand และ Soul Soil ขึ้น **%placeholder%** | `(%level% * 0.105) + 1.3` |
+| <green> Swift Sneak </green> | <green> 4 </green> | ลดความเร็วในการเดินขณะหลบซ่อนลง **%placeholder%** | `min(%level% * 15, 100)` |
 
-## Weapon Enchantments
 
-| Enchantment | Max Level | Description | Placeholder |
-|-------------|-----------|-------------|-------------|
-| <green> Sharpness </green> | <green> 20 </green>| Deals **%placeholder%** bonus melee damage | `0.5 * %level% + 1` |
-| <green> Smite </green> | <green> 6 </green> | Gives a **%placeholder%** bonus to melee damage against undead mobs | `2.5 * %level%` |
-| <green> Bane of Arthropods </green> | <green> 6 </green> | Gives a **%damage%** bonus to melee damage against arthropods and gives up to **%seconds%** seconds of Slowness IV | damage: `2.5 * %level%`<br/>seconds: `0.5 * %level%` |
-| <green> Knockback </green> | <green> 5 </green> | Gives a **%placeholder%** bonus to attack knockback | `%level% * 85 + 20` |
-| <green> Fire Aspect </green> | <green> 4 </green> | Sets opponents on fire, dealing damage each fire tick | - |
-| Looting | 3 | Increases maximum common drops by **%common%**, and the chance to get rare drops by **%rare%** | common: `%level%`<br/>rare: `%level%` |
-| Sweeping Edge | 3 | Increases sweeping attack damage by **%placeholder%** | `%level% / (%level% + 1)` |
-
-## Tool Enchantments
+## Weapon Enchantments [หมวดอาวุธ]
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
-| <green> Efficiency </green> | <green> 1 </green>0 | Increases mining speed by **%placeholder%** | `20 + 5 * %level%` |
-| Silk Touch | 1 | Mined blocks drop themselves exactly | - |
-| <green> Unbreaking </green> | <green> 7 </green> | Increases item durability **%placeholder%x** | `%level% + 1` |
-| <green> Fortune </green> | <green> 4 </green> | Gives a **%placeholder%** boost to certain block drops | `ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)` |
+| <green> Sharpness </green> | <green> 20 </green>| เพิ่มความเสียหายระยะประชิด **%placeholder%** | `0.5 * %level% + 1` |
+| <green> Smite </green> | <green> 6 </green> | เพิ่มความเสียหายระยะประชิด **%placeholder%** ต่อต่อมอนสเตอร์ Undead | `2.5 * %level%` |
+| <green> Bane of Arthropods </green> | <green> 6 </green> | เพิ่มความเสียหายระยะประชิด **%damage%** ต่อต่อสัตว์จำพวก Arthropods และให้ Slowness IV เป็นเวลา **%seconds%** วินาที | damage: `2.5 * %level%`<br/>seconds: `0.5 * %level%` |
+| <green> Knockback </green> | <green> 5 </green> | เพิ่มการกระแทกจากการโจมตี **%placeholder%** | `%level% * 85 + 20` |
+| <green> Fire Aspect </green> | <green> 4 </green> | ทำให้คู่ต่อสู้ติดไฟ, ทำให้เกิดความเสียหายจากไฟในแต่ละการติดไฟ | - |
+| Looting | 3 | เพิ่มจำนวนการดรอปของสิ่งของทั่วไปสูงสุด **%common%** และโอกาสในการดรอปสิ่งของที่หายาก **%rare%** | common: `%level%`<br/>rare: `%level%` |
+| Sweeping Edge | 3 | เพิ่มความเสียหายจากการโจมตีแบบกว้างขึ้น **%placeholder%** | `%level% / (%level% + 1)` |
 
-## Bow Enchantments
+## Tool Enchantments [หมวดเครื่องมือ]
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
-| <green> Power </green> | <green> 8 </green> | Gives a **%placeholder%** bonus to arrow damage | `25 * (%level% + 1)` |
-| <green> Punch </green> | <green> 5 </green> | Increases arrow knockback by **%placeholder%** blocks | `3 * %level%` |
-| Flame | 1 | Arrows set target on fire, dealing **5** fire damage | - |
-| <green> Infinity </green> | 1 | Stops regular arrows from being consumed when shot <br/> <green> New! Do not conflict with mending </green> | - |
+| <green> Efficiency </green> | <green> 10 </green> | เพิ่มความเร็วในการขุดขึ้น **%placeholder%** | `20 + 5 * %level%` |
+| Silk Touch | 1 | บล็อกที่ขุดได้จะหลุดออกมาตามตัวมันเอง | - |
+| <green> Unbreaking </green> | <green> 7 </green> | เพิ่มความทนทานของไอเทม **%placeholder%x** | `%level% + 1` |
+| <green> Fortune </green> | <green> 4 </green> | ให้โบนัส **%placeholder%** ต่อการดรอปของบล็อกบางประเภท | `ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)` |
 
-## Fishing Rod Enchantments
+## Bow Enchantments [หมวดธนู]
+
+| Enchantment | Max Level | Description | Placeholder |
+|-------------|-----------|-------------|-------------|
+| <green> Power </green> | <green> 8 </green> | เพิ่มความเสียหายจากลูกธนู **%placeholder%** | `25 * (%level% + 1)` |
+| <green> Punch </green> | <green> 5 </green> | เพิ่มการกระแทกลูกธนูขึ้น **%placeholder%** บล็อก | `3 * %level%` |
+| Flame | 1 | ลูกธนูทำให้เป้าหมายติดไฟ, ทำให้ความเสียหายจากไฟ **5** | - |
+| <green> Infinity </green> | 1 | ป้องกันไม่ให้ลูกธนูธรรมดาหายไปเมื่อยิง <br/> <green> New! ไม่ขัดแย้งกับ Mending </green> | - |
+
+## Fishing Rod Enchantments [หมวดเบ็ดตกปลา]
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
 | Luck of the Sea | 3 | Increases chance of getting treasure loot by **%placeholder%** | `2 * %level%` |
 | <green> Lure </green> | <green> 4 </green> | Decreases fishing wait time by **%placeholder%** seconds | `%level% * 5` |
+| Luck of the Sea | 3 | **เพิ่มโอกาสในการได้รับของล้ำค่าขี้น %placeholder% ** | `2 * %level%` |
+| <green> Lure </green> | <green> 4 </green> | ลดเวลาในการรอจับปลาลง %placeholder% วินาที | `%level% * 5` |
 
 ## Trident Enchantments
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
-| Loyalty | 3 | Trident returns after being thrown | - |
-| Impaling | 5 | Deals **%placeholder%** additional damage to ocean mobs | `%level% * 2.5` |
-| Riptide | 3 | Trident launches player when thrown in water or while raining | - |
-| Channeling | 1 | Strikes lightning where trident lands during thunderstorms | - |
+| Loyalty | 3 | ไทรเด้นต์จะกลับมาหลังจากถูกขว้างไป | - |
+| Impaling | 5 | เพิ่มความเสียหาย **%placeholder%** ต่อมอนสเตอร์ในทะเล | `%level% * 2.5` |
+| Riptide | 3 | ไทรเด้นต์จะทำให้ผู้เล่นลอยขึ้นเมื่อขว้างไปในน้ำหรือขณะฝนตก | - |
+| Channeling | 1 | ทำให้เกิดฟ้าผ่าในที่ที่ไทรเด้นต์ตกลงในช่วงพายุฟ้าคะนอง | - |
 
-## Crossbow Enchantments
+## Crossbow Enchantments [หมวดหน้าไม้]
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------| 
-| Multishot | 1 | Shoots 3 arrows instead of 1 | - |
-| <green> Quick Charge </green> | <green> 5 </green> | Decreases crossbow charging time by **%placeholder%** seconds | `%level% * 0.25` |
-| Piercing | 4 | Arrows pass through **%placeholder%** entities | `%level% + 1` |
+| Multishot | 1 | ยิงลูกธนู 3 ดอกในครั้งเดียว | - |
+| <green> Quick Charge </green> | <green> 5 </green> | ลดระยะเวลาในการชาร์จลง **%placeholder%** วินาที | `%level% * 0.25` |
+| Piercing | 4 | ลูกธนูสามารถทะลุ **%placeholder%** สิ่งมีชีวิต | `%level% + 1` |
 
 ## Special Enchantments
 
 | Enchantment | Max Level | Description | Notes |
 |-------------|-----------|-------------|-------|
-| <green> Mending </green> | 1 | Repair the item while gaining XP orbs | <green> Does not conflict with Infinity </green> |
-| Curse of Binding | 1 | Items cannot be removed from armor slots | Curse |
-| Curse of Vanishing | 1 | Item destroyed on death | Curse |
+| <green> Mending </green> | 1 | ซ่อมแซมไอเทมขณะรับ XP orbs | <green> ไม่ขัดแย้งกับ Infinity </green> |
+| Curse of Binding | 1 | ไอเท็มไม่สามารถถอดออกจากช่องเกราะได้ | คำสาป |
+| Curse of Vanishing | 1 | ไอเท็มจะหายไปเมื่อผู้เล่นตาย | คำสาป |
 
   </TabItem>
   <TabItem value="custom" label="Custom Enchantments">

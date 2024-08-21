@@ -2,7 +2,8 @@
 
 :::tip How to get overloaded enchantments
 To get overloaded enchantments, simply combine 2 enchantments of the same level to get the next level.
-The cost will not get too expensive ever!
+<br/><black>[ 4+4 = 5, 5+5 = 6, ... ]</black>
+<br/>The cost will not get too expensive ever!
 :::
 
 import Tabs from '@theme/Tabs';
@@ -44,7 +45,7 @@ import TabItem from '@theme/TabItem';
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
-| <green> Efficiency </green> | <green> 1 </green>0 | Increases mining speed by **%placeholder%** | `20 + 5 * %level%` |
+| <green> Efficiency </green> | <green> 10 </green> | Increases mining speed by **%placeholder%** | `20 + 5 * %level%` |
 | Silk Touch | 1 | Mined blocks drop themselves exactly | - |
 | <green> Unbreaking </green> | <green> 7 </green> | Increases item durability **%placeholder%x** | `%level% + 1` |
 | <green> Fortune </green> | <green> 4 </green> | Gives a **%placeholder%** boost to certain block drops | `ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)` |
