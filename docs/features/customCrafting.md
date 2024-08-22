@@ -16,7 +16,6 @@ R R R
 ```
 S = String
 R = Rabbit Hide
-P = Paper
 
 **Ingredients:**
 - 6 Rabbit Hide 
