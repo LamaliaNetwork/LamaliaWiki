@@ -2,7 +2,8 @@
 
 :::tip How to get overloaded enchantments
 To get overloaded enchantments, simply combine 2 enchantments of the same level to get the next level.
-The cost will not get too expensive ever!
+<br/><black>[ 4+4 = 5, 5+5 = 6, ... ]</black>
+<br/>The cost will not get too expensive ever!
 :::
 
 import Tabs from '@theme/Tabs';
@@ -44,9 +45,9 @@ import TabItem from '@theme/TabItem';
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
-| <green> Efficiency </green> | <green> 1 </green>0 | Increases mining speed by **%placeholder%** | `20 + 5 * %level%` |
+| <green> Efficiency </green> | <green> 10 </green> | Increases mining speed by **%placeholder%** | `20 + 5 * %level%` |
 | Silk Touch | 1 | Mined blocks drop themselves exactly | - |
-| <green> Unbreaking </green> | <green> 7 </green> | Increases item durability **%placeholder%x** | `%level% + 1` |
+| <green> Unbreaking </green> | <green> 7 </green> | Increases item durability **%placeholder%** | `%level% + 1` |
 | <green> Fortune </green> | <green> 4 </green> | Gives a **%placeholder%** boost to certain block drops | `ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)` |
 
 ## Bow Enchantments
@@ -97,15 +98,15 @@ import TabItem from '@theme/TabItem';
 
 | Enchantment | Max Level | Description | Placeholder | Rarity | Applies To | Conflicts |
 |-------------|-----------|-------------|-------------|--------|------------|-----------|
-| Flaming Edge | 10 | Gives a %placeholder%% chance to cause your opponent to burn, Burn damage depends on hit damage | `2.5 * %level%` | Rare | Sword | Fire Aspect |
-| LifeSteal | 10 | Heals %placeholder%% of damage dealt | `%level% * 1` | Rare | Sword | - |
+| Flaming Edge | 10 | Gives a **%placeholder%** chance to cause your opponent to burn, Burn damage depends on hit damage | `2.5 * %level%` | Rare | Sword | Fire Aspect |
+| LifeSteal | 10 | Heals **%placeholder%** of damage dealt | `%level% * 1` | Rare | Sword | - |
 
 ## Tool Enchantments
 
 | Enchantment | Max Level | Description | Placeholder | Rarity | Applies To |
 |-------------|-----------|-------------|-------------|--------|------------|
-| Excavation | 5 | Digs %placeholder% extra blocks | `%level%` | Rare | Shovel |
-| Veinminer | 4 | Mine up to %placeholder% blocks in veins at once | `2 + 3 * %level%` | Rare | Pickaxe |
+| Excavation | 5 | Digs **%placeholder%** extra blocks | `%level%` | Rare | Shovel |
+| Veinminer | 4 | Mine up to **%placeholder%** blocks in veins at once | `2 + 3 * %level%` | Rare | Pickaxe |
 | Replenish | 1 | Crops are replanted automatically | - | Legendary | Hoe |
 
 ## Armor Enchantments
@@ -113,20 +114,20 @@ import TabItem from '@theme/TabItem';
 | Enchantment | Max Level | Description | Rarity | Applies To |
 |-------------|-----------|-------------|--------|------------|
 | Feather Step | 1 | Prevents trampling crops by jumping on them | Legendary | Boots |
-| Health | 5 | Gives %level% bonus health | Legendary | Armor |
+| Health | 5 | Gives **%level%** bonus health | Legendary | Armor |
 
 ## Bow Enchantments
 
 | Enchantment | Max Level | Description | Placeholder | Rarity | Applies To |
 |-------------|-----------|-------------|-------------|--------|------------|
-| Snipe | 6 | Arrows deal %damage%% more damage for each %blocks% blocks travelled | damage: `1 * %level%`<br/>blocks: `15 - ceil(%level% / 2)` | Epic | Bow |
+| Snipe | 6 | Arrows deal **%damage%** more damage for each **%blocks%** blocks travelled | damage: `1 * %level%`<br/>blocks: `15 - ceil(%level% / 2)` | Epic | Bow |
 | Tripleshot | 1 | Shoot 3 arrows instead of 1 | - | Legendary | Bow |
 
 ## Special Enchantments
 
 | Enchantment | Max Level | Description | Rarity | Applies To | Conflicts |
 |-------------|-----------|-------------|--------|------------|-----------|
-| Repairing | 3 | Automatically gain (levelx2) durability every 5 seconds | Very Special | All | Mending |
+| Repairing | 3 | Automatically gain ( **%level%** x2 ) durability every 5 seconds | Very Special | All | Mending |
 
 :::note Removed Enchantment
 The "Bleed" enchantment (Max Level 10) has been removed from the game.
