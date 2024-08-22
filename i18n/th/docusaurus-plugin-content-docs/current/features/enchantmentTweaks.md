@@ -16,7 +16,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="vanilla" label="Vanilla Enchantments" default>
 
-## Armor Enchantments [หมวดเกราะ]
+## Armor Enchantments [หมวดเครื่องมือ]
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
@@ -52,7 +52,7 @@ import TabItem from '@theme/TabItem';
 |-------------|-----------|-------------|-------------|
 | <green> Efficiency </green> | <green> 10 </green> | เพิ่มความเร็วในการขุดขึ้น **%placeholder%** | `20 + 5 * %level%` |
 | Silk Touch | 1 | บล็อกที่ขุดได้จะหลุดออกมาตามตัวมันเอง | - |
-| <green> Unbreaking </green> | <green> 7 </green> | เพิ่มความทนทานของไอเทม **%placeholder%x** | `%level% + 1` |
+| <green> Unbreaking </green> | <green> 7 </green> | เพิ่มความทนทานของไอเทม **%placeholder%** | `%level% + 1` |
 | <green> Fortune </green> | <green> 4 </green> | ให้โบนัส **%placeholder%** ต่อการดรอปของบล็อกบางประเภท | `ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)` |
 
 ## Bow Enchantments [หมวดธนู]
@@ -101,43 +101,43 @@ import TabItem from '@theme/TabItem';
   </TabItem>
   <TabItem value="custom" label="Custom Enchantments">
 
-## Weapon Enchantments
+## Weapon Enchantments [หมวดอาวุธ]
 
 | Enchantment | Max Level | Description | Placeholder | Rarity | Applies To | Conflicts |
 |-------------|-----------|-------------|-------------|--------|------------|-----------|
-| Flaming Edge | 10 | Gives a %placeholder%% chance to cause your opponent to burn, Burn damage depends on hit damage | `2.5 * %level%` | Rare | Sword | Fire Aspect |
-| LifeSteal | 10 | Heals %placeholder%% of damage dealt | `%level% * 1` | Rare | Sword | - |
+| Flaming Edge | 10 | มีโอกาส **%placeholder%** ที่จะทำให้คู่ต่อสู้ติดไฟ ความเสียหายจากการติดไฟจะขึ้นอยู่กับความเสียหายที่เกิดจากการโจมตี | `2.5 * %level%` | Rare | Sword | Fire Aspect |
+| LifeSteal | 10 | ฟื้นฟู **%placeholder%** จากความเสียหายที่โจมตีได้ | `%level% * 1` | Rare | Sword | - |
 
-## Tool Enchantments
+## Tool Enchantments [หมวดเครื่องมือ]
 
 | Enchantment | Max Level | Description | Placeholder | Rarity | Applies To |
 |-------------|-----------|-------------|-------------|--------|------------|
-| Excavation | 5 | Digs %placeholder% extra blocks | `%level%` | Rare | Shovel |
-| Veinminer | 4 | Mine up to %placeholder% blocks in veins at once | `2 + 3 * %level%` | Rare | Pickaxe |
-| Replenish | 1 | Crops are replanted automatically | - | Legendary | Hoe |
+| Excavation | 5 | ขุดบล็อกเพิ่มอีก **%placeholder%** บล็อก | `%level%` | Rare | Shovel |
+| Veinminer | 4 | ขุดได้สูงสุด **%placeholder%** บล็อกในครั้งเดียว | `2 + 3 * %level%` | Rare | Pickaxe |
+| Replenish | 1 | เมื่อเก็บเกี่ยวพืชผลจะถูกปลูกใหม่โดยอัตโนมัติ | - | Legendary | Hoe |
 
-## Armor Enchantments
+## Armor Enchantments [หมวดเครื่องมือ]
 
 | Enchantment | Max Level | Description | Rarity | Applies To |
 |-------------|-----------|-------------|--------|------------|
-| Feather Step | 1 | Prevents trampling crops by jumping on them | Legendary | Boots |
-| Health | 5 | Gives %level% bonus health | Legendary | Armor |
+| Feather Step | 1 | ป้องกันไม่ให้พืชผลถูกทำลายจากการกระโดดเหยียบ | Legendary | Boots |
+| Health | 5 | เพิ่มพลังชีวิต **%level%** หน่วย | Legendary | Armor |
 
-## Bow Enchantments
+## Bow Enchantments [หมวดธนู]
 
-| Enchantment | Max Level | Description | Placeholder | Rarity | Applies To |
+| Enchantment | Max Level | Descriptionห | Placeholder | Rarity | Applies To |
 |-------------|-----------|-------------|-------------|--------|------------|
-| Snipe | 6 | Arrows deal %damage%% more damage for each %blocks% blocks travelled | damage: `1 * %level%`<br/>blocks: `15 - ceil(%level% / 2)` | Epic | Bow |
-| Tripleshot | 1 | Shoot 3 arrows instead of 1 | - | Legendary | Bow |
+| Snipe | 6 | ลูกธนูทำความเสียหายเพิ่มขึ้น **%damage%** ทุก ๆ **%blocks%** บล็อกที่มันเดินทาง | damage: `1 * %level%`<br/>blocks: `15 - ceil(%level% / 2)` | Epic | Bow |
+| Tripleshot | 1 | ยิงลูกธนู 3 ดอกในครั้งเดียว | - | Legendary | Bow |
 
 ## Special Enchantments
 
 | Enchantment | Max Level | Description | Rarity | Applies To | Conflicts |
 |-------------|-----------|-------------|--------|------------|-----------|
-| Repairing | 3 | Automatically gain (levelx2) durability every 5 seconds | Very Special | All | Mending |
+| Repairing | 3 | ซ่อมแซมอัตโนมัติโดยการเพิ่มความทนทาน <br/> ( **%level%** x2 ) ทุก 5 วินาที | Very Special | All | Mending |
 
 :::note Removed Enchantment
-The "Bleed" enchantment (Max Level 10) has been removed from the game.
+The "Bleed" enchantment (Max Level 10) ได้ถูกนำออกจากเกมแล้ว
 :::
 
   </TabItem>
