@@ -1,42 +1,42 @@
-﻿# ChestShop
+# ChestShop
 
-Welcome to ChestShop on Lamalia! This guide will help you create and manage your own shops quickly and easily.
+ยินดีต้อนรับสู่ ChestShop บน Lamalia! คู่มือนี้จะช่วยให้คุณสร้าง และจัดการร้านค้าของคุณ ได้รวดเร็วและง่ายมากขึ้น
 
-## Requirements
+## ความต้องการ
 
-- **Ranks**: Gold and above
+- **Ranks**: Gold ขึ้นไป
 
-## Creating a Shop
+## การสร้างร้านค้า
 
-1. Place a chest and fill it with items you want to sell.
-2. Hold the item you want to sell in your hand.
-3. Look at the chest and type: `/ecs create <buy price> <sell price>`
-   - Example: `/ecs create 1000 10` (Buy items for 1000, sell for 10)
+1. วางกล่องสมบัติ และใส่ของที่ต้องการขาย
+2. ถือไอเทมที่คุณต้องการขายไว้ในมือ
+3. มองไปที่กล่องสมบัติ และพิมพ์: `/ecs create <ราคาซื้อ> <ราคาขาย>`
+   - ตัวอย่าง: `/ecs create 10000 10` (ซื้อไอเทม 1000$, ขายไอเทมราคา 10$)
 
-:::tip Note
-It also work with other container type like barrel, double chest, etc.
+:::tip โน้ต
+นอกจากนี้ยังสามารถทำงานกับที่เก็บประเภทอื่นๆ เช่น บาร์เรล, กล่องสมบัติคู่, และอื่นๆ
 
-Even with [Storage Units](customCrafting.md)
+แม้กระทั่ง [Storage Units](customCrafting.md)
 
-can be normally filled with hopper but not pulled out with hopper.
+โดยทั่วไปสามารถเติมไอเทมผ่าน hopper แต่จะไม่สามารถนำไอเทมออกผ่าน hopper ได้
 :::
 
-That's it! Your shop is now open for business.
+เรียบร้อยแล้ว! ร้านค้าของคุณก็พร้อมให้บริการแล้ว
 
-## Managing Your Shop
+## การจัดการร้านค้า
 
-Use `/ecs settings` to customize your shop:
+ใช้ `/ecs settings` เพื่อปรับแต่งร้านค้าของคุณ:
 
-- `toggle-buying`: Turn buying on/off
-- `toggle-selling`: Turn selling on/off
-- `toggle-message`: Toggle transaction messages
+- `toggle-buying`: สลับ การซื้อ เปิด/ปิด
+- `toggle-selling`: สลับ การขาย เปิด/ปิด
+- `toggle-message`: สลับ ข้อความธุรกรรม เปิด/ปิด
 
-and more if accessed via gui.
+และอีกมากมาย หากเข้าถึงผ่าน GUI
 
-## Useful Commands
+## คำสั่งที่เป็นประโยชน์
 
-- `/ecs` or `/cshop`: Open the main menu
-- `/ecs create <buy price> <sell price>`: Create a shop
-- `/ecs remove`: Remove a shop you're looking at
-- `/cp`: Check your shop profits
+- `/ecs` หรือ `/cshop`: เปิดเมนูหลัก
+- `/ecs create <ราคาซื้อ> <ราคาขาย>`: สร้างร้านค้า
+- `/ecs remove`: ลบร้านค้าที่คุณกำลังมองอยู่
+- `/cp`: ตรวจสอบผลกำไรของร้านค้าของคุณ
 

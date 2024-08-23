@@ -87,6 +87,8 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Member: 12
 - Lands Availability: 6
 - Lands Role: 5
+- Image-Maps: 10
+- Chest Shop: 5
   :::
 
 :::tip Functions
@@ -240,6 +242,8 @@ Supporter Ranks are available to players who donate to support the server. These
 - Lands Member: 20
 - Lands Availability: 9
 - Lands Role: 6
+- Image-Maps: 15
+- Chest Shop: 10
   :::
 
 :::tip Functions
@@ -268,6 +272,8 @@ Supporter Ranks are available to players who donate to support the server. These
 - Lands Member: 30
 - Lands Availability: 20
 - Lands Role: 7
+- Image-Maps: 25
+- Chest Shop: 20
   :::
 
 :::tip Functions

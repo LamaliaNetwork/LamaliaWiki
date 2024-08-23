@@ -1,108 +1,106 @@
-﻿# Custom Crafting Recipes
+# Custom Crafting Recipes
 
-Lamalia features several custom crafting recipes to enhance your gameplay experience. Here are the unique items you can craft:
+Lamalia มีฟีเจอร์ในการคราฟต์แบบกำหนดเองหลายแบบ เพื่อปรับปรุงประสบการณ์การเล่นเกมของคุณ ที่นี่คือไอเทมพิเศษที่คุณสามารถคราฟต์ได้ :
 
 ## Bundle
 
 ![Bundle Crafting Recipe](/img/doc/features/customCrafting/bundle.png)
 
-**Description:** A bundle allows you to store multiple stacks of items in a single inventory slot, making inventory management much easier.
+**คำอธิบาย:** Bundle ช่วยให้จัดเก็บของในช่องเก็บของ ด้วยการจัดเก็บหลายกองในช่องเก็บของเดียว ทำให้การจัดเก็บของในช่องเก็บของง่ายขึ้นมาก
 
-**Crafting Recipe:**
+**สูตรการคราฟต์:**
 ```
 S R S
 R - R
 R R R
 ```
-S = String
-R = Rabbit Hide
-P = Paper
+S = เส้นใย
+R = หนังกระต่าย
 
-**Ingredients:**
-- 6 Rabbit Hide 
-- 2 String 
+**วัตถุดิบ:**
+- 6 หนังกระต่าย
+- 2 เส้นใย
 
-## Invisible Item Frame
+## กรอบโชว์สิ่งของล่องหน
 
 ![Invisible Item Frame Crafting Recipe](/img/doc/features/customCrafting/invisItemFrame.png)
 
-**Description:** An invisible item frame allows you to display items without seeing the frame itself, perfect for seamless decorations.
+**คำอธิบาย:** กรอบไอเทมล่องหน ช่วยให้คุณแสดงรายการไอเทมโดยมองไม่เห็นกรอบไอเทม เหมาะสำหรับการตกแต่งที่ไม่ต้องการแสดงกรอบไอเทม
 
-**Crafting Recipe:**
+**สูตรการคราฟต์:**
 ```
 A A A
 A I A
 A A A
 ```
-A = Amethyst Shard
-I = Item Frame
+A = เศษอเมทิสต์
+I = กรอบโชว์สิ่งของ
 
-**Ingredients:**
-- 1 Item Frame 
-- 8 Amethyst Shards
+**วัตถุดิบ:**
+- 1 กรอบโชว์สิ่งของ
+- 8 เศษอเมทิสต์
 
-## Invisible Glow Item Frame
+## กรอบโชว์สิ่งของเรืองแสงล่องหน
 
 ![Invisible Glow Item Frame Crafting Recipe](/img/doc/features/customCrafting/glowInvisItemFrame.png)
 
-**Description:** Similar to the invisible item frame, but the displayed item will glow, making it visible in dark areas.
-
-**Crafting Recipe:**
+**คำอธิบาย:** คล้ายกับกรอบโชว์สิ่งของล่องหน แต่มันไอเทมแสดงจะเรืองแสง ทำให้มองเห็นได้ในที่มืด
+**สูตรการคราฟต์:**
 ```
 A A A
 A G A
 A A A
 ```
-A = Amethyst Shard
-G = Glow Item Frame
+A = เศษอเมทิสต์
+G = กรอบโชว์สิ่งของเรืองแสง
 
-**Ingredients:**
-- 1 Glow Item Frame 
-- 8 Amethyst Shards 
+**วัตถุดิบ:**
+- 1 กรอบโชว์สิ่งของเรืองแสง
+- 8 เศษอเมทิสต์
 
-## Light Block
+## บล็อกแสง
 
 ![Light Crafting Recipe](/img/doc/features/customCrafting/lightBlock.png)
 
-**Description:** A customizable light source that can be easily hidden in builds, providing illumination without visible light blocks.
+**คำอธิบาย:** แหล่งกำเนิดแสงสว่าง ที่ถูกซ่อนไว้ในโครงสร้าง ให้แสงสว่างโดยไม่มีบล็อกแสงให้มองเห็น
 
-**Crafting Recipe:**
+**สูตรการคราฟต์:**
 ```
 A G A
 G H G
 A G A
 ```
-A = Amethyst Shard
-G = Glowstone
-H = Ghast Tear
+A = เศษอเมทิสต์
+G = บล็อกเรืองแสง
+H = น้ำตาแก๊สต์
 
-**Ingredients:**
-- 4 Amethyst Shards
-- 4 Glowstone
-- 1 Ghast Tear
+**วัตถุดิบ:**
+- 4 เศษอเมทิสต์
+- 4 บล็อกเรืองแสง
+- 1 น้ำตาแก๊สต์
 
 ## Storage Unit
 
 :::caution
-This feature is an experimental feature and may be subject to change.
+ฟีเจอร์นี้ เป็นฟีเจอร์การทดลอง และอาจมีการเปลี่ยนแปลงได้
 :::
 
 ![Storage Unit Crafting Recipe](/img/doc/features/customCrafting/storageUnit.png)
 
-**Description:** A storage unit that can hold up to 1 Million items of the same type, perfect for bulk storage. (you can also store unstakable items)
+**คำอธิบาย:** Storage Unit ที่สามารถบรรจุได้จำนวน 1 ล้านไอเทมในชนิดเดียวกัน เหมาะสำหรับการจัดเก็บจำนวนมาก (คุณยังสามารถจัดเก็บไอเทมที่ไม่สามารถซ้อนทับกันได้)
 
-**Crafting Recipe:**
+**สูตรการคราฟต์:**
 ```
 - S -
 N C N
 - N -
 ```
 
-S = Nether Star
-N = Netherite Ingot
-C = Chest
+S = ดาวเนเธอร์
+N = แท่งเนเธอไรต์
+C = กล่องสมบัติ
 
-**Ingredients:**
-- 1 Nether Star
-- 2 Netherite Ingots
-- 1 Chest
+**วัตถุดิบ:**
+- 1 ดาวเนเธอร์
+- 2 แท่งเนเธอไรต์
+- 1 กล่องสมบัติ

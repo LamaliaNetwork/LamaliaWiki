@@ -5,6 +5,14 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
+## Patch 1.10.1
+
+> 23/08/2024
+>
+
+**Fixes**
+
+- Fix if command and ecs command not showing in tab-complete
 
 ## Patch 1.10.0
 
