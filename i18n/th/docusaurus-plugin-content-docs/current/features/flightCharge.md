@@ -1,49 +1,49 @@
 ﻿# Flight Charge
 
-:::info
-Flight Charge enables you to fly temporarily using your in-game money.
+:::info ข้อมูล
+ช่วยให้คุณสามารถบินได้ชั่วคราว โดยใช้เงินภายในเกมของคุณ
 :::
 
-## How It Works
+## มันทำงานอย่างไร
 
-Flight Charge allows players to fly for a limited time by consuming charges. These charges can be replenished using in-game currency.
+Flight Charge อนุญาตให้ผู้เล่นบินได้ในระยะเวลาจำกัดโดยการใช้พลังงาน สามารถเพิ่มพลังงานด้วยการใช้เงินภายในเกม
 
-## Flight Recharge
+## เพิ่มพลังงานการบิน
 
-:::tip
-Flight Charge requires charges for flight. You can replenish these charges using money.
+:::tip เกร็ดความรู้
+Flight Charge มีความต้องการพลังงานเพื่อทำการบิน คุณสามารถเพิ่มพลังงงานโดยใช้เงินภายในเกม
 :::
 
-### How to Recharge:
+### วิธีเพิ่มพลังงาน:
 
-Use the following command to recharge your flight:
+ใช้คำสั่งต่อไปนี้เพื่อเพิ่มพลังงานในการบินของคุณ:
 
 ```
 /recharge
 ```
 
-This will open an interface where you can purchase flight charges:
+นี่จะเป็นการเปิดหน้าต่างการเพิ่มพลังงาน ที่คุณสามารถซื้อเพื่อเติมพลังงานการบินของคุณได้:
 
 ![Flight Recharge Interface](/img/doc/features/filghtCharge/rechrage.png)
 
-## Flight Usage
+## วิธีใช้การบิน
 
-To start or stop using Flight Charge, use the following command:
+หากต้องการเริ่ม หรือหยุดการใช้งานพลังงานการบิน ใช้คำสั่งต่อไปนี้:
 
 ```
 /flyc
 ```
 
-:::caution
-Remember to monitor your flight charges. If you run out while flying, you'll start to fall!
+:::caution คำเตือน
+อย่าลืมตรวจสอบพลังงานการบินของคุณ หากพลังงานการบินหมดขณะใช้งาน คุณจะเริ่มตกลงมาสู่พื้นดิน!
 :::
 
-## Tips for Efficient Flight Charge Use
+## เกร็ดความรู้สำหรับการใช้งานพลังงานการบินอย่างมีประสิทธิภาพ
 
-1. **Plan your flights:** Try to make the most of each flight to conserve charges.
-2. **Keep an eye on your balance:** Ensure you have enough money to recharge when needed.
-3. **Use in combination with Elytra:** For long-distance travel, consider using Elytra for part of the journey to save charges.
+1. **วางแผนการบินของคุณ:** พยายามใช้พลังงานการบินให้เกิดประโยชน์สูงสุด เพื่อประหยัดพลังงาน
+2. **สังเกตดูเงินของคุณ:** ตรวจสอบให้แน่ใจว่าคุณมีเงินเพียงพอที่จะเพิ่มพลังงานเมื่อจำเป็น
+3. **ใช้งานร่วมกับปีก:** สำหรับการเดินทางระยะไกล ลองใช้ปีกเป็นส่วนหนึ่งของการของการเดินทางเพื่อประหยัดพลังงาน
 
-:::note
-The cost and duration of Flight Charge may vary based on server settings. Always check the current rates before purchasing charges.
+:::note โน้ต
+ค่าใช้จ่ายและเวลาของพลังงานการบิน อาจแตกต่างกันไปตามการตั้งค่าของเซิร์ฟเวอร์ ตรวจสอบอัตราค่าใช้จ่ายในการเพิ่มพลังงานอย่างสมํ่าเสมอ
 :::
