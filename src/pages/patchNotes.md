@@ -14,7 +14,16 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 - Added: Land Category
   - You can now categorize your land in 4 sections (None, Trade, Shop, PVP Arena)
-  - This will help players to find what they are looking for (only public lands)t
+  - This will help players to find what they are looking for (only public lands)
+- Added: Ender Chest quickmenu
+  - You can now access your ender chest from the main menu
+- Added: Tab Complete to Basic Command
+  - lobby
+  - wiki
+  - store
+  - social
+  - rulescomplete
+  - landscomplete
 
 **Fixes**
 - Fix if command and ecs command not showing in tab-complete
