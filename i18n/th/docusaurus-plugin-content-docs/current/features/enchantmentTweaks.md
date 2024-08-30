@@ -16,7 +16,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="vanilla" label="Vanilla Enchantments" default>
 
-## Armor Enchantments [หมวดเครื่องมือ]
+## Armor Enchantments [หมวดเกราะ]
 
 | Enchantment | Max Level | Description | Placeholder |
 |-------------|-----------|-------------|-------------|
@@ -116,7 +116,7 @@ import TabItem from '@theme/TabItem';
 | Veinminer | 4 | ขุดได้สูงสุด **%placeholder%** บล็อกในครั้งเดียว | `2 + 3 * %level%` | Rare | Pickaxe |
 | Replenish | 1 | เมื่อเก็บเกี่ยวพืชผลจะถูกปลูกใหม่โดยอัตโนมัติ | - | Legendary | Hoe |
 
-## Armor Enchantments [หมวดเครื่องมือ]
+## Armor Enchantments [หมวดเกราะ]
 
 | Enchantment | Max Level | Description | Rarity | Applies To |
 |-------------|-----------|-------------|--------|------------|
