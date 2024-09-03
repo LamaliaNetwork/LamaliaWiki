@@ -3,200 +3,200 @@ id: server-rules
 title: Lamalia Server Rules
 sidebar_label: Server Rules
 ---
-# Lamalia Server Rules
+# กฎของเซิร์ฟเวอร์ Lamalia
 ---
 
 ![Rules](/img/rules/rules.png)
 
-## 1. อินโทร
+## 1. การแนะนำ
 
-Welcome to Lamalia, a Minecraft server dedicated to providing a fun, fair, and respectful gaming environment for all players. These rules are designed to ensure a positive experience for everyone in our community. By joining and playing on Lamalia, you agree to abide by these rules.
+ยินดีต้อนรับสู่ Lamalia, เซิร์ฟเวอร์ Minecraft ที่ออกแบบเพื่อมอบประสบการณ์การเล่นเกมที่สนุกสนาน ยุติธรรม และให้เกียรติแก่ผู้เล่นทุกคน กฎเหล่านี้ ได้รับการออกแบบมาเพื่อให้แน่ใจว่าทุกคนในชุมชน จะได้รับประสบการณ์เชิงบวก การเข้าร่วมและเล่น Lamalia แสดงว่าคุณตกลงที่จะปฏิบัติตามกฎเหล่านี้
 
-## 2. Respect and Conduct
+## 2. ความเคารพและการปฏิบัติ
 
-### 2.1 General Respect
+### 2.1 ความเคารพทั่วไป
 
-- Treat all players with respect, regardless of their background, skill level, or time spent on the server.
-- Adhere to the Golden Rule: Treat others as you would like to be treated.
+- ปฏิบัติต่อผู้เล่นทุกคนด้วยความเคารพ โดยไม่คำนึงถึงภูมิหลังระดับทักษะ หรือเวลาที่ใช้บนเซิร์ฟเวอร์
+- ปฏิบัติตามกฎทองคำ: ปฏิบัติต่อผู้อื่นในแบบที่อยากให้ผู้อื่นปฏิบัติต่อคุณเอง
 
-### 2.2 Prohibited Behavior
+### 2.2 พฤติกรรมต้องห้าม
 
-The following behaviors are strictly prohibited and may result in disciplinary action:
+พฤติกรรมต่อไปนี้เป็นสิ่งต้องห้ามโดยเด็ดขาดและอาจส่งผลให้ถูกลงโทษทางวินัย:
 
-- Harassment in any form, including but not limited to:
-   - Verbal abuse
-   - Bullying
-   - Discrimination based on race, gender, sexual orientation, religion, nationality, or any other personal characteristics
-- Intentionally offensive language or hate speech
-- Sexual harassment or inappropriate sexual comments
-- Threats of violence or harm
+- การคุกคามในรูปแบบใดๆ รวมถึงแต่ไม่จำกัดเฉพาะ:
+   - การละเมิดทางวาจา
+   - การกลั่นแกล้ง
+   - การเลือกปฏิบัติโดยพิจารณาจากเชื้อชาติ เพศ รสนิยมทางเพศ ศาสนา สัญชาติ หรือลักษณะส่วนบุคคลอื่นใด
+- ภาษาที่ไม่เหมาะสม หรือคำพูดแสดงความเกลียดชังโดยเจตนา
+- การล่วงละเมิดทางเพศ หรือความคิดเห็นทางเพศที่ไม่เหมาะสม
+- การคุกคามของความรุนแรง หรืออันตราย
 
-### 2.3 Language and Communication
+### 2.3 ภาษา และการสื่อสาร
 
-- Excessive swearing or use of profanity is discouraged.
-- Keep conversations and in-game names family-friendly.
-- Avoid using all caps excessively, as it's considered shouting.
+- ไม่สนับสนุนการสบถ หรือใช้คำหยาบคายมากเกินไป
+- รักษาบทสนทนา และชื่อในเกมให้เป็นมิตร
+- หลีกเลี่ยงการใช้ตัวพิมพ์ใหญ่ทั้งหมดมากเกินไป เนื่องจากถือเป็นการตะโกน
 
-## 3. Fair Play and Cheating
+## 3. การเล่นอย่างยุติธรรม และการโกง
 
-### 3.1 Prohibited Software and Modifications
+### 3.1 ซอฟต์แวร์ต้องห้ามและการแก้ไข
 
-The use of the following is strictly forbidden:
+ห้ามใช้สิ่งต่อไปนี้โดยเด็ดขาด:
 
-- Hacked clients
-- Cheat mods
-- Macro
+- ไคลเอ็นต์แฮก
+- ม็อดโกง
+- มาโคร
 - X-ray texture packs
-- Auto-clickers (except for AFK fishing)
-- Any mod or client that provides an unfair advantage over other players
+- ออโต้คลิก (ยกเว้นการตกปลาแบบ AFK)
+- ม็อด หรือไคลเอนต์ใด ๆ ที่ให้ข้อได้เปรียบอย่างไม่ยุติธรรมเหนือผู้เล่นคนอื่น
 
-### 3.2 Exploits and Glitches
+### 3.2 การใช้ประโยชน์ และข้อบกพร่อง
 
-- Do not exploit bugs or glitches in the game or server plugins.
-- If you discover a bug or exploit, report it to the staff immediately.
-- Using a discovered exploit before reporting it is considered cheating.
+- อย่าหาประโยชน์จากข้อบกพร่อง ข้อบกพร่องในเกม หรือปลั๊กอินของเซิร์ฟเวอร์
+- หากพบข้อบกพร่องหรือช่องโหว่ ให้รายงานต่อทีมงานทันที
+- การใช้ช่องโหว่ที่ค้นพบก่อนที่จะรายงานถือเป็นการโกง
 
-### 3.3 Alternative Accounts
+### 3.3 บัญชีสำรอง (Alternative Account)
 
-- The use of alternative accounts ("alts") to circumvent bans or punishments is prohibited.
-- Using multiple accounts to gain an unfair economic advantage is not allowed.
-- if you have a legitimate reason for using an alt, please inform staff in advance.
+- ห้ามใช้บัญชีสำรอง ("alts") เพื่อหลีกเลี่ยงการแบน หรือการลงโทษ 
+- ไม่อนุญาตให้ใช้หลายบัญชี เพื่อให้ได้เปรียบทางเศรษฐกิจอย่างไม่ยุติธรรม
+- หากคุณมีเหตุผลที่ถูกต้องในการใช้บัญชีสำรอง กรุณาแจ้งเจ้าหน้าที่ล่วงหน้า
 
-## 4. Griefing and Property Respect
+## 4. การเอาเปรียบ และการเคารพทรัพย์สิน
 
-### 4.1 Definition of Griefing
+### 4.1 คำจำกัดความของการเอาเปรียบ
 
-Griefing includes, but is not limited to:
+การเอาเปรียบรวมถึงแต่ไม่จำกัดเพียง:
 
-- Intentionally damaging or altering another player's build without permission
-- Placing blocks or entities to cause lag or disrupt gameplay
-- Trapping players against their will
+- จงใจสร้างความเสียหาย หรือเปลี่ยนแปลงโครงสร้างของผู้เล่นอื่นโดยไม่ได้รับอนุญาต
+- การวางบล็อก หรือเอนทิตีเพื่อทำให้เกิดความล่าช้า หรือรบกวนการเล่นเกม
+- ดักจับผู้เล่นโดยไม่ได้ตั้งใจ
 
-### 4.2 Protected and Unprotected Areas
+### 4.2 พื้นที่คุ้มครอง และไม่ได้รับการคุ้มครอง
 
-- Always respect protected areas and builds, regardless of their location.
-- In unprotected areas, assume all structures belong to someone unless explicitly stated otherwise.
-- There are some server protected areas that are off-limits for building or altering. Rules stated below.
-  - Old Spawn (world 0,0) This region is protected and cannot be altered. as a piece of server history.
-  - End Island (world_the_end 0,0) Can be altered but not claimed and no machines can be built. except stated otherwise.
+- เคารพพื้นที่สร้างที่ได้รับการคุ้มครองเสมอ โดยไม่คำนึงถึงสถานที่ตั้ง
+- ในพื้นที่ที่ไม่มีการป้องกัน ให้ถือว่าโครงสร้างทั้งหมดเป็นของบุคคลอื่น เว้นแต่จะระบุไว้เป็นอย่างอื่นอย่างชัดเจน
+- มีพื้นที่ป้องกันเซิร์ฟเวอร์บางแห่งซึ่งจำกัดการสร้าง หรือดัดแปลง กฎเกณฑ์ที่ระบุไว้ด้านล่าง
+  - Old Spawn (world 0,0) พื้นที่แห่งนี้ได้รับการคุ้มครอง และไม่สามารถเปลี่ยนแปลงได้ ซึ่งเป็นส่วนหนึ่งของประวัติเซิร์ฟเวอร์
+  - End Island (world_the_end 0,0) สามารถเปลี่ยนแปลงได้ แต่ไม่สามารถอ้างสิทธิ์ได้ และไม่สามารถสร้างเครื่องจักรได้ เว้นแต่จะระบุไว้เป็นอย่างอื่น
 
-### 4.3 Stealing and Scamming
+### 4.3 การขโมย และการหลอกลวง
 
-- Taking items from another player's containers without permission is considered stealing. Even from unclaim land.
-- Scamming, or intentionally deceiving other players for personal gain, is prohibited.
+- การนำสิ่งของจากพื้นที่เก็บไอเทมของผู้เล่นอื่นโดยไม่ได้รับอนุญาตถือเป็นการขโมย แม้จะมาจากดินแดนที่ไม่มีการอ้างสิทธิ์ก็ตาม
+- การหลอกลวงหรือจงใจหลอกลวงผู้เล่นอื่นเพื่อผลประโยชน์ส่วนตัวเป็นสิ่งต้องห้าม
 
-## 5. PvP and Combat
+## 5. PvP และการต่อสู้
 
-### 5.1 Consent-Based PvP
+### 5.1 PvP ที่ได้รับความยินยอม
 
-- Engaging in PvP is only allowed when all involved parties have given explicit consent.
-- Killing players without consent is considered griefing and is subject to punishment.
+- การมีส่วนร่วมใน PvP จะได้รับอนุญาตก็ต่อเมื่อทุกฝ่ายที่เกี่ยวข้องได้ให้ความยินยอมอย่างชัดเจนแล้วเท่านั้น
+- การฆ่าผู้เล่นโดยไม่ได้รับความยินยอมถือเป็นเรื่องน่าเศร้า และอาจถูกลงโทษ
 
-### 5.2 PvP Zones
+### 5.2 พื้นที่ PvP
 
-- Some areas may be designated as PvP zones where consent is implied upon entry.
-- Clear signage will indicate entry into a PvP zone.
+- บางพื้นที่อาจถูกกำหนดให้เป็นพื้นที่ PvP โดยให้ความยินยอมเมื่อได้ก้าวเข้ามา
+- จะมีการแจ้งเตือนเมื่อเข้าสู่พื้นที่ PvP
 
-## 6. Chat and Communication
+## 6. แชท และการสื่อสาร
 
-### 6.1 Spam and Flooding
+### 6.1 การสแปม และส่งข้อความที่มากเกินไปSpam and Flooding
 
-- Do not spam the chat with repetitive messages, symbols, or excessive capitalization.
-- Avoid sending the same message multiple times in quick succession.
+- อย่าสแปมแชทด้วยข้อความ สัญลักษณ์ หรือใช้อักษรตัวพิมพ์ใหญ่มากเกินไป
+- หลีกเลี่ยงการส่งข้อความเดิมหลายครั้งติดต่อกันอย่างรวดเร็ว
 
-### 6.2 Advertising
+### 6.2 การโฆษณา
 
-The following forms of advertising are not allowed:
+ไม่อนุญาตให้ใช้การโฆษณาในรูปแบบต่อไปนี้:
 
-- Promotion of other Minecraft servers
-- Links to external websites (unless directly relevant to an ongoing discussion and approved by staff)
-- Unsolicited promotion of personal social media or streaming channels
+- การโปรโมตเซิร์ฟเวอร์ Minecraft อื่น ๆ
+- ลิงก์ไปยังเว็บไซต์ภายนอก (เว้นแต่จะเกี่ยวข้องโดยตรงกับการสนทนาที่กำลังดำเนินอยู่และได้รับอนุมัติจากทีมงาน)
+- การโปรโมตโซเชียลมีเดียส่วนตัวหรือช่องสตรีมมิ่งที่ไม่พึงประสงค์
 
-### 6.3 Appropriate Topics
+### 6.3 หัวข้อที่เหมาะสม
 
-- Keep chat focused on Minecraft and topics suitable for all ages.
-- Avoid discussions of controversial subjects such as politics or religion.
+- เน้นการแชทไปที่ Minecraft และหัวข้อที่เหมาะสำหรับทุกวัย
+- หลีกเลี่ยงการอภิปรายหัวข้อที่ก่อให้เกิดความขัดแย้ง เช่น การเมือง หรือศาสนา
 
-### 6.4 Private Information
+### 6.4 ข้อมูลส่วนตัว
 
-- Do not share personal information of yourself or others in public chat.
-- This includes real names, addresses, phone numbers, etc.
+- อย่าเปิดเผยข้อมูลส่วนบุคคลของตนเอง หรือผู้อื่นในการแชทสาธารณะ
+- ซึ่งรวมถึงชื่อจริง ที่อยู่ หมายเลขโทรศัพท์ ฯลฯ
 
-## 7. Staff Respect and Decisions
+## 7. ความเคารพ และการตัดสินใจของทีมงาน
 
-### 7.1 Following Instructions
+### 7.1 เคารพการปฏิบัติตามคำแนะนำ
 
-- Comply with instructions given by server staff members.
-- Staff decisions are final and should be respected.
+- ปฏิบัติตามคำแนะนำที่กำหนดโดยทีมงานเซิร์ฟเวอร์
+- การตัดสินใจของทีมงานถือเป็นที่สิ้นสุด และควรได้รับการเคารพ
 
-### 7.2 False Reports
+### 7.2 รายงานเท็จ
 
-- Do not make false reports against other players or staff members.
-- Repeatedly making false claims may result in penalties.
+- อย่ารายงานเท็จต่อผู้เล่น หรือทีมงานคนอื่น
+- การกล่าวอ้างอันเป็นเท็จซ้ำๆ อาจส่งผลให้ได้รับโทษ
 
-### 7.3 Impersonation
+### 7.3 การแอบอ้างบุคคลอื่น
 
-- Impersonating staff members or other players is strictly prohibited.
+- ห้ามแอบอ้างเป็นพนักงานหรือผู้เล่นอื่นโดยเด็ดขาด
 
-### 7.4 Appeals Process
+### 7.4 กระบวนการอุทธรณ์
 
-- If you disagree with a staff decision, you may appeal through the designated channels (#private-help).
-- Appeals should be made calmly and respectfully, providing any relevant evidence.
+- หากไม่เห็นด้วยกับคำตัดสินของทีมงานสามารถอุทธรณ์ได้ตามช่องทางที่กำหนด (#private-help)
+- การอุทธรณ์ควรทำอย่างใจเย็น ให้เกียรติ และการให้หลักฐานที่เกี่ยวข้อง
 
-## 8. Server Etiquette
+## 8. มารยาทของเซิร์ฟเวอร์
 
-### 8.1 Lag Prevention
+### 8.1 การป้องกันความล่าช้า
 
-- Be mindful of actions that may cause server lag, such as creating large redstone contraptions or spawning many entities.
-- Follow staff instructions if asked to modify or remove lag-inducing builds.
+- โปรดคำนึงถึงการกระทำที่อาจทำให้เซิร์ฟเวอร์ล่าช้า เช่น การสร้างอุปกรณ์ Redstone ขนาดใหญ่หรือการวางไข่เอนทิตีจำนวนมาก
+- ปฏิบัติตามคำแนะนำของทีงานหากถูกขอให้แก้ไข หรือลบสิ่งก่อสร้างที่ทำให้เกิดความล่าช้า
 
-### 8.2 Land Claims
+### 8.2 การอ้างสิทธิ์ในที่ดิน
 
-- Respect the boundaries of other players' land claims.
-- Do not attempt to claim land immediately adjacent to another player's base without their permission.
+- เคารพขอบเขตการอ้างสิทธิ์ในที่ดินของผู้เล่นคนอื่น
+- อย่าพยายามอ้างสิทธิ์ในที่ดินที่อยู่ติดกับกับของผู้เล่นอื่นโดยไม่ได้รับอนุญาต
 
-## 9. Modifications and Texture Packs
+## 9. ม็อดและแพ็กทรัพยากร
 
-### 9.1 Allowed Modifications
+### 9.1 ม็อดที่ได้รับอนุญาต
 
-- Optifine and other performance-enhancing mods are generally allowed.
-- Minimal HUDs and map mods are permitted as long as they don't provide an unfair advantage.
+- โดยทั่วไปแล้ว Optifine และม็อดเพิ่มประสิทธิภาพอื่น ๆ จะได้รับอนุญาต
+- อนุญาตให้ใช้ HUD และม็อดแผนที่ ตราบใดที่ไม่ได้ให้ข้อได้เปรียบที่ไม่ยุติธรรม
 
-### 9.2 Texture Packs
+### 9.2 แพ็กทรัพยากร
 
-- Texture packs that do not provide an unfair advantage (such as x-ray) are allowed.
-- If in doubt about a specific texture pack, consult with staff before use.
+- อนุญาตให้ใช้แพ็กทรัพยากรที่ไม่ได้ให้ข้อได้เปรียบที่ไม่เป็นธรรม (เช่น การเอ็กซ์เรย์)
+- หากมีข้อสงสัยเกี่ยวกับเนื้อหาแพ็กทรัพยากรเฉพาะ โปรดปรึกษาทีมงานก่อนใช้งาน
 
-## 10. Consequences and Enforcement
+## 10. ผลที่ตามมาและการบังคับใช้
 
-### 10.1 Warning System
+### 10.1 ระบบเตือนภัย
 
-- Minor infractions may result in warnings before more severe punishments are applied.
-- Accumulation of warnings may lead to temporary or permanent bans.
+- การละเมิดเล็กน้อยอาจส่งผลให้เกิดการเตือนก่อนที่จะมีการลงโทษที่รุนแรงยิ่งขึ้น
+- การสะสมคำเตือนอาจนำไปสู่การแบนชั่วคราวหรือถาวร
 
-### 10.2 Bans and Suspensions
+### 10.2 แบนและการระงับ
 
-- Serious or repeated rule violations may result in temporary suspensions or permanent bans.
-- The duration and severity of punishments are at the discretion of the staff.
+- การละเมิดกฎที่ร้ายแรงหรือซ้ำหลายครั้งอาจส่งผลให้มีการระงับชั่วคราวหรือแบนถาวร
+- ระยะเวลาและความร้ายแรงของการลงโทษขึ้นอยู่กับดุลยพินิจของทีมงาน
 
-### 10.3 Ban Evasion
+### 10.3 หลีกเลี่ยงการแบน
 
-- Attempting to evade a ban through alternative accounts or other means will result in an extended or permanent ban.
+- การพยายามหลีกเลี่ยงการแบนผ่านบัญชีอื่น หรือวิธีการอื่นจะส่งผลให้มีการแบนแบบขยาย หรือถาวร
 
-## 11. Rule Changes and Updates
+## 11. การเปลี่ยนแปลงกฎและการอัปเดต
 
-### 11.1 Modifications to Rules
+### 11.1 การปรับเปลี่ยนกฎ
 
-- These rules may be updated or modified at any time to address new issues or clarify existing policies.
-- It is the responsibility of players to stay informed about current rules.
+- กฎเหล่านี้อาจได้รับการอัปเดตหรือแก้ไขได้ตลอดเวลาเพื่อแก้ไขปัญหาใหม่หรือชี้แจงนโยบายที่มีอยู่
+- เป็นความรับผิดชอบของผู้เล่นที่จะต้องรับทราบข้อมูลเกี่ยวกับกฎปัจจุบัน
 
-### 11.2 Notification of Changes
+### 11.2 แจ้งการเปลี่ยนแปลง
 
-- Significant changes to rules will be announced in the server's discord and/or in-game.
+- การเปลี่ยนแปลงกฎที่สำคัญจะมีการประกาศใน Discord ของเซิร์ฟเวอร์ และ/หรือ ในเกม
 
-## 12. Disclaimer
+## 12. ข้อสงวนสิทธิ์
 
-While these rules cover many scenarios, it's impossible to account for every situation. Staff members reserve the right to use their judgment in cases not explicitly covered by these rules. The spirit of these rules – fostering a fun, fair, and respectful environment – should be followed at all times.
+แม้ว่ากฎเหล่านี้จะครอบคลุมสถานการณ์หลายอย่าง แต่ก็เป็นไปไม่ได้ที่จะครอบคลุมทุกกรณีที่อาจเกิดขึ้น ทีมงานมีสิทธิ์ในการใช้ดุลยพินิจของตนในกรณีที่กฎไม่ได้ครอบคลุมโดยเฉพาะเจาะจง เจตนารมณ์ของกฎเหล่านี้ – ส่งเสริมสภาพแวดล้อมที่สนุกสนาน ยุติธรรม และเคารพซึ่งกันและกัน – ควรปฏิบัติตามเสมอ
 
-Remember, if you're unsure about whether an action is allowed, it's always best to ask a staff member first. Thank you for being a part of the Lamalia community and helping to create an enjoyable experience for all players!
+โปรดจำไว้ว่า หากไม่แน่ใจว่าการกระทำนั้นได้รับอนุญาตหรือไม่ ควรสอบถามทีมงานก่อนเสมอ ขอบคุณที่เป็นส่วนหนึ่งของชุมชน Lamalia และช่วยสร้างประสบการณ์ที่น่าพึงพอใจสำหรับผู้เล่นทุกคน!
 
