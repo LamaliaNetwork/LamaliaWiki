@@ -1,98 +1,98 @@
 ﻿# Shop System
 
-We have created a thriving and convenient commercial hub where you can engage in various transactions.
+เราสร้างร้านค้ากลางที่สะดวก ซึ่งสามารถมีส่วนร่วมในค้าขายได้
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="main-shop" label="Main Shop" default>
+  <TabItem value="main-shop" label="ร้านค้าหลัก" default>
 
-## Main Shop
+## ร้านค้าหลัก
 
-Engage in transactions through our main shop, where you can both buy and sell items.
+มีส่วนร่วมในการทำค้าขายผ่านร้านค้าหลัก ซึ่งสามารถซื้อและขายสินค้าได้
 
-### Buy Shops
-- Blocks
-- Decorations
-- Spawn Eggs
-- Redstone
-- Dyes
+### ร้านค้าแบบซื้อ
+- บล็อก
+- ของตกแต่ง
+- ไข่ม็อบ
+- เรดสโตน
+- สีย้อม
 
-### Sell Shops
-- Materials
-- Farming
-- Food
+### ร้านค้าแบบขาย
+- วัสดุ
+- ฟาร์ม
+- อาหาร
 
-### Hybrid Shops (Both Buy and Sell)
-- Mob Drops
-- Miscellaneous
+### ร้านค้าไฮบริด (ทั้งคู่ ซื้อ และขาย)
+- ไอเทมม็อบ
+- เบ็ดเตล็ด
 
-:::caution
-Each item you can sell has a limit that resets daily.
+:::caution คำเตือน
+แต่ละรายการที่สามารถขายได้มีจำนวนจำกัด รีเซ็ตทุกวัน
 :::
 
-:::tip Supporter+ Perk
-If you're **Supporter+**, you can use `/shop` to access the main shop from anywhere.
-:::
-
-  </TabItem>
-  <TabItem value="rotating-shops" label="Rotating Shops">
-
-## Rotating Shops
-
-Rotating shops are special shops that offer discounts or sell boosts, with no selling limit.
-
-- Rotating Buy Shop: -25% discount
-- Rotating Sell Shop: +15% sell boost
-
-These shops rotate every hour and feature every item available in the normal shop.
-
-:::info
-Rotating shops provide an opportunity to get better deals, but remember that they change frequently!
+:::tip Supporter+ สิทธิประโยชน์
+ถ้าหากมียศ **Supporter+** สามารถใช้ `/shop` เพื่อเข้าถึงร้านค้าหลักได้จากทุกที่
 :::
 
   </TabItem>
-  <TabItem value="head-shop" label="Head Shop">
+  <TabItem value="rotating-shops" label="ร้านค้าหมุนเวียน">
 
-## Head Shop
+## ร้านค้าหมุนเวียน
 
-The Head Shop is managed by the NPC of the same name. Acquire unique Heads for personal use or decoration.
+ร้านค้าแบบหมุนเวียน คือ ร้านค้าพิเศษ ที่ให้ส่วนลด หรือบูสต์การขายโดยไม่มีขีดจำกัดการขาย
 
-:::tip Access Requirements
-- Required at least **Supporter** rank to access.
-- If you're **Supporter+**, you can use `/hdb` to access from anywhere.
+- ร้านค้าหมุนเวียนแบบซื้อ: ลดราคาในซื้อ -25% 
+- ร้านค้าหมุนเวียนแบบขาย: เพิ่มราคาในขาย +15% 
+
+ร้านค้านี้หมุนเวียนทุกชั่วโมง และโดยแสดงสินค้าทุกชิ้นที่มีอยู่ในร้านค้าปกติ
+
+:::info ข้อมูล
+ร้านค้าหมุนเวียนเปิดโอกาสให้ได้รับข้อเสนอที่ดีกว่า แต่จำไว้ว่าร้านค้าเปลี่ยนแปลงบ่อย!
+:::
+
+  </TabItem>
+  <TabItem value="head-shop" label="ร้านค้าหัว">
+
+## ร้านค้าหัว
+
+ร้านค้าหัวนี้ขายโดย NPC รับหัวที่เป็นลักษณะเฉพาะตัวสำหรับใช้ส่วนตัว หรือตกแต่ง
+
+:::tip ข้อกำหนดในการเข้าถึง
+- ต้องการยศ **Supporter** เป็นอย่างน้อยจึงจะเข้าถึงได้
+- หากมียศ **Supporter+** สามารถใช้ `/hdb` เพื่อเข้าถึงร้านค้าหัวได้จากทุกที่
   :::
 
   </TabItem>
-  <TabItem value="item-buyer" label="Item Buyer">
+  <TabItem value="item-buyer" label="ผู้ซื้อสินค้า">
 
-## Item Buyer
+## ผู้ซื้อสินค้า
 
-Simplify your selling process with the **Item Buyer** NPC. Quick-sell your items directly to the shop.
+ลดความยุ่งยากของการขายของด้วย **Item Buyer** NPC ขายสินค้าโดยตรงกับร้านค้าอย่างรวดเร็ว 
 
-:::caution
-Quick sell is not linked to the Rotation Shop.
+:::caution คำเตือน
+การขายแบบรวดเร็ว ไม่ได้เชื่อมโยงกับร้านค้าหมุนเวียน
 :::
 
-:::tip Supporter+ Perk
-If you're **Supporter+**, you can use `/sellgui` to access the Item Buyer from anywhere.
+:::tip Supporter+ สิทธิประโยชน์
+หากมียศ **Supporter+** สามารถใช้ `/sellgui` เพื่อเข้าถึง Item Buyer ได้จากทุกที่
 :::
 
   </TabItem>
-  <TabItem value="player-shop" label="Player Shop">
+  <TabItem value="player-shop" label="ร้านค้าผู้เล่น">
 
-## Player Shop
+## ร้านค้าผู้เล่น
 
-Participate in the dynamic **Player Shop**. Set your prices, sell your items, and enjoy a tax-free transaction environment, benefiting both buyers and sellers.
+เข้าร่วม **ร้านค้าผู้เล่น** แบบไดนามิก กำหนดราคาขายสินค้าด้วยตัวของผู้เล่น และสนุกกับการค้าขายแบบปลอดภาษี ซึ่งเป็นประโยชน์ต่อทั้งผู้ซื้อและผู้ขาย
 
-:::tip Supporter+ Perk
-If you're **Supporter+**, you can use `/ah` to access the Player Shop from anywhere.
+:::tip Supporter+ สิทธิประโยชน์
+หากมียศ **Supporter+** สามารถใช้ `/ah` เพื่อเข้าถึงร้านค้าผู้เล่นได้จากทุกที่
 :::
 
   </TabItem>
 </Tabs>
 
-:::note
-Our shop system is designed to provide a variety of options for buying, selling, and trading items. Whether you're looking for specific resources, unique decorations, or want to engage in player-to-player commerce, there's a shop feature to meet your needs.
+:::note โน้ต
+ระบบร้านค้า ได้รับการออกแบบเพื่อให้มีตัวเลือกที่หลากหลายสำหรับการซื้อ การขาย และการแลกเปลี่ยนสินค้า ไม่ว่ากำลังมองหาทรัพยากร ของตกแต่ง หรือต้องการมีส่วนร่วมในการค้าระหว่างผู้เล่นกับผู้เล่น ก็มีร้านค้าที่ตอบสนองความกับความต้องการของผู้เล่น
 :::
