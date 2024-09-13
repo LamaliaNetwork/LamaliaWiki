@@ -15,6 +15,9 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Added Bug Report System and suggestions 
 - Modify Villager Hard limit to 20 per 5 block radius
 
+**Fixes**
+- Hotfix chunk bug. Added 10 sec cooldown for /back command
+
 ## Patch 1.10.1
 
 > 23/08/2024
