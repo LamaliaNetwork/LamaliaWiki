@@ -5,6 +5,23 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
+## Patch 1.10.2
+
+> 30/09/2024
+> 
+
+**Additions**
+
+- Added Bug Report System and suggestions 
+- Modify Villager Hard limit to 20 per 5 block radius
+- Added New Anti Xray System to optimize server performance
+- Added Chunk Buster Block (to early access)
+- Added Trading System (You can now Trade Exp)
+
+**Fixes**
+- Hotfix chunk bug. Added 10 sec cooldown for /back command
+- Attempt Fix: Database Corruption for Storage Unit
+
 ## Patch 1.10.1
 
 > 23/08/2024
