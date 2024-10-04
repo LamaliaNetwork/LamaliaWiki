@@ -5,7 +5,7 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
-## Patch 1.10.3
+## Patch 1.11
 
 > 30/09/2024
 >
@@ -21,6 +21,11 @@ Patch notes are updates written by the Minecraft server developers that detail c
   - Chunk Buster is an item that breaks every block between top and bottom of the chunk
   - Requires Astral Rank and Above to place one.
 - Added Nether wood to Auto Tree Chopping
+- - Land Area to supporter
+- Translated Reconnection Message to Thai
+- Lobby get a bit more love
+  - Add more parkour
+  - Bigger text and text sync in real time
 
 **Changes**
 
