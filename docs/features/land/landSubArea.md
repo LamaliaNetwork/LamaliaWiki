@@ -19,3 +19,9 @@ Land areas are "sub areas/lands" inside a land. These areas are three dimensiona
    - type `/l selection`
    - left/rigth click or key `Q` to set corner of the Area. [Change tool slot to cancel.] 
    - type `/l assign [Area Name]` to assign selection to sub Area.
+
+## History
+
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 30/09/2024 | [1.11](/patchNotes#patch-111) | - Added Land Area to supporter. |
