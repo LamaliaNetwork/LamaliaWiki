@@ -5,6 +5,39 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
+## Patch 1.11
+
+> 30/09/2024
+>
+
+**Additions**
+- Added Experimental Light Block Changer
+- Booster System in shop
+  - Buy boosts for player globally (Sell, Fly)
+  - Sell boost +50% for 15 min
+  - Fly boost for 1 hour 
+  - Each Limit 7 purchase per week (globally)
+- New! Chunk Buster is in shop now for 500k
+  - Chunk Buster is an item that breaks every block between top and bottom of the chunk
+  - Requires Astral Rank and Above to place one.
+- Added Nether wood to Auto Tree Chopping
+- - Land Area to supporter
+- Translated Reconnection Message to Thai
+- Lobby get a bit more love
+  - Add more parkour
+  - Bigger text and text sync in real time
+
+**Changes**
+
+- Suffix now called Tags
+  - Change Suffix Categorization for easier use
+- Server Wiki Quota Limit 10 per 6 hours -> 50 per 24 hours
+- Server wiki message history 10 -> 5
+
+**Fixes**
+- Shulker Box Item Disappearing bug
+- Database Corruption on Storage Unit
+
 ## Patch 1.10.2
 
 > 30/09/2024
