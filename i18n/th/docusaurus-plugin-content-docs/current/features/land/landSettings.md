@@ -1,4 +1,8 @@
-﻿# Land Settings
+﻿---
+sidebar_position: 3
+---
+
+# Land Settings
 
 You can access the GUI by using the command `/lands menu`. If you possess multiple trust lands, the GUI will allow you to select the desired lands.
 
@@ -124,5 +128,8 @@ Adjust land name, entry messages, and icons.
 2. **Enter Message**: Enables you to modify the message that appears to players upon entering the land. You can toggle this feature.
 3. **Icon**: You can drag an item here to change the icon of the land.
 
+  </TabItem>
+  <TabItem value="SubArea" label="Sub Area" >
+  ## [Land Sub Area](./landSubArea.md)
   </TabItem>
 </Tabs>

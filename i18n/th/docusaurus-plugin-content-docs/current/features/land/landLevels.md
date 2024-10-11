@@ -1,4 +1,8 @@
-﻿# Land Levels and Taxes
+﻿---
+sidebar_position: 2
+---
+
+# Land Levels and Taxes
 
 Each land has a specific level and features additional perks based on that level. As you develop your land, you can progress through these levels to gain more benefits.
 
