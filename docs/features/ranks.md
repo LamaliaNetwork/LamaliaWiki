@@ -135,6 +135,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 :::tip Functions
 - Open Shulker without placing
 - Create Nation
+- /dispose command to dispose of items
   :::
 
   </TabItem>

@@ -21,11 +21,15 @@ Patch notes are updates written by the Minecraft server developers that detail c
   - Chunk Buster is an item that breaks every block between top and bottom of the chunk
   - Requires Astral Rank and Above to place one.
 - Added Nether wood to Auto Tree Chopping
-- - Land Area to supporter
-- Translated Reconnection Message to Thai
+- Land Area features
+- Change Reconnection Method
+- Dispensers can now place normal blocks
 - Lobby get a bit more love
   - Add more parkour
   - Bigger text and text sync in real time
+- Allow Open Shulker in ender chest without putting in the inventory
+- Added: /dispose command to emerald rank and above
+  - Dispose of items in your inventory
 
 **Changes**
 
@@ -33,10 +37,15 @@ Patch notes are updates written by the Minecraft server developers that detail c
   - Change Suffix Categorization for easier use
 - Server Wiki Quota Limit 10 per 6 hours -> 50 per 24 hours
 - Server wiki message history 10 -> 5
+- Adjust how Rank Hiding works
+  - Supporters can properly hide their rank and formatted properly
+- Voice Chat Updated to last version
+- Faster and More Secure Connection
 
 **Fixes**
 - Shulker Box Item Disappearing bug
 - Database Corruption on Storage Unit
+- Fixed Suffix Command
 
 ## Patch 1.10.2
 
