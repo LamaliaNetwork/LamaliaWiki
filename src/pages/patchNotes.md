@@ -7,7 +7,7 @@ Patch notes are updates written by the Minecraft server developers that detail c
 ---
 ## Patch 1.11
 
-> 30/09/2024
+> 11/10/2024
 >
 
 **Additions**
