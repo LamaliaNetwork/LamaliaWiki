@@ -103,5 +103,5 @@ C = Chest
 
 **Ingredients:**
 - 1 Nether Star
-- 2 Netherite Ingots
+- 3 Netherite Ingots
 - 1 Chest

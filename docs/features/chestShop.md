@@ -2,6 +2,9 @@
 
 Welcome to ChestShop on Lamalia! This guide will help you create and manage your own shops quickly and easily.
 
+:::Warning Disabled Features
+- ChestShop is disabled in the server. Temporary
+
 ## Requirements
 
 - **Ranks**: Gold and above
