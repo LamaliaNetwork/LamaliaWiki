@@ -5,6 +5,20 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
+## Patch 1.11.2
+
+> 21/10/2024
+>
+
+**Changes**
+- Move Chunk Buster to Gold Rank
+- Disenchanter have 0% fail rate and price increase to 50k
+
+
+**Fixes**
+- Fix Commands
+- Fix Network Problems
+
 ## Patch 1.11.1
 
 > 21/10/2024
@@ -17,7 +31,7 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 **Fixes**
 - Fix Commands 
-- Fix Network Problems
+- Fix Network Problems``
 
 ## Patch 1.11
 
