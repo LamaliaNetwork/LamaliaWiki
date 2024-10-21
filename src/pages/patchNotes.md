@@ -5,6 +5,20 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
+## Patch 1.11.1
+
+> 21/10/2024
+>
+
+**Additions**
+- Chest Shop Revamped and fixed
+- Added: Discord Marketplace
+- Added: Sync Server Chat
+
+**Fixes**
+- Fix Commands 
+- Fix Network Problems
+
 ## Patch 1.11
 
 > 11/10/2024
