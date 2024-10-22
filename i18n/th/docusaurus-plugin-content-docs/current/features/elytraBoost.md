@@ -28,7 +28,7 @@
 
 ![Elytra Boost](/img/doc/features/elytraBoost/elytraBoost.gif)
 ### วิธีใช้บูสต์:
-- ถือขนนก (Feather) และคลิกขวาพร้อมกัน
+- ถือขนนก (Feather) และคลิกขวาพร้อมกัน (กดค้างหรือกดรัวๆ)
 
 ## ซูเปอร์บูสต์
 
@@ -36,7 +36,7 @@
 ซูเปอร์บูสต์จะใช้คะแนนประสบการณ์เพิ่มขึ้น 10x (EXP) แต่จะเพิ่มความเร็วขึ้นอย่างมาก
 :::
 
-![Elytra Super Boost](https://file.notion.so/f/f/71138f3d-d8e3-416d-bd4d-97420409f3cb/45f1f715-b364-41ba-932f-3d33363d6890/javaw_dQzhNWjpjt.gif?table=block&id=4519c7fe-4fb7-44bd-bfb3-097ae9bbd68b&spaceId=71138f3d-d8e3-416d-bd4d-97420409f3cb&expirationTimestamp=1722960000000&signature=OrIpz6GxW_3czbO12KhLnakhMKBlHIa3ahbPoJy6yEU)
+![Elytra Super Boost](/img/doc/features/elytraBoost/elytraSupperBoost.gif)
 ### วิธีใช้ซูเปอร์บูสต์:
 - กด 'ย่อง' ในขณะที่กำลังบูสต์
 

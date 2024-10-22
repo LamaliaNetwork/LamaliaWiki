@@ -28,7 +28,7 @@ Boosting costs Experience Points (EXP).
 
 ![Elytra Boost](/img/doc/features/elytraBoost/elytraBoost.gif)
 ### How to Boost:
-- Hold the feather and right-click simultaneously.
+- Hold the feather and right-click simultaneously. (Hold or Press Repeatedly)
 
 ## Elytra Superboost
 
@@ -36,7 +36,7 @@ Boosting costs Experience Points (EXP).
 Superboost will consume 10x more experience points (EXP) but will significantly increase speed.
 :::
 
-![Elytra Super Boost](https://file.notion.so/f/f/71138f3d-d8e3-416d-bd4d-97420409f3cb/45f1f715-b364-41ba-932f-3d33363d6890/javaw_dQzhNWjpjt.gif?table=block&id=4519c7fe-4fb7-44bd-bfb3-097ae9bbd68b&spaceId=71138f3d-d8e3-416d-bd4d-97420409f3cb&expirationTimestamp=1722960000000&signature=OrIpz6GxW_3czbO12KhLnakhMKBlHIa3ahbPoJy6yEU)
+![Elytra Super Boost](/img/doc/features/elytraBoost/elytraSupperBoost.gif)
 ### How to Superboost:
 - Press 'Sneak' while boosting.
 
