@@ -14,7 +14,7 @@ Once you have obtained this ability, you'll be able to see a speedometer that ca
 Launching costs nothing and assists in getting airborne.
 :::
 
-![Elytra Launch](https://file.notion.so/f/f/71138f3d-d8e3-416d-bd4d-97420409f3cb/f686f130-f8ae-4c95-aafb-81e30cadc0f3/javaw_wg5RIzYxRg.gif?table=block&id=cebd5e79-becc-4799-ae5c-62eb48a482fc&spaceId=71138f3d-d8e3-416d-bd4d-97420409f3cb&expirationTimestamp=1722960000000&signature=w0ptH8L4BjVDjfQjAC9RGBC_GlEMVt1YwmlpQzwTMQo)
+![Elytra Launch](/img/doc/features/elytraBoost/elytraLaunch.gif)
 ### How to Launch:
 1. Simultaneously hold Feather, right-click, and sneak.
 2. Wait until it reaches 100%.
@@ -26,7 +26,7 @@ Launching costs nothing and assists in getting airborne.
 Boosting costs Experience Points (EXP).
 :::
 
-![Elytra Boost](https://file.notion.so/f/f/71138f3d-d8e3-416d-bd4d-97420409f3cb/ddaf7c5c-144e-4a8f-b3fd-74bae6c42d84/javaw_s4adm5bEMs.gif?table=block&id=bfcab7d5-b08c-42f5-8806-1d5d5e52df89&spaceId=71138f3d-d8e3-416d-bd4d-97420409f3cb&expirationTimestamp=1722960000000&signature=nsOYGcPO-PVn75H22Ce3BUkCA8Dncf4qbV7uOXpIxzA)
+![Elytra Boost](/img/doc/features/elytraBoost/elytraBoost.gif)
 ### How to Boost:
 - Hold the feather and right-click simultaneously.
 

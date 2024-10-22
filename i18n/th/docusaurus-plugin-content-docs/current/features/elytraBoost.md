@@ -14,7 +14,7 @@
 การปล่อยตัวไม่มีค่าใช้จ่าย และช่วยในการบินขึ้นสู่อากาศ
 :::
 
-![Elytra Launch](https://file.notion.so/f/f/71138f3d-d8e3-416d-bd4d-97420409f3cb/f686f130-f8ae-4c95-aafb-81e30cadc0f3/javaw_wg5RIzYxRg.gif?table=block&id=cebd5e79-becc-4799-ae5c-62eb48a482fc&spaceId=71138f3d-d8e3-416d-bd4d-97420409f3cb&expirationTimestamp=1722960000000&signature=w0ptH8L4BjVDjfQjAC9RGBC_GlEMVt1YwmlpQzwTMQo)
+![Elytra Launch](/img/doc/features/elytraBoost/elytraLaunch.gif)
 ### วิธีปล่อยตัว:
 1. ถือขนนก (Feather) คลิกขวา และย่องพร้อมกัน
 2. รอจนกว่าจะทำการชาจน์ถึง 100%.
@@ -26,7 +26,7 @@
 การบูสต์ค่าใช้จ่าย คือ คะแนนประสบการณ์ (EXP)
 :::
 
-![Elytra Boost](https://file.notion.so/f/f/71138f3d-d8e3-416d-bd4d-97420409f3cb/ddaf7c5c-144e-4a8f-b3fd-74bae6c42d84/javaw_s4adm5bEMs.gif?table=block&id=bfcab7d5-b08c-42f5-8806-1d5d5e52df89&spaceId=71138f3d-d8e3-416d-bd4d-97420409f3cb&expirationTimestamp=1722960000000&signature=nsOYGcPO-PVn75H22Ce3BUkCA8Dncf4qbV7uOXpIxzA)
+![Elytra Boost](/img/doc/features/elytraBoost/elytraBoost.gif)
 ### วิธีใช้บูสต์:
 - ถือขนนก (Feather) และคลิกขวาพร้อมกัน
 
