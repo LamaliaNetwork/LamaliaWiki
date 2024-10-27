@@ -24,4 +24,4 @@ Land areas are "sub areas/lands" inside a land. These areas are three dimensiona
 
 | Date | [Lamalia Release](/patchNotes) | Description |
 |-------------|-----------|-------------|
-| 30/09/2024 | [1.11](/patchNotes#patch-111) | - Added Land Area to supporter. |
+| 30/09/2024 | [1.11](/patchNotes#patch-111) | - Added Land Area features. |
