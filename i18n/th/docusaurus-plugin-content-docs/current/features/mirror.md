@@ -1,54 +1,54 @@
 ﻿# Mirror Feature
 
 :::info
-The Mirror feature allows you to build in parallel on the x, y, z axis.
+ฟีเจอร์ Mirror ช่วยให้สามารถสร้างวัตถุบนแกน x, y และ z พร้อมกันได้
 :::
 
 :::danger
-This is a destructive feature. Use with caution!
+ฟีเจอร์นี้อาจเป็นอันตรายได้ โปรดใช้งานอย่างระมัดระวัง!
 :::
 
-![Mirror Feature Demonstration](https://file.notion.so/f/f/71138f3d-d8e3-416d-bd4d-97420409f3cb/eb7cbad4-1906-4d62-beed-ca8249c55aa9/javaw_lVPDxGV1pt.gif?table=block&id=d819e603-af17-4f01-953a-40ea75448e73&spaceId=71138f3d-d8e3-416d-bd4d-97420409f3cb&expirationTimestamp=1722960000000&signature=pMTgc0hU-JWnKHiMcqB3Mt8MyjtLklKkXsg-5SFxIgk)
+![Mirror Feature Demonstration](\img\doc\features\mirror\mirror.gif)
 
 ## Important Information
 
 :::warning
-1. The Mirror only affects block placement; it doesn't mirror block destruction.
-2. If a block is in the way of a mirrored block, it will be destroyed.
-3. The Mirror has a range limit of 50 blocks.
-4. **Always close the Mirror after use.**
+1. Mirror จะมีผลเฉพาะการวางบล็อกเท่านั้น ไม่มีผลกับการทำลายบล็อก
+2. หากมีบล็อคที่กีดขวางอยู่ในระยะ Mirror บล็อกนั้นจะถูกทำลาย
+3. Mirror มีระยะการทำงานจำกัดที่ 50 บล็อก
+4. **ปิดการใช้งาน Mirror ทุกครั้งหลังใช้งาน**
    :::
 
-## Usage
+## การใช้งาน
 
-1. Open the mirror settings using the command:
+1. เปิดใช้งานฟีเจอร์ mirror ด้วยคำสั่ง:
    ```
    /mirror
    ```
 
-2. Define the mirror's center location.
+2. กำหนดจุดศูนย์กลาง (Center)
 
    ![Mirror Center Location](/img/doc/features/mirror/mirrorCenterSet.png)
 
-3. Adjust the mirror axis.
+3. กำหนดแกน x y z
 
-4. Activate the mirror.
+4. เปิดใช้งาน Mirror
 
-5. Utilize the mirror.
+5. เริ่มใช้งานได้เลย!
 
-6. Deactivate the mirror.
+6. ใช้เสร็จอย่าลืม ปิดการใช้งาน Mirror
 
 :::caution
-**The administrator will not be held responsible for improper use of the mirror build.**
+**แอดมินจะไม่รับผิดชอบต่อการใช้งาน Mirror ที่ไม่เหมาะสม**
 :::
 
-## Tips for Safe Mirror Usage
+## การใช้งาน Mirror อย่างปลอดภัย
 
-1. **Plan your build:** Before activating the mirror, plan out your build to avoid unintended consequences.
-2. **Clear the area:** Ensure the mirrored area is clear of important structures.
-3. **Start small:** Begin with small builds to get a feel for how the mirror works.
-4. **Regular saves:** If possible, make backups or use the mirror in areas that can be easily restored.
+1. **วางแผนการสร้าง:** ก่อนเปิดใช้งาน Mirror ให้วางแผนการสร้างของคุณเพื่อหลีกเลี่ยงผลที่ไม่พึงประสงค์
+2. **เคลียพื้นที่:** ตรวจสอบให้แน่ใจว่าบริเวณ Mirror ไม่มีอะไรกีดขวาง
+3. **เริ่มสร้างจากเล็กๆก่อน:** เริ่มสร้างจากสิ่งๆเล็กๆก่อน เพื่อเรียนรู้ถึงวิธีการทำงานของ Mirror
+4. **หมั่นบึนทึก:** หากเป็นไปได้ ควรสำรองข้อมูลหรือใช้ Mirror ในพื้นที่ที่สามารถกู้คืนได้ง่าย
 
 :::note
-The Mirror feature is a powerful tool that can significantly speed up symmetrical builds. However, it requires careful use to avoid unintended destruction.
+ฟีเจอร์ Mirror เป็นเครื่องมือทรงพลังที่สามารถเพิ่มความเร็วให้กับการสร้างแบบสมมาตร อย่างไรก็ตาม ฟีเจอร์นี้ควรใช้งานด้วยความระมัดระวังเพื่อหลีกเลี่ยงเลี่ยงผลที่ไม่พึงประสงค์
 :::
