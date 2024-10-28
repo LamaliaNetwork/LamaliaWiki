@@ -24,4 +24,4 @@ Land areas คือ พื้นที่ย่อยภายใน Land ซ�
 
 | Date | [Lamalia Release](/patchNotes) | Description |
 |-------------|-----------|-------------|
-| 30/09/2024 | [1.11](/patchNotes#patch-111) | - เพิ่ม Land Area ให้กับ supporter. |
+| 30/09/2024 | [1.11](/patchNotes#patch-111) | - เพิ่ม Land Area |
