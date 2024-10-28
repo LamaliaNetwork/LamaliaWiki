@@ -11,7 +11,8 @@ sidebar_position: 1
 1. Use Minecraft 1.20.x (1.20.4 is recommended).
 2. Enter the IP into multiplayer (Ensure you enable the server resource pack for the full experience).
 
-    - IP: `play.lamalia.net`
+    - IP (Java): `play.lamalia.net`
+    - IP (Bedrock): `be.lamalia.net`
 
    ![Server IP](/img/doc/features/joinServer.png)
 
