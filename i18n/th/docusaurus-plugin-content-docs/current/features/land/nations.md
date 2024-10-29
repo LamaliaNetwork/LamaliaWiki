@@ -1,78 +1,78 @@
 # Nations
 
-Nations are a powerful feature that allows multiple lands to unite under a single banner, providing benefits and enhanced cooperation for all members.
+ระบบเนชั่น เป็นระบบที่ช่วยให้แลนด์หลายแห่งรวมตัวกันภายใต้เนชั่นเดียวกัน ส่งผลให้เกิดผลประโยชน์และความร่วมมือที่เพิ่มมากขึ้นสำหรับสมาชิกแลนด์ทุกคน
 
 ## Overview
 
-Nations are alliances of multiple lands that work together, sharing benefits and resources. They offer a way for players to create larger communities and collaborate on a grander scale.
+Nation คือการรวมกลุ่มของหลายแลนด์ที่ทำงานร่วมกัน แบ่งปันผลประโยชน์และทรัพยากร ช่วยให้ผู้เล่นสามารถสร้างชุมชนขนาดใหญ่และทำงานร่วมกันในระดับที่กว้างขึ้น
 
-## Creation and Management
+## การสร้างและการบริหารจัดการ
 
-- **Creation Cost**: 5,000,000 coins
-- **Rename Cost**: 50,000 coins
-- **Requirements**: Must be Emerald rank or higher to create a nation
+- **ค่าสร้าง**: 5,000,000 coins
+- **ค่าเปลี่ยนชื่อ**: 50,000 coins
+- **ข้อกำหนด**: ต้องมีระดับ Emerald ขึ้นไปในการสร้าง Nation
 
-## Nation Levels
+## ระดับเนชั่น
 
-Nations can progress through different levels, each offering unique benefits and requiring certain achievements.
+Nation สามารถพัฒนาไปสู่ระดับต่าง ๆ ได้ โดยแต่ละระดับจะมีสิทธิประโยชน์เฉพาะและต้องการความสำเร็จตามที่กำหนด
 
-### Level 1: Federation
+### ระดับที่ 1: Federation (สหพันธ์)
 
 - **Effects**: 
-  - Can have 1 effect active at once
-  - Available effects: Jump II, Speed II, Fast Digging II, Regeneration, Resistance II, Strength II
+  - สามารถเลือกเอฟเฟคได้ 1 อย่าง
+  - เอฟเฟกต์ที่สามารถเลือกได้: Jump II, Speed II, Fast Digging II, Regeneration, Resistance II, Strength II
 
-### Level 2: Nation
+### ระดับที่ 2: Nation (ชาติ)
 
-#### Requirements:
-- 3 Lands (excluding capital)
-- 30 unique players
-- 400 total claimed chunks
+#### ข้อกำหนด:
+- 3 แลนด์ (ไม่รวมแลนด์เจ้าของเนชั่น)
+- ผู้เล่นทั้งหมด 30 คนที่ไม่ซ้ำกัน
+- พื้นที่ที่ครอบครองรวม 400 ชังก์
 
-#### Benefits:
-- +50 claims per land in the nation
-- 20% upkeep cost
-- Can have 3 effects active at once
-- Additional effects: Absorption, Water Breathing, Dolphin's Grace, Night Vision
+#### สิทธิประโยชน์:
+- +50 สิทธิ์การครอบครอง(claim) ต่อดินแดนใน Nation
+- ลดค่าใช้จ่ายในการบำรุงรักษา 20% (Upkeep cost)
+- สามารถเลือกเอฟเฟกต์ได้ 3 อย่าง
+- เอฟเฟกต์ที่สามารถเลือกเพิ่มได้: Absorption, Water Breathing, Dolphin's Grace, Night Vision
 
-### Level 3: Empire
+### ระดับที่ 3: Empire (จักรวรรดิ)
 
-#### Requirements:
-- 6 Lands (excluding capital)
-- 60 unique players
-- 800 total claimed chunks
+#### ข้อกำหนด:
+- 6 แลนด์ (ไม่รวมแลนด์เจ้าของเนชั่น)
+- ผู้เล่นทั้งหมด 60 คนที่ไม่ซ้ำกัน
+- พื้นที่ที่ครอบครองรวม 800 ชังก์
 
-#### Benefits:
-- +100 claims per land in the nation
-- 50% upkeep cost
-- Can have 5 effects active at once
-- Enhanced effects: Jump III, Speed III, Fast Digging III, Regeneration II
-- Additional effects: Fire Resistance, Hero of the Village
+#### สิทธิประโยชน์:
+- +100 สิทธิ์การครอบครอง(claim) ต่อดินแดนใน Nation
+- ลดค่าใช้จ่ายในการบำรุงรักษา 50% (Upkeep cost)
+- สามารถเลือกเอฟเฟกต์ได้ 5 อย่าง
+- เอฟเฟกต์ที่บัฟ: Jump III, Speed III, Fast Digging III, Regeneration II
+- เอฟเฟกต์ที่สามารถเลือกเพิ่มได้: Fire Resistance, Hero of the Village
 
-## Nation Roles
+## บทบาทใน Nation (Role)
 
-Nations have their own role system:
+เนชั่น มีระบบบทบาทเฉพาะของตนเอง:
 
-- **Nation Member**: This role determines what actions members can perform in other lands within the nation.
+- **Nation Member**: บทบาทนี้กำหนดการกระทำที่สมาชิกสามารถทำได้ในแลนด์อื่นภายใน เนชั่น
 
-## Commands
+## คำสั่ง (Commands)
 
-- `/nation create` - Create a new nation
-- `/nation delete` - Delete your nation
-- `/nation trust` - Invite lands to join your nation
-- `/nation untrust` - Remove lands from your nation
-- `/nation accept` - Accept a nation invitation
-- `/nation deny` - Deny a nation invitation
-- `/nation leave` - Leave your current nation
-- `/nation rename` - Rename your nation
-- `/nation spawn` - Teleport to your nation's capital
-- `/nation setcapital` - Set a new capital for your nation
+- `/nation create` - สร้างเนชั่น
+- `/nation delete` - ลบเนชั่น
+- `/nation trust` - เชิญแลนด์เข้าเนชั่น
+- `/nation untrust` - ลบแลนด์ออกจากเนชั่น
+- `/nation accept` - ยอบรับการเข้าร่วมเนชั่น
+- `/nation deny` - ปฏิเสธการเข้าร่วมเนชั่น
+- `/nation leave` - ออกจากเนชั่นปัจจุบัน
+- `/nation rename` - เปลี่ยนชื่อเนชั่น
+- `/nation spawn` - วาร์ปไปยังแลนด์หลักของเนชั่น
+- `/nation setcapital` - ตั้งแลนด์หลักของเนชั่น
 
-## Tips for Nation Management
+## เคล็ดลับสำหรับการจัดการเนชั่น
 
-1. **Grow Your Community**: Focus on inviting more lands and players to reach higher nation levels.
-2. **Expand Your Territory**: Encourage member lands to claim more chunks to unlock nation upgrades.
-3. **Coordinate Effects**: As you level up, discuss which nation-wide effects will benefit all members most.
-4. **Manage Upkeep**: Be aware that higher levels increase the nation's upkeep cost.
+1. **ขยายชุมชนของคุณ**: มุ่งเน้นการเชิญแลนด์และผู้เล่นเพิ่มเติมเพื่อให้เนชั่น เติบโตไปในระดับที่สูงขึ้น
+2. **ขยายอาณาเขตของคุณ**: กระตุ้นให้แลนด์สมาชิกครอบครองชังก์มากขึ้นเพื่อปลดล็อกการอัปเกรดเนชั่น
+3. **วางแผนการใช้เอฟเฟกต์ร่วมกัน**: As you level up, discuss which nation-wide effects will benefit all members most.
+4. **จัดการค่าใช้จ่ายการบำรุงรักษา**: พึงระวังว่าการเพิ่มระดับ Nation จะเพิ่มค่าใช้จ่ายในการบำรุงรักษา (Upkeep)
 
-For more information on land management within nations, please refer to the [Land Claiming](landClaiming.md) and [Land Settings](landSettings.md) wiki pages.
+หากต้องการข้อมูลเพิ่มเติมเกี่ยวกับการจัดการแลนด์ภายในเนชั่น โปรดดูที่หน้า Wiki ของ [การเคลมแลนด์](landClaiming.md) และหน้า [การตั้งค่าแลนด์](landSettings.md)
