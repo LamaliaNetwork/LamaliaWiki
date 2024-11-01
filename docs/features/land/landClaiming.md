@@ -32,132 +32,32 @@ sidebar_position: 1
 
 ## Land Commands
 
-### /l help
-:::info
-Show land commands.
-:::
-
-### /l create [name_of_your_land]
-:::info
-Create your new land on the chunk that you stand on.
-**(First land is free, second lands cost money)**
-:::
-
-:::note
-Replace **[name_of_your_land]** with your land name.
+1. **/l help** Show land commands.
+2. **/l create [name_of_your_land]** Create your new land on the chunk that you stand on. (First land is free)
 **Example:** /l create BeastMaster69Land
-:::
-
-### /l view
-:::info
-Show the border of every lands. (The effect will last 60 seconds)
-:::
-
-### /l edit [name_of_your_land]
-:::info
-Select the land to edit on. (In case that you are the admin of the other lands)
-:::
-
-:::note
-Replace **[name_of_your_land]** with your land name or land that you are member of.
+3. **/l view** Show the border of every lands. (The effect will last 60 seconds)
+4. **/l edit [name_of_your_land]** Select the land to edit on. (In case that you are the admin of the other lands)
 **Example:** /l edit BeastMaster69Land
-:::
 
-### /l claim
-:::info
-Expand your land by claiming other chunks next to your land.
-**(Use claim while standing next to your own chunks)**
-:::
-
-:::caution
-- You are suggested to use /l edit first before you use this command.
-- You mustn't be on your claim land to use this command.
+:::info suggestion
+- You are suggested to use /l edit first before before using the following commands.
   :::
 
-### /l ban [player_name]
-:::info
-Ban a player from your land. That player can't enter your land.
+5. **/l claim** Expand your land by claiming other chunks next to your land.
+**(Use claim while standing next to your own chunks)**
+6. **/l ban [player_name]** Ban a player from your land. That player can't enter your land.
+7. **/l unban [player_name]** Unban Player From your land.
+8. **/l unclaim** Unclaim a single chunk that you currently editing.
+9. **/l unclaim all** Unclaim all chunks. **(This does not delete your land)**
+10. **/l delete [confirm]** Delete your lands.
+:::info suggestion
+- use the **/l unclaim all** command before using **/l delete [confirm]**.
+- You will have to click delete your land in chat to confirm.
 :::
-
-:::caution
-You are suggested to use /l edit first before you use this command.
-:::
-
-### /l unban [player_name]
-:::info
-Unban Player From your land.
-:::
-
-:::caution
-You are suggested to use /l edit first before you use this command.
-:::
-
-### /l unclaim
-:::info
-Unclaim a single chunk that you currently editing.
-:::
-
-:::caution
-You are suggested to use /l edit first before you use this command.
-:::
-
-### /l unclaim all
-:::info
-Unclaim all chunks. **(This does not delete your land)**
-:::
-
-### /l delete [confirm]
-:::info
-Delete your lands.
-:::
-
-:::caution
-You will have to click delete your land in chat to confirm.
-:::
-
-### /l menu
-:::info
-Open land general menu.
-:::
-
-### /l rename [name_of_your_land]
-:::info
-Rename your land.
-:::
-
-:::note
-Replace **[name_of_your_land]** with your land name.
-**Example:** /l create BeastMaster69Land
-:::
-
-### /l spawn [name_of_your_land]
-:::info
-Teleport to land spawn point. (you can also use it in the menu)
-:::
-
-### /l setspawn
-:::info
-Set land spawn point on the spot that you stand on.
-:::
-
-:::caution
-You must be on your claim land to use this command.
-:::
-
-### /l trust [player_name]
-:::info
-Add a member to your land that you currently editing.
-:::
-
-:::caution
-You are suggested to use /l edit first before you use this command.
-:::
-
-### /l untrust [player_name]
-:::info
-Remove members from the land that you currently editing.
-:::
-
-:::caution
-You are suggested to use /l edit first before you use this command.
-:::
+11. **/l menu** Open land general menu.
+12. **/l rename [name_of_your_land]** Rename your land. **(Cost 10,000$)**
+13. **/l spawn [name_of_your_land]** Teleport to land spawn point. **(If it's your own land, you don't need to include [name_of_your_land].)**
+14. **/l setspawn** Set land spawn point on the spot that you stand on. **(
+The area has been claimed.)**
+15. **/l trust [player_name]** Add a member to your land that you currently editing.
+16. **/l untrust [player_name]** You are suggested to use /l edit first before you use this command.
