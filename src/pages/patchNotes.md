@@ -13,6 +13,8 @@ Patch notes are updates written by the Minecraft server developers that detail c
 **Changes**
 - Move Chunk Buster to Gold Rank
 - Disenchanter have 0% fail rate and price increase to 50k
+- Halloween Skin
+- Public Land NPC
 
 
 **Fixes**
