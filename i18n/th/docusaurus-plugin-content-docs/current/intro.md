@@ -11,7 +11,8 @@ sidebar_position: 1
 1. ใช้ Minecraft 1.20.x (1.20.4 เวอร์ชันแนะนำ)
 2. กรอก IP ในโหมดผู้เล่นหลายคน (ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานชุดทรัพยากรของเซิร์ฟเวอร์(Resource Pack) เพื่อประสบการณ์แบบเต็มรูปแบบ).
 
-    - IP: `play.lamalia.net`
+    - IP (Java): `play.lamalia.net`
+    - IP (Bedrock): `be.lamalia.net`
 
    ![Server IP](/img/doc/features/joinServer.png)
 

@@ -4,105 +4,104 @@ sidebar_position: 2
 
 # Land Levels and Taxes
 
-Each land has a specific level and features additional perks based on that level. As you develop your land, you can progress through these levels to gain more benefits.
+แต่ละแลนด์จะมีระดับเฉพาะของตัวเอง พร้อมกับสิทธิพิเศษที่เพิ่มขึ้นตามระดับ เมื่อคุณพัฒนาแลนด์ของคุณ คุณสามารถไต่ระดับเหล่านี้เพื่อรับสิทธิประโยชน์มากขึ้น
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="home" label="Level 1: Home" default>
+  <TabItem value="home" label="Level 1: บ้าน" default>
 
 ### Home
 
-All lands start at this level.
+ทุกแลนด์เริ่มต้นที่ระดับนี้
 
-:::note Requirements
-None
+:::note ข้อกำหนด
+ไม่มี
 :::
 
-:::tip Perks
-None
+:::tip สิทธิพิเศษ
+ไม่มี
 :::
 
   </TabItem>
-  <TabItem value="village" label="Level 2: Village">
+  <TabItem value="village" label="Level 2: หมู่บ้าน">
 
 ### Village
 
-:::note Requirements
-- Claims: 9
-- Members: 3
+:::note ข้อกำหนด
+- พื้นที่ที่เคลม: 9
+- สมาชิกภายในแลนด์: 3
   :::
 
-:::tip Perks
-- Additional Chunks: +12
-- Upkeep Increase: +5%
+:::tip สิทธิพิเศษ
+- ครอบครองชังก์ได้เพิ่ม: +12
+- ค่าบำรุงรักษา (Upkeep) : +5%
   :::
 
   </TabItem>
-  <TabItem value="town" label="Level 3: Town">
+  <TabItem value="town" label="Level 3: เมือง">
 
 ### Town
 
-:::note Requirements
-- Claims: 20
-- Members: 7
+:::note ข้อกำหนด
+- พื้นที่ที่เคลม: 20
+- สมาชิกภายในแลนด์: 7
   :::
 
-:::tip Perks
-- Additional Chunks: +25
-- Upkeep Increase: +10%
+:::tip สิทธิพิเศษ
+- ครอบครองชังก์ได้เพิ่ม: +25
+- ค่าบำรุงรักษา (Upkeep) : +10%
   :::
 
   </TabItem>
-  <TabItem value="province" label="Level 4: Province">
+  <TabItem value="province" label="Level 4: จังหวัด">
 
 ### Province
 
-:::note Requirements
-- Claims: 45
-- Members: 12
+:::note ข้อกำหนด
+- พื้นที่ที่เคลม: 45
+- สมาชิกภายในแลนด์: 12
   :::
 
-:::tip Perks
-- Additional Chunks: +50
-- Upkeep Increase: +25%
+:::tip สิทธิพิเศษ
+- ครอบครองชังก์ได้เพิ่ม: +50
+- ค่าบำรุงรักษา (Upkeep) : +25%
   :::
 
   </TabItem>
-  <TabItem value="land" label="Level 5: Land">
+  <TabItem value="land" label="Level 5: ประเทศ">
 
 ### Land
 
-:::note Requirements
-- Claims: 120
-- Members: 20
+:::note ข้อกำหนด
+- พื้นที่ที่เคลม: 120
+- สมาชิกภายในแลนด์: 20
   :::
 
-:::tip Perks
-- Additional Chunks: +100
-- Upkeep Increase: +50%
+:::tip สิทธิพิเศษ
+- ครอบครองชังก์ได้เพิ่ม: +100
+- ค่าบำรุงรักษา (Upkeep) : +50%
   :::
 
   </TabItem>
 </Tabs>
 
-## Land Taxes & Upkeep
+## ภาษี & ค่าบำรุงรักษา
 
 :::info
-Taxes and upkeep are collected daily at midnight.
+ภาษีและค่าบำรุงรักษาจะถูกรวบรวมทุกวันตอนเที่ยงคืน
 :::
 
-### Tax
-The amount depends on the land owner.
+### ภาษี
+การกำหนดภาษีขึ้นอยู่กับเจ้าของแลนด์
+### ค่าบำรุงรักษา
+หากคุณเป็นเจ้าของดินแดน คุณจะต้องจ่าย **3$/ชังก์** ที่คุณครอบครอง
 
-### Upkeep
-If you are the owner of the land, you will pay $3 for each chunk you claim.
-
-:::note Upkeep Calculation
-(3 x Chunk) x upkeep boost
+:::info การคำนวณค่าบำรุงรักษา
+(3 x ชังก์) x ค่าบำรุงรักษา
 :::
 
 :::caution
-Remember, as your land level increases, so does your upkeep percentage. Make sure to balance your land's growth with your ability to maintain it!
+โปรดจำไว้ว่าเมื่อระดับแลนด์ของคุณเพิ่มขึ้น เปอร์เซ็นต์ค่าบำรุงรักษาก็จะเพิ่มขึ้นด้วยเช่นกัน ดังนั้น อย่าลืมปรับสมดุลการเติบโตของดินแดนกับความสามารถในการดูแลรักษาของคุณ!
 :::
