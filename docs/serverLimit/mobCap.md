@@ -11,19 +11,19 @@ This configuration is designed to manage the density of NPCs (villagers, animals
 ## Animal and Monster Farm Limits
 
 ### Animal Farm Limits
-- **Maximum Entities**: 50 animals within a 5-block radius. from itself .
+- **Maximum Entities**: 50 animals within a chunk.
 - **Condition**: 
   - **Entity Type**: All animal types
   - **count**: 50 
-  - **radius**: 5 block
+  - **radius**: 1 Chunk
 - **Action**: Remove excess animals. (Kill)
   
 ### Monster Farm Limits
-- **Maximum Entities**: 50 monsters within a 5-block radius. from itself .
+- **Maximum Entities**: 50 monsters within a chunk
 - **Condition**: 
   - **Entity Type**: All monster types
   - **count**: 50 
-  - **radius**: 5 block
+  - **radius**: 1 Chunk
 - **Action**: Remove excess monsters. (Kill)
 ---
 
