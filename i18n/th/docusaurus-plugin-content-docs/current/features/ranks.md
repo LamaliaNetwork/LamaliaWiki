@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Rank System
 
-Ranks are a unique feature that allows players to progress and unlock additional benefits as they play more or support the server.
+ระบบแรงค์ เป็นฟีเจอร์ที่จะช่วยให้ผู้เล่นสามารถพัฒนาและปลดล็อกสิทธิประโยชน์เพิ่มเติมเมื่อเล่นมากขึ้นหรือลงทุนสนับสนุนเซิร์ฟเวอร์.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -12,201 +12,249 @@ import TabItem from '@theme/TabItem';
 ## Play Time Ranks
 
 :::info
-Play Time Ranks are earned through active gameplay. As you spend more time on the server, you'll automatically progress through these ranks, unlocking new features and increased land limits.
+Play Time Ranks เป็นแรงค์ที่ได้รับจากการเล่นเกมอย่างต่อเนื่อง เมื่อคุณใช้เวลามากขึ้นในเซิร์ฟเวอร์ คุณจะเลื่อนอันดับไปโดยอัตโนมัติ และปลดล็อกฟีเจอร์ใหม่ๆ รวมถึงขีดจำกัดพื้นที่ที่เพิ่มขึ้น.
 :::
 
 <Tabs>
-  <TabItem value="iron" label="Iron (0 Hrs)" default>
+  <TabItem value="iron" label="Iron (0 ชม.)" default>
 
 ### Iron Rank
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 10
-- Chunks Limit: 20
-- Support Chunks: 1
-- Lands Member: 10
-- Lands Availability: 3
-- Lands Role: 5
+- Land ฟรี: 1
+- Chunks ฟรี: 10
+- เคลม Chunks สูงสุด: 20
+- ซัพพอร์ต Chunks: 1
+- สมาชิกภายใน Lands: 10
+- จำนวน Lands ที่เข้าได้: 3
+- บทบาทภายใน Lands: 5
+  :::
+
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 3 พื้นที่.
   :::
 
 :::tip Functions
-- Mine Spawners (Silk touch)
+- สามารถขุด Spawners ได้ **(ใช้ที่ขุดเนเธอไรต์ + นุ่มนวล)**
   :::
 
   </TabItem>
-  <TabItem value="bronze" label="Bronze (6 Hrs)">
+  <TabItem value="bronze" label="Bronze (6 ชม.)">
 
 ### Bronze Rank
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 12
-- Chunks Limit: 25
-- Support Chunks: 2
-- Lands Member: 10
-- Lands Availability: 4
-- Lands Role: 5
+- Land ฟรี: 1
+- Chunks ฟรี: 12
+- เคลม Chunks สูงสุด: 25
+- ซัพพอร์ต Chunks: 2
+- สมาชิกภายใน Lands: 10
+- จำนวน Lands ที่เข้าได้: 4
+- บทบาทภายใน Lands: 5
   :::
 
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 3 พื้นที่.
+:::
+
 :::tip Functions
-- Sit on Stairs
-- /lands inspect command
+- สามารถนั่งบนบล็อคที่สามารถนั่งได้
+- ปลดล็อกคำสั่ง **/land inspect** หรือ **/l inspect**
   :::
 
   </TabItem>
-  <TabItem value="silver" label="Silver (20 Hrs)">
+  <TabItem value="silver" label="Silver (20 ชม.)">
 
 ### Silver Rank
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 15
-- Chunks Limit: 30
-- Support Chunks: 3
-- Lands Member: 10
-- Lands Availability: 5
-- Lands Role: 5
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 30
+- ซัพพอร์ต Chunks: 3
+- สมาชิกภายใน Lands: 10
+- จำนวน Lands ที่เข้าได้: 5
+- บทบาทภายใน Lands: 5
   :::
 
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 3 พื้นที่.
+:::
+
 :::tip Functions
-- /sit Command to sit
-- /phome
+- ปลดล็อกคำสั่ง **/sit** เพื่อนั่ง
+- ปลดล็อกคำสั่ง **/phome**
   :::
 
   </TabItem>
-  <TabItem value="gold" label="Gold (43 Hrs)">
+  <TabItem value="gold" label="Gold (43 ชม.)">
 
 ### Gold Rank
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 20
-- Chunks Limit: 40
-- Support Chunks: 4
-- Lands Member: 12
-- Lands Availability: 6
-- Lands Role: 5
+- Land ฟรี: 1
+- Chunks ฟรี: 20
+- เคลม Chunks สูงสุด: 40
+- ซัพพอร์ต Chunks: 4
+- สมาชิกภายใน Lands: 12
+- จำนวน Lands ที่เข้าได้: 6
+- บทบาทภายใน Lands: 5
   :::
 
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 4 พื้นที่.
+:::
+
 :::tip Functions
-- /craft command to open workbench
+- ปลดล็อกคำสั่ง **/craft** หรือ **/wb** เพื่อใช้งานโต๊ะคราฟ
+- ปลดล็อกฟีเจอร์ **Custom Image Map**
+- ปลดล็อกฟีเจอร์ **Chest Shop**
   :::
 
   </TabItem>
-  <TabItem value="platinum" label="Platinum (78 Hrs)">
+  <TabItem value="platinum" label="Platinum (78 ชม.)">
 
 ### Platinum Rank
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 15
-- Chunks Limit: 55
-- Support Chunks: 5
-- Lands Member: 14
-- Lands Availability: 7
-- Lands Role: 5
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 55
+- ซัพพอร์ต Chunks: 5
+- สมาชิกภายใน Lands: 14
+- จำนวน Lands ที่เข้าได้: 7
+- บทบาทภายใน Lands: 5
   :::
 
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 4 พื้นที่.
+:::
+
 :::tip Functions
-- /anvil Command to open anvil
-- Elytraboost
+- ปลดล็อกคำสั่ง **/anvil** เพื่อใช้งานทั่ง
+- ปลดล็อกฟีเจอร์ **Elytraboost**
   :::
 
   </TabItem>
-  <TabItem value="emerald" label="Emerald (131 Hrs)">
+  <TabItem value="emerald" label="Emerald (131 ชม.)">
 
 ### Emerald Rank
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 15
-- Chunks Limit: 70
-- Support Chunks: 6
-- Lands Member: 16
-- Lands Availability: 8
-- Lands Role: 5
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 70
+- ซัพพอร์ต Chunks: 6
+- สมาชิกภายใน Lands: 16
+- จำนวน Lands ที่เข้าได้: 8
+- บทบาทภายใน Lands: 5
   :::
 
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 5 พื้นที่.
+:::
+
 :::tip Functions
-- Open Shulker without placing
-- Create Nation
+- เปิดกล่องชักเกอร์ได้โดยไม่ต้องวาง
+- สามารถสร้าง **Nation** ได้
+- ปลดล็อกคำสั่ง **/dispose** เพื่อเปิดถังขยะ
   :::
 
   </TabItem>
-  <TabItem value="diamond" label="Diamond (214 Hrs)">
+  <TabItem value="diamond" label="Diamond (214 ชม.)">
 
 ### Diamond Rank
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 15
-- Chunks Limit: 90
-- Support Chunks: 7
-- Lands Member: 18
-- Lands Availability: 9
-- Lands Role: 5
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 90
+- ซัพพอร์ต Chunks: 7
+- สมาชิกภายใน Lands: 18
+- จำนวน Lands ที่เข้าได้: 9
+- บทบาทภายใน Lands: 5
   :::
 
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 6 พื้นที่.
+:::
+
 :::tip Functions
-- Access to all heads shop
-- Access to all heads shop using /hdb
-- Search Heads /hdb search [name]
-- Armor Stand Editing (Shift + Right Click)
-- /ender command to open ender chest
+- ปลดล็อกการเข้าถึง ร้านค้าหัว ทั้งหมด
+  - ปลดล็อกการเข้าถึง ร้านค้าหัว ด้วยคำสั่ง **/hdb**
+  - สามารถค้นหาหัวใน ร้านค้าหัว ได้โดยใช้คำสั่ง **/hdb search [ชื่อ]**
+- ปลดล็อกฟีเจอร์ **Armor Stand Editing (Shift + คลิกขวา)**
+- ปลดล็อกคำสั่ง **/ender** เพื่อเปิดกล่องเอนเดอร์
   :::
 
   </TabItem>
-  <TabItem value="cosmic" label="Cosmic (603 Hrs)">
-
-### Cosmic Rank
-
-:::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 15
-- Chunks Limit: 170
-- Support Chunks: 10
-- Lands Member: 25
-- Lands Availability: 12
-- Lands Role: 5
-  :::
-
-:::tip Functions
-- Flight Charge
-  :::
-
-  </TabItem>
-  <TabItem value="astral" label="Astral (354 Hrs)">
+  <TabItem value="astral" label="Astral (354 ชม.)">
 
 ### Astral Rank
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 15
-- Chunks Limit: 120
-- Support Chunks: 8
-- Lands Member: 20
-- Lands Availability: 10
-- Lands Role: 5
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 150
+- ซัพพอร์ต Chunks: 8
+- สมาชิกภายใน Lands: 20
+- จำนวน Lands ที่เข้าได้: 10
+- บทบาทภายใน Lands: 5
   :::
 
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 7 พื้นที่.
+:::
+
 :::tip Functions
-- Mirror
+- ปลดล็อกฟีเจอร์ **Mirror**
   :::
 
   </TabItem>
-  <TabItem value="eternity" label="Eternity (1080 Hrs)">
+  <TabItem value="cosmic" label="Cosmic (603 ชม.)">
+
+### Cosmic Rank
+
+:::note Lands Limits
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 250
+- ซัพพอร์ต Chunks: 10
+- สมาชิกภายใน Lands: 25
+- จำนวน Lands ที่เข้าได้: 12
+- บทบาทภายใน Lands: 5
+  :::
+
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 8 พื้นที่.
+:::
+
+:::tip Functions
+- ปลดล็อกฟีเจอร์ **Flight Charge**
+  - ปลดล็อคคำสั่ง **/flyspeed [1-10]** เพื่อปรับความเร็วในการบิน
+  :::
+
+  </TabItem>
+  <TabItem value="eternity" label="Eternity (1080 ชม.)">
 
 ### Eternity Rank
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 15
-- Chunks Limit: 220
-- Support Chunks: 15
-- Lands Member: 40
-- Lands Availability: 15
-- Lands Role: 5
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 400
+- ซัพพอร์ต Chunks: 15
+- สมาชิกภายใน Lands: 40
+- จำนวน Lands ที่เข้าได้: 15
+- บทบาทภายใน Lands: 5
+  :::
+
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 10 พื้นที่.
+:::
+
+:::tip Functions
+- มิสิทธิได้ทดลองฟีเจอร์ใหม่ๆก่อนเปิดตัว
   :::
 
   </TabItem>
@@ -215,66 +263,192 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 ## Supporter Ranks
 
 :::info
-Supporter Ranks are available to players who donate to support the server. These ranks offer additional perks and increased limits as a thank you for your support.
+Supporter Ranks มีให้สำหรับผู้เล่นที่บริจาคเพื่อสนับสนุนเซิร์ฟเวอร์ โดยอันดับเหล่านี้มอบสิทธิประโยชน์เพิ่มเติมและขีดจำกัดที่เพิ่มขึ้น เพื่อเป็นการขอบคุณสำหรับการสนับสนุนของคุณ.
 :::
 
 <Tabs>
-  <TabItem value="supporter" label="Supporter (149+ THB)">
+  <TabItem value="supporter i" label="Supporter I (199 บาท)">
 
-### Supporter Rank
+### Supporter I Rank
+:::note general
+- จำนวนที่สามารถวางขายใน ร้านค้าผู้เล่น: 3
+- เวลาที่วางขายใน ร้านค้าผู้เล่น: 1 วัน
+- sethome ได้สูงสุด: 5
+- จำนวนที่สามารถวาง Chest Shop: 10
+- Image-Maps: TBA
+- Chest Shop: 10
+:::
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 15
-- Chunks Limit: 150
-- Support Chunks: 10
-- Lands Member: 20
-- Lands Availability: 9
-- Lands Role: 6
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 90
+- ซัพพอร์ต Chunks: 7
+- สมาชิกภายใน Lands: 18
+- จำนวน Lands ที่เข้าได้: 9
+- บทบาทภายใน Lands: 6
+- Land Area: 3
   :::
 
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 6 พื้นที่.
+:::
+
 :::tip Functions
-- **Head Shop:** Access to all heads in the shop.
-- Color Chat
-- **QOL:** Feels Free to pose and flex your friend.
+- ปลดล็อกการเข้าถึง ร้านค้าหัว ทั้งหมด
+  - ปลดล็อกการเข้าถึง ร้านค้าหัว ด้วยคำสั่ง **/hdb**
+  - สามารถค้นหาหัวใน ร้านค้าหัว ได้โดยใช้คำสั่ง **/hdb search [ชื่อ]**
+- ปลดล็อกคำสั่ง **/sit** เพื่อนั่ง
+- สามารถนั่งบนบล็อคที่สามารถนั่งได้
+- ปลดล็อกคำสั่ง **/craft** หรือ **/wb** เพื่อใช้งานโต๊ะคราฟ
+- ปลดล็อกคำสั่ง **/phome**
+- ปลดล็อกฟีเจอร์ **Custom Image Map**
+- ยกเลิก Lands หมดอายุ
+- ปลดล็อกคำสั่ง **/land inspect** หรือ **/l inspect**
+- ปลดล็อกคำสั่ง **/hat** เพื่อเอาของที่ถืออยู่ใส่หัว
+
+  :::
+
+  </TabItem>
+  <TabItem value="supporter ii" label="Supporter II (399 บาท)">
+
+### Supporter II Rank
+:::note general
+- จำนวนที่สามารถวางขายใน ร้านค้าผู้เล่น: 5
+- เวลาที่วางขายใน ร้านค้าผู้เล่น: 3 วัน
+- sethome ได้สูงสุด: 5
+- Image-Maps: TBA
+- จำนวนที่สามารถวาง Chest Shop: 15
+:::
+
+:::note Lands Limits
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 90
+- ซัพพอร์ต Chunks: 7
+- สมาชิกภายใน Lands: 18
+- จำนวน Lands ที่เข้าได้: 12
+- บทบาทภายใน Lands: 6
+- Land Area: 5
+  :::
+
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 8 พื้นที่.
+:::
+
+:::tip Functions
+เหมือน Supporter I ทุกประการ เพิ่มเติมดังต่อไปนี้
+- ปลดล็อกการเข้าถึง การโพสท่า ทั้งหมด
   - /crawl
   - /bellyflop
   - /lay
   - /spin
   - /sit
-  - sit on other player head
-- /hat command
+  - นั่งบนหัวผู้เล่นคนอื่นได้
+- ปลดล็อกคำสั่ง **/nick** โดยจะเปลี่ยนได้เฉพาะสีหรือตัวอักษรแรกพิมพ์ใหญ่เท่านั้น **(format: #rrggbb)**
+- ปลดล็อกการใช้แชทสี **(format: #rrggbb)**
   :::
 
   </TabItem>
-  <TabItem value="supporter-plus" label="Supporter+ (249+ THB)">
+    <TabItem value="supporter iii" label="Supporter III (799 บาท)">
 
-### Supporter+ Rank
+### Supporter III Rank
+:::note general
+- จำนวนที่สามารถวางขายใน ร้านค้าผู้เล่น: 10
+- เวลาที่วางขายใน ร้านค้าผู้เล่น: 7 วัน
+- sethome ได้สูงสุด: 7
+- Image-Maps: TBA
+- จำนวนที่สามารถวาง Chest Shop: 15
+:::
 
 :::note Lands Limits
-- Free Lands: 1
-- Free Chunks: 15
-- Chunks Limit: 150
-- Support Chunks: 15
-- Lands Member: 30
-- Lands Availability: 20
-- Lands Role: 7
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 90
+- ซัพพอร์ต Chunks: 7
+- สมาชิกภายใน Lands: 18
+- จำนวน Lands ที่เข้าได้: 15
+- บทบาทภายใน Lands: 7
+- Land Area: 7
   :::
 
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 10 พื้นที่.
+:::
+
 :::tip Functions
-- Personal weather & time using /pweather /ptime
-- **Head Shop:** Access to all heads in the shop.
-- Hex Color Chat
-- **Enhanced Lumberjack:** Unlimited tree chopping ability.
-- **Navigation:** Use the /back command to return to your previous location.
-- **Expanded Home Base:** Set 10 homes (up from 3).
-- QOL: Feels Free to pose and flex your friend.
-- **Community Options:**
-  - **Public Homes:** Make homes public with /edithome.
-  - **Land Support:** Offer support to 15 chunks of your residential land (up from 5).
-  - **Land Affiliation:** Join up to 10 Lands (up from 5).
-  - **Teamwork:** Increase your Land's maximum members to 30 (up from 10).
-    :::
+เหมือน Supporter I-II ทุกประการ เพิ่มเติมดังต่อไปนี้
+- ปลดล็อกฟีเจอร์ **Auto Tree Chopping** ไม่จำกัด
+  :::
+
+  </TabItem>
+  <TabItem value="supporter iv" label="Supporter IV (1,499 บาท)">
+
+### Supporter IV Rank
+:::note general
+- จำนวนที่สามารถวางขายใน ร้านค้าผู้เล่น: 15
+- เวลาที่วางขายใน ร้านค้าผู้เล่น: 15 วัน
+- sethome ได้สูงสุด: 10
+- Image-Maps: TBA
+- จำนวนที่สามารถวาง Chest Shop: 20
+:::
+
+:::note Lands Limits
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 90
+- ซัพพอร์ต Chunks: 15
+- สมาชิกภายใน Lands: 50
+- จำนวน Lands ที่เข้าได้: 20
+- บทบาทภายใน Lands: 10
+- Land Area: 10
+  :::
+
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 12 พื้นที่.
+:::
+
+:::tip Functions
+เหมือน Supporter I-III ทุกประการ เพิ่มเติมดังต่อไปนี้
+- มิสิทธิได้ทดลองฟีเจอร์ใหม่ๆก่อนเปิดตัว
+- สามารถซื้อ-ขายในร้านค้าผู้เล่นได้ด้วยคำสั่ง **/ah [sell/buy] [ราคา]**
+- ปลดล็อกคำสั่ง **/tpignore** เพื่อไม่ให้ผู้อื่น tpa มาหา
+  :::
+
+  </TabItem>
+  <TabItem value="supporter v" label="Supporter V (2,999 บาท)">
+
+### Supporter V Rank
+:::note general
+- จำนวนที่สามารถวางขายใน ร้านค้าผู้เล่น: 30
+- เวลาที่วางขายใน ร้านค้าผู้เล่น: 30 วัน
+- sethome ได้สูงสุด: 15
+- Image-Maps: TBA
+- จำนวนที่สามารถวาง Chest Shop: 30
+:::
+
+:::note Lands Limits
+- Land ฟรี: 1
+- Chunks ฟรี: 15
+- เคลม Chunks สูงสุด: 90
+- ซัพพอร์ต Chunks: 25
+- สมาชิกภายใน Lands: 65
+- จำนวน Lands ที่เข้าได้: 30
+- บทบาทภายใน Lands: 15
+- Land Area: 15
+  :::
+
+:::note main2 info
+- จำนวนที่สามารถวางหินโพรเทค: 15 พื้นที่.
+:::
+
+:::tip Functions
+เหมือน Supporter I-IV ทุกประการ เพิ่มเติมดังต่อไปนี้
+- สามารถตั้งความเป็นส่วนตัวของบ้านได้ **(Public Home หรือ Phome)**
+- ปลดล็อกคำสั่ง **/ptime** เพื่อเปลี่ยนเวลาในเซิฟ (เห็นแค่ตัวเองเท่านั้น)
+- ปลดล็อกคำสั่ง **/pweather** เพื่อเปลี่ยนฤดูในเซิฟ (เห็นแค่ตัวเองเท่านั้น)
+- ปลดล็อกคำสั่ง **/back** เพื่อวาร์ปไปยังจุดก่อนหน้า
+  :::
 
   </TabItem>
 </Tabs>

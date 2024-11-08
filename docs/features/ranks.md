@@ -30,8 +30,12 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Role: 5
   :::
 
+:::note main2 info
+- Protection Stones limits: 3 areas.
+:::
+
 :::tip Functions
-- Mine Spawners (Silk touch)
+- Mine Spawners **(Netherite Pickaxe + Silk touch)**.
   :::
 
   </TabItem>
@@ -49,9 +53,13 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Role: 5
   :::
 
+:::note main2 info
+- Protection Stones limits: 3 areas.
+:::
+
 :::tip Functions
-- Sit on Stairs
-- /lands inspect command
+- Sit on sitable block.
+- Unlock **/lands inspect** or **/l inspect** command.
   :::
 
   </TabItem>
@@ -69,9 +77,13 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Role: 5
   :::
 
+:::note main2 info
+- Protection Stones limits: 3 areas.
+:::
+
 :::tip Functions
-- /sit Command to sit
-- /phome
+- Unlock **/sit** Command to sit.
+- Unlock **/phome** command.
   :::
 
   </TabItem>
@@ -91,10 +103,14 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Chest Shop: 10
   :::
 
+:::note main2 info
+- Protection Stones limits: 4 areas.
+:::
+
 :::tip Functions
-- /craft command to open workbench
-- Access to Image Maps
-- Access to ChestShop
+- Unlock **/craft** or **/wb** command to open workbench.
+- Access to **Custom Image Map**.
+- Access to **Chest Shop**.
   :::
 
   </TabItem>
@@ -112,9 +128,13 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Role: 5
   :::
 
+:::note main2 info
+- Protection Stones limits: 4 areas.
+:::
+
 :::tip Functions
-- /anvil Command to open anvil
-- Elytraboost
+- Unlock **/anvil** Command to open anvil.
+- Unlock **Elytraboost**.
   :::
 
   </TabItem>
@@ -132,10 +152,14 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Role: 5
   :::
 
+:::note main2 info
+- Protection Stones limits: 5 areas.
+:::
+
 :::tip Functions
-- Open Shulker without placing
-- Create Nation
-- /dispose command to dispose of items
+- Open Shulker without placing.
+- Create Nation.
+- Unlock **/dispose** command to dispose of items.
   :::
 
   </TabItem>
@@ -153,12 +177,16 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Role: 5
   :::
 
+:::note main2 info
+- Protection Stones limits: 6 areas.
+:::
+
 :::tip Functions
-- Access to all heads shop
-- Access to all heads shop using /hdb
-- Search Heads /hdb search [name]
-- Armor Stand Editing (Shift + Right Click)
-- /ender command to open ender chest
+- Access to all Heads Shop
+  - Access to all heads shop using **/hdb**
+  - Search Heads **/hdb search [name]**
+- Unlock **Armor Stand Editing (Shift + Right Click)**
+- Unlock **/ender** command to open ender chest
   :::
 
 </TabItem>
@@ -176,8 +204,12 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Role: 5
   :::
 
+:::note main2 info
+- Protection Stones limits: 7 areas.
+:::
+
 :::tip Functions
-- Mirror
+- Unlock **Mirror**.
   :::
 
   </TabItem>
@@ -195,12 +227,14 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Role: 5
   :::
 
-:::tip Functions
-- Flight Charge
-- Adjust Flyspeed using /flyspeed (1-10)
-  :::
+:::note main2 info
+- Protection Stones limits: 8 areas.
+:::
 
-  
+:::tip Functions
+- Unlock **Flight Charge**.
+- Adjust Flyspeed using **/flyspeed [1-10]** command.
+  :::
 
   </TabItem>
   <TabItem value="eternity" label="Eternity (1080 Hrs)">
@@ -217,8 +251,12 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 - Lands Role: 5
   :::
 
+:::note main2 info
+- Protection Stones limits: 10 areas.
+:::
+
 :::tip Functions
-- Early Access to new features
+- Early Access to new features.
   :::
 
   </TabItem>
@@ -231,66 +269,185 @@ Supporter Ranks are available to players who donate to support the server. These
 :::
 
 <Tabs>
-  <TabItem value="supporter" label="Supporter (149+ THB)">
+  <TabItem value="supporter i" label="Supporter I(199 THB)">
 
-### Supporter Rank
+### Supporter I Rank
+:::note general
+- Player Market Capacity: 3
+- Player Market Time: 1d
+- Max Homes: 5
+- Image-Maps: TBA
+- Chest Shop: 10
+:::
 
 :::note Lands Limits
 - Free Lands: 1
 - Free Chunks: 15
-- Chunks Limit: 150
-- Support Chunks: 10
-- Lands Member: 20
+- Chunks Limit: 90
+- Support Chunks: 7
+- Lands Member: 18
 - Lands Availability: 9
 - Lands Role: 6
-- Image-Maps: 15
-- Chest Shop: 20
+- Land Area: 3
   :::
 
+:::note main2 info
+- Protection Stones limits: 6 areas.
+:::
+
 :::tip Functions
-- **Head Shop:** Access to all heads in the shop.
-- Color Chat
-- **QOL:** Feels Free to pose and flex your friend.
+- Access to all Heads Shop
+  - Access to all heads shop using **/hdb**
+  - Search Heads **/hdb search [name]**.
+- Unlock **/sit** Command to sit
+- Sit on sitable block.
+- Unlock **/craft** or **/wb** command to open workbench.
+- Unlock **/phome** command
+- Unlock **Custom Image Map**
+- Land Expiration Bypass
+- Unlock **/lands inspect** or **/l inspect** command.
+- Unlock **/hat**
+  :::
+
+  </TabItem>
+  <TabItem value="supporter ii" label="Supporter II (399 THB)">
+
+### Supporter II Rank
+:::note general
+- Player Market Capacity: 5
+- Player Market Time: 3d
+- Max Homes: 5
+- Image-Maps: TBA
+- Chest Shop: 15
+:::
+
+:::note Lands Limits
+- Free Lands: 1
+- Free Chunks: 15
+- Chunks Limit: 90
+- Support Chunks: 7
+- Lands Member: 18
+- Lands Availability: 12
+- Lands Role: 6
+- Land Area: 5
+  :::
+
+:::note main2 info
+- Protection Stones limits: 8 areas.
+:::
+
+:::tip Functions
+Similar to Supporter I in all respects, with the following additions:
+- Unlock All Pose
   - /crawl
   - /bellyflop
   - /lay
   - /spin
   - /sit
   - sit on other player head
-- /hat command
-  :::
+- Unlock the **/nick** command, allowing only the color or the first letter to be capitalized. **(format: #rrggbb)**
+- Unlock the use of colored text in chat. **(format: #rrggbb)**
+    :::
 
   </TabItem>
-  <TabItem value="supporter-plus" label="Supporter+ (249+ THB)">
+    <TabItem value="supporter iii" label="Supporter III (799 THB)">
 
-### Supporter+ Rank
+### Supporter III Rank
+:::note general
+- Player Market Capacity: 10
+- Player Market Time: 7d
+- Max Homes: 7
+- Image-Maps: TBA
+- Chest Shop: 15
+:::
 
 :::note Lands Limits
 - Free Lands: 1
 - Free Chunks: 15
-- Chunks Limit: 150
-- Support Chunks: 15
-- Lands Member: 30
-- Lands Availability: 20
+- Chunks Limit: 90
+- Support Chunks: 7
+- Lands Member: 18
+- Lands Availability: 15
 - Lands Role: 7
-- Image-Maps: 25
-- Chest Shop: 20
+- Land Area: 7
   :::
 
+:::note main2 info
+- Protection Stones limits: 10 areas.
+:::
+
 :::tip Functions
-- Personal weather & time using /pweather /ptime
-- **Head Shop:** Access to all heads in the shop.
-- Hex Color Chat
-- **Enhanced Lumberjack:** Unlimited tree chopping ability.
-- **Navigation:** Use the /back command to return to your previous location.
-- **Expanded Home Base:** Set 10 homes (up from 3).
-- QOL: Feels Free to pose and flex your friend.
-- **Community Options:**
-  - **Public Homes:** Make homes public with /edithome.
-  - **Land Support:** Offer support to 15 chunks of your residential land (up from 5).
-  - **Land Affiliation:** Join up to 10 Lands (up from 5).
-  - **Teamwork:** Increase your Land's maximum members to 30 (up from 10).
-    :::
+Similar to Supporter I-II in all respects, with the following additions:
+- Unlock **Auto Tree Chopping** Unlimited.
+  :::
+  </TabItem>
+<TabItem value="supporter iv" label="Supporter IV (1,499 THB)">
+
+### Supporter IV Rank
+:::note general
+- Player Market Capacity: 15
+- Player Market Time: 15d
+- Max Homes: 10
+- Image-Maps: TBA
+- Chest Shop: 20
+:::
+
+:::note Lands Limits
+- Free Lands: 1
+- Free Chunks: 15
+- Chunks Limit: 90
+- Support Chunks: 15
+- Lands Member: 50
+- Lands Availability: 20
+- Lands Role: 10
+- Land Area: 10
+  :::
+
+:::note main2 info
+- Protection Stones limits: 12 areas.
+:::
+
+:::tip Functions
+Similar to Supporter I-III in all respects, with the following additions:
+- Early Access to new features.
+- Can Buy-Sell in Player Shop using **/ah [sell/buy] [price]** command.
+- Unlock **/tpignore** command.
+  :::
+
+  </TabItem>
+  <TabItem value="supporter v" label="Supporter V (2,999 THB)">
+
+### Supporter V Rank
+:::note general
+- Player Market Capacity: 30
+- Player Market Time: 30d
+- Max Homes: 15
+- Image-Maps: TBA
+- Chest Shop: 30
+:::
+
+:::note Lands Limits
+- Free Lands: 1
+- Free Chunks: 15
+- Chunks Limit: 90
+- Support Chunks: 25
+- Lands Member: 65
+- Lands Availability: 30
+- Lands Role: 15
+- Land Area: 15
+  :::
+
+:::note main2 info
+- Protection Stones limits: 15 areas.
+:::
+
+:::tip Functions
+Similar to Supporter I-IV in all respects, with the following additions:
+- Can set privacy of the home **(Public Home or Phome)**.
+- Unlock **/ptime** command to change the time in the server **(visible only to the user)**.
+- Unlock **/pweather** command to change the season in the server **(visible only to the user)**.
+- Unlock **/back** command to teleport to the previous location.
+  :::
 
   </TabItem>
 </Tabs>
