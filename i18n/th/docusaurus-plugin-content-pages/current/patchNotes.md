@@ -1,8 +1,8 @@
 
 
-# Patch Notes
+# แพตช์ Notes
 
-Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
+แพตช์ notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
 ## Patch 1.10.1
@@ -841,13 +841,13 @@ Resource world is 5k x 5k world designed to reset every one or two week so do no
 - **Added:** Issues Channel In Discord Server
 - **Fixed:** private message bugs
 
-## Patch 1.0.1-1.0.2
+## แพตช์ 1.0.1-1.0.2
 
 > 17/02/2024
 > 
 
-QOL Changes
+การเปลี่ยนแปลง QOL
 
-- Added Shift + F to access to menu
-- You can now access the server from version 1.20.x (bug fixed)
+- เพิ่ม Shift + F เพื่อเข้าถึงเมนู
+- สามารถเข้าถึงเซิร์ฟเวอร์ผ่านเวอร์ชัน 1.20.x (บัคได้รับการแก้ไข)
 

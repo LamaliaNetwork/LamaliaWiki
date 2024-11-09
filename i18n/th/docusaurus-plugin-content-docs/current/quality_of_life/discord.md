@@ -1,7 +1,7 @@
 ﻿# Discord Linking
 
-:::info What is Discord Linking?
-Discord Linking allows you to send text messages from Discord directly to the in-game chat.
+:::info Discord Linking คืออะไร?
+การเชื่อมโยง Discord ช่วยให้คุณสามารถส่งข้อความจาก Discord ไปยังแชทในเกมได้โดยตรง
 :::
 
 ## Linking Process
