@@ -1,74 +1,74 @@
-﻿# Discord Linking
-
+﻿
+# Discord Linking
+![Discord](/img/doc/quality_of_life/discord/DiscordLinking.svg)
 :::info Discord Linking คืออะไร?
-การเชื่อมโยง Discord ช่วยให้คุณสามารถส่งข้อความจาก Discord ไปยังแชทในเกมได้โดยตรง
+การเชื่อมโยง Discord ช่วยให้สามารถส่งข้อความจาก Discord ไปยังแชทในเกมได้โดยตรง
 :::
 
-## Linking Process
+## กระบวนการเชื่อมต่อ
 
-Follow these steps to link your Discord account:
+ทำตามขั้นตอนนี้เพื่อเชื่อมโยงกับบัญชี Discord:
 
-1. **Generate a Link Code**
+1. **สร้างรหัสลิงก์ดิสคอร์ด**
 
-   Use the following command in-game:
+   ใช้คำสั่งต่อไปนี้ในเกม:
    ```
    /discord link
    ```
+   จะได้รับรหัส ซึ่งจะเป็นข้อความลักษณะแบบนี้ :
 
-   You will receive a code. It should look something like this:
+   >**[Discord]** your link code is **0000**. PM the bot on Discord (Lamalia Verify) containing just this code as the message to link your accounts.
 
-   
+2. **ส่งรหัสไปยังบอท**
 
-2. **Submit the Code to the Bot**
-
-   :::tip
-   Search for the bot named **Lamalia** on Discord.
+   :::tip เกร็ดความรู้
+   ค้นหาบอทชื่อ **Lamalia Verify** บน Discord.
    :::
 
-   Send a Direct Message (DM) to the Lamalia bot with the code you received.
+   ส่งข้อความ (DM) ไปยัง Lamalia Verify Bot ด้วยรหัสที่คุณได้รับ
 
-3. **Confirmation**
+3. **การยืนยัน**
 
-   If successful, the bot will reply with a message similar to:
+   หากสำเร็จบอทจะตอบกลับด้วยข้อความลักษณะนี้:
 
    ```
    "Your Discord account has been linked to Username (Your UUID)"
    ```
 
-   This message confirms that your account is now linked.
+   ข้อความนี้ยืนยันว่าบัญชีของคุณเชื่อมโยงแล้ว
 
-## Verifying Your Link Status
+## ตรวจสอบสถานะลิงก์
 
-You can check if your Discord account is linked at any time:
+สามารถตรวจสอบว่าบัญชี Discord ว่าได้รับการเชื่อมโยงบัญชีได้ตลอดเวลา:
 
-1. Use the following command in-game:
+1. ใช้คำสั่งต่อไปนี้ในเกม:
    ```
    /discord linked
    ```
 
-2. The system will inform you of your link status:
+2. ระบบจะแจ้งให้ทราบถึงสถานะลิงก์ของคุณ:
 
-   **If linked:**
+   **ถ้าเชื่อมโยงบัญชีแล้ว:**
 
+   > <font color="cyan">Your Minecraft account is associated with Username.</font>
+
+   **ถ้ายังไม่ได้เชื่อมโยงบัญชี:**
+   > <font color="red">Your Minecraft account isn't associated with a Discord account.</font>
    
 
-   **If not linked:**
-
-   
-
-:::caution
-Make sure to keep your link code private. Anyone with access to this code could potentially link their Discord account to your game account.
+:::caution คำเตือน
+ตรวจสอบให้แน่ใจว่าได้เก็บรหัสลิงก์ของคุณไว้เป็นส่วนตัว ผู้ไม่ประสงค์ดีที่เข้าถึงรหัสนี้อาจเชื่อมโยงบัญชี Discord ของพวกเขากับบัญชีเกมของคุณ
 :::
 
-## Troubleshooting
+## การแก้ไขปัญหา
 
-If you encounter any issues during the linking process:
+หากคุณพบปัญหาใด ๆ ในระหว่างกระบวนการเชื่อมโยง:
 
-1. Ensure you're using the correct bot (Lamalia).
-2. Double-check that you've entered the link code correctly.
-3. Try generating a new link code if the old one doesn't work.
-4. If problems persist, contact a server administrator for assistance.
+1. ตรวจสอบให้แน่ใจว่าคุณใช้บอทที่ถูกต้อง (Lamalia Verify)
+2. ตรวจสอบอีกครั้งที่ว่าป้อนรหัสลิงก์ที่ถูกต้อง
+3. ลองสร้างรหัสลิงก์ใหม่หากรหัสเดิมไม่ทำงาน
+4. หากปัญหายังคงอยู่ให้ติดต่อผู้ดูแลระบบเซิร์ฟเวอร์เพื่อขอความช่วยเหลือ
 
-:::note
-Remember, linking your Discord account enhances your gameplay experience by allowing cross-platform communication. Enjoy the seamless integration!
+:::note โน้ต
+โปรดจำไว้ว่าการเชื่อมโยงบัญชี Discord ของคุณช่วยเพิ่มประสบการณ์การเล่นเกมของคุณโดยอนุญาตให้การสื่อสารข้ามแพลตฟอร์ม เพลิดเพลินไปกับการใช้งานที่ลื่นไหลไร้รอยต่อ
 :::
