@@ -40,42 +40,42 @@
 > 11/10/2024
 >
 
-**Additions**
-- Added Experimental Light Block Changer
-- Booster System in shop
-  - Buy boosts for player globally (Sell, Fly)
-  - Sell boost +50% for 15 min
-  - Fly boost for 1 hour 
-  - Each Limit 7 purchase per week (globally)
-- New! Chunk Buster is in shop now for 500k
-  - Chunk Buster is an item that breaks every block between top and bottom of the chunk
-  - Requires Astral Rank and Above to place one.
-- Added Nether wood to Auto Tree Chopping
-- Land Area features
-- Change Reconnection Method
-- Dispensers can now place normal blocks
-- Lobby get a bit more love
-  - Add more parkour
-  - Bigger text and text sync in real time
-- Allow Open Shulker in ender chest without putting in the inventory
-- Added: /dispose command to emerald rank and above
-  - Dispose of items in your inventory
+**ส่วนเพิ่มเติม**
+- เพิ่มตัวเปลี่ยนบล็อกแสง เวอร์ชันทดลอง
+- ระบบบูสเตอร์ในร้านค้า
+  - ซื้อ Boosts สำหรับผู้เล่นทุกคน (Sell, Fly)
+  - Sell boost +50% เป็นเวลา 15 นาที
+  - Fly boost เป็นเวลา 1 ชั่วโมง
+  - จำกัดการซื้อ 7 ครั้งต่อสัปดาห์ (ผู้เล่นทุกคน)
+- ใหม่! Chunk Buster อยู่ในร้านค้าในราคา 500k
+  - Chunk Buster เป็นรายการที่ทำลายบล็อกทุกบล็อกระหว่างด้านบน และด้านล่างของชังก์
+  - ต้องใช้อันดับ Astral และสูงกว่าเพื่อวาง
+- เพิ่มไม้ Nether ลงในการสับต้นไม้อัตโนมัติ
+- ฟีเจอร์ Land Area
+- เปลี่ยนวิธีการเชื่อมต่อใหม่
+- Dispenser สามารถวางบล็อกปกติได้แล้ว
+- Lobby ได้รับการอัปเดต
+  - เพิ่ม parkour เพิ่มเติม
+  - ข้อความที่ใหญ่กว่า และการซิงค์ข้อความแบบเรียลไทม์
+- อนุญาตให้ Shulker เปิดใน Enderchest โดยไม่ต้องเปิดใน Inventory
+- เพิ่ม: /dispose สั่งให้อยู่ในอันดับต้นมรกตขึ้นไป
+  - กำจัดไอเทมใน Inventory ของคุณ
 
-**Changes**
+**เปลี่ยนแปลง**
 
-- Suffix now called Tags
-  - Change Suffix Categorization for easier use
-- Server Wiki Quota Limit 10 per 6 hours -> 50 per 24 hours
-- Server wiki message history 10 -> 5
-- Adjust how Rank Hiding works
-  - Supporters can properly hide their rank and formatted properly
-- Voice Chat Updated to last version
-- Faster and More Secure Connection
+- Suffix ตอนนี้เรียกว่า Tags
+  - เปลี่ยน Suffix การจัดหมวดหมู่เพื่อการใช้งานง่ายขึ้น
+- Server Wiki โควต้าขีดจำกัด 10 ต่อ 6 ชั่วโมง -> 50 ต่อ 24 ชั่วโมง
+- Server wiki ประวัติข้อความ 10 -> 5
+- ปรับวิธีการซ่อน Ranks ให้ทำงานได้
+  - ผู้สนับสนุนสามารถซ่อน Ranks และอันดับได้อย่างถูกต้อง
+- อัปเดต Simple Voice Chat เป็นเวอร์ชันล่าสุด
+- การเชื่อมต่อที่รวดเร็วและปลอดภัยยิ่งขึ้น
 
-**Fixes**
-- Shulker Box Item Disappearing bug
-- Database Corruption on Storage Unit
-- Fixed Suffix Command
+**แก้ไขข้อบกพร่อง**
+- Shulker Box ข้อผิดพลาดไอเทมสูญหาย
+- ฐานข้อมูลในหน่วยจัดเก็บข้อมูลสูญหาย
+- แก้ไขคำสั่ง Suffix
 
 ## Patch 1.10.2
 
