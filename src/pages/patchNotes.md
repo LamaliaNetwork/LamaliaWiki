@@ -5,6 +5,95 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
+## Patch 1.11.2
+
+> 21/10/2024
+>
+
+**Changes**
+- Move Chunk Buster to Gold Rank
+- Disenchanter have 0% fail rate and price increase to 50k
+- Halloween Skin
+- Public Land NPC
+
+
+**Fixes**
+- Fix Commands
+- Fix Network Problems
+
+## Patch 1.11.1
+
+> 21/10/2024
+>
+
+**Additions**
+- Chest Shop Revamped and fixed
+- Added: Discord Marketplace
+- Added: Sync Server Chat
+
+**Fixes**
+- Fix Commands 
+- Fix Network Problems``
+
+## Patch 1.11
+
+> 11/10/2024
+>
+
+**Additions**
+- Added Experimental Light Block Changer
+- Booster System in shop
+  - Buy boosts for player globally (Sell, Fly)
+  - Sell boost +50% for 15 min
+  - Fly boost for 1 hour 
+  - Each Limit 7 purchase per week (globally)
+- New! Chunk Buster is in shop now for 500k
+  - Chunk Buster is an item that breaks every block between top and bottom of the chunk
+  - Requires Astral Rank and Above to place one.
+- Added Nether wood to Auto Tree Chopping
+- Land Area features
+- Change Reconnection Method
+- Dispensers can now place normal blocks
+- Lobby get a bit more love
+  - Add more parkour
+  - Bigger text and text sync in real time
+- Allow Open Shulker in ender chest without putting in the inventory
+- Added: /dispose command to emerald rank and above
+  - Dispose of items in your inventory
+
+**Changes**
+
+- Suffix now called Tags
+  - Change Suffix Categorization for easier use
+- Server Wiki Quota Limit 10 per 6 hours -> 50 per 24 hours
+- Server wiki message history 10 -> 5
+- Adjust how Rank Hiding works
+  - Supporters can properly hide their rank and formatted properly
+- Voice Chat Updated to last version
+- Faster and More Secure Connection
+
+**Fixes**
+- Shulker Box Item Disappearing bug
+- Database Corruption on Storage Unit
+- Fixed Suffix Command
+
+## Patch 1.10.2
+
+> 30/09/2024
+> 
+
+**Additions**
+
+- Added Bug Report System and suggestions 
+- Modify Villager Hard limit to 20 per 5 block radius
+- Added New Anti Xray System to optimize server performance
+- Added Chunk Buster Block (to early access)
+- Added Trading System (You can now Trade Exp)
+
+**Fixes**
+- Hotfix chunk bug. Added 10 sec cooldown for /back command
+- Attempt Fix: Database Corruption for Storage Unit
+
 ## Patch 1.10.1
 
 > 23/08/2024

@@ -1,4 +1,4 @@
-﻿# Lamalia Privacy Policy
+# Lamalia Privacy Policy
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 id: server-rules
 title: Lamalia Server Rules
 sidebar_label: Server Rules

@@ -1,4 +1,4 @@
-﻿---
+---
 id: server-rules
 title: Lamalia Server Rules
 sidebar_label: Server Rules
@@ -34,7 +34,7 @@ The following behaviors are strictly prohibited and may result in disciplinary a
 ### 2.3 Language and Communication
 
 - Excessive swearing or use of profanity is discouraged.
-- Keep conversations and in-game names family-friendly.
+- Keep conversations, item-names and in-game names family-friendly.
 - Avoid using all caps excessively, as it's considered shouting.
 
 ## 3. Fair Play and Cheating

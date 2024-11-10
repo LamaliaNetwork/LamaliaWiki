@@ -11,7 +11,8 @@ sidebar_position: 1
 1. Use Minecraft 1.20.x (1.20.4 is recommended).
 2. Enter the IP into multiplayer (Ensure you enable the server resource pack for the full experience).
 
-    - IP: `play.lamalia.net`
+    - IP (Java): `play.lamalia.net`
+    - IP (Bedrock): `be.lamalia.net`
 
    ![Server IP](/img/doc/features/joinServer.png)
 
@@ -31,6 +32,21 @@ If you're a premium Minecraft user and want to avoid logging in each time you en
 1. Use the command /premium (pass).
 2. Confirm the statement with /premiumconfirm.
 3. You will be logged out and won't need to log in the next time you enter.
+
+## Bedrock Users
+
+Welcome, Bedrock players! Here's what you need to know to join Lamalia:
+
+1. Open Minecraft Bedrock Edition (ensure you're on version 1.20.x).
+2. Go to the "Servers" tab and click "Add Server".
+3. Enter the following details:
+   - Server Name: Lamalia
+   - Server Address: play.lamalia.net
+   - Port: 19132
+4. Click "Save" and then join the server.
+5. Follow the registration process as described above.
+
+Note: Some features may work slightly differently on Bedrock. If you encounter any issues, please contact our support team.
 
 # Lamalia Server Features - Highlights
 

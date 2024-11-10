@@ -1,4 +1,4 @@
-﻿# Discord Linking
+# Discord Linking
 
 :::info What is Discord Linking?
 Discord Linking allows you to send text messages from Discord directly to the in-game chat.

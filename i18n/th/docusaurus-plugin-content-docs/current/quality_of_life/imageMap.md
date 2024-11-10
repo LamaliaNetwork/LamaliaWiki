@@ -1,58 +1,58 @@
 ﻿# Custom Images Maps
 
-:::caution
-This feature is an experimental feature and may be subject to change.
+:::caution คำเตือน
+ฟีเจอร์นี้เป็นฟีเจอร์ทดลอง และอาจมีการเปลี่ยนแปลง
 :::
 
-## Overview
+## ภาพรวม
 
-Custom Image Maps is an exciting feature on the Lamalia server that allows you to display custom images on maps and item frames. Whether you want to create stunning artwork, informative displays, or animated billboards, Custom Image Map gives you the tools to bring your creativity to life in Minecraft.
+Custom Image Maps  เป็นฟีเจอร์บนเซิร์ฟเวอร์ Lamalia ที่ให้คุณแสดงภาพแบบกำหนดเองบนแผนที่ และบนกรอบโชว์สิ่งของ ไม่ว่าคุณต้องการสร้างงานศิลปะแบบไหน แสดงข้อมูล หรือป้ายโฆษณา ฟีเจอร์นี้จะช่วยให้มีเครื่องมือที่จะนำความคิดสร้างสรรค์ของคุณมาสู่ชีวิตใน Minecraft
 
-## Requirements
+## ความต้องการ
 
-- **Ranks**: Gold and above
-
-
-## What You Can Do
-
-1. **Display Custom Images**
-   - Show off your favorite pictures on maps or item frames
-   - Use PNG, JPEG images from any URL
-
-2. **Design Large-Scale Displays**
-   - Spread your images across multiple maps for bigger impact
-   - Great for creating murals or large information displays
-
-3. **Easy Multi-Map Placement**
-   - Place large, multi-part images with a single item
-   - The server automatically finds the right spot on item frame walls
+- **Ranks**: Gold ขึ้นไป
 
 
-## How to Use Custom Image Maps
+## สิ่งที่คุณสามารถทำได้
 
-### Basic Commands
+1. **แสดงภาพที่กำหนดเอง**
+   - อวดรูปภาพโปรดของคุณบนแผนที่หรือกรอบโชว์สิ่งของ
+   - ใช้ PNG, JPEG images จาก URL
 
-- `/if create <name> <url> <width> <height> combined` - Make a new image map
-- `/if get <name>` - Get the image map
-- `/if delete <name>` - Remove an image map
-- `/if info` - Get details about the image map you're holding
-- `/if list` - See all your created image maps
+2. **ออกแบบพื้นที่แสดงผลขนาดใหญ่**
+   - แปะภาพของคุณลงไปหลายๆ แผนที่เลย จะได้เห็นภาพรวมที่ใหญ่ขึ้นและน่าสนใจกว่า
+   - เหมาะสำหรับการสร้างภาพจิตรกรรมฝาผนังหรือการแสดงข้อมูลขนาดใหญ่
+
+3. **การวาง Multi-Maps อย่างง่าย**
+   - วางภาพขนาดใหญ่หลายส่วนด้วยรายการเดียว
+   - เซิร์ฟเวอร์จะค้นหาจุดที่เหมาะสมบนกรอบโชว์สิ่งของโดยอัตโนมัติ
 
 
-## Need Help?
+## วิธีใช้แผนที่ภาพที่กำหนดเอง
 
-If you're having trouble with Custom Maps:
-1. Double-check you're using the right command
-2. Make sure your image URL works and is accessible
-3. For placing images, ensure you have enough empty frames selected
-4. Ask in the server chat or contact a moderator if you need more help
+### คำสั่งพื้นฐาน
 
-## Recommend Websites
+- `/if create <name> <url> <width> <height> combined` - สร้างภาพใหม่
+- `/if get <name>` - รับแผนที่รูปภาพ
+- `/if delete <name>` - ลบรูปภาพ
+- `/if info` - รับรายละเอียดเกี่ยวกับรูปภาพที่คุณถืออยู่
+- `/if list` - ดูแผนที่รูปภาพที่คุณสร้างขึ้นทั้งหมด
+
+
+## ต้องการความช่วยเหลือ?
+
+หากคุณมีปัญหากับ Custom Maps:
+1. ตรวจสอบอีกครั้งที่คุณใช้คำสั่งที่ถูกต้อง
+2. ตรวจสอบให้แน่ใจว่า URL รูปภาพของคุณใช้งานได้และสามารถเข้าถึงได้
+3. สำหรับการวางภาพให้แน่ใจว่าคุณเลือกเฟรมที่ว่างเปล่าเพียงพอ
+4. ถามในการแชทเซิร์ฟเวอร์ หรือติดต่อผู้ดูแลหากคุณต้องการความช่วยเหลือเพิ่มเติม
+
+## เว็บไซต์แนะนำ
 
 [PostImage](https://postimages.org/)
 
-### how to use PostImage
+### วิธีใช้ PostImage
 
-1. Upload your image to PostImage
-2. Copy the Direct Link URL
-3. use the URL in the command `/if create <name> <url> <width> <height> combined`
+1. อัปโหลดรูปภาพของคุณไปยัง PostImage
+2. คัดลอก Direct URL โดยตรง
+3. ป้อน URL ในคำสั่ง `/if create <name> <url> <width> <height> combined`

@@ -8,7 +8,7 @@ The Mirror feature allows you to build in parallel on the x, y, z axis.
 This is a destructive feature. Use with caution!
 :::
 
-![Mirror Feature Demonstration](https://file.notion.so/f/f/71138f3d-d8e3-416d-bd4d-97420409f3cb/eb7cbad4-1906-4d62-beed-ca8249c55aa9/javaw_lVPDxGV1pt.gif?table=block&id=d819e603-af17-4f01-953a-40ea75448e73&spaceId=71138f3d-d8e3-416d-bd4d-97420409f3cb&expirationTimestamp=1722960000000&signature=pMTgc0hU-JWnKHiMcqB3Mt8MyjtLklKkXsg-5SFxIgk)
+![Mirror Feature Demonstration](\img\doc\features\mirror\mirror.gif)
 
 ## Important Information
 
