@@ -1,4 +1,4 @@
-﻿import clsx from 'clsx';
+import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import Link from "@docusaurus/core/lib/client/exports/Link";
@@ -6,7 +6,6 @@ import Link from "@docusaurus/core/lib/client/exports/Link";
 const FeatureList = [
     {
         title: 'Patch Notes',
-        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
         description: (
             <>
                 Learn about the latest changes on the server. We are constantly updating the server to make it better.
@@ -17,7 +16,6 @@ const FeatureList = [
     },
     {
         title: 'Features',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
         description: (
             <>
                 Lamalia have some of its own core features extended from a traditional minecraft.
@@ -28,7 +26,6 @@ const FeatureList = [
     },
     {
         title: 'Quality of Life',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
         description: (
             <>
                 We have tons of quality of life changes. Make sure to read it all to not miss out .
@@ -39,17 +36,10 @@ const FeatureList = [
     },
 ];
 
-function Feature({Svg, ImgSrc, title, description, linkToPage, buttonDescription}) {
+function Feature({title, description, linkToPage, buttonDescription}) {
     return (
         <div className={clsx('col col--4')}>
-            {/*<div className="text--center">*/}
-            {/*    {Svg ? (*/}
-            {/*        <Svg className={styles.featureSvg} role="img"/>*/}
-            {/*    ) : (*/}
-            {/*        <img src={ImgSrc} className={styles.featureImg} alt={title} role="img"/>*/}
-            {/*    )}*/}
-            {/*</div>*/}
-            <div className="container card text--center padding-horiz--md">
+            <div className="text--center padding-horiz--md">
                 <Heading as="h3">{title}</Heading>
                 <p>{description}</p>
             </div>
@@ -65,9 +55,9 @@ function Feature({Svg, ImgSrc, title, description, linkToPage, buttonDescription
     );
 }
 
-export default function HomepageFeatures() {
+export default function FeaturePage() {
     return (
-        <section className={styles.features}>
+        <div className={styles.container}>
             <div className="container">
                 <div className="row">
                     {FeatureList.map((props, idx) => (
@@ -75,6 +65,6 @@ export default function HomepageFeatures() {
                     ))}
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
