@@ -44,7 +44,7 @@ import TabItem from '@theme/TabItem';
 | <green> Knockback </green> | <green> 5 </green> | เพิ่มการกระแทกจากการโจมตี **%placeholder%** | `%level% * 85 + 20` |
 | <green> Fire Aspect </green> | <green> 4 </green> | ทำให้คู่ต่อสู้ติดไฟ, ทำให้เกิดความเสียหายจากไฟในแต่ละการติดไฟ | - |
 | Looting | 3 | เพิ่มจำนวนการดรอปของสิ่งของทั่วไปสูงสุด **%common%** และโอกาสในการดรอปสิ่งของที่หายาก **%rare%** | common: `%level%`<br/>rare: `%level%` |
-| Sweeping Edge | 3 | เพิ่มความเสียหายจากการโจมตีแบบกว้างขึ้น **%placeholder%** | `%level% / (%level% + 1)` |
+| <green>Sweeping Edge</green> | <green>5</green> | เพิ่มความเสียหายจากการโจมตีแบบกว้างขึ้น **%placeholder%** | `%level% / (%level% + 1)` |
 
 ## Tool Enchantments [หมวดเครื่องมือ]
 
@@ -114,6 +114,7 @@ import TabItem from '@theme/TabItem';
 |-------------|-----------|-------------|-------------|--------|------------|
 | Excavation | 5 | ขุดบล็อกเพิ่มอีก **%placeholder%** บล็อก | `%level%` | Rare | Shovel |
 | Veinminer | 4 | ขุดได้สูงสุด **%placeholder%** บล็อกในครั้งเดียว | `2 + 3 * %level%` | Rare | Pickaxe |
+| Power Mine | 1 | ทำการขุดบล็อกในขนาด 3x3x1 (กxยxส) ในครั้งเดียว | - | Legendary | Pickaxe |
 | Replenish | 1 | เมื่อเก็บเกี่ยวพืชผลจะถูกปลูกใหม่โดยอัตโนมัติ | - | Legendary | Hoe |
 
 ## Armor Enchantments [หมวดเกราะ]

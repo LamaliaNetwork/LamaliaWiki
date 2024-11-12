@@ -39,7 +39,7 @@ import TabItem from '@theme/TabItem';
 | <green> Knockback </green> | <green> 5 </green> | Gives a **%placeholder%** bonus to attack knockback | `%level% * 85 + 20` |
 | <green> Fire Aspect </green> | <green> 4 </green> | Sets opponents on fire, dealing damage each fire tick | - |
 | Looting | 3 | Increases maximum common drops by **%common%**, and the chance to get rare drops by **%rare%** | common: `%level%`<br/>rare: `%level%` |
-| Sweeping Edge | 3 | Increases sweeping attack damage by **%placeholder%** | `%level% / (%level% + 1)` |
+| <green>Sweeping Edge</green> | <green>5</green> | Increases sweeping attack damage by **%placeholder%** | `%level% / (%level% + 1)` |
 
 ## Tool Enchantments
 
@@ -107,6 +107,7 @@ import TabItem from '@theme/TabItem';
 |-------------|-----------|-------------|-------------|--------|------------|
 | Excavation | 5 | Digs **%placeholder%** extra blocks | `%level%` | Rare | Shovel |
 | Veinminer | 4 | Mine up to **%placeholder%** blocks in veins at once | `2 + 3 * %level%` | Rare | Pickaxe |
+| Power Mine | 1 | Mining blocks in size 3x3x1 (WxLxH) at once | - | Legendary | Pickaxe |
 | Replenish | 1 | Crops are replanted automatically | - | Legendary | Hoe |
 
 ## Armor Enchantments
