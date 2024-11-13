@@ -46,21 +46,6 @@ function EventCard() {
 }
 function Feature({ Svg, title, description, linkToPage, buttonDescription }) {
     return (
-        <div className={clsx('col col--4')}>
-            {/*<div className="text--center">*/}
-            {/*    {Svg ? (*/}
-            {/*        <Svg className={styles.featureSvg} role="img"/>*/}
-            {/*    ) : (*/}
-            {/*        <img src={ImgSrc} className={styles.featureImg} alt={title} role="img"/>*/}
-            {/*    )}*/}
-            {/*</div>*/}
-            <div className="container card text--center padding-horiz--md">
-                <Heading as="h3">{title}</Heading>
-                <p>{description}</p>
-            </div>
-            <div className={styles.buttons}>
-                <Link
-
         <div className={clsx('col col--4', styles.featureCard)}>
             <Link to={linkToPage} className={clsx(styles.cardWrapper)}>
                 <div className={clsx('card text--center padding-horiz--md', styles.card)}>
