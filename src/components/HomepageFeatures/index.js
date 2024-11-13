@@ -12,7 +12,7 @@ const FeatureList = [
                 Learn about the latest changes on the server. We are constantly updating the server to make it better.
             </>
         ),
-        linkToPage: '/docs/intro',
+        linkToPage: '/patchNotes',
         buttonDescription: 'Explore Patch Notes'
     },
     {
