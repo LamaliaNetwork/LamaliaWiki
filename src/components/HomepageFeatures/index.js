@@ -13,7 +13,6 @@ const FeatureList = [
             </>
         ),
         linkToPage: '/patchNotes',
-        buttonDescription: 'Explore Patch Notes'
     },
     {
         title: 'Features',
@@ -46,6 +45,7 @@ function EventCard() {
 }
 function Feature({ Svg, title, description, linkToPage, buttonDescription }) {
     return (
+
         <div className={clsx('col col--4', styles.featureCard)}>
             <Link to={linkToPage} className={clsx(styles.cardWrapper)}>
                 <div className={clsx('card text--center padding-horiz--md', styles.card)}>

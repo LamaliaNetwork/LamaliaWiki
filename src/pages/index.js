@@ -2,9 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-//import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import FeaturePage from '../components/FeaturePage';
-
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -24,7 +22,6 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <HomepageFeatures />
       </div>
-      <FeaturePage/>
     </header>
   );
 }
@@ -38,8 +35,8 @@ export default function Home() {
       description="Lamalia Wiki <head />">
         
       <main>
+        <HomepageHeader />
       </main>
     </Layout>
-    
   );
 }
