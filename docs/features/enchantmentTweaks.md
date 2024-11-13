@@ -1,4 +1,4 @@
-﻿# Enchantments Guide
+# Enchantments Guide
 
 :::tip How to get overloaded enchantments
 To get overloaded enchantments, simply combine 2 enchantments of the same level to get the next level.

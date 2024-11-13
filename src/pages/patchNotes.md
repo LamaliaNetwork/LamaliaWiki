@@ -5,9 +5,28 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
+
+## Patch 1.11.3
+
+> 12/11/2024
+>
+
+**Additions**
+- Added: /rtp <build/resource/resource_nether/resource_the_end> command to select world to teleport
+
+**Changes**
+- Move Dispose command to Bronze Rank or you can use /bin instead
+- Death Message Items now have base color of light blue
+
+
+**Fixes**
+- Fixes Hat Bug (rank distributions)
+- Fixes sign edit in some instances
+- Fixes Colored Sign Bug
+
 ## Patch 1.11.2
 
-> 21/10/2024
+> 4/11/2024
 >
 
 **Changes**
