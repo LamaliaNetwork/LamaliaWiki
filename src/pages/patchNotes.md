@@ -13,6 +13,7 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 **Additions**
 - Added: /rtp (build/resource/resource_nether/resource_the_end) command to select world to teleport
+- Added: ผีเฝ้าเซิฟ / ETERNAL suffix to diamond rank and eternity rank
 
 **Changes**
 - Move Dispose command to Bronze Rank or you can use /bin instead
