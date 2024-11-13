@@ -12,12 +12,11 @@ Patch notes are updates written by the Minecraft server developers that detail c
 >
 
 **Additions**
-- Added: /rtp <build/resource/resource_nether/resource_the_end> command to select world to teleport
+- Added: /rtp (build/resource/resource_nether/resource_the_end) command to select world to teleport
 
 **Changes**
 - Move Dispose command to Bronze Rank or you can use /bin instead
 - Death Message Items now have base color of light blue
-
 
 **Fixes**
 - Fixes Hat Bug (rank distributions)
