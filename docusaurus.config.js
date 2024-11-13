@@ -146,7 +146,14 @@ const config = {
               },
             ],
           },
+          
         ],
+        logo: {
+          alt: 'Lamalia Network Logo',
+          src: 'img/lamalialogowhite.svg',
+          width: 50,
+          height: 50,
+        },
         copyright: `Copyright © ${new Date().getFullYear()} Lamalia Network.`,
       },
       prism: {

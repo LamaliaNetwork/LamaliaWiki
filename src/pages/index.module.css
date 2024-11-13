@@ -37,7 +37,3 @@
   height: 5rem;
   max-width: 40%; /* Make the logo responsive */
 }
-footer {
-  position: relative;
-  z-index: 1;
-}

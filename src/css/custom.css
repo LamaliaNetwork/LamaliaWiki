@@ -18,7 +18,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -36,7 +36,7 @@ red {
   color: red;
 }
 blue {
-  color: blueviolet
+  color: blueviolet;
 }
 white {
   color: white;
@@ -45,17 +45,30 @@ black {
   color: black;
 }
 gold {
-  color: 	#FFAA00;
+  color: #ffaa00;
 }
 silver {
-  color: rgb(137, 137, 137)
+  color: rgb(137, 137, 137);
 }
 @font-face {
-  font-family: 'Kanit';
-  src: url('/static/font/Kanit-Regular.ttf') format('ttf');
+  font-family: "Kanit";
+  src: url("/static/font/Kanit-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
-body,h1,h2,h3,h4,h5,h6,p {
-  font-family: 'Kanit', sans-serif;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Kanit", sans-serif;
 }
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Footer General Styles */
