@@ -3,27 +3,48 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  height: 50vh; /* Make the hero banner take the full viewport height */
-  padding: 4rem 0;
+ .heroBanner {
+  height: 100vh; /* Make the hero banner take the full viewport height */
+  padding: 4rem 2rem;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-image: url('/img/background2.jpg'); /* Change this to your image path */
+  background-image: url('/img/background.png'); /* Change this to your image path */
   background-size: cover; /* Ensure the image covers the entire area */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-repeat: no-repeat; /* Prevent repeating */
   background-position: center; /* Center the image */
-  color: #fffcfc; /* Change this to your desired text color */
+  z-index: -1; /* Send the pseudo-element behind the content */
+  filter: blur(7px);
+  background-color: black;
+}
+
+.heroLogo {
+  position: relative;
+  z-index: 1;
+  width: 100px;
+  height: auto;
+  max-width: 80%;  /* Make the logo responsive */
+  margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 2rem; /* Reduce padding on smaller screens */
+    height: auto;  /* Allow height to adjust based on content */
+  }
+
+  .heroLogo {
+    width: 80px;  /* Reduce logo size on medium devices */
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 1.5rem; /* Further reduce padding on small screens */
+    height: auto;  /* Let the height adjust automatically */
+  }
+
+  .heroLogo {
+    width: 60px;  /* Further reduce logo size for mobile */
+  }
 }

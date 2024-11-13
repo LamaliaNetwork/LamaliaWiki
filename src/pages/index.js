@@ -9,14 +9,20 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--black', styles.heroBanner)}>
       <div className="container">
+      <img 
+          src="img/lamalialogowhite.svg"
+          alt="Lamalia Logo"
+          className={styles.heroLogo}
+        />
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <HomepageFeatures />
       </div>
       <FeaturePage/>
     </header>
@@ -24,12 +30,13 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
+
     <Layout
       title={`${siteConfig.title}`}
       description="Lamalia Wiki <head />">
-      <HomepageHeader />
+        
       <main>
       </main>
     </Layout>
