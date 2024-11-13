@@ -89,6 +89,7 @@ const config = {
           {to: '/patchNotes', label: 'Patch Notes', position: 'left'},
           {to: '/rules', label: 'Rules', position: 'left'},
           {to: '/privacy', label: 'Privacy Policy', position: 'left'},
+          {to: '/banlist', label: 'บัญชีหนังหมา', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',

@@ -50,3 +50,12 @@ gold {
 silver {
   color: rgb(137, 137, 137)
 }
+@font-face {
+  font-family: 'Kanit';
+  src: url('/static/font/Kanit-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+body,h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Kanit', sans-serif;
+}
