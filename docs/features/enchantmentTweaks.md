@@ -107,6 +107,7 @@ import TabItem from '@theme/TabItem';
 |-------------|-----------|-------------|-------------|--------|------------|
 | Excavation | 5 | Digs **%placeholder%** extra blocks | `%level%` | Rare | Shovel |
 | Veinminer | 4 | Mine up to **%placeholder%** blocks in veins at once | `2 + 3 * %level%` | Rare | Pickaxe |
+| PowerMine   | 1 | Breaks blocks in area of 3x3 | - | Rare | Pickaxe |
 | Replenish | 1 | Crops are replanted automatically | - | Legendary | Hoe |
 
 ## Armor Enchantments
