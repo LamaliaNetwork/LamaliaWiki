@@ -36,13 +36,13 @@ const FeatureList = [
     }
 ];
 
-function EventCard() {
+/*function EventCard() {
     return (
         <div className={styles.eventCard}>
             <strong>Event Date : 16 November 2024</strong>
         </div>
     );
-}
+}*/
 function Feature({ Svg, title, description, linkToPage, buttonDescription }) {
     return (
 
@@ -68,9 +68,9 @@ export default function HomepageFeatures() {
                     {FeatureList.map((props, idx) => (
                         <Feature key={idx} {...props} />
                     ))}
-                    <div className="col col--12">
+                    {/*<div className="col col--12">
                         <EventCard />
-                    </div>
+                    </div>*/}
                 </div>
             </div>
         </section>

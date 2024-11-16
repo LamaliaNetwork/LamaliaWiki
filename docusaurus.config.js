@@ -77,7 +77,8 @@ const config = {
         title: 'Lamalia Network',
         logo: {
           alt: 'Lamalia Logo',
-          src: 'img/ico.png',
+          src: 'img/lamalialogoblack.svg',
+          srcDark: 'img/lamalialogowhite.svg',
         },
         items: [
           {
@@ -151,6 +152,7 @@ const config = {
         logo: {
           alt: 'Lamalia Network Logo',
           src: 'img/lamalialogowhite.svg',
+          href: '/',
           width: 50,
           height: 50,
         },
