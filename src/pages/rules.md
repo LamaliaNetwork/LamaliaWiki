@@ -36,6 +36,7 @@ The following behaviors are strictly prohibited and may result in disciplinary a
 - Excessive swearing or use of profanity is discouraged.
 - Keep conversations, item-names and in-game names family-friendly.
 - Avoid using all caps excessively, as it's considered shouting.
+- This Includes in-game chat, signs, voice-chat and any other form of communication on the server. (applied to open channels)
 
 ## 3. Fair Play and Cheating
 

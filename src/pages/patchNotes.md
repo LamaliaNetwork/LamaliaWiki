@@ -6,6 +6,23 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
+## Patch 1.11.4
+
+> 12/11/2024
+>
+
+**Additions**
+- SupporterIII can now RTP to any biome using /biomertp command
+- Added /tpac /tpd for bedrock players (shorten tpaccept and tpdeny)
+- 
+
+**Changes**
+- Sell Rotating Shop Now use Left Click to sell (to better support bedrock players)
+
+
+**Fixes**
+
+
 ## Patch 1.11.3
 
 > 12/11/2024
