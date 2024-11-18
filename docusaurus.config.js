@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Lamalia Wiki',
   tagline: 'Center of Knowledge in Lamalia',
-  favicon: 'img/logo.ico',
+  favicon: 'img/lamalialogooriginal.svg',
 
   // Set the production url of your site here
   url: 'https://play.lamalia.net:25590',
