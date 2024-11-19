@@ -261,16 +261,3 @@ footer {
     height: 20px;
   }
 }
-.table-container {
-  display: grid;
-  place-items: center;
-}
-
-.blacklist_table {
-  text-align: center;
-  border-collapse: collapse;
-}
-.blacklist_title{
-  margin-bottom: 2rem;
-  text-align: center;
-}

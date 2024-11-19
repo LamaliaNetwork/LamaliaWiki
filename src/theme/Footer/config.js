@@ -15,7 +15,6 @@ export const footerConfig = {
       title: "Resources",
       links: [
         { text: "Docs", url: "/docs/intro" },
-        { text: "Blacklist", url: "/blacklist" },
       ],
     },
     {

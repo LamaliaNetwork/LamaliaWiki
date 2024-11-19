@@ -145,10 +145,6 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/LamaliaNetwork/LamaliaWiki',
               },
-              {
-                label: 'Blacklist',
-                to: '/blacklist',
-              }
             ],
           },
           
