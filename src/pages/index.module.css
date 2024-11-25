@@ -4,26 +4,36 @@
  */
 
 .heroBanner {
-  height: 50vh; /* Make the hero banner take the full viewport height */
-  padding: 4rem 0;
+  height: 100%; /* Make the hero banner take the full viewport height */
+  padding: 2rem 2rem;
   text-align: center;
   position: relative;
-  overflow: hidden;
-  background-image: url('/img/background.png'); /* Change this to your image path */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  color: #ffff; /* Text color */
+  background-color: black !important;
+  z-index: 1; /* Ensure content stays on top */
+}
+
+.heroBanner::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/background2.png"); /* Path to your background image */
   background-size: cover; /* Ensure the image covers the entire area */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-repeat: no-repeat; /* Prevent repeating */
   background-position: center; /* Center the image */
-  color: #fffcfc; /* Change this to your desired text color */
+  z-index: -1; /* Send the pseudo-element behind the content */
+  filter: blur(7px);
+  background-color: black;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.heroLogo {
+  position: relative;
+  z-index: 1;
+  width: 5rem;
+  height: 5rem;
+  max-width: 40%; /* Make the logo responsive */
 }
