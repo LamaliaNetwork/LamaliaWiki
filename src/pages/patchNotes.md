@@ -6,22 +6,55 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
-## Patch 1.11.4
+## Patch 2.0.0 RC 2
 
-> 12/11/2024
+> 30/11/2024
+> 
+
+**Additions**
+- Discord Linking System can now be used in any server (not just main server)
+
+## Patch 2.0.0 RC 1
+
+> 29/11/2024
 >
 
 **Additions**
+- Server Now Native on 1.21.1
 - SupporterIII can now RTP to any biome using /biomertp command
 - Added /tpac /tpd for bedrock players (shorten tpaccept and tpdeny)
-- 
+- New Discord Linking System (Thai Message Supported)
+- Added: Player warps with option to add description, category, and ratings
+  - New player warps can collect money from players who use it too
+  - Player warps can be set to public or private or whitelisted 
+  - Player warps can ban player/blacklist player from using it
+  - Player Warps will be available at Gold Rank.
+    - Rank Limits: 1 for Gold, 1 for Platinum, 1 for Emerald, 2 for Diamond, 4 for Astral, 6 for Cosmic, 8 for Eternity
+    - Supporter Limits: 2 for Supporter1, 4 for Supporter2, 6 for Supporter3, 10 for Supporter4, 15 for Supporter5, 99 for Unlimited Plan
+  - All player can use player warps at iron rank and above.
+  - command /pw create [name], /pw delete [name], /pw
 
 **Changes**
 - Sell Rotating Shop Now use Left Click to sell (to better support bedrock players)
+- Remove: Support for 1.20.x (Please update to 1.21.1)
+- Remove: Support for 1.21.2 and above due to protocol issue. will resolve in the future.
+- Revamped Enchantment System. All Custom enchants is now gone. (due to version incompatibility)
+- Removed: ServerWiki, LightBlock Changer, and Dispensers that place blocks. (will re add later if see fit)
+- Removed: Villager Trade Behind Spawn
+- Removed: Land Inspect due to version incompatibility
+- Removed: Language Selection system. Only thai is supported form now on.
+- Removed Old Discord Linking System
+- Removed: You can't sell items in Shulker box in quick sell anymore
+- Changed: Penguin Mace is now really a Mace Skin
+- Changed: Land Spawn flag has been removed for untrusted players (go use public warps)
+- Changed: Parasite Skin tier Rare -> normal, Price Adjusted
+- Removed: Public Home (go use public warps)
 
+**Known Issues**
+- Player Shop Database is bugged and need to be wiped. (due to version incompatibility)
 
 **Fixes**
-
+- Translation Issue
 
 ## Patch 1.11.3
 
