@@ -6,6 +6,80 @@
 
 ---
 
+## Patch 2.0.0 RC-3
+
+> 30/11/2024
+>
+
+**คุณสมบัติเพิ่มเติม**
+- Nation จะลบออกไปเอง ถ้าเจ้าของ lands ไม่สามารถจ่ายค่าบำรุงรักษาได้
+- เพิ่มอีกครั้ง: คำสั่ง /l inspect 
+- เพิ่ม: Catch Egg คลิกขวาเพื่อจับ mob (ยกเว้น boss)
+- เพื่ม: สูตรคราฟต์ Catch Egg 
+
+**เปลี่ยนแปลง**
+- Nation ต้องถึง x lands ทั้งหมด (Ranks เจ้าของ)
+  - Platinum: 5
+  - Diamond: 10
+  - Eternity: 15
+- Nation คำสั่งการสร้างย้ายจาก Emerald ไป Platinum
+- ลบ: ร้านค้า Spawn Egg
+
+**แก้ไขข้อบกพร่อง**
+- แก้ไข: ปัญหาสูตรคราฟต์ Storage Unit 
+- แก้ไข: ปัญหา Overenchanting 
+
+## Patch 2.0.0 RC 2
+
+> 30/11/2024
+> 
+
+**คุณสมบัติเพิ่มเติม**
+- ระบบ Discord Linking ตอนนี้สามารถใช้งานบนเซิร์ฟเวอร์ใดก็ได้ (ไม่ใช่แค่เซิร์ฟเวอร์หลักเท่านั้น)
+
+## Patch 2.0.0 RC 1
+
+> 29/11/2024
+>
+
+**คุณสมบัติเพิ่มเติม**
+- เซิร์ฟเวอร์ปัจจุบันเวอร์ชัน 1.21.1
+- SupporterIII ตอนนี้สามารถใช้ RTP ไปไบโอมได้โดยใช้คำสั่ง /biomertp
+- เพิ่ม /tpac /tpd สำหรับผู้เล่น Bedrock Edition (tpaccept และ tpdeny ตามลำดับ)
+- ระบบ Discord Linking ใหม่ (รองรับข้อความภาษาไทย)
+- เพิ่ม : Player warps พร้อมตัวเลือกในการเพิ่มคำอธิบาย หมวดหมู่ และการให้คะแนน
+  - Player warps ใหม่สามารถเก็บเงินจากผู้เล่นที่ใช้ได้
+  - Player warps สามารถตั้งค่าเป็นสาธารณะหรือส่วนตัวหรือไวท์ลิสต์ได้
+  - Player warps สามารถแบนผู้เล่น/ผู้เล่นบัญชีดำไม่ให้ใช้งาน
+  - Player Warps จะสามารถใช้โดย Gold Rank ขึ้นไป
+    - Rank Limits: 1 สำหรับ Gold, 1 สำหรับ Platinum, 1 สำหรับ Emerald, 2 สำหรับ Diamond, 4 สำหรับ Astral, 6 สำหรับ Cosmic, 8 สำหรับ Eternity
+    - Supporter Limits: 2 สำหรับ Supporter1, 4 สำหรับ Supporter2, 6 สำหรับ Supporter3, 10 สำหรับ Supporter4, 15 สำหรับ Supporter5, 99 สำหรับ Unlimited Plan
+  - ผู้เล่นทุกคนสามารถใช้ player warps ตั้งแต่ Iron rank ขึ้นไป
+  - คำสั่ง /pw create [name], /pw delete [name], /pw
+
+**เปลี่ยนแปลง**
+- Sell Rotating Shop ตอนนี้ใช้ Left Click เพื่อขาย (เพื่อสนับสนุนผู้เล่น Bedrock Edition ดีขึ้น)
+- ลบ: Support for 1.20.x (กรุณาอัปเดตเป็น 1.21.1)
+- ลบ: Support for 1.21.2 และสูงกว่าเนื่องจากปัญหาโปรโตคอล จะแก้ไขได้ในอนาคต
+- ปรับปรุงระบบ Enchantment ใหม่ เอนชานท์เมนต์แบบกำหนดเองหายไปแล้ว (เนื่องจากความไม่เข้ากันของเวอร์ชัน)
+- ลบ: ServerWiki, LightBlock Changer และ Dispensers ที่วางบล็อกได้ (จะเพิ่มอีกครั้งในภายหลัง)
+- ลบ: Villager Trade หลัง Spawn
+- ลบ: Land Inspect เนื่องจากความไม่เข้ากันของเวอร์ชัน
+- ลบ: ระบบการเลือกภาษา ตอนนี้รองรับเฉพาะภาษาไทยเท่านั้น
+- ลบ: ระบบ Discord Linking เก่า
+- ลบ: ไม่สามารถขายสินค้าในกล่อง Shulker box แบบขายด่วนได้อีกต่อไป
+- เปลี่ยน: Penguin Mace skin ตอนนี้ใช้ได้กับอาวุธ Mace
+- เปลี่ยน: Land Spawn flag ถูกลบออกสำหรับ untrusted players (ไปใช้ public warps แทน)
+- เปลี่ยน: Parasite Skin tier Rare -> normal และทำการปรับราคาแล้ว
+- ลบ: Public Home (ไปใช้ public warps แทน)
+
+**ปัญหาที่ทราบ**
+- Player Shop ปัญหาฐานข้อมูล และจำเป็นต้องนำออก (เนื่องจากความไม่เข้ากันของเวอร์ชัน)
+
+**แก้ไขข้อบกพร่อง**
+- ปัญหาการแปลภาษา
+
+
 ## Patch 1.11.3
 
 > 12/11/2024
