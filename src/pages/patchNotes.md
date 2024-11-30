@@ -6,15 +6,67 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
-## Patch 2.0.0 RC 2
+## Patch 2.0.0 RC-3
 
 > 30/11/2024
+>
+
+**Additions**
+- Nation will delete itself if nation owner can't pay the upkeep
+- Re-added: /l inspect command
+- Added: Catch Egg, Right Click to catch any mob. (except boss)
+- Added: Catch Egg Crafting Recipe
+
+**Changes**
+- Nation can have up to x lands in total (owner ranks)
+  - Platinum: 5
+  - Diamond: 10
+  - Eternity: 15
+- Nation Creation Command Moved from Emerald to Platinum
+- Removed: Spawn Egg Shop.
+
+**Fixes**
+- Fixed: Storage Unit Recipe Broken
+- Fixed: Overenchanting Bug
+
+## Patch 2.0.0 RC-2
+
+> 29/11/2024
 > 
 
 **Additions**
 - Discord Linking System can now be used in any server (not just main server)
+- Added LightBlock Changer Back
+- Added ServerWiki Back
+- Added Dispensers that place blocks Back
+- Nation Chat, Land Chat + Link with Discord
+  - /Lands channel create (land) will create a channel for your land. Only Linked Player.
+  - /Nation channel create (nation) will create a channel for your nation. Only Linked Player.
 
-## Patch 2.0.0 RC 1
+**Changes**
+- Land Cost Rebalanced
+  - Land Creation Cost: 2M → 1M
+  - Land Rename Cost: 10k → 5k
+  - Nation Creation Cost: 5M → 2M
+  - Nation Rename Cost: 50k → 10k
+  - Nation Upkeep: 3 per chunk → 5 per chunk
+  - Nation Capital Level Requirement: 4 -> 3
+- Own Land Limits Per Rank
+  - Iron - Silver: 1
+  - Gold - Platinum: 2
+  - Emerald: 3
+  - Diamond: 4
+  - Astral: 5
+  - Cosmic: 7
+  - Eternity: 10
+  - Supporter1: 4
+  - Supporter2: 7
+  - Supporter3: 10
+  - Supporter4: 15
+  - Supporter5: 20
+  - Unlimited Plan: No Limit
+
+## Patch 2.0.0 RC-1
 
 > 29/11/2024
 >
