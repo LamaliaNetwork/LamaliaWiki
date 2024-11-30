@@ -105,3 +105,29 @@ C = Chest
 - 1 Nether Star
 - 3 Netherite Ingots
 - 1 Chest
+
+## Catch Egg
+
+:::caution
+This feature is an experimental feature and may be subject to change.
+:::
+
+![Catch Egg Crafting Recipe](/img/doc/features/customCrafting/Catch_Egg.png)
+
+**Description:** A Catch Egg Right Click to catch any mob. (except boss)
+
+**Crafting Recipe:**
+```
+N S N
+S E S
+N S N
+```
+
+S = Nether Star
+N = Netherite Ingot
+E = Eye of Ender
+
+**Ingredients:**
+- 1 Nether Star
+- 3 Netherite Ingots
+- 1 Eye of Ender

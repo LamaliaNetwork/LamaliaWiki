@@ -1,5 +1,4 @@
-﻿
-# Discord Linking
+﻿# Discord Linking
 ![Discord](/img/doc/quality_of_life/discord/DiscordLinking.svg)
 :::info Discord Linking คืออะไร?
 การเชื่อมโยง Discord ช่วยให้สามารถส่งข้อความจาก Discord ไปยังแชทในเกมได้โดยตรง
@@ -13,26 +12,29 @@
 
    ใช้คำสั่งต่อไปนี้ในเกม:
    ```
-   /discord link
+   /discord account link
    ```
-   จะได้รับรหัส ซึ่งจะเป็นข้อความลักษณะแบบนี้ :
+   จะได้รับคำสั่งและรหัส ซึ่งจะเป็นข้อความลักษณะแบบนี้ :
 
-   >**[Discord]** your link code is **0000**. PM the bot on Discord (Lamalia Verify) containing just this code as the message to link your accounts.
+   >**[DiscordBridge]** Please execute the following command in the Discord server: /account link code:**code**
 
-2. **ส่งรหัสไปยังบอท**
+2. **ใช้คำสั่งที่ช่อง #bot บนเซิร์ฟเวอร์ Discord**
 
    :::tip เกร็ดความรู้
-   ค้นหาบอทชื่อ **Lamalia Verify** บน Discord.
+   ค้นหาช่อง **#bot** บนเซิร์ฟเวอร์ Discord.
    :::
 
-   ส่งข้อความ (DM) ไปยัง Lamalia Verify Bot ด้วยรหัสที่คุณได้รับ
+   ```
+   /account link code:[code]
+   ```
+   ใช้คำสั่งที่ได้รับในช่อง **#bot** บนเซิร์ฟเวอร์ Discord
 
 3. **การยืนยัน**
 
    หากสำเร็จบอทจะตอบกลับด้วยข้อความลักษณะนี้:
 
    ```
-   "Your Discord account has been linked to Username (Your UUID)"
+   "Successfully linked your Discord account to the Minecraft account (Username)"
    ```
 
    ข้อความนี้ยืนยันว่าบัญชีของคุณเชื่อมโยงแล้ว
@@ -43,18 +45,18 @@
 
 1. ใช้คำสั่งต่อไปนี้ในเกม:
    ```
-   /discord linked
+   /discord account
    ```
 
-2. ระบบจะแจ้งให้ทราบถึงสถานะลิงก์ของคุณ:
+2. ระบบจะแสดงหน้าต่าง Discord Account:
 
    **ถ้าเชื่อมโยงบัญชีแล้ว:**
 
-   > <font color="cyan">Your Minecraft account is associated with Username.</font>
+   > <font color="green">Account Linked</font>
+   >>"Account is linked to Discord [Username]
 
    **ถ้ายังไม่ได้เชื่อมโยงบัญชี:**
-   > <font color="red">Your Minecraft account isn't associated with a Discord account.</font>
-   
+   > <font color="blue">Link Discord Account</font>
 
 :::caution คำเตือน
 ตรวจสอบให้แน่ใจว่าได้เก็บรหัสลิงก์ของคุณไว้เป็นส่วนตัว ผู้ไม่ประสงค์ดีที่เข้าถึงรหัสนี้อาจเชื่อมโยงบัญชี Discord ของพวกเขากับบัญชีเกมของคุณ
@@ -64,7 +66,7 @@
 
 หากคุณพบปัญหาใด ๆ ในระหว่างกระบวนการเชื่อมโยง:
 
-1. ตรวจสอบให้แน่ใจว่าคุณใช้บอทที่ถูกต้อง (Lamalia Verify)
+1. ตรวจสอบให้แน่ใจว่าใช้คำสั่งในช่อง **#bot** ถูกต้อง
 2. ตรวจสอบอีกครั้งที่ว่าป้อนรหัสลิงก์ที่ถูกต้อง
 3. ลองสร้างรหัสลิงก์ใหม่หากรหัสเดิมไม่ทำงาน
 4. หากปัญหายังคงอยู่ให้ติดต่อผู้ดูแลระบบเซิร์ฟเวอร์เพื่อขอความช่วยเหลือ

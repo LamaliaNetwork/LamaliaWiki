@@ -64,7 +64,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Kanit", sans-serif;
+  font-family: "Kanit", sans-serif !important;
 }
 footer {
   position: relative;

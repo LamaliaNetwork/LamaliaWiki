@@ -15,7 +15,6 @@ Engage in transactions through our main shop, where you can both buy and sell it
 ### Buy Shops
 - Blocks
 - Decorations
-- Spawn Eggs
 - Redstone
 - Dyes
 

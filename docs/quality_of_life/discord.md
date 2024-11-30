@@ -1,5 +1,5 @@
 # Discord Linking
-
+![Discord](/img/doc/quality_of_life/discord/DiscordLinking.svg)
 :::info What is Discord Linking?
 Discord Linking allows you to send text messages from Discord directly to the in-game chat.
 :::
@@ -12,27 +12,30 @@ Follow these steps to link your Discord account:
 
    Use the following command in-game:
    ```
-   /discord link
+   /discord account link
    ```
 
-   You will receive a code. It should look something like this:
+   You will receive command and code. It should look something like this:
 
    
 
-2. **Submit the Code to the Bot**
+2. **Use command to channel #bot on Discord Server**
 
    :::tip
-   Search for the bot named **Lamalia** on Discord.
+   find channel **#bot** on Discord server.
    :::
-
-   Send a Direct Message (DM) to the Lamalia bot with the code you received.
+   
+   ```
+   /account link code:[code]
+   ```
+   Use commands received in channel **#bot** on Discord server.
 
 3. **Confirmation**
 
    If successful, the bot will reply with a message similar to:
 
    ```
-   "Your Discord account has been linked to Username (Your UUID)"
+   "Successfully linked your Discord account to the Minecraft account (Username)"
    ```
 
    This message confirms that your account is now linked.
@@ -43,18 +46,17 @@ You can check if your Discord account is linked at any time:
 
 1. Use the following command in-game:
    ```
-   /discord linked
+   /discord account
    ```
 
-2. The system will inform you of your link status:
+2. The system will show Discord Account status GUI:
 
    **If linked:**
-
-   
+   > <font color="green">Account Linked</font>
+   >>"Account is linked to Discord [Username]
 
    **If not linked:**
-
-   
+      > <font color="blue">Link Discord Account</font>
 
 :::caution
 Make sure to keep your link code private. Anyone with access to this code could potentially link their Discord account to your game account.
@@ -64,7 +66,7 @@ Make sure to keep your link code private. Anyone with access to this code could 
 
 If you encounter any issues during the linking process:
 
-1. Ensure you're using the correct bot (Lamalia).
+1. Ensure you're using command in channel **#bot**.
 2. Double-check that you've entered the link code correctly.
 3. Try generating a new link code if the old one doesn't work.
 4. If problems persist, contact a server administrator for assistance.
