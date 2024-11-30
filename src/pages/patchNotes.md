@@ -6,6 +6,26 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
+## Patch 2.0.0
+
+> 30/11/2024
+>
+
+**Additions**
+- Bedrock Can Now OverEnchant
+
+**Changes**
+- Nation can have up to x lands in total (owner ranks)
+  - Platinum: 5
+  - Diamond: 10
+  - Eternity: 15
+- Nation Creation Command Moved from Emerald to Platinum
+- Removed: Spawn Egg Shop.
+
+**Fixes**
+- Fixed: Storage Unit Recipe Broken
+- Fixed: Overenchanting Bug
+
 ## Patch 2.0.0 RC-3
 
 > 30/11/2024
