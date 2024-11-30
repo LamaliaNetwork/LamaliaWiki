@@ -29,13 +29,42 @@
 - แก้ไข: ปัญหาสูตรคราฟต์ Storage Unit 
 - แก้ไข: ปัญหา Overenchanting 
 
-## Patch 2.0.0 RC 2
+## Patch 2.0.0 RC-2
 
-> 30/11/2024
+> 29/11/2024
 > 
 
 **คุณสมบัติเพิ่มเติม**
 - ระบบ Discord Linking ตอนนี้สามารถใช้งานบนเซิร์ฟเวอร์ใดก็ได้ (ไม่ใช่แค่เซิร์ฟเวอร์หลักเท่านั้น)
+- เพิ่ม LightBlock Changer กลับมา
+- เพิ่ม ServerWiki กลับมา
+- เพิ่ม Dispensers วางบล็อกได้ กลับมา
+- Nation Chat, Land Chat + เชื่อมต่อกับ Discord
+  - /Lands channel create (land) จะสร้าง channel สำหรับ land ของคุณ ผู้เล่นที่ Discord Linked เท่านั้น
+  - /Nation channel create (nation) จะสร้าง channel สำหรับ nation ของคุณ ผู้เล่นที่ Discord Linked เท่านั้น
+
+**เปลี่ยนแปลง**
+- ปรับสมดุลค่าใช้จ่าย Land 
+  - ค่าใช้จ่ายในการสร้าง Land: 2M → 1M
+  - ค่าใช้จ่ายในการเปลี่ยนชื่อ Land: 10k → 5k
+  - ค่าใช้จ่ายในการสร้าง Nation: 5M → 2M
+  - ค่าใช้จ่ายในการเปลี่ยนชื่อ Nation: 50k → 10k
+  - ค่าบำรุงรักษา Nation: ต่อ 3 ชังก์ → ต่อ 5 ชังก์ 
+  - ข้อกำหนด Capital Nation: 4 -> 3
+- ขีดจำกัดเจ้าของ Land ต่อ Ranks
+  - Iron - Silver: 1
+  - Gold - Platinum: 2
+  - Emerald: 3
+  - Diamond: 4
+  - Astral: 5
+  - Cosmic: 7
+  - Eternity: 10
+  - Supporter1: 4
+  - Supporter2: 7
+  - Supporter3: 10
+  - Supporter4: 15
+  - Supporter5: 20
+  - Unlimited Plan: ไม่จำกัด
 
 ## Patch 2.0.0 RC 1
 
@@ -62,7 +91,7 @@
 - ลบ: Support for 1.20.x (กรุณาอัปเดตเป็น 1.21.1)
 - ลบ: Support for 1.21.2 และสูงกว่าเนื่องจากปัญหาโปรโตคอล จะแก้ไขได้ในอนาคต
 - ปรับปรุงระบบ Enchantment ใหม่ เอนชานท์เมนต์แบบกำหนดเองหายไปแล้ว (เนื่องจากความไม่เข้ากันของเวอร์ชัน)
-- ลบ: ServerWiki, LightBlock Changer และ Dispensers ที่วางบล็อกได้ (จะเพิ่มอีกครั้งในภายหลัง)
+- ลบ: ServerWiki, LightBlock Changer และ Dispensers วางบล็อกได้ (จะเพิ่มอีกครั้งในภายหลัง)
 - ลบ: Villager Trade หลัง Spawn
 - ลบ: Land Inspect เนื่องจากความไม่เข้ากันของเวอร์ชัน
 - ลบ: ระบบการเลือกภาษา ตอนนี้รองรับเฉพาะภาษาไทยเท่านั้น
