@@ -8,9 +8,9 @@ Nations are alliances of multiple lands that work together, sharing benefits and
 
 ## Creation and Management
 
-- **Creation Cost**: 5,000,000 coins
-- **Rename Cost**: 50,000 coins
-- **Requirements**: Must be Emerald rank or higher to create a nation
+- **Creation Cost**: $2,000,000
+- **Rename Cost**: $10,000
+- **Requirements**: Must be Platinum rank or higher to create a nation
 
 ## Nation Levels
 

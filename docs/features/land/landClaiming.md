@@ -7,7 +7,8 @@ sidebar_position: 1
 ## General Info
 
 :::info
-- Lands Creation Cost: **$2000000** (First land is free)
+- Lands Creation Cost: **$1,000,000** (First land is free)
+- Lands Rename Cost: **$5,000**
 - Chunk Claims Cost: **$1000 per chunk (max 5000)**
 - Each Claim will add $10 to the cost
 - Lands Limit: (Please See Rank)

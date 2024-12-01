@@ -22,6 +22,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 1
 - Free Chunks: 10
 - Chunks Limit: 20
 - Support Chunks: 1
@@ -45,6 +46,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 1
 - Free Chunks: 12
 - Chunks Limit: 25
 - Support Chunks: 2
@@ -69,6 +71,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 1
 - Free Chunks: 15
 - Chunks Limit: 30
 - Support Chunks: 3
@@ -93,6 +96,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 2
 - Free Chunks: 20
 - Chunks Limit: 40
 - Support Chunks: 4
@@ -120,6 +124,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 2
 - Free Chunks: 15
 - Chunks Limit: 55
 - Support Chunks: 5
@@ -144,6 +149,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 3
 - Free Chunks: 15
 - Chunks Limit: 70
 - Support Chunks: 6
@@ -169,6 +175,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 4
 - Free Chunks: 15
 - Chunks Limit: 90
 - Support Chunks: 7
@@ -196,6 +203,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 5
 - Free Chunks: 15
 - Chunks Limit: 150
 - Support Chunks: 8
@@ -219,6 +227,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 7
 - Free Chunks: 15
 - Chunks Limit: 250
 - Support Chunks: 10
@@ -243,6 +252,7 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 10
 - Free Chunks: 15
 - Chunks Limit: 400
 - Support Chunks: 15
@@ -282,6 +292,7 @@ Supporter Ranks are available to players who donate to support the server. These
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 4
 - Free Chunks: 15
 - Chunks Limit: 90
 - Support Chunks: 7
@@ -323,6 +334,7 @@ Supporter Ranks are available to players who donate to support the server. These
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 7
 - Free Chunks: 15
 - Chunks Limit: 90
 - Support Chunks: 7
@@ -363,6 +375,7 @@ Similar to Supporter I in all respects, with the following additions:
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 10
 - Free Chunks: 15
 - Chunks Limit: 90
 - Support Chunks: 7
@@ -394,6 +407,7 @@ Similar to Supporter I-II in all respects, with the following additions:
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 15
 - Free Chunks: 15
 - Chunks Limit: 90
 - Support Chunks: 15
@@ -428,6 +442,7 @@ Similar to Supporter I-III in all respects, with the following additions:
 
 :::note Lands Limits
 - Free Lands: 1
+- Own Lands: 20
 - Free Chunks: 15
 - Chunks Limit: 90
 - Support Chunks: 25
