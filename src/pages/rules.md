@@ -63,28 +63,75 @@ The use of the following is strictly forbidden:
 - Using multiple accounts to gain an unfair economic advantage is not allowed.
 - if you have a legitimate reason for using an alt, please inform staff in advance.
 
-## 4. Griefing and Property Respect
+### **4. Griefing and Property Respect**
 
-### 4.1 Definition of Griefing
+#### **4.1 Definition of Griefing**
 
 Griefing includes, but is not limited to:
 
-- Intentionally damaging or altering another player's build without permission
-- Placing blocks or entities to cause lag or disrupt gameplay
-- Trapping players against their will
+- Intentionally damaging or altering another player's build without permission.
+- Placing blocks or entities to cause lag or disrupt gameplay.
+- Trapping players against their will.
 
-### 4.2 Protected and Unprotected Areas
+#### **4.2 Protected and Unprotected Areas**
 
 - Always respect protected areas and builds, regardless of their location.
 - In unprotected areas, assume all structures belong to someone unless explicitly stated otherwise.
-- There are some server protected areas that are off-limits for building or altering. Rules stated below.
-  - Old Spawn (world 0,0) This region is protected and cannot be altered. as a piece of server history.
-  - End Island (world_the_end 0,0) Can be altered but not claimed and no machines can be built. except stated otherwise.
+- There are some server-protected areas that are off-limits for building or altering. Rules stated below:
+  - **Old Spawn (world 0,0)**: This region is protected and cannot be altered as a piece of server history.
+  - **End Island (world\_the\_end 0,0)**: Can be altered but not claimed, and no machines can be built unless stated otherwise.
 
-### 4.3 Stealing and Scamming
+#### **4.3 Definition of a Building/Property**
 
-- Taking items from another player's containers without permission is considered stealing. Even from unclaim land.
+A "building" or "property" is defined as a **purposeful creation by a player**, which meets the following criteria:
+
+##### **4.3.1 Intent and Purpose**
+
+- A structure or arrangement of blocks showing clear intent for **functional** (e.g., farms, storage, infrastructure) or **decorative** (e.g., houses, statues, landscaping) purposes.
+- Must be visibly distinguishable from random block placements or temporary setups (e.g., scaffolding, accidental drops).
+
+##### **4.3.2 Minimum Size and Activity**
+
+- A building must meet **at least one** of the following:
+  - **Size Requirement**: Covers an area of at least **3x3 blocks**, or equivalent space with a recognizable pattern (e.g., walls, roof, or organized layout).
+  - **Activity Requirement**: Contains items indicating use or intent, such as:
+    - Crafting tables, furnaces, chests, beds.
+    - Crops, animals, or redstone mechanisms.
+- **Single Blocks or Loose Items**: Chests or isolated blocks without any supporting structure do not qualify as a building unless:
+  - They are marked with a **sign** clearly indicating ownership.
+  - They show continuous use, such as containing items or being regularly accessed.
+
+##### **4.3.3 Markers of Ownership**
+
+- Buildings are more easily recognized as a property when the following markers are present:
+  - **Signs** indicating ownership or purpose (e.g., “This is John’s farm”).
+  - **Borders** or fencing to outline the property.
+  - **Unique Features** that distinguish the build as owned (e.g., banners, player heads, personalized designs).
+- **Note**: Lack of explicit markers does not disqualify a build if its ownership is evident through effort and design.
+
+##### **4.3.4 Abandonment and Incompleteness**
+
+- **Abandoned Builds**:
+  - A structure left untouched or unused for a period of **14 days** without clear signs of ongoing work may be considered abandoned.
+  - This includes incomplete structures with no signs of recent progress.
+- **Exceptions**:
+  - If a player communicates their absence or intention to return, the property remains protected.
+  - Staff may decide based on evidence of player activity.
+
+##### **4.3.5 Prohibited Claims**
+
+- Players **cannot claim** or alter any building or property that meets the above criteria unless:
+  - The original builder explicitly gives permission.
+  - The structure is abandoned under the server’s defined timeframe.
+
+#### **4.4 Stealing and Scamming**
+
+- Taking items from another player's containers without permission is considered stealing, even from unclaimed land.
 - Scamming, or intentionally deceiving other players for personal gain, is prohibited.
+
+#### **4.5 Staff Discretion in Property Disputes**
+
+- In cases where property disputes arise, staff members reserve the right to make a final decision based on the spirit of the rules. All players are expected to respect and abide by these decisions to maintain a fair and enjoyable environment for everyone.
 
 ## 5. PvP and Combat
 
@@ -195,9 +242,22 @@ The following forms of advertising are not allowed:
 
 - Significant changes to rules will be announced in the server's discord and/or in-game.
 
-## 12. Disclaimer
+## 12. Exploiting Loopholes / Disclaimers
+
+### 12.1 Rule Exploitation
+- Players are strictly prohibited from exploiting loopholes or unclear rules to gain an unfair advantage or harm others.
+- Any discovered loopholes must be reported to staff immediately. Failing to do so and exploiting them will result in disciplinary action.
+
+### 12.2 Reporting and Consequences
+- If a player identifies a loophole, they are expected to report it to the staff promptly.
+- Players who exploit a loophole without reporting it may face punishments ranging from warnings to bans, depending on the severity.
+
+### 12.3 Staff Authority
+- Staff decisions regarding loophole exploitation are final and must be respected.
+- The spirit of the rules is to maintain a fair and enjoyable environment for all players.
 
 While these rules cover many scenarios, it's impossible to account for every situation. Staff members reserve the right to use their judgment in cases not explicitly covered by these rules. The spirit of these rules – fostering a fun, fair, and respectful environment – should be followed at all times.
 
 Remember, if you're unsure about whether an action is allowed, it's always best to ask a staff member first. Thank you for being a part of the Lamalia community and helping to create an enjoyable experience for all players!
 
+By continuing to play, players agree to adhere to these rules and updates.

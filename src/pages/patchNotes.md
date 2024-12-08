@@ -13,6 +13,8 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 **Additions**
 - Bedrock Can Now OverEnchant
+- Re-Add Support For 1.21.2, 1.21.3, 1.21.4
+- Add Support For Bedrock 1.21.5
 
 **Changes**
 - Nation can have up to x lands in total (owner ranks)
