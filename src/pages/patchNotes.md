@@ -15,6 +15,10 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Bedrock Can Now OverEnchant
 - Re-Add Support For 1.21.2, 1.21.3, 1.21.4
 - Add Support For Bedrock 1.21.5
+- Re-Add: Questboard system
+- Added: Quest Points Shop in spawn
+- Added: Restart Timer to show when the server will restart
+- Re-Add /ec command to open enderchest
 
 **Changes**
 - Nation can have up to x lands in total (owner ranks)
@@ -23,9 +27,17 @@ Patch notes are updates written by the Minecraft server developers that detail c
   - Eternity: 15
 - Nation Creation Command Moved from Emerald to Platinum
 - Removed: Spawn Egg Shop.
+- Removed: Chunk Buster in Shop
+- Player Market Expiration Time
+  - Default: 3 Days -> 10 Days
+  - Supporter2: 5 Days -> 12 Days
+  - Supporter3: 10 Days -> 15 Days
+  - Supporter4: 15 Days -> 20 Days
+  - Supporter5: 30 Days -> 30 Days
 
 **Fixes**
 - Fixed: Storage Unit Recipe Broken
+- Fixed: Discord Linking Internal Bug
 - Fixed: Overenchanting Bug
 
 ## Patch 2.0.0 RC-3

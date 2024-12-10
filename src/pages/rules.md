@@ -154,11 +154,18 @@ A "building" or "property" is defined as a **purposeful creation by a player**, 
 
 ### 6.2 Advertising
 
-The following forms of advertising are not allowed:
+#### 6.2.1 External Advertising
 
+The following forms of advertising are not allowed:
 - Promotion of other Minecraft servers
 - Links to external websites (unless directly relevant to an ongoing discussion and approved by staff)
 - Unsolicited promotion of personal social media or streaming channels
+
+#### 6.2.2 In-Game Advertising
+
+- Players may advertise their shops, services, or events within the server's designated channels (#marketplace, or in-game chat).
+- Player may not spam advertisements or use deceptive tactics to attract attention.
+- Player may not advertise in public marketplaces or channels that are not designated for such purposes. such as player market.
 
 ### 6.3 Appropriate Topics
 
