@@ -17,8 +17,13 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Add Support For Bedrock 1.21.5
 - Re-Add: Questboard system
 - Added: Quest Points Shop in spawn
+  - Money Trade 
+  - Chunk Buster Trade
+  - Catch Egg Trade
 - Added: Restart Timer to show when the server will restart
 - Re-Add /ec command to open enderchest
+- Added: /pet command to summon pet (Free Pig Pet For All)
+- Added: 5% tax for putting items in the player market (to prevent ridiculous pricing)
 
 **Changes**
 - Nation can have up to x lands in total (owner ranks)
@@ -28,6 +33,7 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Nation Creation Command Moved from Emerald to Platinum
 - Removed: Spawn Egg Shop.
 - Removed: Chunk Buster in Shop
+- Removed: Catch Egg Recipe
 - Player Market Expiration Time
   - Default: 3 Days -> 10 Days
   - Supporter2: 5 Days -> 12 Days
@@ -39,6 +45,7 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Fixed: Storage Unit Recipe Broken
 - Fixed: Discord Linking Internal Bug
 - Fixed: Overenchanting Bug
+- Fixed: Bedrock Color Name Change Bug
 
 ## Patch 2.0.0 RC-3
 
