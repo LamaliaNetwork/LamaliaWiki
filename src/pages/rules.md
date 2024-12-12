@@ -60,7 +60,7 @@ The use of the following is strictly forbidden:
 ### 3.3 Alternative Accounts
 
 - The use of alternative accounts ("alts") to circumvent bans or punishments is prohibited.
-- Using multiple accounts to bypass sell limits or gain an unfair economic advantage is not allowed. (if you have alts account that account are not allowed to sell in server shop)
+- Using multiple accounts to bypass sell limits or gain an unfair economic advantage is not allowed. (if you have alts account that account are not allowed to earn money in any way)
 - if you have a legitimate reason for using an alt, please inform staff in advance.
 
 ### **4. Griefing and Property Respect**
