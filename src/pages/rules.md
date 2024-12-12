@@ -59,9 +59,18 @@ The use of the following is strictly forbidden:
 
 ### 3.3 Alternative Accounts
 
-- The use of alternative accounts ("alts") to circumvent bans or punishments is prohibited.
-- Using multiple accounts to bypass sell limits or gain an unfair economic advantage is not allowed. (if you have alts account that account are not allowed to earn money in any way)
-- if you have a legitimate reason for using an alt, please inform staff in advance.
+ํJava and Bedrock Edition players are allowed to have multiple accounts, but they must follow these guidelines:
+
+You can have up to 2 main accounts (Java and Bedrock) 
+
+What Can You Do:
+- Use Alt accounts for personal use, such as testing.
+- Use Alt accounts to AFK for resources.
+
+What You Can't Do:
+- Use Alt accounts to bypass bans or punishments.
+- Use Alt accounts to gain Money in any way.
+- Use Alt accounts to create lands.
 
 ### **4. Griefing and Property Respect**
 
