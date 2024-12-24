@@ -231,6 +231,28 @@ The following forms of advertising are not allowed:
 - Texture packs that do not provide an unfair advantage (such as x-ray) are allowed.
 - If in doubt about a specific texture pack, consult with staff before use.
 
+### 9.3 Server Resources and Intellectual Property
+
+- All server resources, including but not limited to:
+  - Resource packs
+  - Custom textures
+  - Server artwork
+  - Custom models
+  - Sound assets
+  - Server logos and branding
+    Are the intellectual property of Lamalia and its content creators.
+
+- Players are prohibited from:
+  - Extracting server resource packs for personal use
+  - Redistributing server assets
+  - Modifying and redistributing server resources
+  - Using server assets in other projects without permission
+
+- Requests for using server resources should be directed to server staff through appropriate channels (#open-ticket).
+
+- Unauthorized extraction or use of server resources may result in disciplinary action as outlined in Section 10.
+
+
 ## 10. Consequences and Enforcement
 
 ### 10.1 Warning System
