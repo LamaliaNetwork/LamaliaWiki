@@ -1,4 +1,4 @@
-# Grief Checker [/l inspect]
+# Grief Checker Tools
 
 :::info Enable / Disable inspect mode Command : `/l inspect`
 :::
@@ -21,5 +21,5 @@ At last, you can also place blocks and get changes made to the placed-block's lo
 :::danger This is just a preliminary check.
 Please get in touch with the administrator or moderator if you find any issues.
 <br/><>>>></>
-[⛔️ | Private Help](./privateHelp.md)
+[📩 | Private Help](./privateHelp.md)
 :::

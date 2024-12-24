@@ -1,6 +1,6 @@
 {
-  "label": "Store",
-  "position": 6,
+  "label": "Event",
+  "position": 1,
   "link": {
     "type": "generated-index"
   }

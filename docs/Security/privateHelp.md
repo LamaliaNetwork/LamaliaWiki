@@ -1,4 +1,4 @@
-# ⛔️ | Private Help - Contact Admin
+# 📬 | Contact us
 <!-- Private Help EN -->
 <!-- Voyl_x 240908 -->
 
@@ -16,10 +16,19 @@ Use this channel to contact the administrator and report problems.
 ### How to use Private Help:
 Follow these steps to contact the administrator:
 ![privateHelp1](/img/doc/privateChat/DC_PrivteHelp_1.png)
-1. Click on the chat channe `# ⛔️ | Private Help`
+1. Click on the chat channe `# 📩 | Private Help`
 2. Click on `Open Ticket`
 ![privateHelp1](/img/doc/privateChat/DC_PrivteHelp_2.png)
 3. Click on the ticket that appears, such as `ticket-xxx`
 ![privateHelp1](/img/doc/privateChat/DC_PrivteHelp_3.png)
 4. Type your issue or the topic you want to discuss in this chat channel `ticket-xxx`
 5. Once the issue is resolved or the conversation is complete, <green>close the ticket</green> by clicking the <red>`Close`</red> button.
+
+
+:::info Facebook Page
+Use this channel to contact Lamalia Team if you are uncomfortable contacting via Discord. This channel will receive a response as soon as possible.
+:::
+
+### How to Inbox Lamalia Team
+1. [Lamalia Network](https://www.facebook.com/profile.php?id=61556568863338)
+2. Send a DM with your message or problem.
