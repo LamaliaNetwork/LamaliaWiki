@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 id: brewing-guide
 title: Brewing Guide - LamaLia
 sidebar_label: Brewing Guide
