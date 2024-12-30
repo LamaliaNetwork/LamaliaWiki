@@ -1,4 +1,7 @@
-﻿# Custom Images Maps
+﻿---
+sidebar_position: 1
+---
+# Custom Images Maps
 
 :::caution
 This feature is an experimental feature and may be subject to change.

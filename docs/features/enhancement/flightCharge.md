@@ -1,4 +1,7 @@
-﻿# Flight Charge
+﻿---
+sidebar_position: 5
+---
+# Flight Charge
 
 :::info
 Flight Charge enables you to fly temporarily using your in-game money.

@@ -1,4 +1,7 @@
-﻿# Voice chat
+﻿---
+sidebar_position: 2
+---
+# Voice chat
 
 Voice chat is a system we've implemented for players to communicate in-game, but it requires the installation of a straightforward mod called **Simple Voice Chat**. This mod is compatible with Fabric, Forge, Quilt, or any other supported platforms. You can easily install it from this website.
 

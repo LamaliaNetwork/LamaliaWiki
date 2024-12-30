@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Discord Linking
 ![Discord](/img/doc/quality_of_life/discord/DiscordLinking.svg)
 :::info What is Discord Linking?

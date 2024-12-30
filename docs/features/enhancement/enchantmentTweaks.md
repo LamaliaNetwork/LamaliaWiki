@@ -1,3 +1,6 @@
+﻿---
+sidebar_position: 2
+---
 # Enchantments Guide
 
 :::tip How to get overloaded enchantments

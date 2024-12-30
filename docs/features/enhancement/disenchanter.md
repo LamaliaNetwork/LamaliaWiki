@@ -1,4 +1,7 @@
-﻿# Disenchanter
+﻿---
+sidebar_position: 3
+---
+# Disenchanter
 
 The Disenchanter allows you to extract enchantments from items, but it comes with risks and costs.
 

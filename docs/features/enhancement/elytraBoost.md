@@ -1,4 +1,7 @@
-﻿# Elytra Enhancements
+﻿---
+sidebar_position: 4
+---
+# Elytra Enhancements
 
 This guide covers the various enhancements available for Elytra flight.
 
