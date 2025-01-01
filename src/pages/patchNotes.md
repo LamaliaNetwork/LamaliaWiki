@@ -6,6 +6,53 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
+## Patch 2.2.0
+
+> 24/01/2025
+> 
+
+**Additions**
+- Added: Armorstand Scale to Armorstand Editor
+- Added: Hopper Filter to Beta Testers
+- Added: Worldedit tools to Beta Testers
+- Added: BlockCycle to Donators
+  - Added: In-Wall for modifying wall , fence, iron bars blocks
+  - Added: Open Property for modifying barrels.
+- Added: Land distance requirement of 1 Chunk to other players' land
+- Added: Nation Distance Requirement of 3 Chunk to other nations' land
+- Added: Land Role Flag that allow you to claim near owner border
+- Added: Land Role Flag that allow user to Set Land Spawn
+- Added: Land Role Flag that allow user to edit Taxes
+
+**Changes**
+
+
+## Patch 2.1.0
+> 24/12/2024
+> 
+
+**Additions**
+- Brewing Systems
+  - Brewing Recipes using cauldron
+  - Distilling Recipes using distiller (brewing stand)
+  - Barrel Aging Recipes using barrel
+  - Sealing Table to hide recipe
+  - Recipe Book to store recipes
+- Custom Crafting Recipes for Seal Table and Recipe Book
+  - Seal Table: 4 Planks + 2 Ender Crystal
+  - Recipe Book: 1 Book + 4 Ender Crystal
+- Added: Brewing Wiki Page
+- Added: New Drinks
+  - Wheat Beer (50 Quest Points)
+  - Honey Mead (200 Quest Points)
+  - Sea Pickle Elixir (200 Quest Points)
+  - Crimson Fungal Bloom (200 Quest Points)
+  - Glowberry Schnapps (Not Available Must Experiment to get recipe)
+
+
+**Changes**
+- Flyspeed Command now available for all ranks
+
 ## Patch 2.0.0
 
 > 30/11/2024
@@ -24,6 +71,13 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Re-Add /ec command to open enderchest
 - Added: /pet command to summon pet (Free Pig Pet For All)
 - Added: 5% tax for putting items in the player market (to prevent ridiculous pricing)
+- Added: Pick Icon for Homes is available for all ranks.
+- Added: Pipes Mechanic Transfer 1 stack of item at a time at flashing speed. to use
+  - An item source. such as chests or barrels
+  - A sticky piston pointed at the source. When the power state of the sticky piston goes from low to high, items are sucked out of the source into the pipe.
+  - A tube of blocks to act as the pipe. glass different color for different pipe
+  - A piston pointed at the destination.
+  - An item destination. such as chests or barrels
 
 **Changes**
 - Nation can have up to x lands in total (owner ranks)
