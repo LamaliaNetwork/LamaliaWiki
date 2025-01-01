@@ -6,6 +6,27 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
+## Patch 2.2.0
+
+> 24/01/2025
+> 
+
+**Additions**
+- Added: Armorstand Scale to Armorstand Editor
+- Added: Hopper Filter to Beta Testers
+- Added: Worldedit tools to Beta Testers
+- Added: BlockCycle to Donators
+  - Added: In-Wall for modifying wall , fence, iron bars blocks
+  - Added: Open Property for modifying barrels.
+- Added: Land distance requirement of 1 Chunk to other players' land
+- Added: Nation Distance Requirement of 3 Chunk to other nations' land
+- Added: Land Role Flag that allow you to claim near owner border
+- Added: Land Role Flag that allow user to Set Land Spawn
+- Added: Land Role Flag that allow user to edit Taxes
+
+**Changes**
+
+
 ## Patch 2.1.0
 > 24/12/2024
 > 
