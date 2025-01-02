@@ -5,12 +5,12 @@ sidebar_position: 2
 # Pets
 
 :::caution
-This Cosmetic system adds interest to playing games and does not grant special abilities to players.
+ระบบคอสเมติกนี้ เพิ่มความน่าสนใจให้กับการเล่นเกม และไม่ได้มอบความสามารถพิเศษให้กับผู้เล่น
 :::
 
 ## Overview
 
-The pet system is an additional feature designed to enhance the enjoyment and excitement of playing Minecraft, particularly on this server. These pets are meant to be companions for players without providing any special powers that can assist in gameplay. Players can purchase these pets from [Official Store](https://store.lamalia.net/).
+ระบบสัตว์เลี้ยงเป็นฟีเจอร์เสริม ที่ออกแบบมาเพื่อเพิ่มความน่าสนใจ และความบันเทิงในการเล่นเกม Minecraft สัตว์เลี้ยงเหล่านี้มีไว้เพื่อเป็นเพื่อนคู่ใจของผู้เล่นโดยไม่มีพลังพิเศษใด ๆ ที่จะช่วยในการเล่นเกม ผู้เล่นสามารถซื้อสัตว์เลี้ยงเหล่านี้ได้จาก [ร้านค้าทางการ](https://store.lamalia.net/)
 
 ## List of pets
 

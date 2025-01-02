@@ -1,4 +1,7 @@
-﻿# Enchantments Guide
+﻿---
+sidebar_position: 2
+---
+# Enchantments Guide
 
 <!-- Enchantments Guide TH -->
 <!-- Voyl_x 240821 -->

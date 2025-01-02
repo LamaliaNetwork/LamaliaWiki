@@ -1,4 +1,7 @@
-﻿# Disenchanter 
+﻿---
+sidebar_position: 3
+---
+# Disenchanter 
 
 Disenchanter ช่วยให้คุณถอด enchant ออกจากไอเทม แต่มีความเสี่ยงและค่าใช้จ่าย
 

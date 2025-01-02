@@ -1,4 +1,7 @@
-﻿# Elytra Enhancements
+﻿---
+sidebar_position: 4
+---
+# Elytra Enhancements
 
 คู่มือนี้ครอบคลุมการปรับปรุงต่างๆ ที่มีให้การบินโดยใช้ปีก
 

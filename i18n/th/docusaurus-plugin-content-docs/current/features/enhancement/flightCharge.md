@@ -1,4 +1,7 @@
-﻿# Flight Charge
+﻿---
+sidebar_position: 5
+---
+# Flight Charge
 
 :::info ข้อมูล
 ช่วยให้คุณสามารถบินได้ชั่วคราว โดยใช้เงินภายในเกมของคุณ
