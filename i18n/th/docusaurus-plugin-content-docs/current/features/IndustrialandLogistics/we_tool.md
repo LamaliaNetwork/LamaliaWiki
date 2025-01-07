@@ -1,4 +1,6 @@
-# World Edit Tool 🪓
+---
+sidebar_position: 8
+---# World Edit Tool 🪓
 
 ![WE Tools](\img\doc\features\we_tools\WE_Tool.gif)
 

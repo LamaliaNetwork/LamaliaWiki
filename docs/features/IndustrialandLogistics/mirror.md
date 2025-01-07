@@ -1,4 +1,7 @@
-﻿# Mirror Feature
+﻿---
+sidebar_position: 5
+---
+# Mirror Feature
 
 :::info
 The Mirror feature allows you to build in parallel on the x, y, z axis.

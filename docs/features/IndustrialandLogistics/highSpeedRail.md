@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # High Speed Rail ⚡⚡
 
 Ready to take your in-game travel to the next level? With our new features, you'll zoom around faster and stop more efficiently than ever before! Give the Super Powered Rails a try for an exhilarating speed boost, and use the Super Stopper Rails to bring your rides to a smooth halt. Dive into these updates and transform your rail adventures today!
