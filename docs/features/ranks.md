@@ -93,6 +93,9 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
   <TabItem value="gold" label="Gold (43 Hrs)">
 
 ### Gold Rank
+:::note general
+- Player Warp: 1
+:::
 
 :::note Lands Limits
 - Free Lands: 1
@@ -121,6 +124,9 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
   <TabItem value="platinum" label="Platinum (78 Hrs)">
 
 ### Platinum Rank
+:::note general
+- Player Warp: 1
+:::
 
 :::note Lands Limits
 - Free Lands: 1
@@ -146,6 +152,9 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
   <TabItem value="emerald" label="Emerald (131 Hrs)">
 
 ### Emerald Rank
+:::note general
+- Player Warp: 1
+:::
 
 :::note Lands Limits
 - Free Lands: 1
@@ -172,6 +181,9 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
   <TabItem value="diamond" label="Diamond (214 Hrs)">
 
 ### Diamond Rank
+:::note general
+- Player Warp: 2
+:::
 
 :::note Lands Limits
 - Free Lands: 1
@@ -200,7 +212,9 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
   <TabItem value="astral" label="Astral (354 Hrs)">
 
 ### Astral Rank
-
+:::note general
+- Player Warp: 4
+:::
 :::note Lands Limits
 - Free Lands: 1
 - Own Lands: 5
@@ -224,6 +238,9 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
   <TabItem value="cosmic" label="Cosmic (603 Hrs)">
 
 ### Cosmic Rank
+:::note general
+- Player Warp: 6
+:::
 
 :::note Lands Limits
 - Free Lands: 1
@@ -249,6 +266,9 @@ Play Time Ranks are earned through active gameplay. As you spend more time on th
   <TabItem value="eternity" label="Eternity (1080 Hrs)">
 
 ### Eternity Rank
+:::note general
+- Player Warp: 8
+:::
 
 :::note Lands Limits
 - Free Lands: 1
@@ -283,8 +303,9 @@ Supporter Ranks are available to players who donate to support the server. These
 
 ### Supporter I Rank
 :::note general
+- Player Warp : 2
 - Player Market Capacity: 3
-- Player Market Time: 1d
+- Player Market Time: 10d
 - Max Homes: 5
 - Image-Maps: TBA
 - Chest Shop: 10
@@ -325,8 +346,9 @@ Supporter Ranks are available to players who donate to support the server. These
 
 ### Supporter II Rank
 :::note general
+- Player Warp : 4
 - Player Market Capacity: 5
-- Player Market Time: 3d
+- Player Market Time: 12d
 - Max Homes: 5
 - Image-Maps: TBA
 - Chest Shop: 15
@@ -366,8 +388,9 @@ Similar to Supporter I in all respects, with the following additions:
 
 ### Supporter III Rank
 :::note general
+- Player Warp : 6
 - Player Market Capacity: 10
-- Player Market Time: 7d
+- Player Market Time: 15d
 - Max Homes: 7
 - Image-Maps: TBA
 - Chest Shop: 15
@@ -398,8 +421,9 @@ Similar to Supporter I-II in all respects, with the following additions:
 
 ### Supporter IV Rank
 :::note general
+- Player Warp : 10
 - Player Market Capacity: 15
-- Player Market Time: 15d
+- Player Market Time: 20d
 - Max Homes: 10
 - Image-Maps: TBA
 - Chest Shop: 20
@@ -433,6 +457,7 @@ Similar to Supporter I-III in all respects, with the following additions:
 
 ### Supporter V Rank
 :::note general
+- Player Warp : 15
 - Player Market Capacity: 30
 - Player Market Time: 30d
 - Max Homes: 15

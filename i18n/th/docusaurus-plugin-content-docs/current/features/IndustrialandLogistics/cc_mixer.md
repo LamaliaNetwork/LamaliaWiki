@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Concrete Mixer ✨
 ![Concrete Mixer](\img\doc\features\CC_Mixer\How_Concrete_Mixer.png)
 

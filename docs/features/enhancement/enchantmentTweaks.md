@@ -95,7 +95,8 @@ import TabItem from '@theme/TabItem';
 | Curse of Vanishing | 1 | Item destroyed on death | Curse |
 
   </TabItem>
-  <TabItem value="custom" label="Custom Enchantments">
+
+<!--  <TabItem value="custom" label="Custom Enchantments">
 
 ## Weapon Enchantments
 
@@ -127,7 +128,7 @@ import TabItem from '@theme/TabItem';
 | Snipe | 6 | Arrows deal **%damage%** more damage for each **%blocks%** blocks travelled | damage: `1 * %level%`<br/>blocks: `15 - ceil(%level% / 2)` | Epic | Bow |
 | Tripleshot | 1 | Shoot 3 arrows instead of 1 | - | Legendary | Bow |
 
-## Special Enchantments
+## Special Enchantments 
 
 | Enchantment | Max Level | Description | Rarity | Applies To | Conflicts |
 |-------------|-----------|-------------|--------|------------|-----------|
@@ -137,5 +138,5 @@ import TabItem from '@theme/TabItem';
 The "Bleed" enchantment (Max Level 10) has been removed from the game.
 :::
 
-  </TabItem>
-</Tabs>
+  </TabItem>-->
+</Tabs> 

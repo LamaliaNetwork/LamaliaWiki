@@ -1,4 +1,7 @@
-﻿# Mirror Feature
+﻿---
+sidebar_position: 5
+---
+# Mirror Feature
 
 :::info
 ฟีเจอร์ Mirror ช่วยให้สามารถสร้างวัตถุบนแกน x, y และ z พร้อมกันได้

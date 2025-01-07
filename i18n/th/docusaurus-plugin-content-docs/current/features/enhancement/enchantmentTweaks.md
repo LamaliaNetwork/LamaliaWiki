@@ -102,7 +102,8 @@ import TabItem from '@theme/TabItem';
 | Curse of Vanishing | 1 | ไอเท็มจะหายไปเมื่อผู้เล่นตาย | คำสาป |
 
   </TabItem>
-  <TabItem value="custom" label="Custom Enchantments">
+
+<!--<TabItem value="custom" label="Custom Enchantments">
 
 ## Weapon Enchantments [หมวดอาวุธ]
 
@@ -144,5 +145,5 @@ import TabItem from '@theme/TabItem';
 The "Bleed" enchantment (Max Level 10) ได้ถูกนำออกจากเกมแล้ว
 :::
 
-  </TabItem>
-</Tabs>
+  </TabItem>-->
+</Tabs> 

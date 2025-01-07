@@ -16,6 +16,7 @@ export const footerConfig = {
       links: [
         { text: "Docs", url: "/docs/intro" },
         { text: "Patch Notes", url: "/patchNotes" },
+        { text: "Maps", url: "https://map.lamalia.net/" },
       ],
     },
     {
