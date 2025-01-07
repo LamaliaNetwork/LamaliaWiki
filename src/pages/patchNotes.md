@@ -24,8 +24,18 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Added: Land Role Flag that allow user to Set Land Spawn
 - Added: Land Role Flag that allow user to edit Taxes
 - Added: Concrete Powder can now be turned into Concrete using any water source
+- Added: Experimental feature. Mailbox (Beta Testers)
+  - Send Mail to other players (items messages etc)
+  - Receive Mail from other players 
+  - Receive Admin Emails (Important Announcements, Awards ETC)
+- Added: ability to added recipe to cauldron by dropping item in it
+  
 
 **Changes**
+
+**Fixes**
+- Fixed: Entity Culling too powerful 
+- Attempt Fix: Brewery Should be usable. (Need Extensive Testing)
 
 
 ## Patch 2.1.0
