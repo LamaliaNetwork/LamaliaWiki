@@ -2,7 +2,7 @@
 <!-- Private Help EN -->
 <!-- Voyl_x 240908 -->
 
-:::info Private Help
+:::info Open Ticket
 Use this channel to contact the administrator and report problems.
 :::
 
@@ -13,10 +13,10 @@ Use this channel to contact the administrator and report problems.
 >-> [**Discord Linking**](../quality_of_life/discord.md)
 :::
 
-### How to use Private Help:
+### How to use Open Ticket:
 Follow these steps to contact the administrator:
 ![privateHelp1](/img/doc/privateChat/DC_PrivteHelp_1.png)
-1. Click on the chat channe `# 📩 | Private Help`
+1. Click on the chat channe `# 📩 | open-ticket`
 2. Click on `Open Ticket`
 ![privateHelp1](/img/doc/privateChat/DC_PrivteHelp_2.png)
 3. Click on the ticket that appears, such as `ticket-xxx`

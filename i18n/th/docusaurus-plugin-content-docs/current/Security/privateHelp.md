@@ -1,8 +1,8 @@
-# ⛔️ | Private Help ติดต่อAdmin
+# 📬 | Contact us
 <!-- Private Help TH -->
 <!-- Voyl_x 240908 -->
 
-:::info Private Help
+:::info Open Ticket
 แจ้งปัญหา และติดต่อ Admin ได้ผ่านช่องทางนี้
 :::
 
@@ -13,10 +13,10 @@
 >-> [**Discord Linking**](../quality_of_life/discord.md)
 :::
 
-### วิธีการใช้งาน Private Help:
+### วิธีการใช้งาน #open-ticket:
 ทำตามขั้นตอนนี้เพื่อติดต่อAdmin
 ![privateHelp1](/img/doc/privateChat/DC_PrivteHelp_1.png)
-1. กดที่ช่องแชท `# ⛔️ | Private Help`
+1. กดที่ช่องแชท `# 📩 | open-ticket`
 2. กดที่ `Open Ticket`
 ![privateHelp1](/img/doc/privateChat/DC_PrivteHelp_2.png)
 1. กดไปที่ Ticket ที่ขึ่นมาเช่น: `ticket-xxx`
