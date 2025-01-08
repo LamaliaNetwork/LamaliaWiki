@@ -8,8 +8,11 @@ const RankList = [
     description: "ฟีเจอร์",
     playtime: "Default",
     ownerland: "1 Land Owner",
-    l_avai: "3 Land Available",
+    l_avai: "3 Land Availability",
+    supchunk: "1 Support Chunk",
+    chunklimit: "20 Chunk Limit",
     landmember: " 10 Land Member",
+    landrole: "5 Land Role",
     link: "#",
     cardColorClass: styles.iron, // Specific color class
   },
@@ -52,7 +55,10 @@ function Feature({
   description,
   ownerland,
   l_avai,
+  supchunk,
+  chunklimit,
   landmember,
+  landrole,
   cardColorClass,
 }) {
   return (
@@ -75,7 +81,8 @@ function Feature({
           {playtime}
         </info>
         <h4>Land Information</h4>
-        <info><br/>
+        <info>
+          <br />
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
@@ -89,7 +96,8 @@ function Feature({
           </svg>
           {ownerland}
         </info>
-        <info><br/>
+        <info>
+          <br />
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
@@ -103,7 +111,38 @@ function Feature({
           </svg>
           {l_avai}
         </info>
-        <info><br/>
+        <info>
+          <br />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M16.48 10.41c-.39.39-1.04.39-1.43 0l-4.47-4.46l-7.05 7.04l-.66-.63a3 3 0 0 1 0-4.24l4.24-4.24a3 3 0 0 1 4.24 0L16.48 9c.39.39.39 1.02 0 1.41m.7-2.12c.78.78.78 2.05 0 2.83c-1.27 1.27-2.61.22-2.83 0l-3.76-3.76l-5.57 5.57a.996.996 0 0 0 0 1.41c.39.39 1.02.39 1.42 0l4.62-4.62l.71.71l-4.62 4.62a.996.996 0 0 0 0 1.41c.39.39 1.02.39 1.42 0l4.62-4.62l.71.71l-4.62 4.62a.996.996 0 1 0 1.41 1.41l4.62-4.62l.71.71l-4.62 4.62a.996.996 0 1 0 1.41 1.41l8.32-8.34a3 3 0 0 0 0-4.24l-4.24-4.24a3 3 0 0 0-4.18-.06z"
+            />
+          </svg>
+          {supchunk}
+        </info>
+        <info>
+          <br />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="m18.25 7.6l-5.5-3.18a1.49 1.49 0 0 0-1.5 0L5.75 7.6c-.46.27-.75.76-.75 1.3v6.35c0 .54.29 1.03.75 1.3l5.5 3.18c.46.27 1.04.27 1.5 0l5.5-3.18c.46-.27.75-.76.75-1.3V8.9c0-.54-.29-1.03-.75-1.3M7 14.96v-4.62l4 2.32v4.61zm5-4.03L8 8.61l4-2.31l4 2.31zm1 6.34v-4.61l4-2.32v4.62zM7 2H3.5C2.67 2 2 2.67 2 3.5V7h2V4h3zm10 0h3.5c.83 0 1.5.67 1.5 1.5V7h-2V4h-3zM7 22H3.5c-.83 0-1.5-.67-1.5-1.5V17h2v3h3zm10 0h3.5c.83 0 1.5-.67 1.5-1.5V17h-2v3h-3z"
+            />
+          </svg>
+          {chunklimit}
+        </info>
+        <info>
+          <br />
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
@@ -116,6 +155,34 @@ function Feature({
             ></path>
           </svg>
           {landmember}
+        </info>
+        <info>
+          <br />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="M16.67 13.13C18.04 14.06 19 15.32 19 17v3h3c.55 0 1-.45 1-1v-2c0-2.18-3.57-3.47-6.33-3.87"
+            />
+            <circle
+              cx="9"
+              cy="8"
+              r="4"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+            <path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4c-.47 0-.91.1-1.33.24a5.98 5.98 0 0 1 0 7.52c.42.14.86.24 1.33.24m-6 1c-2.67 0-8 1.34-8 4v2c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-2c0-2.66-5.33-4-8-4"
+            />
+          </svg>
+          {landrole}
         </info>
         <info>{description}</info>
         {/*<a href={link}>Learn more</a>*/}
@@ -145,7 +212,18 @@ export default function RankCard() {
   return (
     <div className={styles.container}>
       <button className={styles.scrollButton} onClick={scrollLeft}>
-      <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="currentColor" fillRule="evenodd" d="m15 4l2 2l-6 6l6 6l-2 2l-8-8z"></path></svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={24}
+          height={24}
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            fillRule="evenodd"
+            d="m15 4l2 2l-6 6l6 6l-2 2l-8-8z"
+          ></path>
+        </svg>
       </button>
       <div className={styles.cardContainer} ref={scrollRef}>
         {RankList.map((item, idx) => (
@@ -153,7 +231,18 @@ export default function RankCard() {
         ))}
       </div>
       <button className={styles.scrollButton} onClick={scrollRight}>
-      <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="currentColor" fillRule="evenodd" d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z"></path></svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={24}
+          height={24}
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            fillRule="evenodd"
+            d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z"
+          ></path>
+        </svg>
       </button>
     </div>
   );
