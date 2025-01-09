@@ -53,8 +53,8 @@
   }
   
   /* Different color gradients for each card */
-  .cardColor.iron {
-    background: linear-gradient(90deg, #858585, #5f5f5f);
+  .cardColor.SupI {
+    background: linear-gradient(90deg, #f3bc07, #f3bc07);
   }
   
   .cardColor.bronze {
@@ -70,21 +70,6 @@
   }
   .cardColor.platinum{
     background: linear-gradient(90deg, #18a3f3, #5672f1);
-  }
-  .cardColor.emerald{
-    background: linear-gradient(90deg, #1dd605, #018012);
-  }
-  .cardColor.diamond{
-    background: linear-gradient(90deg, #7e3ff5, #5d1ad8);
-  }
-  .cardColor.astral{
-    background: linear-gradient(90deg, #9309d3, #c13ff5, #9309d3);
-  }
-  .cardColor.cosmic{
-    background: linear-gradient(90deg, #29b1f0, #b7e8ff, #29b1f0);
-  }
-  .cardColor.eternity{
-    background: linear-gradient(90deg, #ff1e00, #f57b08, #ff1e00);
   }
   
   

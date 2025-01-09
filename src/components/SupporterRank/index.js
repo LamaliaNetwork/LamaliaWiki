@@ -15,7 +15,7 @@ const RankList = [
     landrole: "5 Land Role",
     description: "- Minespawner \n(Netherite Pickaxe + Silk Touch)",
     link: "#",
-    cardColorClass: styles.iron, // Specific color class
+    cardColorClass: styles.SupI, // Specific color class
   },
   {
     title: "BRONZE",
@@ -75,76 +75,6 @@ const RankList = [
     
     link: "#",
     cardColorClass: styles.platinum, // Specific color class
-  },
-  {
-    title: "EMERALD",
-    playtime: "131 hours",
-    ownerland: "3 Land Owner",
-    l_avai: "8 Land Availability",
-    supchunk: "6 Support Chunk",
-    freechunk: "15 Free Chunk",
-    chunklimit: "70 Chunk Limit",
-    landmember: " 16 Land Member",
-    landrole: "5 Land Role",
-    description: "- Create Nation\n - /bin or /dispose for clear you don't need\n - Open Shulker without placing",
-    link: "#",
-    cardColorClass: styles.emerald, // Specific color class
-  },
-  {
-    title: "DIAMOND",
-    playtime: "214 hours",
-    ownerland: "4 Land Owner",
-    l_avai: "9 Land Availability",
-    supchunk: "7 Support Chunk",
-    freechunk: "15 Free Chunk",
-    chunklimit: "90 Chunk Limit",
-    landmember: " 18 Land Member",
-    landrole: "5 Land Role",
-    description: "- Head Shop /hdb and /hdb \nsearch[name]\n - Armor Stand Editing \n(Shift + Right-Click\n - Open enderchest /ec or /ender command",
-    link: "#",
-    cardColorClass: styles.diamond, // Specific color class
-  },
-  {
-    title: "ASTRAL",
-    playtime: "354 hours",
-    ownerland: "5 Land Owner",
-    l_avai: "10 Land Availability",
-    supchunk: "8 Support Chunk",
-    freechunk: "15 Free Chunk",
-    chunklimit: "150 Chunk Limit",
-    landmember: " 20 Land Member",
-    landrole: "5 Land Role",
-    description: "- Mirror",
-    link: "#",
-    cardColorClass: styles.astral, // Specific color class
-  },
-  {
-    title: "COSMIC",
-    playtime: "603 hours",
-    ownerland: "7 Land Owner",
-    l_avai: "12 Land Availability",
-    supchunk: "10 Support Chunk",
-    freechunk: "15 Free Chunk",
-    chunklimit: "250 Chunk Limit",
-    landmember: " 25 Land Member",
-    landrole: "5 Land Role",
-    description: "- Flight Charge",
-    link: "#",
-    cardColorClass: styles.cosmic, // Specific color class
-  },
-  {
-    title: "ETERNITY",
-    playtime: "1080 hours",
-    ownerland: "10 Land Owner",
-    l_avai: "15 Land Availability",
-    supchunk: "15 Support Chunk",
-    freechunk: "15 Free Chunk",
-    chunklimit: "400 Chunk Limit",
-    landmember: " 40 Land Member",
-    landrole: "5 Land Role",
-    description: "- Early Access to new features",
-    link: "#",
-    cardColorClass: styles.eternity, // Specific color class
   },
 ];
 
@@ -313,8 +243,8 @@ function Feature({
   );
 }
 
-// Main RankCard component rendering the list of cards with horizontal scrolling
-export default function RankCard() {
+// Main SupporterRankCard component rendering the list of cards with horizontal scrolling
+export default function SupporterRankCard() {
   const scrollRef = useRef(null);
 
   // Scroll right function
