@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 // Rank List data
 const RankList = [
   {
-    title: "IRON",
+    title: "SUPPORTER I",
     playtime: "Default",
     ownerland: "1 Land Owner",
     l_avai: "3 Land Availability",
@@ -15,7 +15,7 @@ const RankList = [
     landrole: "5 Land Role",
     description: "- Minespawner \n(Netherite Pickaxe + Silk Touch)",
     link: "#",
-    cardColorClass: styles.SupI, // Specific color class
+    cardClass: styles.SupI
   },
   {
     title: "BRONZE",
@@ -91,10 +91,11 @@ function Feature({
   landmember,
   landrole,
   cardColorClass,
+  cardClass,
 }) {
 
   return (
-    <div className={styles.card}>
+    <div className={`${styles.card} ${cardClass}`}>
       <div className={`${styles.cardColor} ${cardColorClass}`}></div>
       <div className={styles.cardContent}>
         <h3>{title}</h3>
