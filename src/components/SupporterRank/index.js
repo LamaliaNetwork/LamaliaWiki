@@ -15,7 +15,7 @@ const RankList = [
     landrole: "5 Land Role",
     description: "- Minespawner (Netherite Pickaxe + Silk Touch)",
     link: "#",
-    cardClass: styles.SupI,
+    cardTTClass: styles.SupI,
   },
   {
     title: "SUPPORTER II",
@@ -29,7 +29,7 @@ const RankList = [
     landrole: "5 Land Role",
     description: "- Sit on sitable block\n- /lands inspect command",
     link: "#",
-    cardClass: styles.SupII,
+    cardTTClass: styles.SupII,
   },
   {
     title: "SUPPORTER III",
@@ -43,7 +43,7 @@ const RankList = [
     landrole: "5 Land Role",
     description: "- /Sit command to sit",
     link: "#",
-    cardClass: styles.SupIII,
+    cardTTClass: styles.SupIII,
   },
   {
     title: "SUPPORTER IV",
@@ -55,9 +55,10 @@ const RankList = [
     chunklimit: "40 Chunk Limit",
     landmember: "12 Land Member",
     landrole: "5 Land Role",
-    description: "- /craft or /wb command to open workbench\n- Image Map 10\n- Chest Shop 10",
+    description:
+      "- /craft or /wb command to open workbench\n- Image Map 10\n- Chest Shop 10",
     link: "#",
-    cardClass: styles.SupIV,
+    cardTTClass: styles.SupIV,
   },
   {
     title: "SUPPORTER V",
@@ -71,10 +72,9 @@ const RankList = [
     landrole: "5 Land Role",
     description: "- /anvil command to open anvil\n- Elytraboost",
     link: "#",
-    cardClass: styles.SupV,
+    cardTTClass: styles.SupV,
   },
 ];
-
 
 // Feature component for each card
 function Feature({
@@ -88,11 +88,11 @@ function Feature({
   chunklimit,
   landmember,
   landrole,
-  cardClass,
+  cardTTClass,
 }) {
-
   return (
-    <div className={`${styles.card} ${cardClass}`}>
+    <div className={styles.card}>
+      <div className={`${styles.cardTT} ${cardTTClass}`}></div>
       <div className={styles.cardContent}>
         <h3>{title}</h3>
         <info>

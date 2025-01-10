@@ -31,35 +31,25 @@
   flex-shrink: 0;
   margin: 20px;
 }
-.card.SupI {
-  position: relative;
-  background: linear-gradient(to top right, #f1d370, #f3bc07);
-  color: #fff;
-  overflow: hidden;
+
+.cardTT {
+  height: 15px;
+  width: 100%;
 }
-.card.SupII {
-  position: relative;
+.cardTT.SupI {
+  background: linear-gradient(90deg, #e49503, #f0ae35);
+}
+.cardTT.SupII {
   background: linear-gradient(to top right, #04d697, #03c45a);
-  color: #fff;
-  overflow: hidden;
 }
-.card.SupIII {
-  position: relative;
+.cardTT.SupIII {
   background: linear-gradient(to top right, #0f6ad1, #21dae7);
-  color: #fff;
-  overflow: hidden;
 }
-.card.SupIV {
-  position: relative;
+.cardTT.SupIV {
   background: linear-gradient(to top right, #7a09d6, #491ee4, #90a3f8);
-  color: #fff;
-  overflow: hidden;
 }
-.card.SupV {
-  position: relative;
+.cardTT.SupV {
   background: linear-gradient(to top right, #f11e6f, #f11ece, #f11ece);
-  color: #fff;
-  overflow: hidden;
 }
 
 /* Card content section */
