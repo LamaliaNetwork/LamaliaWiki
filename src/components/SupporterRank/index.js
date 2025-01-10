@@ -11,72 +11,70 @@ const RankList = [
     supchunk: "1 Support Chunk",
     freechunk: "10 Free Chunk",
     chunklimit: "20 Chunk Limit",
-    landmember: " 10 Land Member",
+    landmember: "10 Land Member",
     landrole: "5 Land Role",
-    description: "- Minespawner \n(Netherite Pickaxe + Silk Touch)",
+    description: "- Minespawner (Netherite Pickaxe + Silk Touch)",
     link: "#",
-    cardClass: styles.SupI
+    cardClass: styles.SupI,
   },
   {
-    title: "BRONZE",
+    title: "SUPPORTER II",
     playtime: "6 hours",
     ownerland: "1 Land Owner",
     l_avai: "4 Land Availability",
     supchunk: "2 Support Chunk",
     freechunk: "12 Free Chunk",
     chunklimit: "25 Chunk Limit",
-    landmember: " 10 Land Member",
+    landmember: "10 Land Member",
     landrole: "5 Land Role",
-    description: "- Sit on sitable block\n - /lands inspect command",
+    description: "- Sit on sitable block\n- /lands inspect command",
     link: "#",
-    cardColorClass: styles.bronze, // Specific color class
+    cardClass: styles.SupII,
   },
   {
-    title: "SILVER",
+    title: "SUPPORTER III",
     playtime: "20 hours",
     ownerland: "1 Land Owner",
     l_avai: "5 Land Availability",
     supchunk: "3 Support Chunk",
     freechunk: "15 Free Chunk",
     chunklimit: "30 Chunk Limit",
-    landmember: " 10 Land Member",
+    landmember: "10 Land Member",
     landrole: "5 Land Role",
     description: "- /Sit command to sit",
     link: "#",
-    cardColorClass: styles.silver, // Specific color class
+    cardClass: styles.SupIII,
   },
-  ,
   {
-    title: "GOLD",
+    title: "SUPPORTER IV",
     playtime: "43 hours",
     ownerland: "2 Land Owner",
     l_avai: "6 Land Availability",
     supchunk: "4 Support Chunk",
     freechunk: "15 Free Chunk",
     chunklimit: "40 Chunk Limit",
-    landmember: " 12 Land Member",
+    landmember: "12 Land Member",
     landrole: "5 Land Role",
-    description: "- /craft or /wb command to open workbench\n - Image Map 10\n - Chest Shop 10 ",
+    description: "- /craft or /wb command to open workbench\n- Image Map 10\n- Chest Shop 10",
     link: "#",
-    cardColorClass: styles.gold, // Specific color class
+    cardClass: styles.SupIV,
   },
-  ,
   {
-    title: "PLATINUM",
+    title: "SUPPORTER V",
     playtime: "78 hours",
     ownerland: "2 Land Owner",
     l_avai: "7 Land Availability",
     supchunk: "5 Support Chunk",
     freechunk: "15 Free Chunk",
     chunklimit: "55 Chunk Limit",
-    landmember: " 14 Land Member",
+    landmember: "14 Land Member",
     landrole: "5 Land Role",
-    description: "- /anvil command to open anvil\n - Elytraboost ",
-    
+    description: "- /anvil command to open anvil\n- Elytraboost",
     link: "#",
-    cardColorClass: styles.platinum, // Specific color class
+    cardClass: styles.SupV,
   },
 ];
+
 
 // Feature component for each card
 function Feature({
@@ -90,13 +88,11 @@ function Feature({
   chunklimit,
   landmember,
   landrole,
-  cardColorClass,
   cardClass,
 }) {
 
   return (
     <div className={`${styles.card} ${cardClass}`}>
-      <div className={`${styles.cardColor} ${cardColorClass}`}></div>
       <div className={styles.cardContent}>
         <h3>{title}</h3>
         <info>

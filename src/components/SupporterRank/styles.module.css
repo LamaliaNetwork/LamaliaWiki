@@ -37,57 +37,29 @@
   color: #fff;
   overflow: hidden;
 }
-
-.card.SupI .texture {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 50%; /* รูปร่างเป็นวงกลม */
-  animation: floatDown 5s linear infinite;
-  pointer-events: none;
+.card.SupII {
+  position: relative;
+  background: linear-gradient(to top right, #04d697, #03c45a);
+  color: #fff;
+  overflow: hidden;
 }
-
-/* แอนิเมชัน Shape */
-@keyframes floatDown {
-  0% {
-    transform: translateY(-100%) scale(0.8);
-    opacity: 0.6;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(400px) scale(1.2);
-    opacity: 0;
-  }
+.card.SupIII {
+  position: relative;
+  background: linear-gradient(to top right, #0f6ad1, #21dae7);
+  color: #fff;
+  overflow: hidden;
 }
-
-
-/* The color bar on top of each card */
-.cardColor {
-  height: 10px;
-  width: 100%;
+.card.SupIV {
+  position: relative;
+  background: linear-gradient(to top right, #7a09d6, #491ee4, #90a3f8);
+  color: #fff;
+  overflow: hidden;
 }
-
-/* Different color gradients for each card */
-.cardColor.SupI {
-  background: linear-gradient(90deg, #f3bc07, #f3bc07);
-}
-
-.cardColor.bronze {
-  background: linear-gradient(90deg, #e7a034, #cd7f32);
-}
-
-.cardColor.silver {
-  background: linear-gradient(90deg, #f7f7f7, #e6e6e6);
-}
-
-.cardColor.gold {
-  background: linear-gradient(90deg, #eec40c, #ecc30b);
-}
-.cardColor.platinum {
-  background: linear-gradient(90deg, #18a3f3, #5672f1);
+.card.SupV {
+  position: relative;
+  background: linear-gradient(to top right, #f11e6f, #f11ece, #f11ece);
+  color: #fff;
+  overflow: hidden;
 }
 
 /* Card content section */
