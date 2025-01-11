@@ -8,6 +8,7 @@ import { rankData } from "./RankData"
 function Feature({
 	title,
 	playtime,
+	price,
 	description,
 	ownerland,
 	l_avai,
@@ -17,7 +18,8 @@ function Feature({
 	landmember,
 	landrole,
 	cardColorClass,
-	lang
+	lang,
+	type
 }) {
 
 	return (
@@ -25,10 +27,19 @@ function Feature({
 			<div className={`${styles.cardColor} ${cardColorClass}`}></div>
 			<div className={styles.cardContent}>
 				<h3>{title}</h3>
-				<info>
-					<ICON.Clock />
-					{playtime}
-				</info>
+				{type === 'playtime' ?
+					<info>
+						<ICON.Clock />
+						{playtime}
+					</info>
+					: type === 'sup' ?
+						<info>
+							<ICON.ThaiBaht />
+							{price}
+						</info>
+						: null
+				}
+
 				<br />
 				<h4>{rankData[lang].landInfo}</h4>
 				<info>
@@ -79,7 +90,7 @@ function Feature({
 }
 
 // Main RankCard component rendering the list of cards with horizontal scrolling
-export default function RankCard({ lang = 'en' }) {
+export default function RankCard({ lang = 'en', type = 'playtime' }) {
 	const scrollRef = useRef(null)
 
 	// Scroll right function
@@ -95,17 +106,20 @@ export default function RankCard({ lang = 'en' }) {
 			scrollRef.current.scrollBy({ left: -320, behavior: "smooth" })
 		}
 	}
+	
+	const rankDataMap = 
+		type === 'playtime' ? rankData[lang].RankList :
+		type === 'sup' ? rankData[lang].RankSupList :
+		null
 
 	return (
 		<div className={styles.container}>
-
-			{console.log('rankData', rankData)}
 			<button className={styles.scrollButton} onClick={scrollLeft}>
 				<ICON.AngleLeft />
 			</button>
 			<div className={styles.cardContainer} ref={scrollRef}>
-				{rankData[lang].RankList.map((item, idx) => (
-					<Feature key={idx} {...item} lang={lang} />
+				{rankDataMap.map((item, idx) => (
+					<Feature key={idx} {...item} lang={lang} type={type}/>
 				))}
 			</div>
 			<button className={styles.scrollButton} onClick={scrollRight}>

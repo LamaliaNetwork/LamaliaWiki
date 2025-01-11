@@ -122,8 +122,8 @@ export const HandShake = (props) => {
 
     return <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
+        width={24}
+        height={24}
         viewBox="0 0 24 24"
         fill="currentColor"
         {...props}
@@ -141,8 +141,8 @@ export const BlockLimit = (props) => {
 
     return <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
+        width={24}
+        height={24}
         viewBox="0 0 24 24"
         fill="currentColor"
         {...props}
@@ -179,8 +179,8 @@ export const People = (props) => {
 
     return <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
+        width={24}
+        height={24}
         viewBox="0 0 24 24"
         fill="currentColor"
         {...props}
@@ -212,12 +212,12 @@ export const ThaiBaht = (props) => {
         xmlns="http://www.w3.org/2000/svg"
         width={24}
         height={24}
-        viewBox="0 0 24 24"
+        viewBox="0 0 32 32"
         fill="currentColor"
         {...props}
     >
         <path
-            d="m3.1 11.3l3.6 3.3l-1 4.6c-.1.6.1 1.2.6 1.5c.2.2.5.3.8.3c.2 0 .4 0 .6-.1c0 0 .1 0 .1-.1l4.1-2.3l4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1c.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7l.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5l-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1s-1 .3-1.3.8c0 0 0 .1-.1.1L8.7 8.2L4 8.7h-.1c-.5.1-1 .5-1.2 1c-.1.6 0 1.2.4 1.6"
-        ></path>
+            d="M21.402 15.643A4.97 4.97 0 0 0 23 12v-1a5.006 5.006 0 0 0-5-5h-1V3h-2v3h-5v20h5v3h2v-3h2a5.006 5.006 0 0 0 5-5v-1a4.98 4.98 0 0 0-2.598-4.357M12 8h6a3.003 3.003 0 0 1 3 3v1a3.003 3.003 0 0 1-3 3h-6Zm10 13a3.003 3.003 0 0 1-3 3h-7v-7h7a3.003 3.003 0 0 1 3 3Z"
+        />
     </svg>
 }

@@ -49,7 +49,7 @@
 
 /* The color bar on top of each card */
 .cardColor {
-  height: 15px;
+  height: 20px;
   width: 100%;
 }
 
@@ -83,6 +83,31 @@
 }
 .cardColor.eternity {
   background: linear-gradient(90deg, #ff1e00, #f57b08, #ff1e00);
+}
+
+.cardColor.SupI {
+  border-radius: 0 0 20px 20px;
+background: linear-gradient(to top right, #e47003, #e49503, #ffbd44);
+}
+
+.cardColor.SupII {
+  border-radius: 0 0 20px 20px;
+background: linear-gradient(to top right, #049ad6, #04d697, #04d662);
+}
+
+.cardColor.SupIII {
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(to top right, #0451a8, #0f6ad1, #21dae7);
+}
+
+.cardColor.SupIV {
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(to top right, #7a09d6, #491ee4, #90a3f8);
+}
+
+.cardColor.SupV {
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(to top right, #f7176d, #ec12c8, #fb86ff);
 }
 
 /* Card content section */
