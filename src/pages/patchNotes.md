@@ -29,6 +29,10 @@ Patch notes are updates written by the Minecraft server developers that detail c
   - Receive Mail from other players 
   - Receive Admin Emails (Important Announcements, Awards ETC)
 - Added: ability to added recipe to cauldron by dropping item in it
+- Added: Brew Pumpkin Ale Recipe
+- Added: Brew Draconic Essence Recipe
+- Added: Brew Shop (to sell your brew) Excellent Condition Only
+- Added: Dispensers Mine Block Experimental Features
   
 
 **Changes**
@@ -36,6 +40,8 @@ Patch notes are updates written by the Minecraft server developers that detail c
 **Fixes**
 - Fixed: Entity Culling too powerful 
 - Attempt Fix: Brewery Should be usable. (Need Extensive Testing)
+- Fixed: Brewery Cauldron Eats everything not just the recipe
+- Fixed: BlockCycle Error on Fence
 
 
 ## Patch 2.1.0
