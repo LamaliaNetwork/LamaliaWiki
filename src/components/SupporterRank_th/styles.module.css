@@ -1,0 +1,157 @@
+/* Container for the card section with arrows for scrolling */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Prevents overflow in the container */
+    padding: 10px; /* Adds padding to the container */
+}
+
+/* Card container to enable horizontal scroll */
+.cardContainer {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    scroll-behavior: smooth;
+    flex-wrap: nowrap; /* Prevents wrapping of cards */
+    width: 100%; /* Allow the container to take full width */
+    max-width: 100%; /* Ensures it does not stretch too wide */
+    padding: 10px; /* Adds padding to the card container */
+}
+
+:root {
+    --card-bg-color-light: #ffffff;
+    --card-bg-color-dark: #202020;
+}
+
+[data-theme="light"] .card {
+    background-color: var(--card-bg-color-light);
+}
+
+[data-theme="dark"] .card {
+    background-color: var(--card-bg-color-dark);
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    width: 18rem;
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
+    margin: 20px 10px;
+}
+
+.cardTT {
+    height: 20px;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+.cardTT.SupI {
+  background: linear-gradient(to top right, #e47003, #e49503, #ffbd44);
+}
+
+.cardTT.SupII {
+  background: linear-gradient(to top right, #049ad6, #04d697, #04d662);
+}
+
+.cardTT.SupIII {
+    background: linear-gradient(to top right, #0451a8, #0f6ad1, #21dae7);
+}
+
+.cardTT.SupIV {
+    background: linear-gradient(to top right, #7a09d6, #491ee4, #90a3f8);
+}
+
+.cardTT.SupV {
+    background: linear-gradient(to top right, #f7176d, #ec12c8, #fb86ff);
+}
+
+/* Card content section */
+.cardContent {
+    padding: 20px;
+}
+
+/* Title styling */
+.cardContent h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+.cardContent p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Link styling */
+.cardContent a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+.cardContent a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for scroll buttons */
+.scrollButton {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.scrollButton:hover {
+    background-color: #444;
+}
+
+info {
+    display: flex;
+    align-items: center; /* จัดกึ่งกลางในแนวตั้ง */
+    gap: 8px; /* ระยะห่างระหว่างไอคอนและข้อความ */
+    white-space: pre-line;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .cardContainer {
+        flex-direction: row;
+        overflow-x: auto; /* Enables horizontal scrolling on mobile */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
+
+    .scrollButton {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .cardContent h3 {
+        font-size: 1em;
+    }
+
+    .cardContent p {
+        font-size: 0.9em;
+    }
+
+    .cardContent a {
+        font-size: 0.9em;
+    }
+}
