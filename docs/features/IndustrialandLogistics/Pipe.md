@@ -39,8 +39,8 @@ Basic Pipe Transfer System Structure
 5. Piston (Output)
 6. An item destination
 
-## Update Notes
+## History
 
-| Date       | Description                            | Patch Notes |
-| ---------- | -------------------------------------- | ----------- |
-| 30-11-2024 | 1 stack from an item source per usage. | 2.0.0       |
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 30/11/2024 | [2.0.0](/patchNotes#patch-200) | - Added: Pipes Mechanic Transfer 1 stack from an item source per usage. |

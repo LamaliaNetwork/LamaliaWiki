@@ -55,3 +55,9 @@ This is a destructive feature. Use with caution!
 :::note
 The Mirror feature is a powerful tool that can significantly speed up symmetrical builds. However, it requires careful use to avoid unintended destruction.
 :::
+
+## History
+
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 13/04/2024 | [1.4.0](/patchNotes#patch-140) | - Added: /mirror command to Astral Rank. |

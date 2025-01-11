@@ -19,3 +19,9 @@ Right-click a block to edit the block's states.
 | Shape   | Used to edit the block's angular or edge properties.                                             |
 | Lit     | Used to change the light-related status, such as a furnace.                                      |
 | In Wall | Used to modify the fence to your desired shape. Shift + Right-Click to delete the entire fence edge. |
+
+## History
+
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 24/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: BlockCycle to Donators. |
