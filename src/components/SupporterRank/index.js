@@ -5,72 +5,76 @@ import styles from "./styles.module.css";
 const RankList = [
   {
     title: "SUPPORTER I",
-    playtime: "Default",
-    ownerland: "1 Land Owner",
-    l_avai: "3 Land Availability",
-    supchunk: "1 Support Chunk",
-    freechunk: "10 Free Chunk",
-    chunklimit: "20 Chunk Limit",
-    landmember: "10 Land Member",
-    landrole: "5 Land Role",
-    description: "- Minespawner (Netherite Pickaxe + Silk Touch)",
+    price: "199THB",
+    ownerland: "4 Land Owner",
+    l_avai: "9 Land Availability",
+    supchunk: "7 Support Chunk",
+    freechunk: "15 Free Chunk",
+    chunklimit: "90 Chunk Limit",
+    arealimit: "3 Area Limit",
+    landmember: "18 Land Member",
+    landrole: "6 Land Role",
+    description: "- Access Diamond Rank Features\n- /hat command\n - Player Market Capacity : 3\n- Player Market Time : 10 Days\n- Image Map : 10\n- Max Homes : 5\n- Chest Shop : 10\n- Player Warp : 2",
     link: "#",
     cardTTClass: styles.SupI,
   },
   {
     title: "SUPPORTER II",
-    playtime: "6 hours",
-    ownerland: "1 Land Owner",
-    l_avai: "4 Land Availability",
-    supchunk: "2 Support Chunk",
-    freechunk: "12 Free Chunk",
-    chunklimit: "25 Chunk Limit",
-    landmember: "10 Land Member",
-    landrole: "5 Land Role",
-    description: "- Sit on sitable block\n- /lands inspect command",
+    price: "399THB",
+    ownerland: "7 Land Owner",
+    l_avai: "12 Land Availability",
+    supchunk: "7 Support Chunk",
+    freechunk: "15 Free Chunk",
+    chunklimit: "90 Chunk Limit",
+    arealimit: "5 Area Limit",
+    landmember: "18 Land Member",
+    landrole: "6 Land Role",
+    description: "- Access Suppoerter I Features\n- Unlock all Pose /crawl, /bellyflop, /lay, /spin, /sit and sit on other player head\n - Player Market Capacity : 5\n- Player Market Time : 12 Days\n- Image Map : 15\n- Max Homes : 5\n- Chest Shop : 15\n- Player Warp : 4",
     link: "#",
     cardTTClass: styles.SupII,
   },
   {
     title: "SUPPORTER III",
-    playtime: "20 hours",
-    ownerland: "1 Land Owner",
-    l_avai: "5 Land Availability",
-    supchunk: "3 Support Chunk",
+    price: "799THB",
+    ownerland: "10 Land Owner",
+    l_avai: "15 Land Availability",
+    supchunk: "7 Support Chunk",
     freechunk: "15 Free Chunk",
-    chunklimit: "30 Chunk Limit",
-    landmember: "10 Land Member",
-    landrole: "5 Land Role",
-    description: "- /Sit command to sit",
+    chunklimit: "90 Chunk Limit",
+    arealimit: "7 Area Limit",
+    landmember: "18 Land Member",
+    landrole: "7 Land Role",
+    description: "- Access Suppoerter I-II Features\n- Auto Tree Chopping Unlimited\n - Player Market Capacity : 10\n- Player Market Time : 15 Days\n- Image Map : 20\n- Max Homes : 7\n- Chest Shop : 15\n- Player Warp : 6",
     link: "#",
     cardTTClass: styles.SupIII,
   },
   {
     title: "SUPPORTER IV",
-    playtime: "43 hours",
-    ownerland: "2 Land Owner",
-    l_avai: "6 Land Availability",
-    supchunk: "4 Support Chunk",
+    price: "1,499THB",
+    ownerland: "15 Land Owner",
+    l_avai: "20 Land Availability",
+    supchunk: "15 Support Chunk",
     freechunk: "15 Free Chunk",
-    chunklimit: "40 Chunk Limit",
-    landmember: "12 Land Member",
-    landrole: "5 Land Role",
-    description:
-      "- /craft or /wb command to open workbench\n- Image Map 10\n- Chest Shop 10",
+    chunklimit: "90 Chunk Limit",
+    arealimit: "10 Area Limit",
+    landmember: "18 Land Member",
+    landrole: "10 Land Role",
+    description: "- Access Suppoerter I-III\n- Early Access to new features\n- Buy/Sell in Player Shop using /ah [sell/buy][price] command\n- /tpignore command \n - Player Market Capacity : 15\n- Player Market Time : 20 Days\n- Image Map : 25\n- Max Homes : 10\n- Chest Shop : 20\n- Player Warp : 10",
     link: "#",
     cardTTClass: styles.SupIV,
   },
   {
     title: "SUPPORTER V",
-    playtime: "78 hours",
-    ownerland: "2 Land Owner",
-    l_avai: "7 Land Availability",
-    supchunk: "5 Support Chunk",
+    price: "2,999THB",
+    ownerland: "20 Land Owner",
+    l_avai: "30 Land Availability",
+    supchunk: "25 Support Chunk",
     freechunk: "15 Free Chunk",
-    chunklimit: "55 Chunk Limit",
-    landmember: "14 Land Member",
-    landrole: "5 Land Role",
-    description: "- /anvil command to open anvil\n- Elytraboost",
+    chunklimit: "90 Chunk Limit",
+    arealimit: "15 Area Limit",
+    landmember: "65 Land Member",
+    landrole: "15 Land Role",
+    description: "- Access Suppoerter I-IV\n- /ptime command  to change the time in the server(Personal)\n- /pweather command to change the season in the server(Personal)\n- /back command to teleport to the previous location.\n - Player Market Capacity : 30\n- Player Market Time : 30 Days\n- Image Map : 30\n- Max Homes : 15\n- Chest Shop : 30\n- Player Warp : 15",
     link: "#",
     cardTTClass: styles.SupV,
   },
@@ -79,13 +83,14 @@ const RankList = [
 // Feature component for each card
 function Feature({
   title,
-  playtime,
+  price,
   description,
   ownerland,
   l_avai,
   freechunk,
   supchunk,
   chunklimit,
+  arealimit,
   landmember,
   landrole,
   cardTTClass,
@@ -98,16 +103,16 @@ function Feature({
         <info>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={24}
-            height={24}
-            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            viewBox="0 0 32 32"
           >
             <path
               fill="currentColor"
-              d="M11.5 3a9.5 9.5 0 0 1 9.5 9.5a9.5 9.5 0 0 1-9.5 9.5A9.5 9.5 0 0 1 2 12.5A9.5 9.5 0 0 1 11.5 3m0 1A8.5 8.5 0 0 0 3 12.5a8.5 8.5 0 0 0 8.5 8.5a8.5 8.5 0 0 0 8.5-8.5A8.5 8.5 0 0 0 11.5 4M11 7h1v5.42l4.7 2.71l-.5.87l-5.2-3z"
-            ></path>
+              d="M21.402 15.643A4.97 4.97 0 0 0 23 12v-1a5.006 5.006 0 0 0-5-5h-1V3h-2v3h-5v20h5v3h2v-3h2a5.006 5.006 0 0 0 5-5v-1a4.98 4.98 0 0 0-2.598-4.357M12 8h6a3.003 3.003 0 0 1 3 3v1a3.003 3.003 0 0 1-3 3h-6Zm10 13a3.003 3.003 0 0 1-3 3h-7v-7h7a3.003 3.003 0 0 1 3 3Z"
+            />
           </svg>
-          {playtime}
+          {price}
         </info>
         <br />
         <h4>Land Information</h4>
@@ -196,6 +201,21 @@ function Feature({
           >
             <path
               fill="currentColor"
+              d="m14 9l-1-2H7V5.72c.6-.34 1-.98 1-1.72c0-1.1-.9-2-2-2s-2 .9-2 2c0 .74.4 1.38 1 1.72V21h2v-4h5l1 2h7V9zm4 8h-4l-1-2H7V9h5l1 2h5z"
+            ></path>
+          </svg>
+          {arealimit}
+        </info>
+        <info>
+          <br />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
               d="M11.5 14c4.14 0 7.5 1.57 7.5 3.5V20H4v-2.5c0-1.93 3.36-3.5 7.5-3.5m6.5 3.5c0-1.38-2.91-2.5-6.5-2.5S5 16.12 5 17.5V19h13zM11.5 5A3.5 3.5 0 0 1 15 8.5a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8 8.5A3.5 3.5 0 0 1 11.5 5m0 1A2.5 2.5 0 0 0 9 8.5a2.5 2.5 0 0 0 2.5 2.5A2.5 2.5 0 0 0 14 8.5A2.5 2.5 0 0 0 11.5 6"
             ></path>
           </svg>
@@ -230,7 +250,7 @@ function Feature({
           {landrole}
         </info>
         <br />
-        <h4>Unlock Features</h4>
+        <h4>Additional Features</h4>
         <info>
           <p>{description}</p>
         </info>

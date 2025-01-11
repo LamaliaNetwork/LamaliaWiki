@@ -56,7 +56,7 @@ const RankList = [
     chunklimit: "40 Chunk Limit",
     landmember: " 12 Land Member",
     landrole: "5 Land Role",
-    description: "- /craft or /wb command to open workbench\n - Image Map 10\n - Chest Shop 10 ",
+    description: "- /craft or /wb command to open workbench\n - Image Map 10\n - Chest Shop 10\n- Player Warp : 1 ",
     link: "#",
     cardColorClass: styles.gold, // Specific color class
   },
@@ -71,7 +71,7 @@ const RankList = [
     chunklimit: "55 Chunk Limit",
     landmember: " 14 Land Member",
     landrole: "5 Land Role",
-    description: "- /anvil command to open anvil\n - Elytraboost ",
+    description: "- /anvil command to open anvil\n - Elytraboost\n- Player Warp : 1",
     
     link: "#",
     cardColorClass: styles.platinum, // Specific color class
@@ -86,7 +86,7 @@ const RankList = [
     chunklimit: "70 Chunk Limit",
     landmember: " 16 Land Member",
     landrole: "5 Land Role",
-    description: "- Create Nation\n - /bin or /dispose for clear you don't need\n - Open Shulker without placing",
+    description: "- Create Nation\n - /bin or /dispose for clear you don't need\n - Open Shulker without placing\n- Player Warp : 2",
     link: "#",
     cardColorClass: styles.emerald, // Specific color class
   },
@@ -100,7 +100,7 @@ const RankList = [
     chunklimit: "90 Chunk Limit",
     landmember: " 18 Land Member",
     landrole: "5 Land Role",
-    description: "- Head Shop /hdb and /hdb \nsearch[name]\n - Armor Stand Editing \n(Shift + Right-Click\n - Open enderchest /ec or /ender command",
+    description: "- Head Shop /hdb and /hdb \nsearch[name]\n - Armor Stand Editing \n(Shift + Right-Click\n - Open enderchest /ec or /ender command\n- Player Warp : 2",
     link: "#",
     cardColorClass: styles.diamond, // Specific color class
   },
@@ -114,7 +114,7 @@ const RankList = [
     chunklimit: "150 Chunk Limit",
     landmember: " 20 Land Member",
     landrole: "5 Land Role",
-    description: "- Mirror",
+    description: "- Mirror\n- Player Warp : 4",
     link: "#",
     cardColorClass: styles.astral, // Specific color class
   },
@@ -128,7 +128,7 @@ const RankList = [
     chunklimit: "250 Chunk Limit",
     landmember: " 25 Land Member",
     landrole: "5 Land Role",
-    description: "- Flight Charge",
+    description: "- Flight Charge\n- Player Warp : 6",
     link: "#",
     cardColorClass: styles.cosmic, // Specific color class
   },
@@ -142,7 +142,7 @@ const RankList = [
     chunklimit: "400 Chunk Limit",
     landmember: " 40 Land Member",
     landrole: "5 Land Role",
-    description: "- Early Access to new features",
+    description: "- Early Access to new features\n- Player Warp : 8",
     link: "#",
     cardColorClass: styles.eternity, // Specific color class
   },
@@ -303,7 +303,7 @@ function Feature({
           {landrole}
         </info>
         <br />
-        <h4>Unlock Features</h4>
+        <h4>Additional Features</h4>
         <info>
           <p>{description}</p>
         </info>
