@@ -28,61 +28,61 @@ function Feature({
 			<div className={styles.cardContent}>
 				<h3>{title}</h3>
 				{type === 'playtime' ?
-					<info>
+					<span >
 						<ICON.Clock />
 						{playtime}
-					</info>
+					</span>
 					: type === 'sup' ?
-						<info>
+						<span >
 							<ICON.ThaiBaht />
 							{price}
-						</info>
+						</span>
 						: null
 				}
 
 				<br />
 				<h4>{rankData[lang].landInfo}</h4>
-				<info>
+				<span >
 					<br />
 					<ICON.FullStar />
 					{ownerland}
-				</info>
-				<info>
+				</span>
+				<span >
 					<br />
 					<ICON.BorderStar />
 					{l_avai}
-				</info>
-				<info>
+				</span>
+				<span >
 					<br />
 					<ICON.Jigsaw />
 					{freechunk}
-				</info>
-				<info>
+				</span>
+				<span >
 					<br />
 					<ICON.HandShake />
 					{supchunk}
-				</info>
-				<info>
+				</span>
+				<span >
 					<br />
 					<ICON.BlockLimit />
 
 					{chunklimit}
-				</info>
-				<info>
+				</span>
+				<span >
 					<br />
 					<ICON.Person />
 					{landmember}
-				</info>
-				<info>
+				</span>
+				<span >
 					<br />
 					<ICON.People />
 					{landrole}
-				</info>
+				</span>
 				<br />
 				<h4>{rankData[lang].unlockFeature}</h4>
-				<info>
+				<span >
 					<p>{description}</p>
-				</info>
+				</span>
 				{/*<a href={link}>Learn more</a>*/}
 			</div>
 		</div>
@@ -106,11 +106,11 @@ export default function RankCard({ lang = 'en', type = 'playtime' }) {
 			scrollRef.current.scrollBy({ left: -320, behavior: "smooth" })
 		}
 	}
-	
-	const rankDataMap = 
+
+	const rankDataMap =
 		type === 'playtime' ? rankData[lang].RankList :
-		type === 'sup' ? rankData[lang].RankSupList :
-		null
+			type === 'sup' ? rankData[lang].RankSupList :
+				null
 
 	return (
 		<div className={styles.container}>
@@ -119,7 +119,7 @@ export default function RankCard({ lang = 'en', type = 'playtime' }) {
 			</button>
 			<div className={styles.cardContainer} ref={scrollRef}>
 				{rankDataMap.map((item, idx) => (
-					<Feature key={idx} {...item} lang={lang} type={type}/>
+					<Feature key={idx} {...item} lang={lang} type={type} />
 				))}
 			</div>
 			<button className={styles.scrollButton} onClick={scrollRight}>

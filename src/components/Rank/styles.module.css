@@ -114,7 +114,7 @@ background: linear-gradient(to top right, #049ad6, #04d697, #04d662);
 .cardContent {
   padding: 20px;
 }
-
+ 
 /* Title styling */
 .cardContent h3 {
   font-size: 1.2em;
@@ -140,6 +140,13 @@ background: linear-gradient(to top right, #049ad6, #04d697, #04d662);
   text-decoration: underline;
 }
 
+.cardContent span {
+  display: flex;
+  align-items: center; /* จัดกึ่งกลางในแนวตั้ง */
+  gap: 8px; /* ระยะห่างระหว่างไอคอนและข้อความ */
+  white-space: pre-line;
+}
+
 /* Styling for scroll buttons */
 .scrollButton {
   background-color: #333;
@@ -163,13 +170,6 @@ background: linear-gradient(to top right, #049ad6, #04d697, #04d662);
 .scrollButton.right {
   position: absolute;
   right: 10px;
-}
-
-info {
-  display: flex;
-  align-items: center; /* จัดกึ่งกลางในแนวตั้ง */
-  gap: 8px; /* ระยะห่างระหว่างไอคอนและข้อความ */
-  white-space: pre-line;
 }
 
 /* Responsive styles */
