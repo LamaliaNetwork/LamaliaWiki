@@ -1,5 +1,8 @@
 # Grief Checker Tools
 
+:::warning Rank Require: `Bronze`
+:::
+
 :::info Enable / Disable inspect mode Command : `/l inspect`
 :::
 
@@ -23,3 +26,12 @@ Please get in touch with the administrator or moderator if you find any issues.
 <br/><>>>></>
 [📩 | Private Help](./privateHelp.md)
 :::
+
+## History
+
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 17/05/2024 | [1.8.0](/patchNotes#patch-180) | - Added: Command /l inspect (or /lands inspect) to enable land inspection mode. |
+| 29/11/2024 | [2.0.0 RC-1](/patchNotes#patch-200-rc-1) | - Removed: Land Inspect due to version incompatibility. |
+| 30/11/2024 | [2.0.0 RC-3](/patchNotes#patch-200-rc-3) | - Re-added: /l inspect command. |
+| 12/01/2025 |  | - Update Wiki : Rank Require Bronze |
