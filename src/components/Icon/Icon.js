@@ -228,7 +228,6 @@ export const ThaiBaht = (props) => {
 export const Facebook = (props) => {
 
     return <svg
-        className="w-4 h-4"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
@@ -249,7 +248,6 @@ export const Facebook = (props) => {
 export const Discord = (props) => {
 
     return <svg
-        className="w-4 h-4"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
@@ -266,7 +264,6 @@ export const Discord = (props) => {
 export const Store = (props) => {
 
     return <svg
-        className="w-6 h-6 text-gray-800 dark:text-white"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         width={24}

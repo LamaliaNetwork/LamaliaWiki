@@ -46,21 +46,21 @@ function Footer() {
               className="social-icon"
               aria-label="Facebook page"
             >
-              <ICON.Facebook />
+              <ICON.Facebook className="w-4 h-4"/>
             </a>
             <a
               href={footerConfig.socialLinks.discord}
               className="social-icon"
               aria-label="Discord community"
             >
-              <ICON.Discord />
+              <ICON.Discord className="w-4 h-4"/>
             </a>
             <a
               href={footerConfig.socialLinks.store}
               className="social-icon"
               aria-label="Official Store"
             >
-              <ICON.Store />
+              <ICON.Store className="w-6 h-6"/>
             </a>
           </div>
         </div>
