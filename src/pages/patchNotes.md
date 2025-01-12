@@ -8,7 +8,7 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ## Patch 2.2.0
 
-> 24/01/2025
+> 12/01/2025
 > 
 
 **Additions**
@@ -33,9 +33,8 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Added: Brew Draconic Essence Recipe
 - Added: Brew Shop (to sell your brew) Excellent Condition Only
 - Added: Dispensers Mine Block Experimental Features
-  
 
-**Changes**
+- Added: wiki for BlockCycle, Hopper Filter, Worldedit tools and more
 
 **Fixes**
 - Fixed: Entity Culling too powerful 
