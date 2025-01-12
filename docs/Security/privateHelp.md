@@ -2,7 +2,7 @@
 <!-- Private Help EN -->
 <!-- Voyl_x 240908 -->
 
-:::info Private Help
+:::info Open Ticket
 Use this channel to contact the administrator and report problems.
 :::
 
@@ -13,17 +13,30 @@ Use this channel to contact the administrator and report problems.
 >-> [**Discord Linking**](../quality_of_life/discord.md)
 :::
 
-### How to use Private Help:
+### How to use Open Ticket:
 Follow these steps to contact the administrator:
-![privateHelp1](/img/doc/privateChat/DC_PrivteHelp_1.png)
-1. Click on the chat channe `# 📩 | Private Help`
-2. Click on `Open Ticket`
-![privateHelp1](/img/doc/privateChat/DC_PrivteHelp_2.png)
-3. Click on the ticket that appears, such as `ticket-xxx`
-![privateHelp1](/img/doc/privateChat/DC_PrivteHelp_3.png)
-4. Type your issue or the topic you want to discuss in this chat channel `ticket-xxx`
-5. Once the issue is resolved or the conversation is complete, <green>close the ticket</green> by clicking the <red>`Close`</red> button.
 
+1. Click on the chat channel `# 📩 | open-ticket`
+2. Click on `Select the reason for your ticket`
+
+![OpenTicket](/img/doc/privateChat/Ticket1.png)
+
+3. Click on `Select the reason`
+
+![OpenTicket](/img/doc/privateChat/Ticket2.png)
+
+4. Click Button `Go to my ticket`
+
+![OpenTicket](/img/doc/privateChat/Ticket3.png)
+
+5. Type your issue or the topic you want to discuss in this chat channel `ticket-xxx`
+
+![OpenTicket](/img/doc/privateChat/Ticket4.png)
+
+
+:::tip
+The ticket will be closed once the problem is resolved
+:::
 
 :::info Facebook Page
 Use this channel to contact Lamalia Team if you are uncomfortable contacting via Discord. This channel will receive a response as soon as possible.

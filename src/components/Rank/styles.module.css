@@ -1,0 +1,205 @@
+/* Container for the card section with arrows for scrolling */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Prevents overflow in the container */
+}
+
+/* Card container to enable horizontal scroll */
+.cardContainer {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  scroll-behavior: smooth;
+  flex-wrap: nowrap; /* Prevents wrapping of cards */
+  width: 100%; /* Allow the container to take full width */
+  max-width: 100%; /* Ensures it does not stretch too wide */
+  padding: 10px; /* Add padding around the container */
+  -webkit-overflow-scrolling: touch; /* Enables momentum scrolling on iOS */
+}
+
+:root {
+  --card-bg-color-light: #ffffff;
+  --card-bg-color-dark: #202020;
+}
+
+[data-theme="light"] .card {
+  background-color: var(--card-bg-color-light);
+}
+
+[data-theme="dark"] .card {
+  background-color: var(--card-bg-color-dark);
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  width: 18rem;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+  margin: 20px 10px; /* Adjust margin to ensure proper spacing */
+}
+
+/* The color bar on top of each card */
+.cardColor {
+  height: 20px;
+  width: 100%;
+}
+
+/* Different color gradients for each card */
+.cardColor.iron {
+  background: linear-gradient(90deg, #858585, #5f5f5f);
+}
+.cardColor.bronze {
+  background: linear-gradient(90deg, #e7a034, #cd7f32);
+}
+.cardColor.silver {
+  background: linear-gradient(90deg, #f7f7f7, #e6e6e6);
+}
+.cardColor.gold {
+  background: linear-gradient(90deg, #eec40c, #ecc30b);
+}
+.cardColor.platinum {
+  background: linear-gradient(90deg, #18a3f3, #5672f1);
+}
+.cardColor.emerald {
+  background: linear-gradient(90deg, #1dd605, #018012);
+}
+.cardColor.diamond {
+  background: linear-gradient(90deg, #7e3ff5, #5d1ad8);
+}
+.cardColor.astral {
+  background: linear-gradient(90deg, #9309d3, #c13ff5, #9309d3);
+}
+.cardColor.cosmic {
+  background: linear-gradient(90deg, #29b1f0, #b7e8ff, #29b1f0);
+}
+.cardColor.eternity {
+  background: linear-gradient(90deg, #ff1e00, #f57b08, #ff1e00);
+}
+
+.cardColor.SupI {
+  border-radius: 0 0 20px 20px;
+background: linear-gradient(to top right, #e47003, #e49503, #ffe4b2);
+}
+
+.cardColor.SupII {
+  border-radius: 0 0 20px 20px;
+background: linear-gradient(to top right, #049ad6, #04d697, #aefdd2);
+}
+
+.cardColor.SupIII {
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(to top right, #0451a8, #2274df, #abf2f7);
+}
+
+.cardColor.SupIV {
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(to top right, #7a09d6, #491ee4, #90a3f8);
+}
+
+.cardColor.SupV {
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(to top right, #f7176d, #ec12c8, #fdb8ff);
+}
+
+/* Card content section */
+.cardContent {
+  padding: 20px;
+}
+ 
+/* Title styling */
+.cardContent h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+.cardContent p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Link styling */
+.cardContent a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hover effect for links */
+.cardContent a:hover {
+  text-decoration: underline;
+}
+
+.cardContent span {
+  display: flex;
+  align-items: center; /* จัดกึ่งกลางในแนวตั้ง */
+  gap: 8px; /* ระยะห่างระหว่างไอคอนและข้อความ */
+  white-space: pre-line;
+}
+
+/* Styling for scroll buttons */
+.scrollButton {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 9px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.scrollButton:hover {
+  background-color: #444;
+}
+
+.scrollButton.left {
+  position: absolute;
+  left: 10px;
+}
+
+.scrollButton.right {
+  position: absolute;
+  right: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .cardContainer {
+    flex-direction: row;
+    overflow-x: auto; /* Ensures horizontal scrolling on mobile */
+    -webkit-overflow-scrolling: touch; /* Enables momentum scrolling on iOS */
+  }
+
+  .scrollButton {
+    display: none; /* Hide scroll buttons on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .cardContent h3 {
+    font-size: 1em;
+  }
+
+  .cardContent p {
+    font-size: 0.9em;
+  }
+
+  .cardContent a {
+    font-size: 0.9em;
+  }
+}
