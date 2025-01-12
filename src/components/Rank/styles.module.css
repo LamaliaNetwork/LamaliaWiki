@@ -49,7 +49,7 @@
 
 /* The color bar on top of each card */
 .cardColor {
-  height: 15px;
+  height: 20px;
   width: 100%;
 }
 
@@ -85,11 +85,36 @@
   background: linear-gradient(90deg, #ff1e00, #f57b08, #ff1e00);
 }
 
+.cardColor.SupI {
+  border-radius: 0 0 20px 20px;
+background: linear-gradient(to top right, #e47003, #e49503, #ffe4b2);
+}
+
+.cardColor.SupII {
+  border-radius: 0 0 20px 20px;
+background: linear-gradient(to top right, #049ad6, #04d697, #aefdd2);
+}
+
+.cardColor.SupIII {
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(to top right, #0451a8, #2274df, #abf2f7);
+}
+
+.cardColor.SupIV {
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(to top right, #7a09d6, #491ee4, #90a3f8);
+}
+
+.cardColor.SupV {
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(to top right, #f7176d, #ec12c8, #fdb8ff);
+}
+
 /* Card content section */
 .cardContent {
   padding: 20px;
 }
-
+ 
 /* Title styling */
 .cardContent h3 {
   font-size: 1.2em;
@@ -115,6 +140,13 @@
   text-decoration: underline;
 }
 
+.cardContent span {
+  display: flex;
+  align-items: center; /* จัดกึ่งกลางในแนวตั้ง */
+  gap: 8px; /* ระยะห่างระหว่างไอคอนและข้อความ */
+  white-space: pre-line;
+}
+
 /* Styling for scroll buttons */
 .scrollButton {
   background-color: #333;
@@ -138,13 +170,6 @@
 .scrollButton.right {
   position: absolute;
   right: 10px;
-}
-
-info {
-  display: flex;
-  align-items: center; /* จัดกึ่งกลางในแนวตั้ง */
-  gap: 8px; /* ระยะห่างระหว่างไอคอนและข้อความ */
-  white-space: pre-line;
 }
 
 /* Responsive styles */

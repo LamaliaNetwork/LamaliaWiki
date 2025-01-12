@@ -93,3 +93,9 @@ Uses Upgrade: This recharge is used to place blocks. It costs 1 recharge per blo
 | Shift + Left Click  |      +10 |   50$ |
 | Right Click         |     +100 |  500$ |
 | Shift + Right Click |    +1000 | 5000$ |
+
+## History
+
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 24/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Worldedit tools to Beta Testers. |

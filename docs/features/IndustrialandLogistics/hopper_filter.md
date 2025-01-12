@@ -15,3 +15,9 @@ Placing an item frame on a Hopper and inserting the desired items into the item 
 :::tip
 Supports custom item naming and includes a filter for items with matching names.
 :::
+
+## History
+
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 24/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Hopper Filter to Beta Testers. |
