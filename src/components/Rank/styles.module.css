@@ -87,17 +87,17 @@
 
 .cardColor.SupI {
   border-radius: 0 0 20px 20px;
-background: linear-gradient(to top right, #e47003, #e49503, #ffbd44);
+background: linear-gradient(to top right, #e47003, #e49503, #ffe4b2);
 }
 
 .cardColor.SupII {
   border-radius: 0 0 20px 20px;
-background: linear-gradient(to top right, #049ad6, #04d697, #04d662);
+background: linear-gradient(to top right, #049ad6, #04d697, #aefdd2);
 }
 
 .cardColor.SupIII {
   border-radius: 0 0 20px 20px;
-  background: linear-gradient(to top right, #0451a8, #0f6ad1, #21dae7);
+  background: linear-gradient(to top right, #0451a8, #2274df, #abf2f7);
 }
 
 .cardColor.SupIV {
@@ -107,7 +107,7 @@ background: linear-gradient(to top right, #049ad6, #04d697, #04d662);
 
 .cardColor.SupV {
   border-radius: 0 0 20px 20px;
-  background: linear-gradient(to top right, #f7176d, #ec12c8, #fb86ff);
+  background: linear-gradient(to top right, #f7176d, #ec12c8, #fdb8ff);
 }
 
 /* Card content section */
