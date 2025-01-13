@@ -90,6 +90,7 @@ const config = {
           {to: '/patchNotes', label: 'Patch Notes', position: 'left'},
           {to: '/rules', label: 'Rules', position: 'left'},
           {to: '/privacy', label: 'Privacy Policy', position: 'left'},
+          {to: '/embed', label: 'More', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',

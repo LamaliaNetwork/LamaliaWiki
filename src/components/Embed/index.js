@@ -7,18 +7,18 @@ const QOLEmbed = () => {
   return (
 <div>
   <div className={styles.btnlayout}>
-    <div
-      className={`${styles.btnEmbed} ${activeTab === "codecks" ? styles.active : ""}`}
-      onClick={() => setActiveTab("codecks")}
-    >
-      Codecks
-    </div>
-    <div
-      className={`${styles.btnEmbed} ${activeTab === "map" ? styles.active : ""}`}
-      onClick={() => setActiveTab("map")}
-    >
-      Map
-    </div>
+      <div id="Codecks"
+        className={`${styles.btnEmbed} ${activeTab === "codecks" ? styles.active : ""}`}
+        onClick={() => setActiveTab("codecks")}
+      >
+        Codecks
+      </div>
+      <div id="Map"
+        className={`${styles.btnEmbed} ${activeTab === "map" ? styles.active : ""}`}
+        onClick={() => setActiveTab("map")}
+      >
+        Map
+      </div>
   </div>
 
   <div className={styles.iframeContainer}>
