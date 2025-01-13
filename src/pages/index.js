@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
+import QOLEmbed from "../components/Embed";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -19,7 +20,8 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <HomepageFeatures />
+        <span><HomepageFeatures /></span>
+        <span><QOLEmbed /></span>
       </div>
     </header>
   );
@@ -28,7 +30,6 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    
     <Layout>
       <main>
         <HomepageHeader />

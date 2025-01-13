@@ -2,8 +2,7 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
-
-.heroBanner {
+ .heroBanner {
   height: 100%; /* Make the hero banner take the full viewport height */
   padding: 2rem 2rem;
   text-align: center;
