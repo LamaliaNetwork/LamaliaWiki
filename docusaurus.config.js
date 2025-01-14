@@ -96,7 +96,7 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Development',
+                label: 'Roadmap',
                 to: '/Codecks',
               },
               {
