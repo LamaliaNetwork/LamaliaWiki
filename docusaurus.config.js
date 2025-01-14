@@ -96,12 +96,16 @@ const config = {
             position: 'left',
             items: [
               {
+                label: 'More1',
+                to: '/More?page=Test',
+              },
+              {
                 label: 'Roadmap',
-                to: '/Codecks',
+                to: '/More?page=Roadmap',
               },
               {
                 label: 'Map',
-                to: '/Map',
+                to: '/More?page=Map',
               },
             ],
           },
