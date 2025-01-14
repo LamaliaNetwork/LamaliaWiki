@@ -1,7 +1,7 @@
 import clsx from "clsx"
 import Layout from "@theme/Layout"
-import styles from "./index.module.css"
-import Iframe from "../components/Iframe"
+import styles from "./../index.module.css"
+import Iframe from "../../components/Iframe"
 import { Button, Col, Collapse, ConfigProvider, Flex, Input, InputNumber, Row, Select } from "antd"
 import { useState } from "react"
 

@@ -97,11 +97,11 @@ const config = {
             items: [
               {
                 label: 'Roadmap',
-                to: '/More',
+                to: '/more/Codecks',
               },
               {
                 label: 'Map',
-                to: '/More',
+                to: '/more/Map',
               },
             ],
           },
