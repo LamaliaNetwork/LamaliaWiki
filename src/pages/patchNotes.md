@@ -6,6 +6,20 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
+## Patch 2.3.0
+> 14/01/2025
+> 
+
+**Additions**
+- Added: Map / Suggestions / Bug Report System to wiki website
+
+**Changes**
+- Changed: Player Can Compose Mail in Bronze Rank or above
+
+**Fixes**
+- Fixed Anvil cannot merge enchantment books
+- Fixed Sweep Edge Enchantment OverEnchant not Working
+
 ## Patch 2.2.0
 
 > 12/01/2025
