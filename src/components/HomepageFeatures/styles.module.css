@@ -71,8 +71,27 @@
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 768px) {
   .heroBanner {
     padding: 2rem;
+  }
+  .svgWrapper {
+    height: 50px;
+  }
+
+  .featureSvg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .card {
+    padding: 2rem;
+    height: 15rem;
+  }
+
+  .eventCard {
+    padding: 1rem;
+    min-height: 1rem;
+    border-radius: 1rem;
   }
 }

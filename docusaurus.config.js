@@ -91,6 +91,21 @@ const config = {
           {to: '/rules', label: 'Rules', position: 'left'},
           {to: '/privacy', label: 'Privacy Policy', position: 'left'},
           {
+            type: 'dropdown',
+            label: 'More',
+            position: 'left',
+            items: [
+              {
+                label: 'Roadmap',
+                to: '/more/Codecks',
+              },
+              {
+                label: 'Map',
+                to: '/more/Map',
+              },
+            ],
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },
