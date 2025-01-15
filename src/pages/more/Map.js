@@ -28,7 +28,7 @@ const worldList = [
 
 export default function MapPage() {
 
-	const path = 'https://map.lamalia.net/?world=minecraft_overworld&zoom=2&x=-2848&z=21762'
+	const path = 'https://map.lamalia.net/'
 
 	const initState = {
 		world: worldList[0].value,
@@ -40,7 +40,7 @@ export default function MapPage() {
 	const items = [
 		{
 			key: '1',
-			label: 'ใส่คำว่าอะไรดีคิดไม่ออก',
+			label: 'Coordinate X, Z',
 			children: <MapCustomValue state={state} setState={setState} />,
 		}
 	]
@@ -61,13 +61,13 @@ export default function MapPage() {
 						<div className="container">
 							<span className="content">
 								<h2>Map</h2>
-								<Flex justify="center">
+								{/* <Flex justify="center">
 									<Col md={18} xs={20}>
 										<Collapse items={items}
 											defaultActiveKey={1}	//เดี๋ยวมาเอาออก
 										/>
 									</Col>
-								</Flex>
+								</Flex> */}
 
 								<Iframe
 									src={path}
