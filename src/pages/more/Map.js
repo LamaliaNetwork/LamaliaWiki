@@ -33,7 +33,7 @@ export default function MapPage() {
 	const initState = {
 		world: worldList[0].value,
 		xAxis: 0,
-		xAxis: 0
+		yAxis: 0
 	}
 	const [state, setState] = useState(initState)
 

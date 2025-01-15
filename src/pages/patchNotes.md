@@ -16,7 +16,7 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 **Changes**
 - Changed: Player Can Compose Mail in Bronze Rank or above
-- Changed: Creative player warps now cost 0 -> $50k per location
+- Changed: Creating player warps now cost 0 -> $50k per location
 - Changed: Player Worldedit Tools Moved Out From Beta Testers to Astral Rank and Above (just to use)
 - Changed: to obtain worldedit tools, you need to buy it from quest shop (1000 Quest Points)
 - Changed: Hopper Filter Moved Out From Beta Testers to quest shop (1000 Quest Points)
