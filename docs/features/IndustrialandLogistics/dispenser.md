@@ -9,6 +9,7 @@ In this feature, the following capabilities are all about dispenser capabilities
 ## Dispenser Place Block
 
 The block faces in the same direction as the Dispenser. Its operation requires a redstone signal that is not too fast. If the signal speed is too high, the Dispenser will shoot the item instead of placing the block.
+and case If a block already occupies the target position, the Dispenser will shoot the item instead of placing it.
 
 ## Dispenser Break Block
 
