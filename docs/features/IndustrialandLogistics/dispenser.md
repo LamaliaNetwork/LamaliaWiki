@@ -1,0 +1,15 @@
+---
+sidebar_position: 3
+---
+
+# Dispenser Ability
+A dispenser use certain items or tools or place certain blocks, fluids and solid or entities when given a redstone signal.
+In this feature, the following capabilities are all about dispenser capabilities and how to use them in the server.
+
+## Dispenser Place Block
+
+The block faces in the same direction as the Dispenser. Its operation requires a redstone signal that is not too fast. If the signal speed is too high, the Dispenser will shoot the item instead of placing the block.
+
+## Dispenser Break Block
+
+Blocks can be broken, and items are dropped. Items to be broken must be attached to the dispenser. Inside, there must be a tool capable of breaking the blocks. The operation requires a redstone signal. Once activated, the dispenser cannot be stopped until the block is destroyed.

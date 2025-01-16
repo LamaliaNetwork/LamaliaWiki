@@ -1,12 +1,16 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 # World Edit Tool 🪓
 
 ![WE Tools](\img\doc\features\we_tools\WE_Tool.gif)
 
 :::warning
-Currently for early access.
+Requires Astral Rank and Above
+:::
+
+:::danger
+This is a destructive feature. Use with caution!
 :::
 
 ## Set Position Region

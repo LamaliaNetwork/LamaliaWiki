@@ -5,7 +5,11 @@ sidebar_position: 8
 ![WE Tools](\img\doc\features\we_tools\WE_Tool.gif)
 
 :::warning
-ขณะนี้พร้อมใช้งานสำหรับ Early Access
+ต้องการแรงค์ Astral ขึ้นไป
+:::
+
+:::danger
+ฟีเจอร์นี้อาจเป็นอันตรายได้ โปรดใช้งานอย่างระมัดระวัง!
 :::
 
 ## Set Position Region
