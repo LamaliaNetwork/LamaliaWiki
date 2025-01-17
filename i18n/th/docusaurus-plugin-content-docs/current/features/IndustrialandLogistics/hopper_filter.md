@@ -21,3 +21,4 @@ sidebar_position: 7
 | Date | [Lamalia Release](/patchNotes) | Description |
 |-------------|-----------|-------------|
 | 12/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Hopper Filter to Beta Testers. |
+| 14/01/2025 | [2.3.0](/patchNotes#patch-230) | - Changed: Hopper Filter Moved Out From Beta Testers to quest shop (1000 Quest Points) |

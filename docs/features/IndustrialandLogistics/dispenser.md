@@ -23,3 +23,4 @@ Blocks can be broken, and items are dropped. Items to be broken must be attached
 | 29/01/2025 | [2.0.0 RC-1](/patchNotes#patch-200-rc-1) | - Removed: Dispensers that place blocks.|
 | 29/01/2025 | [2.0.0 RC-2](/patchNotes#patch-200-rc-2) | - Added: Dispensers that place blocks Back.|
 | 12/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Dispensers Mine Block Experimental Features. |
+| 14/01/2025 | [2.3.0](/patchNotes#patch-230) | - Fixed Cherry Sapling cannot dispense from dispenser. |

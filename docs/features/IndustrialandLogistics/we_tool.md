@@ -103,3 +103,5 @@ Uses Upgrade: This recharge is used to place blocks. It costs 1 recharge per blo
 | Date | [Lamalia Release](/patchNotes) | Description |
 |-------------|-----------|-------------|
 | 12/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Worldedit tools to Beta Testers. |
+| 14/01/2025 | [2.3.0](/patchNotes#patch-230) | - Changed: Player Worldedit Tools Moved Out From Beta Testers to Astral Rank and Above (just to use) |
+| 14/01/2025 | [2.3.0](/patchNotes#patch-230) | - Changed: to obtain worldedit tools, you need to buy it from quest shop (1000 Quest Points) |
