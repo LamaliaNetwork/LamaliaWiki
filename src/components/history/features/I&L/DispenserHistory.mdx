@@ -1,10 +1,10 @@
 
-## History
+import History from "@site/src/components/history/HistoryTable.jsx";
 
-| Date | [Lamalia Release](/patchNotes) | Description |
-|-------------|-----------|-------------|
-| 11/10/2024 | [1.11.0](/patchNotes#patch-111) | - Added: Dispensers can now place normal blocks. |
-| 29/01/2025 | [2.0.0 RC-1](/patchNotes#patch-200-rc-1) | - Removed: Dispensers that place blocks.|
-| 29/01/2025 | [2.0.0 RC-2](/patchNotes#patch-200-rc-2) | - Added: Dispensers that place blocks Back.|
-| 12/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Dispensers Mine Block Experimental Features. |
-| 14/01/2025 | [2.3.0](/patchNotes#patch-230) | - Fixed Cherry Sapling cannot dispense from dispenser. |
+<History lang={props.lang || 'en'} releasesData={[
+  { release: "1.11", description: "- Added: Dispensers can now place normal blocks." , descriptionTH: '- เพิ่ม: Dispensers สามารถวางBlockธรรมดาได้' },
+  { release: "2.0.0 RC-1", description: "- Removed: Dispensers that place blocks." },
+  { release: "2.0.0 RC-2", description: "- Added: Dispensers that place blocks Back." },
+  { release: "2.2.0", description: "- Added: Dispensers Mine Block Experimental Features." },
+  { release: "2.3.0", description: "- Fixed Cherry Sapling cannot dispense from dispenser." },
+]} />
