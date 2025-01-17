@@ -14,3 +14,12 @@ and case If a block already occupies the target position, the Dispenser will sho
 ## Dispenser Break Block
 
 Blocks can be broken, and items are dropped. Items to be broken must be attached to the dispenser. Inside, there must be a tool capable of breaking the blocks. The operation requires a redstone signal. Once activated, the dispenser cannot be stopped until the block is destroyed.
+
+## History
+
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 11/10/2024 | [1.11.0](/patchNotes#patch-111) | - Added: Dispensers can now place normal blocks. |
+| 29/01/2025 | [2.0.0 RC-1](/patchNotes#patch-200-rc-1) | - Removed: Dispensers that place blocks.|
+| 29/01/2025 | [2.0.0 RC-2](/patchNotes#patch-200-rc-2) | - Added: Dispensers that place blocks Back.|
+| 12/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Dispensers Mine Block Experimental Features. |
