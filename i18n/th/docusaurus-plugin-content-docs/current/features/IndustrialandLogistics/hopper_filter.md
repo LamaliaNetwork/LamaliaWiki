@@ -15,3 +15,9 @@ sidebar_position: 7
 :::tip
 รองรับการกำหนดชื่อไอเทมเอง และจะกรองเฉพาะชื่อที่ตรงกันเท่านั้น
 :::
+
+## History
+
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 12/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Hopper Filter to Beta Testers. |

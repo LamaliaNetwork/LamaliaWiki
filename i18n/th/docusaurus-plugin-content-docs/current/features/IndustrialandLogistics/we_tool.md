@@ -1,6 +1,7 @@
 ---
-sidebar_position: 8
----# World Edit Tool 🪓
+sidebar_position: 9
+---
+# World Edit Tool 🪓
 
 ![WE Tools](\img\doc\features\we_tools\WE_Tool.gif)
 
@@ -96,3 +97,9 @@ Uses Upgrade: การรีชาร์จนี้ใช้เพื่อว
 | Shift + Left Click  |     +10 |        50$ |
 | Right Click         |    +100 |       500$ |
 | Shift + Right Click |   +1000 |      5000$ |
+
+## History
+
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 12/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Worldedit tools to Beta Testers. |

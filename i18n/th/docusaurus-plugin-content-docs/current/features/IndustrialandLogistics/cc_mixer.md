@@ -9,3 +9,9 @@ sidebar_position: 2
 
 ถ้าหากผู้เล่นใช้หม้อต้มนํ้า หม้อต้มนํ้าระดับนํ้าจะลดลง 1 ระดับ
 ![Concrete Mixer](\img\doc\features\CC_Mixer\Concrete_Mixer.gif)
+
+## History
+
+| Date | [Lamalia Release](/patchNotes) | Description |
+|-------------|-----------|-------------|
+| 12/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Concrete Powder can now be turned into Concrete using any water source |
