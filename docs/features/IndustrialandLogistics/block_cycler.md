@@ -24,4 +24,4 @@ Right-click a block to edit the block's states.
 
 | Date | [Lamalia Release](/patchNotes) | Description |
 |-------------|-----------|-------------|
-| 24/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: BlockCycle to Donators. |
+| 12/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: BlockCycle to Donators. |

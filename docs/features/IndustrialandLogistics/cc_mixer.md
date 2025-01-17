@@ -15,4 +15,4 @@ If you use a water cauldron, the water level will decrease by 1.
 
 | Date | [Lamalia Release](/patchNotes) | Description |
 |-------------|-----------|-------------|
-| 24/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Concrete Powder can now be turned into Concrete using any water source |
+| 12/01/2025 | [2.2.0](/patchNotes#patch-220) | - Added: Concrete Powder can now be turned into Concrete using any water source |
