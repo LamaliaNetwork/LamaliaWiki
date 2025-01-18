@@ -9,6 +9,6 @@ export default function DispenserHistory(props) {
   ]
 
   return (
-    <History lang={props.lang || 'en'} releasesData={data} />
+    <History releasesData={data} />
   )
 }

@@ -2,6 +2,7 @@ import React, { useMemo } from 'react'
 import { Table } from 'antd'
 import Link from '@docusaurus/Link'
 import releases from '@site/src/releases.json' // นำเข้าข้อมูลจากไฟล์ JSON
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import moment from "moment-timezone"
 moment.tz.setDefault("Asia/Bangkok")
 moment.locale("th")
@@ -22,6 +23,11 @@ moment.locale("th")
  * @returns {JSX.Element} The rendered History component with a table.
  */
 export default function History({ lang, releasesData }) {
+    const { i18n } = useDocusaurusContext();
+    const { currentLocale } = i18n;
+
+    lang = lang || currentLocale
+
     // ฟังก์ชันที่ใช้จัดการการแสดงผลตามภาษาและข้อมูลที่ได้รับ
     const translations = useMemo(() => ({
         en: {
