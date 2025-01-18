@@ -2,22 +2,30 @@
 sidebar_position: 9
 ---
 
-import History from "@site/src/components/history/features/I&L/weToolHistory.jsx";
+import { TH, EN } from '@site/src/components/LanguageComponents.jsx'
+import History from "@site/src/components/history/HistoryTable.jsx"
 
 # World Edit Tool 🪓
 
 ![WE Tools](\img\doc\features\we_tools\WE_Tool.gif)
 
-:::warning
-Requires Astral Rank and Above
+<EN>
+:::warning Requires Astral Rank and Above
 :::
+</EN>
+<TH>
+:::warning ต้องการแรงค์ Astral ขึ้นไป 
+:::
+</TH>
 
 :::danger
-This is a destructive feature. Use with caution!
+<EN>This is a destructive feature. Use with caution!</EN>
+<TH>ฟีเจอร์นี้อาจเป็นอันตรายได้ โปรดใช้งานอย่างระมัดระวัง!</TH>
 :::
 
 ## Set Position Region
 
+<EN>
 ### Region Postion 1
 
 ```
@@ -29,13 +37,30 @@ Left Click Set Position 1 (Pos1)
 ```
 Right Click Set Position 2 (Pos2)
 ```
+</EN>
+<TH>
+### ตำแหน่งพื้นที่ จุดที่ 1
+
+```
+Left Click เพื่อเซตตำแหน่งจุดที่ 1
+```
+
+### ตำแหน่งพื้นที่ จุดที่ 2
+
+```
+Right Click เพื่อเซตตำแหน่งจุดที่ 2 (Pos2)
+```
+</TH>
+
 
 ## Commands
 
 :::tip
-All material must be from you inventory
+<EN>All material must be from you inventory</EN>
+<TH>วัสดุทั้งหมดจะต้องมาจากช่องเก็บของ ของผู้เล่น</TH>
 :::
 
+<EN>
 ### /set
 
 ```
@@ -61,18 +86,47 @@ Description : Replace all blocks in the selection with another
 | `<material>` | The material of blocks to set           |
 |  `<target>`  | The mask representing blocks to replace |
 
+</EN>
+<TH>
+### /set
+
+```
+/set <material> เพื่อเซตพื้นที่โดยบล็อคที่ต้องการ
+```
+
+Description : เซตบล็อคทั้งหมดในพื้นที่
+
+|  การใช้งาน   | คำอธิบาย           |
+| :----------: | ------------------ |
+| `<material>` | วัสดุที่จะทำการเซต |
+
+### /replace
+
+```
+/replace <target> <material> แทนที่ด้วยวัสดุที่ต้องการ
+```
+
+Description : แทนที่บล็อคทั้งหมดในส่วนที่เลือกด้วยบล็อคอื่น
+
+|  การใช้งาน   | คำอธิบาย                        |
+| :----------: | ------------------------------- |
+| `<material>` | วัสดุที่จะทำการเซต              |
+|  `<target>`  | เลือกบล็อคที่จะให้เกิดการแทนที่ |
+</TH>
 :::tip
-Tools have different speeds and uses.
+<EN>Tools have different speeds and uses.</EN>
+<TH>เครื่องมือมีความเร็วและการใช้งานที่แตกต่างกัน</TH>
 
 - `You don't have enough uses left! Need: <recharge>`
-  - Uses: This refers to the total number of blocks that will be set and replaced. If this number is insufficient, a message will appear indicating the required number of recharges.
+  <EN>- Uses: This refers to the total number of blocks that will be set and replaced. If this number is insufficient, a message will appear indicating the required number of recharges.</EN>
+  <TH>- Uses: หมายถึงจำนวนบล็อกทั้งหมดที่จะถูกเซตและแทนที่ หากมีจำนวนนี้ไม่เพียงพอ ข้อความจะปรากฏขึ้นเพื่อระบุจำนวนการชาร์จที่ต้องการ</TH>
 - `Operation complete! Used <material> blocks`
-  - Used: This represents the total quantity of materials consumed during the operation.
+<EN>- Used: This represents the total quantity of materials consumed during the operation.</EN>
+<TH>- Used: แสดงถึงจำนวนวัสดุทั้งหมดที่ใช้ระหว่างการดำเนินการ</TH>
 - Recharging: Tool uses can be recharge by:
-
   - Shift + Left Click: This is a quick method to recharge the tool.
   - /upgrade: This is another option for recharging and upgrading the tool.
-    :::
+:::
 
 :::danger
 Tool speed upgrades are currently unavailable.
@@ -83,22 +137,37 @@ Tool speed upgrades are currently unavailable.
 {/* ### Speed Upgrade
 
 ![Speed_Upgrade](/img/doc/features/we_tools/Speed_Upgrade.png)
-Speed Upgrade: This upgrade enhances the speed capabilities of the tool. This will allow players to construct things at an increased speed, as follows:
+<EN>Speed Upgrade: This upgrade enhances the speed capabilities of the tool. This will allow players to construct things at an increased speed, as follows:</EN>
+<TH>Uses Upgrade: การรีชาร์จนี้ใช้เพื่อวางบล็อค มีค่าใช้จ่าย 1 การชาร์จต่อบล็อคที่วาง ค่าใช้จ่ายรีชาร์จจะแสดงดังต่อไปนี้</TH>
 
-| Level | `<material>`/s |     Cost |
+| Level | `<material>`/s |<EN>Cost</EN><TH>ค่าใช้จ่าย</TH> |
 | :---- | -------------: | -------: |
-| I     |            `5` |  default |  */}
+| I     |            `5` |  <EN>default</EN><TH>ค่าเริ่มต้น</TH> |  */}
 
 ### Uses Upgrade
 
 ![Uses_Upgrade](/img/doc/features/we_tools/Uses_Upgrade.png)
-Uses Upgrade: This recharge is used to place blocks. It costs 1 recharge per block placed. The costs are shown as follows.
-
+<EN>Uses Upgrade: This recharge is used to place blocks. It costs 1 recharge per block placed. The costs are shown as follows.</EN>
+<TH>Uses Upgrade: การรีชาร์จนี้ใช้เพื่อวางบล็อค มีค่าใช้จ่าย 1 การชาร์จต่อบล็อคที่วาง ค่าใช้จ่ายรีชาร์จจะแสดงดังต่อไปนี้</TH>
+<EN>
 | Press               | Recharge |  Cost |
 | ------------------- | -------: | ----: |
 | Left Click          |       +1 |    5$ |
 | Shift + Left Click  |      +10 |   50$ |
 | Right Click         |     +100 |  500$ |
 | Shift + Right Click |    +1000 | 5000$ |
+</EN>
+<TH>
+| กด               | รีชาร์จ |  ค่าใช้จ่าย |
+| ------------------- | -------: | ----: |
+| คลิกซ้าย          |       +1 |    5$ |
+| Shift + คลิกซ้าย  |      +10 |   50$ |
+| คลิกขวา        |     +100 |  500$ |
+| Shift + คลิกขวา |    +1000 | 5000$ |
+</TH>
 
-<History />
+<History releasesData={[
+    { release: "2.2.0", description: "- Added: Worldedit tools to Beta Testers." },
+    { release: "2.3.0", description: "- Changed: Player Worldedit Tools Moved Out From Beta Testers to Astral Rank and Above (just to use)" },
+    { release: "2.3.0", description: "- Changed: to obtain worldedit tools, you need to buy it from quest shop (1000 Quest Points)" },
+  ]} />
