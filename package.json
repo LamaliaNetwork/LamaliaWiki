@@ -16,6 +16,7 @@
     "@docusaurus/plugin-content-pages": "^3.7.0",
     "@docusaurus/preset-classic": "^3.7.0",
     "antd": "^5.23.1",
+    "moment-timezone": "^0.5.46",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }

@@ -2,6 +2,10 @@ import React, { useMemo } from 'react'
 import { Table } from 'antd'
 import Link from '@docusaurus/Link'
 import releases from '@site/src/releases.json' // นำเข้าข้อมูลจากไฟล์ JSON
+import moment from "moment-timezone"
+moment.tz.setDefault("Asia/Bangkok")
+moment.locale("th")
+
 
 
 /**
@@ -50,9 +54,9 @@ export default function History({ lang, releasesData }) {
             releaseDetails = getReleaseDetails(releaseData.release)
         }
 
-        const description = lang === 'th' 
-            ? releaseData.descriptionTH || releaseData.descriptionTh || releaseData.description 
-            : releaseData.description;
+        const description = lang === 'th'
+            ? releaseData.descriptionTH || releaseData.descriptionTh || releaseData.description
+            : releaseData.description
 
         return {
             date: releaseData.date || releaseDetails.date || 'Unknown',
@@ -67,7 +71,11 @@ export default function History({ lang, releasesData }) {
             title: t.date,
             dataIndex: 'date',
             key: 'date',
-            sorter: (a, b) => new Date(b.date) - new Date(a.date)
+            sorter: (a, b) => {
+                const dateA = moment(a.date, "DD/MM/YYYY")
+                const dateB = moment(b.date, "DD/MM/YYYY")
+                return dateB.diff(dateA)
+            }
         },
         {
             title: (
