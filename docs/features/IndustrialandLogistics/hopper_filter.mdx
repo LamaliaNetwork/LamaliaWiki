@@ -2,21 +2,28 @@
 sidebar_position: 7
 ---
 
-import History from "@site/src/components/history/features/I&L/HopperFilterHistory.jsx";
+import { TH, EN } from '@site/src/components/LanguageComponents.jsx';
+import History from "@site/src/components/history/HistoryTable.jsx"
 
 # Hopper Filter
 
 :::warning
-Currently for early access.
+<EN>Currently in Open Beta. (Everyone can try it, but the Quest Board prices are high.)</EN>
+<TH>ปัจจุบันอยู่ในช่วง Open Beta (ทุกคนสามารถลองได้ แต่ราคาบน Quest Board ค่อนข้างสูง)</TH>
 :::
 
 ## How to filter?
 
-Placing an item frame on a Hopper and inserting the desired items into the item frame will cause the Hopper to only accept items that match those within the frame. Transfer speed remains unchanged.
+<EN>Placing an item frame on a Hopper and inserting the desired items into the item frame will cause the Hopper to only accept items that match those within the frame. Transfer speed remains unchanged.</EN>
+<TH>วางกรอบโชว์สิ่งของบนฮอปเปอร์ และใส่ไอเทมที่ต้องการคัดกรองบนกรอบโชว์สิ่งของ จะทำให้ฮอปเปอร์รับไอเทมที่ตรงกับไอเทมบนกรอบโชว์สิ่งของเท่านั้น ความเร็วในการถ่ายโอนไอเทมไม่มีการเปลี่ยนแปลง</TH>
 ![Hopper Filter](\img\doc\features\hopper_filter\Hopper_Filter.webp)
 
 :::tip
-Supports custom item naming and includes a filter for items with matching names.
+<EN>Supports custom item naming and includes a filter for items with matching names.</EN>
+<TH>รองรับการกำหนดชื่อไอเทมเอง และจะกรองเฉพาะชื่อที่ตรงกันเท่านั้น.</TH>
 :::
 
-<History />
+<History releasesData={[
+    { release: "2.2.0", description: "- Added: Hopper Filter to Beta Testers." },
+    { release: "2.3.0", description: "- Changed: Hopper Filter Moved Out From Beta Testers to quest shop (1000 Quest Points)" },
+  ]} />
