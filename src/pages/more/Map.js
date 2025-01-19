@@ -5,7 +5,7 @@ import Iframe from "../../components/Iframe"
 import { Button, Col, Collapse, ConfigProvider, Flex, Input, InputNumber, Row, Select, Tag } from "antd"
 import { HeartTwoTone } from '@ant-design/icons'
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 
 const worldList = [
 	{
@@ -26,6 +26,12 @@ const worldList = [
 		min: -10000,
 		max: 10000
 	},
+]
+
+const _FavList = [
+	{ name: 'OldSpawn', world: 'minecraft_overworld', xAxis: 0, zAxis: 0, color: 'pink' },
+	{ name: 'LMEGrandStation', world: 'minecraft_the_nether', xAxis: -40, zAxis: 70, zoom: 4, color: 'pink' },
+	{ name: 'Wanted!', world: 'minecraft_overworld', xAxis: -4870, zAxis: -2040, zoom: 5, color: 'pink' },
 ]
 
 export default function MapPage() {
@@ -101,11 +107,15 @@ function MapCustomValue({ state, handleChangeState }) {
 		return worldList.find((el) => el.value === state.world)
 	}, [state.world])
 
-	const [favList, setFavList] = useState([
-		{ name: 'OldSpawn', world: 'minecraft_overworld', xAxis: 0, zAxis: 0 },
-		{ name: 'LMEGrandStation', world: 'minecraft_the_nether', xAxis: -40, zAxis: 70, zoom: 4 },
-		{ name: 'Wanted!', world: 'minecraft_overworld', xAxis: -4870, zAxis: -2040, zoom: 5 },
-	])
+	// const [favList, setFavList] = useState(_FavList)
+	const [favList, setFavList] = useState(() => {
+		const _favList = localStorage.getItem('favList')
+		return _favList ? JSON.parse(_favList) : _FavList
+	})
+
+	useEffect(() => {
+		localStorage.setItem('favList', JSON.stringify(favList))
+	}, [favList])
 
 	const handleClickGo = ({ world, xAxis, zAxis, zoom = 3 }) => {
 		world = world || state.world
@@ -201,7 +211,7 @@ function MapCustomValue({ state, handleChangeState }) {
 				<div style={{ margin: '1rem' }}>
 					{favList.map((fav, index) =>
 						<Tag
-							color="purple"
+							color={fav.color || "orange"}
 							closeIcon
 							onClick={(e) => { e.preventDefault(); handleClickFav(fav) }}
 							onClose={(e) => { e.preventDefault(); handleDelFav(fav) }}
