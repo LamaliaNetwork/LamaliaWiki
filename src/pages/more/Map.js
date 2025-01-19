@@ -52,6 +52,19 @@ export default function MapPage() {
 	}
 	const [state, setState] = useState(initState)
 
+	const [favList, setFavList] = useState(() => {
+		const _favList = localStorage.getItem('favList')
+		return _favList ? JSON.parse(_favList) : _FavList
+	})
+
+	useEffect(() => {
+		localStorage.setItem('favList', JSON.stringify(favList))
+	}, [favList])
+
+	const handleResetFavList = () => {
+		setFavList(_FavList)
+	}
+
 	const handleChangeState = (value, key) => {
 		setState((prev) => ({
 			...prev,
@@ -74,19 +87,51 @@ export default function MapPage() {
 		handleClickGo({ world, xAxis, zAxis, zoom })
 	}
 
+	const handleDelFav = (favToDelete) => {
+		setFavList((prev) =>
+			prev.filter(
+				(fav) =>
+					fav.name !== favToDelete.name ||
+					fav.world !== favToDelete.world ||
+					fav.xAxis !== favToDelete.xAxis ||
+					fav.zAxis !== favToDelete.zAxis ||
+					fav.zoom !== favToDelete.zoom
+			)
+		)
+	}
+
+	const handleAddFavList = () => {
+		setFavList((prev) => ([
+			...prev,
+			{
+				name: state.name || state.world + state.xAxis + state.zAxis,
+				world: state.world,
+				xAxis: state.xAxis,
+				zAxis: state.zAxis,
+				zoom: state.zoom,
+				color: state.color
+			}
+		]))
+		handleChangeState(false, 'showConfirmModal')
+	}
+
 	const mapProps = {
 		state,
 		handleChangeState,
 		handleClickGo,
 		handleClickFav,
+		handleDelFav,
+		favList,
+		handleResetFavList,
+		handleAddFavList
 	}
 
 	const items = [
 		{
 			key: '1',
 			label: 'Coordinate X, Z',
-			label: <MapSelectBar {...mapProps}/>,
-			children: <MapCustomValue state={state} {...mapProps}/>,
+			label: <MapSelectBar {...mapProps} />,
+			children: <MapFav state={state} {...mapProps} />,
 		}
 	]
 
@@ -110,7 +155,7 @@ export default function MapPage() {
 								<Flex justify="center">
 									<Col md={18} xs={20}>
 										<Collapse items={items}
-											// defaultActiveKey={1}	//เดี๋ยวมาเอาออก
+										// defaultActiveKey={1}	//เดี๋ยวมาเอาออก
 										/>
 									</Col>
 								</Flex>
@@ -123,6 +168,7 @@ export default function MapPage() {
 									></Iframe>
 								}
 							</span>
+							<ModalAddFav {...mapProps} />
 						</div>
 					</header>
 				</main>
@@ -135,7 +181,6 @@ function MapSelectBar({
 	state,
 	handleChangeState,
 	handleClickGo,
-	handleClickFav,
 }) {
 
 	const worldData = useMemo(() => {
@@ -150,106 +195,68 @@ function MapSelectBar({
 	}
 
 	return (
-	<>
-		<Row
-			justify="center"
-			gutter={{
-				xs: 8,
-				sm: 16,
-				md: 24,
-				lg: 32,
-			}}
-			style={{ marginTop: '1rem', textAlign: 'start' }}
-			onClick={(e) => e.stopPropagation()}
-		>
-			<Col span={6} >
-				x-Axis
-				<InputNumber
-					placeholder="x-Axis"
-					style={{ width: '100%' }}
-					max={worldData?.max || 1000}
-					min={worldData?.min || -1000}
-					onChange={(e) => handleChangeState(e, 'xAxis')}
-					value={state.xAxis}
-				/>
-			</Col>
-			<Col span={6}>
-				z-Axis
-				<InputNumber
-					placeholder="z-Axis"
-					style={{ width: '100%' }}
-					max={worldData?.max || 1000}
-					min={worldData?.min || -1000}
-					onChange={(e) => handleChangeState(e, 'zAxis')}
-					value={state.zAxis}
-				/>
-			</Col>
-			<Col span={6}>
-				World
-				<Select
-					options={worldList.map(({ value, label }) => ({ value, label }))}
-					style={{ width: '100%' }}
-					value={state.world}
-					onChange={(value) => handleChangeState(value, 'world')}
-				/>
-			</Col>
-			<Col>
-				<br />
-				<Button onClick={handleClickGo}>Go!</Button>
-				<Button
-					onClick={handleShowModalConfirm}
-					icon={<HeartTwoTone />}
-					style={{ marginLeft: '0.5rem' }}
-				/>
-			</Col>
-		</Row>
-	</>)
+		<>
+			<Row
+				justify="center"
+				gutter={{
+					xs: 8,
+					sm: 16,
+					md: 24,
+					lg: 32,
+				}}
+				style={{ marginTop: '1rem', textAlign: 'start' }}
+				onClick={(e) => e.stopPropagation()}
+			>
+				<Col span={6} >
+					x-Axis
+					<InputNumber
+						placeholder="x-Axis"
+						style={{ width: '100%' }}
+						max={worldData?.max || 1000}
+						min={worldData?.min || -1000}
+						onChange={(e) => handleChangeState(e, 'xAxis')}
+						value={state.xAxis}
+					/>
+				</Col>
+				<Col span={6}>
+					z-Axis
+					<InputNumber
+						placeholder="z-Axis"
+						style={{ width: '100%' }}
+						max={worldData?.max || 1000}
+						min={worldData?.min || -1000}
+						onChange={(e) => handleChangeState(e, 'zAxis')}
+						value={state.zAxis}
+					/>
+				</Col>
+				<Col span={6}>
+					World
+					<Select
+						options={worldList.map(({ value, label }) => ({ value, label }))}
+						style={{ width: '100%' }}
+						value={state.world}
+						onChange={(value) => handleChangeState(value, 'world')}
+					/>
+				</Col>
+				<Col>
+					<br />
+					<Button onClick={handleClickGo}>Go!</Button>
+					<Button
+						onClick={handleShowModalConfirm}
+						icon={<HeartTwoTone />}
+						style={{ marginLeft: '0.5rem' }}
+					/>
+				</Col>
+			</Row>
+		</>)
 }
 
-function MapCustomValue({
-	state,
-	handleChangeState,
-	handleClickGo,
+function MapFav({
 	handleClickFav,
+	handleDelFav,
+	favList,
+	handleResetFavList,
 }) {
-
-	// const [favList, setFavList] = useState(_FavList)
-	const [favList, setFavList] = useState(() => {
-		const _favList = localStorage.getItem('favList')
-		return _favList ? JSON.parse(_favList) : _FavList
-	})
-
-	useEffect(() => {
-		localStorage.setItem('favList', JSON.stringify(favList))
-	}, [favList])
-
-	const handleAddFavList = () => {
-		setFavList((prev) => ([
-			...prev,
-			{
-				name: state.name || state.world + state.xAxis + state.zAxis,
-				world: state.world,
-				xAxis: state.xAxis,
-				zAxis: state.zAxis,
-				zoom: state.zoom,
-				color: state.color
-			}
-		]))
-		handleChangeState(false, 'showConfirmModal')
-	}
-
-	const handleDelFav = (favToDelete) => {
-		setFavList((prev) =>
-			prev.filter(
-				(fav) =>
-					fav.name !== favToDelete.name ||
-					fav.world !== favToDelete.world ||
-					fav.xAxis !== favToDelete.xAxis ||
-					fav.zAxis !== favToDelete.zAxis ||
-					fav.zoom !== favToDelete.zoom
-			)
-		)
-	}
 
 	return (
 		<>
@@ -283,52 +290,62 @@ function MapCustomValue({
 				{/* reset */}
 				<Button
 					color="danger" variant="filled"
-					onClick={() => setFavList(_FavList)}
+					onClick={handleResetFavList}
 					style={{ marginTop: '-0.5rem' }}
 				>reset
 				</Button>
 			</Row>
-
-			<Modal
-				title="Basic Modal"
-				open={state.showConfirmModal}
-				onCancel={() => handleChangeState(false, 'showConfirmModal')}
-				onOk={handleAddFavList}
-			>
-				<Row
-					justify="center"
-					style={{ marginTop: '1rem' }}
-				>
-					<div style={{ margin: '0.25rem' }}>
-						Name
-						<Input
-							placeholder="name"
-							style={{ width: '100%' }}
-							allowClear
-							onChange={(e) => handleChangeState(e.target.value, 'name')}
-							value={state.name}
-						/>
-					</div>
-					<div style={{ margin: '0.25rem' }}>
-						Zoom
-						<InputNumber
-							placeholder="zoom"
-							style={{ width: '100%' }}
-							onChange={(e) => handleChangeState(e, 'zoom')}
-							value={state.zoom}
-						/>
-					</div>
-					<div style={{ margin: '0.25rem' }}>
-						Color
-						<Select
-							options={_AntdColor.map((el) => ({ label: el, value: el, }))}
-							style={{ width: '100%' }}
-							onChange={(e) => handleChangeState(e, 'color')}
-							value={state.color}
-						/>
-					</div>
-				</Row>
-			</Modal>
 		</>
+	)
+}
+
+function ModalAddFav({
+	state,
+	handleChangeState,
+	handleAddFavList
+}) {
+	return (
+		<Modal
+			title="Basic Modal"
+			open={state.showConfirmModal}
+			onCancel={() => handleChangeState(false, 'showConfirmModal')}
+			onOk={handleAddFavList}
+			onClick={(e) => e.stopPropagation()}
+		>
+			<Row
+				justify="center"
+				style={{ marginTop: '1rem' }}
+				onClick={(e) => e.stopPropagation()}
+			>
+				<div style={{ margin: '0.25rem' }}>
+					Name
+					<Input
+						placeholder="name"
+						style={{ width: '100%' }}
+						allowClear
+						onChange={(e) => handleChangeState(e.target.value, 'name')}
+						value={state.name}
+					/>
+				</div>
+				<div style={{ margin: '0.25rem' }}>
+					Zoom
+					<InputNumber
+						placeholder="zoom"
+						style={{ width: '100%' }}
+						onChange={(e) => handleChangeState(e, 'zoom')}
+						value={state.zoom}
+					/>
+				</div>
+				<div style={{ margin: '0.25rem' }}>
+					Color
+					<Select
+						options={_AntdColor.map((el) => ({ label: el, value: el, }))}
+						style={{ width: '100%' }}
+						onChange={(e) => handleChangeState(e, 'color')}
+						value={state.color}
+					/>
+				</div>
+			</Row>
+		</Modal>
 	)
 }
