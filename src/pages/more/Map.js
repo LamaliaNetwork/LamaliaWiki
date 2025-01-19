@@ -85,7 +85,8 @@ export default function MapPage() {
 		{
 			key: '1',
 			label: 'Coordinate X, Z',
-			children: <><MapSelectBar {...mapProps}/><MapCustomValue state={state} {...mapProps}/></>,
+			label: <MapSelectBar {...mapProps}/>,
+			children: <MapCustomValue state={state} {...mapProps}/>,
 		}
 	]
 
@@ -109,7 +110,7 @@ export default function MapPage() {
 								<Flex justify="center">
 									<Col md={18} xs={20}>
 										<Collapse items={items}
-											defaultActiveKey={1}	//เดี๋ยวมาเอาออก
+											// defaultActiveKey={1}	//เดี๋ยวมาเอาออก
 										/>
 									</Col>
 								</Flex>
@@ -159,6 +160,7 @@ function MapSelectBar({
 				lg: 32,
 			}}
 			style={{ marginTop: '1rem', textAlign: 'start' }}
+			onClick={(e) => e.stopPropagation()}
 		>
 			<Col span={6} >
 				x-Axis
@@ -304,7 +306,7 @@ function MapCustomValue({
 							style={{ width: '100%' }}
 							allowClear
 							onChange={(e) => handleChangeState(e.target.value, 'name')}
-							value={state.favName}
+							value={state.name}
 						/>
 					</div>
 					<div style={{ margin: '0.25rem' }}>
@@ -313,7 +315,7 @@ function MapCustomValue({
 							placeholder="zoom"
 							style={{ width: '100%' }}
 							onChange={(e) => handleChangeState(e, 'zoom')}
-							value={state.favZoom}
+							value={state.zoom}
 						/>
 					</div>
 					<div style={{ margin: '0.25rem' }}>
@@ -322,7 +324,7 @@ function MapCustomValue({
 							options={_AntdColor.map((el) => ({ label: el, value: el, }))}
 							style={{ width: '100%' }}
 							onChange={(e) => handleChangeState(e, 'color')}
-							value={state.favColor}
+							value={state.color}
 						/>
 					</div>
 				</Row>
