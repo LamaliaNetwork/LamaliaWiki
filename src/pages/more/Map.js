@@ -186,9 +186,10 @@ function MapCustomValue({ state, handleChangeState }) {
 					md: 24,
 					lg: 32,
 				}}
-				style={{ marginTop: '1rem' }}
+				style={{ marginTop: '1rem', textAlign: 'start' }}
 			>
-				<Col span={6}>
+				<Col span={6} >
+					x-Axis
 					<InputNumber
 						placeholder="x-Axis"
 						style={{ width: '100%' }}
@@ -199,6 +200,7 @@ function MapCustomValue({ state, handleChangeState }) {
 					/>
 				</Col>
 				<Col span={6}>
+					z-Axis
 					<InputNumber
 						placeholder="z-Axis"
 						style={{ width: '100%' }}
@@ -209,6 +211,7 @@ function MapCustomValue({ state, handleChangeState }) {
 					/>
 				</Col>
 				<Col span={6}>
+					World
 					<Select
 						options={worldList.map(({ value, label }) => ({ value, label }))}
 						style={{ width: '100%' }}
@@ -217,6 +220,7 @@ function MapCustomValue({ state, handleChangeState }) {
 					/>
 				</Col>
 				<Col>
+					<br />
 					<Button onClick={handleClickGo}>Go!</Button>
 					<Button
 						onClick={handleShowModalConfirm}
@@ -292,8 +296,8 @@ function MapCustomValue({ state, handleChangeState }) {
 					</div>
 					<div style={{ margin: '0.25rem' }}>
 						Color
-						<Select 
-							options={_AntdColor.map((el) => ({ label: el, value: el, }))} 
+						<Select
+							options={_AntdColor.map((el) => ({ label: el, value: el, }))}
 							style={{ width: '100%' }}
 							onChange={setFavColor}
 							value={favColor}
