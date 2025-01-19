@@ -2,7 +2,7 @@ import clsx from "clsx"
 import Layout from "@theme/Layout"
 import styles from "./../index.module.css"
 import Iframe from "../../components/Iframe"
-import { Button, Col, Collapse, ConfigProvider, Flex, Input, InputNumber, Row, Select, Tag } from "antd"
+import { Button, Col, Collapse, ConfigProvider, Flex, Input, InputNumber, Modal, Row, Select, Tag } from "antd"
 import { HeartTwoTone } from '@ant-design/icons'
 
 import { useEffect, useMemo, useState } from "react"
@@ -33,6 +33,8 @@ const _FavList = [
 	{ name: 'LMEGrandStation', world: 'minecraft_the_nether', xAxis: -40, zAxis: 70, zoom: 4, color: 'pink' },
 	{ name: 'Wanted!', world: 'minecraft_overworld', xAxis: -4870, zAxis: -2040, zoom: 5, color: 'pink' },
 ]
+
+const _AntdColor = ['magenta', 'red', 'volcano', 'orange', 'gold', 'lime', 'green', 'cyan', 'blue', 'geekblue', 'purple']
 
 export default function MapPage() {
 
@@ -104,6 +106,11 @@ export default function MapPage() {
 
 function MapCustomValue({ state, handleChangeState }) {
 
+	const [isShowModal, setIsShowModal] = useState(false)
+	const [favName, setFavName] = useState('')
+	const [favZoom, setFavZoom] = useState(3)
+	const [favColor, setFavColor] = useState('orange')
+
 	const worldData = useMemo(() => {
 		return worldList.find((el) => el.value === state.world)
 	}, [state.world])
@@ -137,12 +144,15 @@ function MapCustomValue({ state, handleChangeState }) {
 		setFavList((prev) => ([
 			...prev,
 			{
-				name: state.world + state.xAxis + state.zAxis,
+				name: favName || state.world + state.xAxis + state.zAxis,
 				world: state.world,
 				xAxis: state.xAxis,
 				zAxis: state.zAxis,
+				zoom: favZoom,
+				color: favColor
 			}
 		]))
+		setIsShowModal(false)
 	}
 
 	const handleDelFav = (favToDelete) => {
@@ -156,6 +166,13 @@ function MapCustomValue({ state, handleChangeState }) {
 					fav.zoom !== favToDelete.zoom
 			)
 		)
+	}
+
+	const handleShowModalConfirm = () => {
+		setFavName('')
+		setFavZoom('3')
+		setFavColor('orange')
+		setIsShowModal(true)
 	}
 
 
@@ -202,7 +219,7 @@ function MapCustomValue({ state, handleChangeState }) {
 				<Col>
 					<Button onClick={handleClickGo}>Go!</Button>
 					<Button
-						onClick={handleAddFavList}
+						onClick={handleShowModalConfirm}
 						icon={<HeartTwoTone />}
 						style={{ marginLeft: '0.5rem' }}
 					/>
@@ -239,11 +256,51 @@ function MapCustomValue({ state, handleChangeState }) {
 				<Button
 					color="danger" variant="filled"
 					onClick={() => setFavList(_FavList)}
-					style={{ marginTop: '-0.5rem'}}
+					style={{ marginTop: '-0.5rem' }}
 				>reset
 				</Button>
 			</Row>
-		</>
 
+			<Modal
+				title="Basic Modal"
+				open={isShowModal}
+				onCancel={() => setIsShowModal(false)}
+				onOk={handleAddFavList}
+			>
+				<Row
+					justify="center"
+					style={{ marginTop: '1rem' }}
+				>
+					<div style={{ margin: '0.25rem' }}>
+						Name
+						<Input
+							placeholder="name"
+							style={{ width: '100%' }}
+							allowClear
+							onChange={(e) => setFavName(e.target.value)}
+							value={favName}
+						/>
+					</div>
+					<div style={{ margin: '0.25rem' }}>
+						Zoom
+						<InputNumber
+							placeholder="zoom"
+							style={{ width: '100%' }}
+							onChange={setFavZoom}
+							value={favZoom}
+						/>
+					</div>
+					<div style={{ margin: '0.25rem' }}>
+						Color
+						<Select 
+							options={_AntdColor.map((el) => ({ label: el, value: el, }))} 
+							style={{ width: '100%' }}
+							onChange={setFavColor}
+							value={favColor}
+						/>
+					</div>
+				</Row>
+			</Modal>
+		</>
 	)
 }
