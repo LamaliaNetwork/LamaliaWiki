@@ -229,8 +229,8 @@ function MapCustomValue({
 				world: state.world,
 				xAxis: state.xAxis,
 				zAxis: state.zAxis,
-				zoom: state.favZoom,
-				color: state.favColor
+				zoom: state.zoom,
+				color: state.color
 			}
 		]))
 		handleChangeState(false, 'showConfirmModal')
