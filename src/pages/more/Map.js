@@ -66,7 +66,8 @@ export default function MapPage() {
 			theme={{
 				components: {
 					Collapse: {
-						headerBg: '#ffffff'
+						headerBg: '#F5F5F5',
+						contentBg: '#F8F8F8'
 					},
 				},
 			}}>
@@ -207,21 +208,40 @@ function MapCustomValue({ state, handleChangeState }) {
 					/>
 				</Col>
 			</Row>
-			<Row>
-				<div style={{ margin: '1rem' }}>
-					{favList.map((fav, index) =>
-						<Tag
-							color={fav.color || "orange"}
-							closeIcon
-							onClick={(e) => { e.preventDefault(); handleClickFav(fav) }}
-							onClose={(e) => { e.preventDefault(); handleDelFav(fav) }}
-							style={{ cursor: 'pointer', padding: '0.5rem' }}
-							key={index}
-						>
-							{fav.name}
-						</Tag>
-					)}
-				</div>
+			<Row
+				style={{
+					margin: '1rem',
+					backgroundColor: '#F0F0F0',
+					borderRadius: '10px',
+					padding: '0.5rem'
+				}}
+			>
+				{favList.map((fav, index) =>
+					<Tag
+						color={fav.color || "orange"}
+						closeIcon
+						onClick={(e) => { e.preventDefault(); handleClickFav(fav) }}
+						onClose={(e) => { e.preventDefault(); handleDelFav(fav) }}
+						style={{ cursor: 'pointer', padding: '0.5rem', margin: '0.25rem' }}
+						key={index}
+					>
+						{fav.name}
+					</Tag>
+				)}
+			</Row>
+			<Row
+				style={{
+					marginRight: '1rem',
+					justifyContent: 'end'
+				}}
+			>
+				{/* reset */}
+				<Button
+					color="danger" variant="filled"
+					onClick={() => setFavList(_FavList)}
+					style={{ marginTop: '-0.5rem'}}
+				>reset
+				</Button>
 			</Row>
 		</>
 
