@@ -26,6 +26,8 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Fixed Sweep Edge Enchantment OverEnchant not Working
 - Fixed Cherry Sapling cannot dispense from dispenser
 - Fixed Player Warp description not allowing spaces
+- Fixed Ghast Breaking Blocks in nether
+- Fixed /l command not working
 
 ## Patch 2.2.0
 
