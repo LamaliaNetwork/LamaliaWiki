@@ -1,0 +1,257 @@
+[
+    {
+      "release": "2.3.0",
+      "date": "14/01/2025",
+      "releaseLink": "/patchNotes#patch-230"
+    },
+    {
+      "release": "2.2.0",
+      "date": "12/01/2025",
+      "releaseLink": "/patchNotes#patch-220"
+    },
+    {
+      "release": "2.1.0",
+      "date": "24/12/2024",
+      "releaseLink": "/patchNotes#patch-210"
+    },
+    {
+      "release": "2.0.0",
+      "date": "30/11/2024",
+      "releaseLink": "/patchNotes#patch-200"
+    },
+    {
+      "release": "2.0.0 RC-3",
+      "date": "30/11/2024",
+      "releaseLink": "/patchNotes#patch-200-rc-3"
+    },
+    {
+      "release": "2.0.0 RC-2",
+      "date": "29/11/2024",
+      "releaseLink": "/patchNotes#patch-200-rc-2"
+    },
+    {
+      "release": "2.0.0 RC-1",
+      "date": "29/11/2024",
+      "releaseLink": "/patchNotes#patch-200-rc-1"
+    },
+    {
+        "release": "1.11.3",
+        "date": "12/11/2024",
+        "releaseLink": "/patchNotes#patch-1113"
+    },
+    {
+        "release": "1.11.2",
+        "date": "4/11/2024",
+        "releaseLink": "/patchNotes#patch-1112"
+    },
+    {
+        "release": "1.11.1",
+        "date": "21/11/2024",
+        "releaseLink": "/patchNotes#patch-1111"
+    },
+    {
+        "release": "1.11",
+        "date": "11/10/2024",
+        "releaseLink": "/patchNotes#patch-111"
+    },
+    {
+        "release": "1.11",
+        "date": "11/10/2024",
+        "releaseLink": "/patchNotes#patch-111"
+    },
+    {
+        "release": "1.10.2",
+        "date": "30/09/2024",
+        "releaseLink": "/patchNotes#patch-1102"
+    },
+    {
+        "release": "1.10.1",
+        "date": "23/08/2024",
+        "releaseLink": "/patchNotes#patch-1101"
+    },
+    {
+        "release": "1.10.0",
+        "date": "21/08/2024",
+        "releaseLink": "/patchNotes#patch-1100"
+    },
+    {
+        "release": "1.10.0",
+        "date": "21/08/2024",
+        "releaseLink": "/patchNotes#patch-1100"
+    },
+    {
+        "release": "1.9.4",
+        "date": "17/08/2024",
+        "releaseLink": "/patchNotes#patch-194"
+    },
+    {
+        "release": "1.9.3",
+        "date": "15/08/2024",
+        "releaseLink": "/patchNotes#patch-193"
+    },
+    {
+        "release": "1.9.2",
+        "date": "16/08/2024",
+        "releaseLink": "/patchNotes#patch-192"
+    },
+    {
+        "release": "1.9.1",
+        "date": "06/07/2024",
+        "releaseLink": "/patchNotes#patch-191"
+    },
+    {
+        "release": "1.9.0",
+        "date": "01/07/2024",
+        "releaseLink": "/patchNotes#patch-190"
+    },
+    {
+        "release": "1.8.0",
+        "date": "17/06/2024",
+        "releaseLink": "/patchNotes#patch-180"
+    },
+    {
+        "release": "1.7.0",
+        "date": "31/05/2024",
+        "releaseLink": "/patchNotes#patch-170"
+    },
+    {
+        "release": "1.6.1",
+        "date": "25/05/2024",
+        "releaseLink": "/patchNotes#patch-161"
+    },
+    {
+        "release": "1.6.0",
+        "date": "18/05/2024",
+        "releaseLink": "/patchNotes#patch-160"
+    },
+    {
+        "release": "1.5.1",
+        "date": "04/05/2024",
+        "releaseLink": "/patchNotes#patch-151"
+    },
+    {
+        "release": "1.5.0",
+        "date": "27/04/2024",
+        "releaseLink": "/patchNotes#patch-150"
+    },
+    {
+        "release": "1.4.1",
+        "date": "16/04/2024",
+        "releaseLink": "/patchNotes#patch-141"
+    },
+    {
+        "release": "1.4.0",
+        "date": "13/04/2024",
+        "releaseLink": "/patchNotes#patch-140"
+    },
+    {
+        "release": "1.3.2",
+        "date": "04/04/2024",
+        "releaseLink": "/patchNotes#patch-132"
+    },
+    {
+        "release": "1.3.1",
+        "date": "03/04/2024",
+        "releaseLink": "/patchNotes#patch-131"
+    },
+    {
+        "release": "1.3.0",
+        "date": "01/04/2024",
+        "releaseLink": "/patchNotes#patch-130"
+    },
+    {
+        "release": "1.2.4",
+        "date": "25/03/2024",
+        "releaseLink": "/patchNotes#patch-124"
+    },
+    {
+        "release": "1.2.3",
+        "date": "21/03/2024",
+        "releaseLink": "/patchNotes#patch-123"
+    },
+    {
+        "release": "1.2.2",
+        "date": "17/03/2024",
+        "releaseLink": "/patchNotes#patch-122"
+    },
+    {
+        "release": "1.2.1",
+        "date": "16/03/2024",
+        "releaseLink": "/patchNotes#patch-121"
+    },
+    {
+        "release": "1.2.0",
+        "date": "14/03/2024",
+        "releaseLink": "/patchNotes#patch-120"
+    },
+    {
+        "release": "1.1.6",
+        "date": "13/03/2024",
+        "releaseLink": "/patchNotes#patch-116"
+    },
+    {
+        "release": "1.1.5",
+        "date": "11/03/2024",
+        "releaseLink": "/patchNotes#patch-115"
+    },
+    {
+        "release": "1.1.4",
+        "date": "08/03/2024",
+        "releaseLink": "/patchNotes#patch-114"
+    },
+    {
+        "release": "1.1.3b",
+        "date": "06/03/2024",
+        "releaseLink": "/patchNotes#patch-113b"
+    },
+    {
+        "release": "1.1.3",
+        "date": "06/03/2024",
+        "releaseLink": "/patchNotes#patch-113"
+    },
+    {
+        "release": "1.1.2",
+        "date": "01/03/2024",
+        "releaseLink": "/patchNotes#patch-112"
+    },
+    {
+        "release": "1.1.1",
+        "date": "27/02/2024",
+        "releaseLink": "/patchNotes#patch-111-1"
+    },
+    {
+        "release": "1.1.0",
+        "date": "26/02/2024",
+        "releaseLink": "/patchNotes#patch-110"
+    },
+    {
+        "release": "1.0.6-Experimental",
+        "date": "24-25/02/2024",
+        "releaseLink": "/patchNotes#patch-106-experimental"
+    },
+    {
+        "release": "1.0.5",
+        "date": "21/02/2024",
+        "releaseLink": "/patchNotes#patch-105"
+    },
+    {
+        "release": "1.0.4",
+        "date": "20/02/2024",
+        "releaseLink": "/patchNotes#patch-104"
+    },
+    {
+        "release": "1.0.6",
+        "date": "23/02/2024",
+        "releaseLink": "/patchNotes#patch-106"
+    },
+    {
+        "release": "1.0.3",
+        "date": "18/02/2024",
+        "releaseLink": "/patchNotes#patch-103"
+    },
+    {
+        "release": "1.0.1-1.0.2",
+        "date": "17/02/2024",
+        "releaseLink": "/patchNotes#patch-101-102"
+    }
+  ]

@@ -5,6 +5,64 @@
 แพตช์โน้ต คือการอัปเดตที่เขียนโดยนักพัฒนาเซิร์ฟเวอร์ Minecraft ซึ่งมีรายละเอียดการเปลี่ยนแปลง การแก้ไข และการเพิ่มเติมที่ทำกับเซิร์ฟเวอร์ ทำให้ผู้เล่นทราบถึงสิ่งที่ได้รับการแก้ไข เพิ่ม หรือแก้ไขในเวอร์ชันเซิร์ฟเวอร์ ซึ่งอาจรวมถึงการเปลี่ยนแปลงกลไกการเล่นเกม การแนะนำคุณสมบัติใหม่ การแก้ไขข้อบกพร่อง และอื่นๆ
 
 ---
+
+## Patch 2.3.0
+> 14/01/2025
+> 
+
+**Additions**
+- Added: Map / Suggestions / Bug Report System to wiki website
+- Added: Quest Points Leaderboard
+
+**Changes**
+- Changed: Player Can Compose Mail in Bronze Rank or above
+- Changed: Creating player warps now cost 0 -> $50k per location
+- Changed: Player Worldedit Tools Moved Out From Beta Testers to Astral Rank and Above (just to use)
+- Changed: to obtain worldedit tools, you need to buy it from quest shop (1000 Quest Points)
+- Changed: Hopper Filter Moved Out From Beta Testers to quest shop (1000 Quest Points)
+
+**Fixes**
+- Fixed Anvil cannot merge enchantment books
+- Fixed Sweep Edge Enchantment OverEnchant not Working
+- Fixed Cherry Sapling cannot dispense from dispenser
+- Fixed Player Warp description not allowing spaces
+
+## Patch 2.2.0
+
+> 12/01/2025
+> 
+
+**Additions**
+- Added: Armorstand Scale to Armorstand Editor
+- Added: Hopper Filter to Beta Testers
+- Added: Worldedit tools to Beta Testers
+- Added: BlockCycle to Donators
+  - Added: In-Wall for modifying wall , fence, iron bars blocks
+  - Added: Open Property for modifying barrels.
+- Added: Land distance requirement of 1 Chunk to other players' land
+- Added: Nation Distance Requirement of 3 Chunk to other nations' land
+- Added: Land Role Flag that allow you to claim near owner border
+- Added: Land Role Flag that allow user to Set Land Spawn
+- Added: Land Role Flag that allow user to edit Taxes
+- Added: Concrete Powder can now be turned into Concrete using any water source
+- Added: Experimental feature. Mailbox (Beta Testers)
+  - Send Mail to other players (items messages etc)
+  - Receive Mail from other players 
+  - Receive Admin Emails (Important Announcements, Awards ETC)
+- Added: ability to added recipe to cauldron by dropping item in it
+- Added: Brew Pumpkin Ale Recipe
+- Added: Brew Draconic Essence Recipe
+- Added: Brew Shop (to sell your brew) Excellent Condition Only
+- Added: Dispensers Mine Block Experimental Features
+
+- Added: wiki for BlockCycle, Hopper Filter, Worldedit tools and more
+
+**Fixes**
+- Fixed: Entity Culling too powerful 
+- Attempt Fix: Brewery Should be usable. (Need Extensive Testing)
+- Fixed: Brewery Cauldron Eats everything not just the recipe
+- Fixed: BlockCycle Error on Fence
+
 ## Patch 2.1.0
 > 24/12/2024
 > 

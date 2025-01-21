@@ -1,0 +1,43 @@
+---
+sidebar_position: 3
+---
+
+import { TH, EN } from '@site/src/components/LanguageComponents.jsx';
+import History from "@site/src/components/history/HistoryTable.jsx"
+
+# Dispenser Ability
+<EN>
+A dispenser use certain items or tools or place certain blocks, fluids and solid or entities when given a redstone signal.
+In this feature, the following capabilities are all about dispenser capabilities and how to use them in the server.
+</EN>
+<TH>
+Dispenser ใช้สิ่งของหรือเครื่องมือบางอย่าง หรือวางบล็อกของเหลว และของแข็ง หรือเอนทิตีบางอย่างเมื่อได้รับสัญญาณ Redstone ฟีเจอร์ต่อไปนี้เป็นเรื่องเกี่ยวกับความสามารถของตัวจ่ายและวิธีการใช้งานในเซิร์ฟเวอร์
+</TH>
+
+## Dispenser Place Block
+
+<EN>
+The block faces in the same direction as the Dispenser. Its operation requires a redstone signal that is not too fast. If the signal speed is too high, the Dispenser will shoot the item instead of placing the block.
+and case If a block already occupies the target position, the Dispenser will shoot the item instead of placing it.
+</EN>
+<TH>
+บล็อคจะหันหน้าไปในทิศทางเดียวกับทิศทางของ Dispenser การใช้งานจะต้องมีพลังงานจากเรดสโตนที่ไม่เร็วจนเกินไป หากมีความเร็วมากเกินไป Dispenser จะยิงไอเทมแทนการวางบล็อคนั้นแทน
+และในกรณี หากมีบล็อคอยู่ในตำแหน่งเป้าหมายแล้ว Dispenser จะยิงไอเทมแทนการวางบล็อค
+</TH>
+
+## Dispenser Break Block
+
+<EN>
+Blocks can be broken, and items are dropped. Items to be broken must be attached to the dispenser. Inside, there must be a tool capable of breaking the blocks. The operation requires a redstone signal. Once activated, the dispenser cannot be stopped until the block is destroyed.
+</EN>
+<TH>
+บล็อคจะถูกทำลายและดรอปไอเทมให้กับผู้เล่น โดยไอเทมที่ต้องการทำลายจะต้องติดกับตัวเครื่อง Dispenser ภายในนั้นจะต้องใส่อุปกรณ์สำหรับทำลายบล็อค การใช้งานจะต้องมีพลังงานจากเรดสโตน เมื่อ Dispenser ทำงานแล้ว ไม่สามารถหยุดได้จนกว่าจะทำลายบล็อกนั้นเสร็จ
+</TH>
+
+<History releasesData={[
+    { release: "1.11", description: "- Added: Dispensers can now place normal blocks.", descriptionTH: '- เพิ่ม: Dispensers สามารถวางBlockธรรมดาได้' },
+    { release: "2.0.0 RC-1", description: "- Removed: Dispensers that place blocks." },
+    { release: "2.0.0 RC-2", description: "- Added: Dispensers that place blocks Back." },
+    { release: "2.2.0", description: "- Added: Dispensers Mine Block Experimental Features." },
+    { release: "2.3.0", description: "- Fixed Cherry Sapling cannot dispense from dispenser." },
+  ]} />
