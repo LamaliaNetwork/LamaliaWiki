@@ -5,12 +5,12 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 export const TH = ({ children }) => {
   const { i18n } = useDocusaurusContext();
   const { currentLocale } = i18n;
-  return currentLocale === 'th' ? <div>{children}</div> : null;
+  return currentLocale === 'th' ? <>{children}</> : null;
 };
 
 // ฟังก์ชันแสดงเนื้อหาภาษาอังกฤษ
 export const EN = ({ children }) => {
   const { i18n } = useDocusaurusContext();
   const { currentLocale } = i18n;
-  return currentLocale === 'en' ? <div>{children}</div> : null;
+  return currentLocale === 'en' ? <>{children}</> : null;
 };
