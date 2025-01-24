@@ -1,8 +1,9 @@
 import React, { useMemo } from 'react'
-import { Table } from 'antd'
+import { ConfigProvider, Table } from 'antd'
 import Link from '@docusaurus/Link'
+import { useColorMode } from '@docusaurus/theme-common'
 import releases from '@site/src/releases.json' // นำเข้าข้อมูลจากไฟล์ JSON
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import moment from "moment-timezone"
 moment.tz.setDefault("Asia/Bangkok")
 moment.locale("th")
@@ -23,8 +24,10 @@ moment.locale("th")
  * @returns {JSX.Element} The rendered History component with a table.
  */
 export default function History({ lang, releasesData }) {
-    const { i18n } = useDocusaurusContext();
-    const { currentLocale } = i18n;
+    const { i18n } = useDocusaurusContext()
+
+    const { colorMode } = useColorMode()
+    const { currentLocale } = i18n
 
     lang = lang || currentLocale
 
@@ -105,15 +108,34 @@ export default function History({ lang, releasesData }) {
         },
     ], [t, lang])
 
+    const TableColor = {
+        dark: {
+            headerBg: '#1f1f1f',
+            headerColor: '#ffffff',
+            colorBgContainer: '##0000001a',
+            colorText: '#ffffff',
+            borderColor: '#303030'
+        },
+        light: undefined,
+    }
+
     return (
         <>
             <h2>{t.title}</h2>
-            <Table
-                columns={columns}
-                dataSource={data}
-                pagination={false}
-                rowKey={(record, index) => `${record.release || index}`}
-            />
+            <ConfigProvider
+                theme={{
+                    components: {
+                        Table: TableColor[colorMode],
+                    },
+                }}
+            >
+                <Table
+                    columns={columns}
+                    dataSource={data}
+                    pagination={false}
+                    rowKey={(record, index) => `${record.release || index}`}
+                />
+            </ConfigProvider>
         </>
     )
 }
