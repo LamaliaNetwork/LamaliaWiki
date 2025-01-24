@@ -38,6 +38,8 @@ const _AntdColor = ['magenta', 'red', 'volcano', 'orange', 'gold', 'lime', 'gree
 
 export default function MapPage() {
 
+	const [isReady, setIsReady] = useState(false)
+
 	const initState = {
 		basePath: 'https://map.lamalia.net/',
 		path: 'https://map.lamalia.net/',
@@ -52,13 +54,20 @@ export default function MapPage() {
 	}
 	const [state, setState] = useState(initState)
 
-	const [favList, setFavList] = useState(() => {
-		const _favList = localStorage.getItem('favList')
-		return _favList ? JSON.parse(_favList) : _FavList
-	})
+	const [favList, setFavList] = useState({})
 
 	useEffect(() => {
-		localStorage.setItem('favList', JSON.stringify(favList))
+		// init FavList
+		const _favList = localStorage.getItem('favList')
+
+		setFavList(_favList ? JSON.parse(_favList) : _FavList)
+		setIsReady(true)
+	}, [])
+
+	useEffect(() => {
+		if (isReady) {
+			localStorage.setItem('favList', JSON.stringify(favList))
+		}
 	}, [favList])
 
 	const handleResetFavList = () => {
@@ -134,6 +143,8 @@ export default function MapPage() {
 			children: <MapFav state={state} {...mapProps} />,
 		}
 	]
+
+	if (!isReady) return <div>Loading...</div>
 
 	return (
 		<ConfigProvider
