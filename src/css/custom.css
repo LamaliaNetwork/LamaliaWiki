@@ -51,6 +51,8 @@ silver {
   color: rgb(137, 137, 137);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 body,
 h1,
 h2,
@@ -59,7 +61,9 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Kanit", sans-serif !important;
+  font-family: "Kanit", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 footer {
   position: relative;
