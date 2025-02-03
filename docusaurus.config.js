@@ -73,6 +73,9 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      metadata: [
+        {name: 'keywords', content: 'Lamalia, Wiki, Lamalia Network, Minecraft, Server, Wiki, Lamalia Wiki'}
+      ],
       navbar: {
         title: 'Lamalia Network',
         logo: {
