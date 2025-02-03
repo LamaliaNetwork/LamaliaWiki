@@ -83,8 +83,9 @@ export default function History({ lang, releasesData }) {
             sorter: (a, b) => {
                 const dateA = moment(a.date, "DD/MM/YYYY")
                 const dateB = moment(b.date, "DD/MM/YYYY")
-                return dateB.diff(dateA)
-            }
+                return dateA.diff(dateB)
+            },
+            defaultSortOrder: 'descend',
         },
         {
             title: (
