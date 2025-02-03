@@ -13,6 +13,7 @@ Patch notes are updates written by the Minecraft server developers that detail c
 **Additions**
 - Added: Map / Suggestions / Bug Report System to wiki website
 - Added: Quest Points Leaderboard
+- Added: Allow sand and gravel duplication.
 
 **Changes**
 - Changed: Player Can Compose Mail in Bronze Rank or above
@@ -29,6 +30,7 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Fixed Ghast Breaking Blocks in nether
 - Fixed /l command not working
 - Fixed Hopper Filter not working (potion/item names)
+- Fixed: Gravel Duplication Bug
 
 ## Patch 2.2.0
 
