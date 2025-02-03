@@ -7,9 +7,9 @@ export const GenMetaData = ({description, keywords}) => {
 
     return (
         <Head>
-            <meta name="description" content={description} />
-            <meta property="og:description" content={description} />
-            <meta name="keywords" content={defaultKeywords + keywords} />
+            {description && <meta name="description" content={description} />}
+            {description && <meta property="og:description" content={description} />}
+            {keywords && <meta name="keywords" content={defaultKeywords + keywords} />}
             <meta name="author" content="Lamalia Team." />
         </Head>
     );
