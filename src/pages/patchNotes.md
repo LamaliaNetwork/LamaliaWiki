@@ -6,6 +6,32 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
+## Patch 2.3.2
+> 15/02/2025
+>
+
+**Changes**
+- Changed: Adjusted Conflicts between Enchants: Vein Mining with Power Mine, Repairing with Mending
+
+**Fixes**
+- Fixed Kick player from chat
+- Fixed Unverified players do not see/cannot communicate in chat.
+- Fixed Track Quest
+- Fixed Experimental Enchants: Replenish Support torch flower Vein Mining Support Coal Ore Repairing working normally
+- Compensate the lost nation #open-ticket
+
+
+## Patch 2.3.1
+> 13/02/2025
+>
+
+**Fixes**
+- Fixed Mailbox System
+- Fixed Lore Quest showing wrong info
+- Fixed Tag
+- Fixed Elytra issue version 1.21.2+
+- Fixed Bug Enchantment Protection 
+
 ## Patch 2.3.0
 > 14/01/2025
 > 
