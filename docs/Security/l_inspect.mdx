@@ -1,0 +1,56 @@
+import { TH, EN } from "@site/src/components/LanguageComponents"
+import History from "@site/src/components/history/HistoryTable"
+import GenMetaData from "@site/src/components/SEO/GenMetaData"
+
+# Grief Checker Tools
+
+:::info <EN>Enable / Disable inspect mode Command : `/l inspect`</EN> <TH>เปิด / ปิด ระบบตรวจสอบ ด้วยคำสั่ง : `/l inspect`</TH>
+:::
+
+## Left Click
+<EN>
+By left-clicking, you can view changes made to blocks, including their history of being broken or placed, who performed these actions, and when they occurred.
+</EN>
+<TH>
+โดยการคลิกซ้าย คุณสามารถดูประวัติการเปลี่ยนแปลงของบล็อก เช่น การทำลายและการวางบล็อก, ว่าใครเป็นผู้ทำ และเมื่อไหร่ที่เหตุการณ์เหล่านี้เกิดขึ้น
+</TH>
+
+## Right Click
+> ### Right Click on Block
+<EN>
+> By right-clicking on an existing block, you can view all interactions with it, such as opening doors, chests, and more.
+</EN>
+<TH>
+> คลิกขวาที่บล็อกที่มีอยู่เพื่อดูการโต้ตอบทั้งหมดกับบล็อกนั้น เช่น การเปิดประตู การเปิดตู้เก็บของ และอื่นๆ
+</TH>
+
+> ### Right Click on a container
+<EN>
+> By right-clicking on a container, you can view all items that were added or removed, who performed these actions, and when they occurred.
+</EN>
+<TH>
+> คลิกขวาที่คลังเก็บของเพื่อดูรายการที่ถูกเพิ่มหรือนำออก, รวมถึงข้อมูลว่าใครทำการเปลี่ยนแปลงและเมื่อไหร่
+</TH>
+
+## Place Block
+<EN>
+At last, you can also place blocks and get changes made to the placed-block's location, similar to left-clicking on it.
+</EN>
+<TH>
+สุดท้ายนี้ การวางบล็อกจะช่วยให้คุณตรวจสอบการเปลี่ยนแปลงที่เกิดขึ้นกับตำแหน่งของบล็อกที่วางไว้ คล้ายกับการคลิกซ้ายที่บล็อกนั้น
+</TH>
+
+![Landinspect](/img/doc/features/Security/LandInspect.gif)
+
+:::danger <EN>This is just a preliminary check.</EN><TH>#เป็นเพียงการตรวจสอบเบื้องต้นเท่านั้น</TH>
+<EN>Please get in touch with the administrator or moderator if you find any issues.</EN>
+<TH>หากพบเจอสิ่งผิดปกติโปรดติดต่อ Admin หรือ Moderator โดยทันที</TH>
+<br/><>>>></>
+[📩 | Private Help](./privateHelp.mdx)
+:::
+
+<History releasesData={[
+    { release: "2.0.0 RC-3", description: "- Re-added: /l inspect command." },
+    { release: "2.0.0 RC-1", description: "- Removed: Land Inspect due to version incompatibility." },
+    { release: "1.8.0", description: "- Added: Command /l inspect (or /lands inspect) to enable land inspection mode." },
+  ]} />

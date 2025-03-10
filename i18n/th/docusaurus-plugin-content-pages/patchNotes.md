@@ -1,34 +1,48 @@
-
-
 # Patch Notes
 
 แพตช์โน้ต คือการอัปเดตที่เขียนโดยนักพัฒนาเซิร์ฟเวอร์ Minecraft ซึ่งมีรายละเอียดการเปลี่ยนแปลง การแก้ไข และการเพิ่มเติมที่ทำกับเซิร์ฟเวอร์ ทำให้ผู้เล่นทราบถึงสิ่งที่ได้รับการแก้ไข เพิ่ม หรือแก้ไขในเวอร์ชันเซิร์ฟเวอร์ ซึ่งอาจรวมถึงการเปลี่ยนแปลงกลไกการเล่นเกม การแนะนำคุณสมบัติใหม่ การแก้ไขข้อบกพร่อง และอื่นๆ
 
 ---
+## Patch 2.5.0
+> 11/03/2025
+>
+
+**เพิ่มเติม**
+- เพิ่ม: Dispenser Breed: คุณสามารถใช้ Dispenser เพื่อผสมพันธุ์สัตว์ได้แล้ว
+- เพิ่ม: Dispenser Milking & Stew: คุณสามารถใช้ Dispenser เพื่อรีดนมและทำซุปเห็ดได้
+- เพิ่ม: Bedrock Texture Pack: แพ็คพื้นผิวสำหรับ Bedrock (เวอร์ชันทดสอบ)
+- เพิ่ม: Open Beta: ระบบเควสผู้เล่น
+- เพิ่ม: รับและทำเควสจากผู้เล่นอื่นเพื่อรับรางวัล
+- เพิ่ม: สร้างเควสของคุณเองให้ผู้เล่นอื่นทำ
+- เพิ่ม: ผู้เล่น Early Access สามารถสร้างเควสได้ 1 เควส (ผู้เล่นทั่วไปสามารถรับเควสได้)
+
+**เปลี่ยนแปลง**
+- FlyCharge คำนวณเป็นวินาทีแทนระยะทาง (บล็อก)
+    - FlyCharge เพิ่มราคาจาก 10 Coins เป็น 50 Coins ต่อการชาร์จ
 
 ## Patch 2.4.2 
 > 06/03/2025
 >
 
-**Additionals**
-- Added: Sand and Gravel smelting recipes (Blast Furnace only):
+**เพิ่มเติม**
+- สูตรการหลอม Sand และ Gravel (เฉพาะ Blast Furnace):
     - Smooth Stone → Sand
     - Deepslate → Gravel
 
-**Changes**
-- Changed: Allow Phantom Spawning in Build worlds via Land Flag (Phantom Spawn).
-- Change store name:
+**เปลี่ยนแปลง**
+- อนุญาตให้ Phantom Spawning ใน Build worlds ผ่าน Land Flag (Phantom Spawn)
+- เปลี่ยนชื่อร้านค้า:
     - Daily Sell Shop → Local Market
     - Sell Rotating Shop → Global Market
 
-**Fixed**
-- Fixed: Property Cycle not working issue.
+**แก้ไข**
+- Property Cycle ไม่ทำงาน
 
 ## Patch 2.4.1
 > 27/02/2025
 >
 
-**Selling price reduced:**
+**ลดราคาขาย:**
 - MAGMA_CREAM: 6 → 4
 - PRISMARINE_SHARD: 1 → 0.5
 - CAKE: 64 → 48
@@ -38,7 +52,7 @@
 - POTATO: 2 → 0.5
 - CARROT: 2 → 0.5
 
-**Selling price increase:**
+**เพิ่มราคาขาย:**
 - RED_MUSHROOM: 2 → 4
 - BROWN_MUSHROOM: 2 → 4
 - CHORUS_FRUIT: 2 → 8
@@ -51,139 +65,138 @@
 > 26/02/2025
 >
 
-**Additionals**
-- Added: All-new Spawn, New Quest Zone, New Player Training Zone.
-- Added: Special Item Station
+**เพิ่มเติม**
+- เพิ่ม: Spawn ใหม่ทั้งหมด, โซนเควสใหม่, โซนฝึกผู้เล่นใหม่
+- เพิ่ม: สถานีไอเทมพิเศษ
 
-**Changes**
-- Changed: Moved Catch Egg and Chunk Buster out of Quest Point Shop.
-    > Moved to Special Item Station
+**เปลี่ยนแปลง**
+- ย้าย Catch Egg และ Chunk Buster ออกจาก Quest Point Shop
+    > ย้ายไปที่สถานีไอเทมพิเศษ
 
 ## Patch 2.3.5
 > 26/02/2025
 >
 
-**Additions**
-- Added: Kill Coins Earn 1-10 coins per monster kill. 
-    > Limited to 10,000 coins per day.
+**เพิ่มเติม**
+- Kill Coins รับ 1-10 เหรียญต่อการฆ่ามอนสเตอร์
+    > จำกัดที่ 10,000 เหรียญต่อวัน
 
-**Changes**
-- Changed : New Player Shop > Daily Shop system.
-    > Personal limit 10,000 coins per day, reset every day at 8:00 AM.
+**เปลี่ยนแปลง**
+- ร้านค้าใหม่ของผู้เล่น > ระบบร้านค้ารายวัน
+    > จำกัดส่วนตัว 10,000 เหรียญต่อวัน รีเซ็ตทุกวันเวลา 8:00 น.
 
 ## Patch 2.3.4
 > 19/02/2025
 > 
 
-**Additions**
-- Added: Require new players to accept the rules before they can join the game; they cannot leave without doing so.
-- Added: /bank command for Supporter IV and above.
+**เพิ่มเติม**
+- เพิ่ม: ผู้เล่นใหม่ต้องยอมรับกฎก่อนเข้าร่วมเกม ไม่สามารถออกได้หากไม่ทำ
+- เพิ่ม: คำสั่ง /bank สำหรับ Supporter IV และสูงกว่า
 
-**Fixes**
-- Fixed: Auto Tree Chopping does not count towards quests.
-- Fixed: Power Mine cannot work underwater.
-- Fixed: First Spawn Point in the Lobby.
-- Fixed: Spawnpoint does not match Server spawn.
+**แก้ไข**
+- แก้ไข: Auto Tree Chopping ไม่ถูกนับในเควส
+- แก้ไข: Power Mine ไม่ทำงานใต้น้ำ
+- แก้ไข: จุดเกิดแรกในล็อบบี้
+- แก้ไข: จุดเกิดไม่ตรงกับจุดเกิดของเซิร์ฟเวอร์
 
 ## Patch 2.3.3
 > 17/02/2025
 >
 
-**Additions**
-- Added: New Player Shop can sell a maximum of 1M Coins.
+**เพิ่มเติม**
+- เพิ่ม: ร้านค้าใหม่ของผู้เล่นสามารถขายได้สูงสุด 1M Coins
 
-**Changes**
-- Changed: Cancel the sellgui command for Supporter IV and above.
-- Changed: Adjust the Global Sell Limit system.
-    > Hourly Sales Limit (Refresh every 1 hour after the limit is reached) Rotate every 6 hours as usual 2 AM, 8 AM, 2 PM, 8 AM
+**เปลี่ยนแปลง**
+- ยกเลิกคำสั่ง sellgui สำหรับ Supporter IV และสูงกว่า
+- ปรับระบบ Global Sell Limit
+    > ขีดจำกัดการขายรายชั่วโมง (รีเฟรชทุก 1 ชั่วโมงหลังจากถึงขีดจำกัด) หมุนทุก 6 ชั่วโมงตามปกติ 2 AM, 8 AM, 2 PM, 8 AM
 
-**Fixes**
-- Fixed: Negative progress in quests.
-- Fixed: Replenish with Pitcher Plant
-- Fixed: Excavation Quest Tracking Details
+**แก้ไข**
+- แก้ไข: ความคืบหน้าเชิงลบในเควส
+- แก้ไข: Replenish กับ Pitcher Plant
+- แก้ไข: รายละเอียดการติดตามเควส Excavation
 
 ## Patch 2.3.2
 > 15/02/2025
 >
 
-**Changes**
-- Changed: Adjusted Conflicts between Enchants: Vein Mining with Power Mine, Repairing with Mending.
+**เปลี่ยนแปลง**
+- ปรับความขัดแย้งระหว่าง Enchants: Vein Mining กับ Power Mine, Repairing กับ Mending
 
-**Fixes**
-- Fixed: Kick player from chat
-- Fixed: Unverified players do not see/cannot communicate in chat.
-- Fixed: Track Quest.
-- Fixed: Experimental Enchants: Replenish Support torch flower Vein Mining Support Coal Ore Repairing working normally.
-- Compensation for the lost nation #open-ticket.
-
+**แก้ไข**
+- แก้ไข: เตะผู้เล่นออกจากแชท
+- แก้ไข: ผู้เล่นที่ไม่ได้รับการยืนยันไม่เห็น/ไม่สามารถสื่อสารในแชท
+- แก้ไข: ติดตามเควส
+- แก้ไข: Enchants ทดลอง: Replenish รองรับ torch flower Vein Mining รองรับ Coal Ore Repairing ทำงานตามปกติ
+- แก้ไข: ชดเชยสำหรับประเทศที่สูญหาย #open-ticket
 
 ## Patch 2.3.1
 > 13/02/2025
 >
 
-**Fixes**
-- Fixed: Mailbox System.
-- Fixed: Lore Quest showing wrong info.
-- Fixed: Tag.
-- Fixed: Elytra issue version 1.21.2+.
-- Fixed: Bug Enchantment Protection.
+**แก้ไข**
+- แก้ไข: ระบบ Mailbox
+- แก้ไข: เควส Lore แสดงข้อมูลผิด
+- แก้ไข: Tag
+- แก้ไข: ปัญหา Elytra เวอร์ชัน 1.21.2+
+- แก้ไข: Bug Enchantment Protection
 
 ## Patch 2.3.0
 > 14/01/2025
 > 
 
-**Additions**
-- Added: Map / Suggestions / Bug Report System to wiki website
-- Added: Quest Points Leaderboard
+**เพิ่มเติม**
+- เพิ่ม: ระบบแผนที่ / ข้อเสนอแนะ / รายงานข้อบกพร่องในเว็บไซต์ wiki
+- เพิ่ม: กระดานผู้นำ Quest Points
 
-**Changes**
-- Changed: Player Can Compose Mail in Bronze Rank or above
-- Changed: Creating player warps now cost 0 -> $50k per location
-- Changed: Player Worldedit Tools Moved Out From Beta Testers to Astral Rank and Above (just to use)
-- Changed: to obtain worldedit tools, you need to buy it from quest shop (1000 Quest Points)
-- Changed: Hopper Filter Moved Out From Beta Testers to quest shop (1000 Quest Points)
+**เปลี่ยนแปลง**
+- ผู้เล่นสามารถเขียนจดหมายใน Bronze Rank หรือสูงกว่า
+- การสร้าง player warps ตอนนี้มีค่าใช้จ่าย 0 -> $50k ต่อสถานที่
+- เครื่องมือ Worldedit ของผู้เล่นย้ายออกจาก Beta Testers ไปยัง Astral Rank และสูงกว่า (แค่ใช้)
+- เพื่อให้ได้เครื่องมือ worldedit คุณต้องซื้อจากร้านเควส (1000 Quest Points)
+- Hopper Filter ย้ายออกจาก Beta Testers ไปยังร้านเควส (1000 Quest Points)
 
-**Fixes**
-- Fixed Anvil cannot merge enchantment books
-- Fixed Sweep Edge Enchantment OverEnchant not Working
-- Fixed Cherry Sapling cannot dispense from dispenser
-- Fixed Player Warp description not allowing spaces
+**แก้ไข**
+- แก้ไข: Anvil ไม่สามารถรวมหนังสือ enchantment
+- แก้ไข: Sweep Edge Enchantment OverEnchant ไม่ทำงาน
+- แก้ไข: Cherry Sapling ไม่สามารถจ่ายจาก dispenser
+- แก้ไข: คำอธิบาย Player Warp ไม่อนุญาตให้มีช่องว่าง
 
 ## Patch 2.2.0
 
 > 12/01/2025
 > 
 
-**Additions**
-- Added: Armorstand Scale to Armorstand Editor
-- Added: Hopper Filter to Beta Testers
-- Added: Worldedit tools to Beta Testers
-- Added: BlockCycle to Donators
-  - Added: In-Wall for modifying wall , fence, iron bars blocks
-  - Added: Open Property for modifying barrels.
-- Added: Land distance requirement of 1 Chunk to other players' land
-- Added: Nation Distance Requirement of 3 Chunk to other nations' land
-- Added: Land Role Flag that allow you to claim near owner border
-- Added: Land Role Flag that allow user to Set Land Spawn
-- Added: Land Role Flag that allow user to edit Taxes
-- Added: Concrete Powder can now be turned into Concrete using any water source
-- Added: Experimental feature. Mailbox (Beta Testers)
-  - Send Mail to other players (items messages etc)
-  - Receive Mail from other players 
-  - Receive Admin Emails (Important Announcements, Awards ETC)
-- Added: ability to added recipe to cauldron by dropping item in it
-- Added: Brew Pumpkin Ale Recipe
-- Added: Brew Draconic Essence Recipe
-- Added: Brew Shop (to sell your brew) Excellent Condition Only
-- Added: Dispensers Mine Block Experimental Features
+**เพิ่มเติม**
+- Armorstand Scale ใน Armorstand Editor
+- Hopper Filter สำหรับ Beta Testers
+- เครื่องมือ Worldedit สำหรับ Beta Testers
+- BlockCycle สำหรับ Donators
+  - In-Wall สำหรับแก้ไขบล็อกกำแพง, รั้ว, แท่งเหล็ก
+  - Open Property สำหรับแก้ไขถัง
+- ระยะห่างของ Land 1 Chunk จากที่ดินของผู้เล่นอื่น
+- ระยะห่างของ Nation 3 Chunk จากที่ดินของประเทศอื่น
+- Land Role Flag ที่อนุญาตให้คุณอ้างสิทธิ์ใกล้กับขอบของเจ้าของ
+- Land Role Flag ที่อนุญาตให้ผู้ใช้ตั้งค่า Land Spawn
+- Land Role Flag ที่อนุญาตให้ผู้ใช้แก้ไขภาษี
+- Concrete Powder สามารถเปลี่ยนเป็น Concrete โดยใช้น้ำใดๆ
+- ฟีเจอร์ทดลอง Mailbox (Beta Testers)
+  - ส่งจดหมายถึงผู้เล่นอื่น (ไอเทม ข้อความ ฯลฯ)
+  - รับจดหมายจากผู้เล่นอื่น
+  - รับอีเมลจากผู้ดูแลระบบ (ประกาศสำคัญ รางวัล ฯลฯ)
+- ความสามารถในการเพิ่มสูตรลงในหม้อต้มโดยการทิ้งไอเทมลงไป
+- สูตร Brew Pumpkin Ale
+- สูตร Brew Draconic Essence
+- ร้าน Brew (ขายเครื่องดื่มของคุณ) เฉพาะสภาพดีเยี่ยม
+- Dispensers Mine Block ฟีเจอร์ทดลอง
 
-- Added: wiki for BlockCycle, Hopper Filter, Worldedit tools and more
+- wiki สำหรับ BlockCycle, Hopper Filter, เครื่องมือ Worldedit และอื่นๆ
 
-**Fixes**
-- Fixed: Entity Culling too powerful 
-- Attempt Fix: Brewery Should be usable. (Need Extensive Testing)
-- Fixed: Brewery Cauldron Eats everything not just the recipe
-- Fixed: BlockCycle Error on Fence
+**แก้ไข**
+- Entity Culling แรงเกินไป
+- พยายามแก้ไข: Brewery ควรใช้งานได้ (ต้องทดสอบอย่างละเอียด)
+- Brewery Cauldron กินทุกอย่างไม่ใช่แค่สูตร
+- BlockCycle ข้อผิดพลาดบนรั้ว
 
 ## Patch 2.1.0
 > 24/12/2024

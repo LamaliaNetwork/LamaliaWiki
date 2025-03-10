@@ -1,0 +1,263 @@
+﻿---
+sidebar_position: 3
+---
+
+import { TH, EN } from "@site/src/components/LanguageComponents";
+import History from "@site/src/components/history/HistoryTable";
+import GenMetaData from "@site/src/components/SEO/GenMetaData";
+
+# Land Settings
+
+<EN>
+  You can access the GUI by using the command `/lands menu`. If you possess
+  multiple trust lands, the GUI will allow you to select the desired lands.
+</EN>
+<TH>
+  คุณสามารถเข้าถึง GUI ได้โดยใช้คำสั่ง `/lands menu`
+  หากคุณมีแลนด์ที่เข้าร่วมอยู่หลายแห่ง GUI จะช่วยให้คุณเลือกดินแดนที่ต้องการได้
+</TH>
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+![Land Selection GUI](/img/doc/features/landSetting/01landMenu.png)
+
+<EN>
+  Once you select a land or choose to edit one, you'll be directed to this GUI:
+</EN>
+<TH>เมื่อคุณเลือกแลนด์สักที่นึง คุณจะถูกนำไปยังหน้า GUI ดังต่อไปนี้:</TH>
+
+![Land Settings GUI](/img/doc/features/landSetting/02landMenuMange.png)
+
+<EN>
+  1. **Player Management**: This feature allows you to manage players, including
+  banning, inviting, and handling member requests. 2. **Roles**: Use this option
+  to set priority roles within the land. 3. **Inbox**: Access the land log to
+  view activity and changes. 4. **Statistics**: Get data on spawn locations,
+  claims, members, and the next claim cost. 5. **Natural Flags**: Customize
+  permissions for animals, fire, entities, and more. 6. **Miscellaneous
+  Settings**: Adjust land name, entry messages, and icons.
+</EN>
+<TH>
+  1. **Player Management**: ฟีเจอร์นี้จะช่วยให้คุณจัดการผู้เล่นที่อยู่ในแลนด์ได้
+  รวมถึงการแบน, การเชิญ, และการจัดการคำขอเข้าร่วม 2. **Roles**:
+  ใช้ตัวเลือกนี้เพื่อตั้งค่าบทบาทภายในแลนด์ 3. **Inbox**:
+  เข้าถึงบันทึกแลนด์(Log) เพื่อดูการทำงานและการเปลี่ยนแปลงต่างๆ 4.
+  **Statistics**: ดูข้อมูลต่างๆของแลนด์ไม่ว่าจะเป็น จุดเกิด, จำนวนที่เคลม,
+  จำนวนสมาชิก, และค่าใช้จ่ายในการเคลมพื้นที่ถัดไป 5. **Natural Flags**: ปรับแต่ง
+  Flag เกี่ยวกับสัตว์, เปลวไฟ, เอนทิตี, และอื่น ๆ 6. **Miscellaneous Settings**:
+  ปรับแต่งชื่อแลนด์, ข้อความที่แสดงเมื่อเข้า, และไอคอนต่าง ๆ
+</TH>
+
+:::tip
+
+<EN>
+  The Ender pearl icon located on the top right GUI acts as the spawn button,
+  teleporting you to the land's spawn point.
+</EN>
+<TH>
+  ไอคอน Ender Pearl ที่อยู่มุมขวาบนของ GUI ทำหน้าที่เป็นปุ่มเกิด (spawn button)
+  โดยจะเทเลพอร์ตคุณไปยังจุดเกิดของแลนด์
+</TH>
+:::
+
+<Tabs>
+  <TabItem value="roles" label="Roles" default>
+
+## Roles
+
+:::info
+
+<EN>You can set flags for each role and prioritize them accordingly.</EN>
+<TH>
+  คุณสามารถตั้ง Flags สำหรับแต่ละบทบาทและจัดลำดับความสำคัญได้ตามที่ต้องการ
+</TH>
+:::
+
+![Roles GUI](/img/doc/features/landSetting/roles/rolesGUI.png)
+
+<EN>
+You can adjust the priority of roles by using Shift + left click to increase priority or Shift + right click to decrease priority.
+
+Simply click to set flags for each role.
+
+</EN>
+<TH>
+คุณสามารถปรับลำดับความสำคัญของบทบาทได้โดยใช้ **Shift + คลิกซ้าย** เพื่อเพิ่มลำดับความสำคัญ หรือ **Shift + คลิกขวา** เพื่อลดลำดับความสำคัญ
+
+เพียงแค่คลิกเพื่อตั้ง Flags สำหรับแต่ละบทบาท
+
+</TH>
+
+### Example: Untrusted Role
+
+![Untrusted Role Settings](/img/doc/features/landSetting/roles/untrustRole.png)
+
+<EN>
+  1. **Role Member**: Displays a list of players assigned to this role. 2.
+  **Rename**: Allows you to change the name of the role. 3. **Icon**: You can
+  modify the role's icon by dragging an item into this slot. 4. **Add to New
+  Areas**: Enables you to set permissions for claiming new land. 5. **Pay
+  Taxes**: Determines whether this role is responsible for paying taxes. (Taxes
+  Per day) 6. **Action Flags**: Toggle options for each role, such as trampling
+  farmland, opening doors, accessing trapdoors, teleporting to spawn, and more.
+  7. **Management Flags**: Toggle options for each role to trust players,
+  untrust players, and set roles.
+</EN>
+<TH>
+  1. **Role Member**: แสดงรายชื่อผู้เล่นที่อยู่บทบาทนี้ 2. **Rename**:
+  สามารถเปลี่ยนชื่อบทบาทได้ 3. **Icon**:
+  สามารถปรับแต่งไอคอนของบทบาทได้โดยการลากไอเทมไปยังช่องนี้ 4. **Add to New
+  Areas**: เปิดใช้งานให้ตั้งค่าสิทธิ์สำหรับการครอบครองแลนด์ใหม่ 5. **Pay
+  Taxes**: กำหนดว่าบทบาทนี้ต้องรับผิดชอบในการชำระภาษีหรือไม่ (ภาษีต่อวัน) 6.
+  **Action Flags**: เปิด/ปิด Flags สำหรับแต่ละบทบาท เช่น
+  การเหยียบพืชผักการเกษตร, การใช้ประตู, การใช้Trapdoor,
+  การเทเรพอร์ตไปยังจุดเกิด, และอื่น ๆ 7. **Management Flags**: เปิด/ปิด
+  การตั้งค่าให้ผู้เล่นในบทบาทนี้สามารถเชิญผู้เล่น, เตะผู้เล่น
+  หรือตั้งบทบาทให้กับผู้เล่นคนอื่นได้หรือไม่
+</TH>
+
+  </TabItem>
+<TabItem value="action-flags" label="Action Flags">
+
+## Action Flags
+
+:::info
+
+<EN>
+  Toggle options for each role, such as trampling farmland, opening doors,
+  accessing trapdoors, teleporting to spawn, and more.
+</EN>
+<TH>
+  เปิด/ปิด Flags สำหรับแต่ละบทบาท เช่น การเหยียบพืชผักการเกษตร, การใช้ประตู,
+  การใช้Trapdoor, การเทเรพอร์ตไปยังจุดเกิด, และอื่น ๆ
+</TH>
+:::
+
+![Action Flags GUI](/img/doc/features/landSetting/roles/actionFlagGUI.png)
+
+<EN>
+  1. **Trample Farmland**: Grants permission for this role to trample farmland.
+  2. **Open Doors**: Allows this role to open doors. 3. **Open Trapdoor**:
+  Permits this role to open trapdoors. 4. **Use Redstone**: Enables this role to
+  utilize redstone mechanisms such as levers. 5. **Trade with Villager**: Allows
+  this role to engage in trading with villagers. 6. **Attack Players**: Grants
+  permission for this role to attack other players. 7. **Attack Animals**:
+  Permits this role to attack animals. 8. **Elytra Usage**: Allows this role to
+  use elytra within the area. 9. **Teleport to Spawn**: Grants this role the
+  ability to teleport to the land's spawn point.
+</EN>
+<TH>
+  1. **Trample Farmland**: อนุญาตให้บทบาทนี้เหยียบพื้นที่การเกษตรได้หรือไม่ 2.
+  **Open Doors**: อนุญาตให้บทบาทนี้เปิดประตูได้หรือไม่ 3. **Open Trapdoor**:
+  อนุญาตให้บทบาทนี้เปิดประตูกล(Trapdoor)ได้หรือไม่ 4. **Use Redstone**:
+  อนุญาตให้บทบาทนี้ใช้กลไก Redstone ได้หรือไม่ เช่น คันโยก(Lever) 5. **Trade
+  with Villager***: อนุญาตให้บทบาทนี้เทรดกับชาวบ้านได้หรือไม่ 6. **Attack
+  Players**: อนุญาตให้บทบาทนี้โจมตีผู้เล่นคนอื่นได้หรือไม่ 7. **Attack
+  Animals**: อนุญาตให้บทบาทนี้โจมตีสัตว์ได้หรือไม่ 8. **Elytra Usage**:
+  อนุญาตให้บทบาทนี้ใช้ Elytra ในพื้นที่ได้หรือไม่ 9. **Teleport to Spawn**:
+  อนุญาตให้บทบาทนี้โทรพอร์ตไปยังจุดเกิดของแลนด์ได้หรือไม่
+</TH>
+
+  </TabItem>
+  <TabItem value="management-flags" label="Management Flags">
+
+## Management Flags
+
+:::info
+
+<EN>
+  Toggle options for each role to trust players, untrust players, and set roles.
+</EN>
+<TH>
+  เปิด/ปิด การตั้งค่าให้ผู้เล่นในบทบาทนี้สามารถเชิญผู้เล่น, เตะผู้เล่น
+  หรือตั้งบทบาทให้กับผู้อื่นได้หรือไม่
+</TH>
+:::
+
+![Management Flags GUI](/img/doc/features/landSetting/roles/managementFlagGUI.png)
+
+<EN>
+  1. **Trust Players**: Enables this role to trust other players. 2. **Set
+  Roles**: Allows this role to assign roles to trusted players. 3. **Untrusted
+  Player**: Permits this role to untrust players.
+</EN>
+<TH>
+  1. **Trust Players**: อนุญาตให้บทบาทนี้สามารถเชิญผู้เล่นคนอื่นเข้าแลนด์ได้ 2.
+  **Set Roles**: อนุญาตให้บทบาทนี้สามารถตั้งบทบาทให้กับผู้อื่นได้ 3. **Untrusted
+  Player**: อนุญาตให้บทบาทนี้สามารถเตะผู้เล่นคนอื่นออกจากแลนด์ได้
+</TH>
+
+  </TabItem>
+  <TabItem value="natural-flags" label="Natural Flags">
+
+## Natural Flags
+
+:::info
+
+<EN>Customize permissions for animals, fire, entities, and more.</EN>
+<TH>ปรับแต่ง Flag เกี่ยวกับสัตว์, เปลวไฟ, เอนทิตี, และอื่น ๆ</TH>
+:::
+
+![Natural Flags GUI](/img/doc/features/landSetting/naturalFlag.png)
+
+<EN>
+  1. **Animal Spawning**: Enables the spawning of animals. 2. **Entity
+  Griefing**: Grants permission for entities to affect blocks destructively. 3.
+  **Fire Spread**: Controls whether fire can spread. 4. **Leaf Decay**:
+  Determines if leaves are allowed to naturally decay. 5. **Monster Spawning**:
+  Regulates the spawning of monsters. 6. **Phantom Spawning**: Controls the
+  spawning of phantoms. 7. **Piston from Wilderness**: Dictates whether pistons
+  from the wilderness can push into your lands. 8. **Plant Growth**: Manages the
+  growth of plants. 9. **Snow Melt**: Controls whether snow and ice are allowed
+  to melt. 10. **TNT Block Damage**: Determines if TNT can damage blocks. 11.
+  **Water and Lava Flow**: Regulates the flow of water and lava from the
+  wilderness into your lands. 12. **Wither Attacking Animal**: Allows withers to
+  damage animals within your lands.
+</EN>
+<TH>
+  1. **Animal Spawning**: เปิดใช้งานการเกิดของสัตว์ 2. **Entity Griefing**:
+  อนุญาตให้เอนทิตีมีผลกระทบต่อบล็อกอย่างทำลายล้าง 3. **Fire Spread**:
+  กำหนดว่าไฟสามารถแพร่กระจายได้หรือไม่ 4. **Leaf Decay**:
+  กำหนดว่าใบไม้สามารถหายได้ตามธรรมชาติหรือไม่ 5. **Monster Spawning**:
+  ควบคุมการเกิดของมอนสเตอร์ 6. **Phantom Spawning**: ควบคุมการเกิดของแฟนทอม 7.
+  **Piston from Wilderness**: กำหนดว่า Piston
+  สามารถผลักเข้ามาในแลนด์ของคุณได้หรือไม่ 8. **Plant Growth**:
+  จัดการการเจริญเติบโตของพืช 9. **Snow Melt**:
+  กำหนดว่าหิมะและน้ำแข็งสามารถละลายได้หรือไม่ 10. **TNT Block Damage**: กำหนดว่า
+  TNT สามารถทำลายบล็อกได้หรือไม่ 11. **Water and Lava Flow**:
+  กำหนดว่าการไหลของน้ำและลาวาจากพื้นที่นอกแลนด์เข้าสู่แลนด์ของคุณได้หรือไม่ 12.
+  **Wither Attacking Animal**: อนุญาตให้ Wither
+  ทำความเสียหายให้กับสัตว์ภายในดินแดนของคุณได้หรือไม่
+</TH>
+
+  </TabItem>
+  <TabItem value="misc-settings" label="Miscellaneous Settings">
+
+## Miscellaneous Settings
+
+:::info
+
+<EN>Adjust land name, entry messages, and icons.</EN>
+<TH>ปรับแต่งชื่อแลนด์, ข้อความที่แสดงเมื่อเข้า, และไอคอนต่าง ๆ</TH>
+:::
+
+![Miscellaneous Settings GUI](/img/doc/features/landSetting/miscellaneousSettingGUI.png)
+
+<EN>
+  1. **Land Name**: Allows you to rename your land. 2. **Enter Message**:
+  Enables you to modify the message that appears to players upon entering the
+  land. You can toggle this feature. 3. **Icon**: You can drag an item here to
+  change the icon of the land.
+</EN>
+<TH>
+  1. **Land Name**: เปลี่ยนชื่อแลนด์ 2. **Enter Message**:
+  แก้ไขข้อความที่จะแสดงเมื่อเข้าสู่แลนด์ โดยสามารถเปิด/ปิดฟีเจอร์นี้ได้ 3.
+  **Icon**: คุณสามารถเปลี่ยนไอคอนของแลนด์ได้โดยเอาไอเทมมาวางที่นี่
+</TH>
+
+  </TabItem>
+  <TabItem value="SubArea" label="Sub Area" >
+  ## [Land Sub Area](./landSubArea.mdx)
+  </TabItem>
+</Tabs>
