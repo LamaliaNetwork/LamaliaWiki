@@ -6,19 +6,115 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
+## Patch 2.4.2 
+> 06/03/2025
+>
+
+**Additionals**
+- Added: Sand and Gravel smelting recipes (Blast Furnace only):
+    - Smooth Stone → Sand
+    - Deepslate → Gravel
+
+**Changes**
+- Changed: Allow Phantom Spawning in Build worlds via Land Flag (Phantom Spawn).
+- Change store name:
+    - Daily Sell Shop → Local Market
+    - Sell Rotating Shop → Global Market
+
+**Fixed**
+- Fixed: Property Cycle not working issue.
+
+## Patch 2.4.1
+> 27/02/2025
+>
+
+**Selling price reduced:**
+- MAGMA_CREAM: 6 → 4
+- PRISMARINE_SHARD: 1 → 0.5
+- CAKE: 64 → 48
+- CACTUS: 2 → 1
+- BAKED_POTATO: 2 → 1
+- IRON_INGOT: 1 → 0.5
+- POTATO: 2 → 0.5
+- CARROT: 2 → 0.5
+
+**Selling price increase:**
+- RED_MUSHROOM: 2 → 4
+- BROWN_MUSHROOM: 2 → 4
+- CHORUS_FRUIT: 2 → 8
+- COCOA_BEANS: 2 → 4
+- AMETHYST_SHARD: 1 → 8
+- CHORUS_FLOWER: 2 → 64
+- COPPER_INGOT: 1 → 4
+
+## Patch 2.4.0
+> 26/02/2025
+>
+
+**Additionals**
+- Added: All-new Spawn, New Quest Zone, New Player Training Zone.
+- Added: Special Item Station
+
+**Changes**
+- Changed: Moved Catch Egg and Chunk Buster out of Quest Point Shop.
+    > Moved to Special Item Station
+
+## Patch 2.3.5
+> 26/02/2025
+>
+
+**Additions**
+- Added: Kill Coins Earn 1-10 coins per monster kill. 
+    > Limited to 10,000 coins per day.
+
+**Changes**
+- Changed : New Player Shop > Daily Shop system.
+    > Personal limit 10,000 coins per day, reset every day at 8:00 AM.
+
+## Patch 2.3.4
+> 19/02/2025
+> 
+
+**Additions**
+- Added: Require new players to accept the rules before they can join the game; they cannot leave without doing so.
+- Added: /bank command for Supporter IV and above.
+
+**Fixes**
+- Fixed: Auto Tree Chopping does not count towards quests.
+- Fixed: Power Mine cannot work underwater.
+- Fixed: First Spawn Point in the Lobby.
+- Fixed: Spawnpoint does not match Server spawn.
+
+## Patch 2.3.3
+> 17/02/2025
+>
+
+**Additions**
+- Added: New Player Shop can sell a maximum of 1M Coins.
+
+**Changes**
+- Changed: Cancel the sellgui command for Supporter IV and above.
+- Changed: Adjust the Global Sell Limit system.
+    > Hourly Sales Limit (Refresh every 1 hour after the limit is reached) Rotate every 6 hours as usual 2 AM, 8 AM, 2 PM, 8 AM
+
+**Fixes**
+- Fixed: Negative progress in quests.
+- Fixed: Replenish with Pitcher Plant
+- Fixed: Excavation Quest Tracking Details
+
 ## Patch 2.3.2
 > 15/02/2025
 >
 
 **Changes**
-- Changed: Adjusted Conflicts between Enchants: Vein Mining with Power Mine, Repairing with Mending
+- Changed: Adjusted Conflicts between Enchants: Vein Mining with Power Mine, Repairing with Mending.
 
 **Fixes**
-- Fixed Kick player from chat
-- Fixed Unverified players do not see/cannot communicate in chat.
-- Fixed Track Quest
-- Fixed Experimental Enchants: Replenish Support torch flower Vein Mining Support Coal Ore Repairing working normally
-- Compensate the lost nation #open-ticket
+- Fixed: Kick player from chat
+- Fixed: Unverified players do not see/cannot communicate in chat.
+- Fixed: Track Quest.
+- Fixed: Experimental Enchants: Replenish Support torch flower Vein Mining Support Coal Ore Repairing working normally.
+- Compensation for the lost nation #open-ticket.
 
 
 ## Patch 2.3.1
@@ -26,11 +122,11 @@ Patch notes are updates written by the Minecraft server developers that detail c
 >
 
 **Fixes**
-- Fixed Mailbox System
-- Fixed Lore Quest showing wrong info
-- Fixed Tag
-- Fixed Elytra issue version 1.21.2+
-- Fixed Bug Enchantment Protection 
+- Fixed: Mailbox System.
+- Fixed: Lore Quest showing wrong info.
+- Fixed: Tag.
+- Fixed: Elytra issue version 1.21.2+.
+- Fixed: Bug Enchantment Protection.
 
 ## Patch 2.3.0
 > 14/01/2025
@@ -49,13 +145,13 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Changed: Hopper Filter Moved Out From Beta Testers to quest shop (1000 Quest Points)
 
 **Fixes**
-- Fixed Anvil cannot merge enchantment books
-- Fixed Sweep Edge Enchantment OverEnchant not Working
-- Fixed Cherry Sapling cannot dispense from dispenser
-- Fixed Player Warp description not allowing spaces
-- Fixed Ghast Breaking Blocks in nether
-- Fixed /l command not working
-- Fixed Hopper Filter not working (potion/item names)
+- Fixed: Anvil cannot merge enchantment books
+- Fixed: Sweep Edge Enchantment OverEnchant not Working
+- Fixed: Cherry Sapling cannot dispense from dispenser
+- Fixed: Player Warp description not allowing spaces
+- Fixed: Ghast Breaking Blocks in nether
+- Fixed: /l command not working
+- Fixed: Hopper Filter not working (potion/item names)
 - Fixed: Gravel Duplication Bug
 
 ## Patch 2.2.0
