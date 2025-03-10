@@ -5,15 +5,152 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
+## Patch 2.5.0
+> 11/03/2025
 
-## Patch 2.3.0
-> 14/01/2025
+**Additions**
+- Dispenser Breed: Dispenser can now breed animals
+- Dispenser Milking and Stew: Dispenser can now milk cows and mushroom stew
+- Experimental Bedrock Texture Pack (Early)
+- Open Beta: Player Quest System
+  - Complete other Player commission quest to receive rewards
+  - Create your own quest for other players to complete
+  - Early access player can create 1 quest (normal player can complete)
+
+**Changes**
+- FlyCharge now calculate by second instead of blocks traveled
+- FlyCharge now cost 10 -> 50 coins per charge
+
+## Patch 2.4.2
+> 06/03/2025
+
+**Additions**
+- Added: Sand and Gravel Cooking Recipe (Blast Furnace Only)
+  - Smooth Stone in Furnace -> Sand
+  - Deepslate in Furnace -> Gravel
+
+**Changes**
+- Allow Phantom Spawning in build world via Land Flag (Phantom Spawn)
+- Change Daily Sell Shop -> Local Market
+- Change Sell Rotating Shop -> Global Market
+
+**Fixes**
+- Fix Property Cycle not working
+
+## Patch 2.4.1
+> 27/02/2025
+
+**Changes**
+
+**Sell Price Changes**
+
+Decrease Price
+- Price of MAGMA_CREAM 6 -> 4
+- Price of PRISMARINE_SHARD 1 -> 0.5
+- Price of CAKE 64 -> 48
+- Price of CACTUS 2 -> 1
+- Price of BAKE_POTATO 2 -> 1
+- Price of IRON_INGOT 1 -> 0.5
+- Price of POTATO 2 -> 0.5
+- Price of CARROT 2 -> 0.5
+
+Increase Price
+- Price of RED_MUSHROOM 2 -> 4
+- Price of BROWN_MUSHROOM 2 -> 4
+- Price of CHORUS_FRUIT 2 -> 8
+- Price of COCOA_BEANS 2 -> 4
+- Price of AMETHYST_SHARD 1 -> 8
+- Price of CHORUS_FLOWER 2 -> 64
+- Price of COPPER_INGOT 1 -> 4
+
+## Patch 2.4.0
+> 26/02/2025
+
+**Additions**
+- New Spawn
+  - Quest Zone
+  - New Player Tutorial
+- Removing Catch Egg and Chunk Buster from the Quest Point Shop. Now Available in the Special Item Station (Craft able)
+
+
+## Patch 2.3.5
+> 26/02/2025
+
+**Changes**
+- New Player Shop now change to Daily Shop. Personal Daily limit 10k coins reset at 8AM
+- Kill Coins(Mob Kills) now drops 1-10 coins per kill. Maxing at 10k coins per day
+
+## Patch 2.3.4
+> 19/02/2025
+
+**Additions**
+- Force New Player to accept rules before playing (can't leave)
+- Add /bank command to supporter 4 and above (to access bank anywhere)
+
+**Fixes**
+- Fix Auto Tree Chopping not count in quest
+- Fix Power Mine Not Allow Player to Mine UnderWater
+- Fix Lobby First Spawn
+- Fix Spawnpoint not originated at Server spawn
+
+## Patch 2.3.3
+> 17/02/2025
+
+**Additions**
+- Added: New Player Sell Shops can gain up to 1M coins. 
+
+**Changes**
+- Removed: sellgui command for supporter 4 and above 
+- Changed: Global Sell Limit Now Apply Per Hour and Rotate Every 6 Hours same as before
+
+**Fixes**
+- Fix Negative Progress on Quest
+- Fix Replenish with Pitcher Plant working weirdly
+- Fix Excavation Quest tracking detail not same as the quest
+
+## Patch 2.3.2
+> 14/02/2025
+
+**Changes**
+- Change: Enchantment Conflicts of Vein Mining and Power Mine
+- Change: Enchantment Conflicts of Repairing and Mending
+
+**Fixes**
+- Fix Chat Kick
+- Nation Compensation
+- Unverified Player Can't see chat / type in chat
+- Fix Quest tracking 
+- Fix Experimental Feature Enchant Power Mine to support torchflower
+- Fix Experimental Feature Enchant Vein Mining to support Coal Ore
+- Fix Experimental Feature Enchant Repairing not working
+- Quest Kill Player Task not working
+
+## Patch 2.3.1
+> 13/02/2025
+
+
+**Fixes**
+- Fix Mailbox not working
+- Fix Wrong Lore in Quest
+- Fix Tag permissions
+- Fix Flying for 1.21.2+ players
+- Enchantment Protecion Bug
+
+
+## Patch 2.3.0 
+> 13/02/2025
 > 
 
 **Additions**
 - Added: Map / Suggestions / Bug Report System to wiki website
 - Added: Quest Points Leaderboard
 - Added: Allow sand and gravel duplication.
+- Added: New Quest System and logic (Might be buggy, please help test)
+- Added: Daily Reward (Unlock at Silver Rank Quest)
+- Added: Kill Coins (kill mobs to get coins) max 1000 coins per day
+- Added: Bank System (store your money in the bank) 
+- Added: Purse Death Penalty (lose 50% of your money when you die) unless you put your money in the bank
+- Added: Experimental Enchantment (Early Access please contact admin)
 
 **Changes**
 - Changed: Player Can Compose Mail in Bronze Rank or above
@@ -21,6 +158,17 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Changed: Player Worldedit Tools Moved Out From Beta Testers to Astral Rank and Above (just to use)
 - Changed: to obtain worldedit tools, you need to buy it from quest shop (1000 Quest Points)
 - Changed: Hopper Filter Moved Out From Beta Testers to quest shop (1000 Quest Points)
+- Removed: Lottery Feature
+- Changed: Rotation Shop Changes now use global cap and will refresh on fixed time at 2AM ,8AM, 2PM, 8PM
+- Changed: More Buyable Items in Shop
+- Removed: Buy Rotation Shop
+- Removed: Sell Rotation Shop Discount
+- Changed: Resource Nether and Resource The End now need to be unlocked by quest
+- Changed: New Player Cannot Play unless accept rules
+
+**Economy Overhaul**
+- Disabled Land/Nation Upkeep 
+- Disabled Chunk Refund
 
 **Fixes**
 - Fixed Anvil cannot merge enchantment books
@@ -30,7 +178,6 @@ Patch notes are updates written by the Minecraft server developers that detail c
 - Fixed Ghast Breaking Blocks in nether
 - Fixed /l command not working
 - Fixed Hopper Filter not working (potion/item names)
-- Fixed: Gravel Duplication Bug
 
 ## Patch 2.2.0
 
