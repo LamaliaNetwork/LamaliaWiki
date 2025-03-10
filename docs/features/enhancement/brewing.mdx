@@ -4,40 +4,74 @@ title: Brewing Guide - LamaLia
 sidebar_label: Brewing Guide
 description: A quick guide to start brewing drinks in LamaLia
 ---
+import { TH, EN } from '@site/src/components/LanguageComponents';
+import History from '@site/src/components/history/HistoryTable';
+import GenMetaData from '@site/src/components/SEO/GenMetaData';
 
 # Brewing Guide 🍺
 
-Hey brewers! Want to make your own drinks? Here's your quick starter guide:
+<EN>Hey brewers! Want to make your own drinks? Here's your quick starter guide:</EN>
+<TH>สวัสดีนักปรุงเครื่องดื่ม! อยากทำเครื่องดื่มเป็นของตัวเองไหม? นี่คือคู่มือเริ่มต้นสำหรับคุณ:</TH>
 
 ## Basic Steps 📝
 
 ### 1. Cook in Cauldron
+<EN>
 - Put water in cauldron over fire
 - Right-click to add ingredients (or drop them in)
 - Use a clock for timing (right-click)
 - Right-click with bottles when done
+</EN>
+<TH>
+- ใส่น้ำในหม้อปรุงที่วางบนไฟ
+- คลิกขวาเพื่อใส่ส่วนผสม (หรือโยนลงไป)
+- ใช้นาฬิกาจับเวลา (คลิกขวา)
+- คลิกขวาด้วยขวดเมื่อเสร็จ
+</TH>
 
 ![brewing.png](/img/doc/features/brewing/brewing.png)
 
 ### 2. Distilling 🌡️
+<EN>
 - Put bottled brew in brewing stand
 - Wait ~40 seconds per run
 - Number of runs depends on recipe
 - Too many or too few runs ruins the drink!
+</EN>
+<TH>
+- ใส่เครื่องดื่มที่บรรจุขวดในแท่นกลั่น
+- รอประมาณ 40 วินาทีต่อรอบ
+- จำนวนรอบขึ้นอยู่กับสูตร
+- กลั่นมากหรือน้อยเกินไปจะทำให้เครื่องดื่มเสีย!
+</TH>
 
 ![distilling.png](/img/doc/features/brewing/distilling.png)
 
 ### 3. Aging 🛢️
+<EN>
 - Put brew in barrel (as shown in picture)
 - Each Year = 20 real minutes (1 Minecraft day)
 - Don't break barrel while aging!
 - Wood type matters (check recipe)
+</EN>
+<TH>
+- ใส่เครื่องดื่มในถังไม้ (ตามภาพ)
+- 1 ปี = 20 นาทีจริง (1 วันในมายคราฟต์)
+- อย่าทำลายถังระหว่างการบ่ม!
+- ชนิดของไม้มีผล (ดูตามสูตร)
+</TH>
 
 ![barrels.png](/img/doc/features/brewing/barrels.png)
 
 ### 4. Sealing 🏷️
+<EN>
 - Use Sealing Table to hide recipe info (put brew in)
 - to craft sealing table, you need 4 planks and 2 Ender Crystal
+</EN>
+<TH>
+- ใช้โต๊ะปิดผนึกเพื่อซ่อนข้อมูลสูตร (ใส่เครื่องดื่มลงไป)
+- วิธีคราฟโต๊ะปิดผนึก ใช้ไม้แปรรูป 4 ชิ้น และ Ender Crystal 2 ชิ้น
+</TH>
 
 ![sealing_table.png](/img/doc/features/brewing/sealing_table.png)
 
@@ -45,22 +79,40 @@ Hey brewers! Want to make your own drinks? Here's your quick starter guide:
 
 
 ## Drunkness 🍻
+<EN>
 - Drinking too much makes you drunk
 - Effects vary by drink (percentage of alcohol)
 - Affect Your Vision, Movement, and Speech in some cases
 - to combat, eat bread or drink milk or just wait
+</EN>
+<TH>
+- ดื่มมากเกินไปจะทำให้เมา
+- ผลลัพธ์แตกต่างกันตามเครื่องดื่ม (เปอร์เซ็นต์แอลกอฮอล์)
+- ส่งผลต่อการมองเห็น การเคลื่อนไหว และการพูดในบางกรณี
+- วิธีแก้เมา กินขนมปัง ดื่มนม หรือรอให้หาย
+</TH>
 
 ## Obtaining recipes
+<EN>
 - You can obtain recipes by making the drink. (go try it out!)
 - or you can learn from reading recipe papers.
 - recipe papers can be found in the quest shop or from other players.
 - To craft recipe book you need 1 book and 4 ender crystals
+</EN>
+<TH>
+- คุณสามารถได้สูตรจากการทำเครื่องดื่มเอง (ลองทำดู!)
+- หรือเรียนรู้จากการอ่านกระดาษสูตร
+- กระดาษสูตรสามารถหาได้จากร้านค้าเควส หรือจากผู้เล่นอื่น
+- วิธีคราฟหนังสือสูตร ใช้หนังสือ 1 เล่ม และ Ender Crystal 4 ชิ้น
+</TH>
 
 ![recipe_book.png](/img/doc/features/brewing/recipe_book.png)
 
-
-
 :::tip
-Need help? Ask experienced players or check recipe books!
+<EN>Need help? Ask experienced players or check recipe books!</EN>
+<TH>ต้องการความช่วยเหลือ? ถามผู้เล่นที่มีประสบการณ์หรือดูจากหนังสือสูตร!</TH>
 :::
 
+<History releasesData={[
+    { release: "2.1.0", description: "- Added: Brewing Systems" }
+  ]} />

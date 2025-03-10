@@ -1,0 +1,53 @@
+import { TH, EN } from '@site/src/components/LanguageComponents';
+import History from '@site/src/components/history/HistoryTable';
+import GenMetaData from '@site/src/components/SEO/GenMetaData';
+
+# ChunkBuster
+
+<EN>
+Chunk Buster is a feature that allows you to clear an area quickly by placing just a single block.
+</EN>
+<TH>
+เป็นฟีเจอร์ที่จะช่วยให้คุณสามารถเคลียร์พื้นที่ได้อย่างรวดเร็วโดยการวางแค่วางบล็อกเดียว!
+</TH>
+
+:::danger
+<EN>This is a destructive feature. Use with caution!</EN>
+<TH>ฟีเจอร์นี้อาจเป็นอันตรายได้ โปรดใช้งานอย่างระมัดระวัง!</TH>
+:::
+
+## Requirements
+
+- **Ranks**: <EN>Gold and above</EN><TH>ตั้งแต่ Gold ขึ้นไป</TH>
+
+## Obtain from special item station
+
+<EN>Can be crafted from special item stations.</EN>
+<TH>สามารถสร้างจากสถานีไอเทมพิเศษได้</TH>
+
+
+## Getting Started
+<EN>
+1. Go to the area (Chunk) that you want to clear.
+2. Place the chunk buster block.
+3. The chunk buster will dig the entire chunk down to bedrock.
+</EN>
+<TH>
+1. ไปยังพื้นที่ (Chunk) ที่คุณต้องการเคลียร์
+2. วางบล็อก Chunk Buster
+3. Chunk Buster จะขุดทั้ง Chunk ลงไปจนถึงชั้น Bedrock
+</TH>
+
+:::info
+<EN>The chunk buster will destroy blocks from **y=320 to -64** without dropping any items from the destruction.</EN>
+<TH>Chunk buster จะทำลายบล็อกตั้งแต่ y=320 ถึง -64 โดยไม่ดรอปไอเท็มใด ๆ จากการทำลาย</TH>
+:::
+
+![chunkBuster](\img\doc\features\chunkBuster\chunkBuster.gif)
+
+<History releasesData={[
+    { release: "2.4.0", description: "- Moved to Special Item Station"},
+    { release: "1.11.2", description: "- Move Chunk Buster to Gold Rank"},
+    { release: "1.11", description: "- Chunk Buster is in shop"},
+    { release: "1.10.2", description: "- Added Chunk Buster Block (to early access)"},
+]} />
