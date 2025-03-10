@@ -6,6 +6,24 @@ Patch notes are updates written by the Minecraft server developers that detail c
 
 ---
 
+## Patch 2.5.0
+>11/03/2025
+>
+
+**Additionals**
+- Added: Dispenser Breed: You can now use Dispenser to breed animals.
+- Added: Dispenser Milking & Stew: You can now use Dispenser to milk and make mushroom soup.
+- Added: Bedrock Texture Pack: Experimental texture pack for Bedrock (Test version)
+- Added: Open Beta: Player Quest System
+- Added: Receive and complete quests from other players to earn rewards.
+- Added: Create your own quests for other players to complete.
+- Added: Early Access players can create 1 quest (Regular players can accept it).
+
+**Changes**
+- FlyCharge Calculate in seconds instead of distance (blocks)
+- FlyCharge Increased the price from 10 Coins to 50 Coins per charge.
+
+
 ## Patch 2.4.2 
 > 06/03/2025
 >

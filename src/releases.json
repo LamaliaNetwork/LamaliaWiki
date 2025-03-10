@@ -1,5 +1,45 @@
 [
     {
+        "release": "2.4.2",
+        "date": "06/03/2025",
+        "releaseLink": "/patchNotes#patch-242"
+    },
+    {
+        "release": "2.4.1",
+        "date": "27/02/2025",
+        "releaseLink": "/patchNotes#patch-241"
+    },
+    {
+        "release": "2.4.0",
+        "date": "26/02/2025",
+        "releaseLink": "/patchNotes#patch-240"
+    },
+    {
+        "release": "2.3.5",
+        "date": "26/02/2025",
+        "releaseLink": "/patchNotes#patch-235"
+    },
+    {
+        "release": "2.3.4",
+        "date": "19/02/2025",
+        "releaseLink": "/patchNotes#patch-234"
+    },
+    {
+        "release": "2.3.3",
+        "date": "17/02/2025",
+        "releaseLink": "/patchNotes#patch-233"
+    },
+    {
+        "release": "2.3.2",
+        "date": "15/02/2025",
+        "releaseLink": "/patchNotes#patch-232"
+    },
+    {
+        "release": "2.3.1",
+        "date": "13/02/2025",
+        "releaseLink": "/patchNotes#patch-231"
+    },
+    {
       "release": "2.3.0",
       "date": "14/01/2025",
       "releaseLink": "/patchNotes#patch-230"
