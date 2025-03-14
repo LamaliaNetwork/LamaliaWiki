@@ -32,15 +32,15 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'th'],
-    localeConfigs: {
-      th: {
-        label: 'ไทย',
-        direction: 'ltr',
-        htmlLang: 'th-TH',
-        calendar: 'buddhist',
-        path: 'th',
-      },
-    },
+    // localeConfigs: {
+    //   th: {
+    //     label: 'ไทย',
+    //     direction: 'ltr',
+    //     htmlLang: 'th-TH',
+    //     calendar: 'buddhist',
+    //     path: 'th',
+    //   },
+    // },
   },
   presets: [
     [

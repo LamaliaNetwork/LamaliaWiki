@@ -1,0 +1,131 @@
+---
+sidebar_position: 1
+---
+import { TH, EN } from '@site/src/components/LanguageComponents';
+import History from '@site/src/components/history/HistoryTable';
+import GenMetaData from '@site/src/components/SEO/GenMetaData';
+
+# Land Management Guide
+
+## General Info
+
+:::info
+<EN>
+- Lands Creation Cost: **$1,000,000** (First land is free)
+- Lands Rename Cost: **$5,000**
+- Chunk Claims Cost: **$1000 per chunk (max 5000)**
+- Each Claim will add $10 to the cost
+- Lands Limit: (Please See Rank)
+</EN>
+<TH>
+- ค่าใช้จ่ายในการสร้าง: **$1,000,000** (Land แรกฟรี)
+- ค่าใช้จ่ายในการเปลี่ยนชื่อ: **$5,000**
+- ค่าใช้จ่ายในการเคลมชังก์เพิ่ม: **$1,000 ต่อชังก์ (สูงสุด 5,000)**
+- การเคลมแต่ละชังก์จะเพิ่มค่าใช้จ่ายครั้งละ 10$
+- ขีดจำกัดของLand: (โปรดดูที่ Rank)
+</TH>
+:::
+
+## Tips
+
+:::tip
+<EN>
+- Pressing **Shift + F3** will show the **chunk border** in the game.
+- **Roles:** Owner, Admin, Member, Untrusted **(Owner can change permissions)**
+- **Natural Flags:** Unlocked by playtime rank.
+</EN>
+<TH>
+- กดปุ่ม **Shift + F3** เพื่อแสดง **chunk border** ภายในเกม
+- **Roles:** Owner, Admin, Member, Untrusted **(Owner สามารถเปลี่ยนการอนุญาตได้)**
+- **Natural Flags:** ปลดล็อคโดยสะสม Playtime rank.
+</TH>
+:::
+
+## Getting Started
+
+<EN>
+1. Get into Survival World
+2. Find a good place in wilderness
+3. Use **/l create [name_of_your_land]** and you will have your claimed lands
+4. Use **/l trust [player_name]** to add your friends to your land
+5. Use **/l claim** on the next chunk to get new areas
+6. Use **/l menu** to manage your lands
+</EN>
+<TH>
+1. ไปที่โลกสร้างบ้าน
+2. หาพื้นที่ที่ถูกใจใน Wilderness
+3. พิมพ์คำสั่ง **/l create [ชื่อland]** เพื่อเป็นการสร้าง Land ของคุณ
+4. พิมพ์คำสั่ง **/l trust [ชื่อplayer]** เพื่อเพิ่มผู้เล่นเข้า Land ของคุณ
+5. พิมพ์คำสั่ง **/l claim** ในการเคลมพื้นที่เพิ่ม ขยายเขต Land
+6. พิมพ์คำสั่ง **/l menu** เพื่อตั้งค่าต่างๆภายใน Land
+</TH>
+
+## Land Commands
+
+<EN>
+1. **/l help** Show land commands.
+2. **/l create [name_of_your_land]** Create your new land on the chunk that you stand on. (First land is free)
+**Example:** /l create BeastMaster69Land
+3. **/l view** Show the border of every lands. (The effect will last 60 seconds)
+4. **/l edit [name_of_your_land]** Select the land to edit on. (In case that you are the admin of the other lands)
+**Example:** /l edit BeastMaster69Land
+</EN>
+<TH>
+1. **/l help** แสดงคำสั่งที่เกี่ยวกับระบบ Land ทั้งหมด
+2. **/l create [ชื่อland]** สร้าง Land ใน Chunk ที่คุณยืนอยู่ เช่น /l create BeastMaster69Land
+3. **/l view** แสดงขอบเขตของทุกๆ Land (นาน 60 วินาที)
+4. **/l edit [ชื่อland]** เลือก Land ที่จะแก้ไข (ต้องเป็น Admin ของ Land) เช่น /l edit BeastMaster69Land
+</TH>
+
+:::info suggestion
+<EN>- You are suggested to use /l edit first before before using the following commands.</EN>
+<TH>- แนะนำให้ใช้คำสั่ง **/l edit** ก่อนที่จะใช้คำสั่งต่อไปนี้</TH>
+:::
+
+<EN>
+5. **/l claim** Expand your land by claiming other chunks next to your land.
+**(Use claim while standing next to your own chunks)**
+6. **/l ban [player_name]** Ban a player from your land. That player can't enter your land.
+7. **/l unban [player_name]** Unban Player From your land.
+8. **/l unclaim** Unclaim a single chunk that you currently editing.
+9. **/l unclaim all** Unclaim all chunks. **(This does not delete your land)**
+10. **/l delete [confirm]** Delete your lands.
+</EN>
+<TH>
+5. **/l claim** ขยายเขต Land ของคุณโดยการครอบครองชังก์อื่น ๆ ที่อยู่ติดกับดินแดนของคุณ
+**(ใช้คำสั่งนี้ขณะยืนอยู่ข้างชังก์ของคุณ)**
+6. **/l ban [ชื่อผู้เล่น]** แบนผู้เล่นออกจาก Land ของคุณ ผู้เล่นคนนั้นจะไม่สามารถเข้ามาใน Land ของคุณได้
+7. **/l unban [ชื่อผู้เล่น]** ปลดแบนผู้เล่นจาก Land ของคุณ
+8. **/l unclaim** ยกเลิกการครอบครองชังก์ชั้นที่ยืนอยู่
+9. **/l unclaim all** ยกเลิกการครอบครองชังก์ทั้งหมด **(ไม่ใช่การลบ Land)**
+10. **/l delete [confirm]** ลบ Land
+</TH>
+
+:::info suggestion
+<EN>
+- use the **/l unclaim all** command before using **/l delete [confirm]**.
+- You will have to click delete your land in chat to confirm.
+</EN>
+<TH>
+- แนะนำให้ใช้คำสั่ง **/l unclaim all** ก่อนใช้คำสั่ง **/l delete [confirm]**
+- คุณต้องคลิก Confirm การลบที่แชทภายในเกม
+</TH>
+:::
+
+<EN>
+11. **/l menu** Open land general menu.
+12. **/l rename [name_of_your_land]** Rename your land. **(Cost 10,000$)**
+13. **/l spawn [name_of_your_land]** Teleport to land spawn point. **(If it's your own land, you don't need to include [name_of_your_land].)**
+14. **/l setspawn** Set land spawn point on the spot that you stand on. **(
+The area has been claimed.)**
+15. **/l trust [player_name]** Add a member to your land that you currently editing.
+16. **/l untrust [player_name]** You are suggested to use /l edit first before you use this command.
+</EN>
+<TH>
+11. **/l menu** เปิดเมนู Land
+12. **/l rename [ชื่อland]** เปลี่ยนชื่อ Land **(ค่าใช้จ่าย 10,000$)**
+13. **/l spawn [ชื่อland]** เทเรพอร์ตไปยัง Land ที่ระบุ **(หากเป็น Land ของตัวเองไม่ต้องมี [ชื่อland] ก็ได้)**
+14. **/l setspawn** ตั้งจุดเกิดของ Land ที่คุณยืนอยู่ **(ครอบครองพื้นที่นั้นแล้ว)**
+15. **/l trust [ชื่อผู้เล่น]** เพิ่มผู้เล่นเข้า Land ที่กำลังยืนอยู่
+16. **/l untrust [ชื่อผู้เล่น]** ลบผู้เล่นออกจาก Land ที่กำลังยืนอยู่
+</TH>
