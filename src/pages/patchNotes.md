@@ -5,6 +5,56 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
+## Patch 2.5.2
+> 13/03/2025
+
+**Additions**
+- Quest Points Can now be Traded (using /trade)
+
+## Patch 2.5.1
+> 12/03/2025
+
+**Additions**
+- Added: Leather to Sell Rotating Shop (Price 4)
+
+**Changes**
+- FlyCharge now revert to calculate per block
+- FlyCharge now cost 50 -> 5 coins per charge
+- FlyCharge now allow EXP to be used to charge (1000 Exp = 1 Charge)
+- Flycharge Idling cost 2 charge per second idling in air
+- Brewery Data No Longer Shows Information after you obtained correct recipe. so remember it well.
+- Local Market Pricing now is 4 times less than Global Market
+- Daily Limits Changes
+  - Global Market 2M -> 3M
+  - Local Market 10k -> 100k
+- Changed: Melon Slice to Melon.
+- Global Market Price Changes (Buffs)
+  - Rabbit Foot 8 -> 64
+  - Cooked Beef 2 -> 8
+  - Beetroot Soup 16 -> 64
+  - Cooked Mutton 2 -> 8
+  - Cooked Rabbit 2 -> 8
+  - Cooked Salmon 2 -> 8
+  - Cooked Chicken 2 -> 8
+  - Quartz 1 -> 4
+  - Lapiz Lazuli 1 -> 4
+  - Chorus Fruit 8 -> 16
+  - Rabbit Hide 8 -> 32
+  - Glow Berries 8 -> 32
+  - Cocoa Beans 2 -> 4
+  - Feather 2 -> 4
+  - Glow Ink Sac 4 -> 16
+  - Golden Carrot 2 -> 16
+  - Glistering Melon 2 -> 16
+- Global Market Price Changes (Nerfs)
+  - Ender Pearl 8 -> 4
+  - Cactus 1 -> 0.5
+  - Shulker Shell 128 -> 64
+  - Cake 48 -> 32
+  - Milk Bucket 16 -> 8
+  - Amethyst Shard 8 -> 6
+  - Torchflower 8 -> 6
+
 ## Patch 2.5.0
 > 11/03/2025
 
