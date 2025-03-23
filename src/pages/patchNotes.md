@@ -5,11 +5,22 @@
 Patch notes are updates written by the Minecraft server developers that detail changes, fixes, and additions made to the server. They inform players about what has been modified, added, or fixed in the latest version of the server. This could include changes to gameplay mechanics, the introduction of new features, bug fixes, and more.
 
 ---
-## Patch 2.5.2
-> 13/03/2025
+## Patch 2.6
+> 19/03/2025
 
 **Additions**
 - Quest Points Can now be Traded (using /trade)
+- Added: More Supported Textures for bedrock client.
+- Added: Vault System 
+  - Allow you to store Items just like Ender Chest also upgradeable
+  - Starting From Diamond Rank Player will get 1 Free Vault Slot and Access to /Vault Command
+  - You can also Buy Vault 2 In Special Item Station for 3M + 10 Netherite Ingot
+
+**Changes**
+- Player Market Expiration Time
+  - Default: 3 Days -> 30 Days 
+  - Removed: Supporter Expiration Time
+- Player Market Tax Rate 5% -> 10%
 
 ## Patch 2.5.1
 > 12/03/2025

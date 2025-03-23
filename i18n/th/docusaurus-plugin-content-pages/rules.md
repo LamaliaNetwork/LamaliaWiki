@@ -229,6 +229,19 @@ sidebar_label: Server Rules
 - อนุญาตให้ใช้แพ็กทรัพยากรที่ไม่ได้ให้ข้อได้เปรียบที่ไม่เป็นธรรม (เช่น การเอ็กซ์เรย์)
 - หากมีข้อสงสัยเกี่ยวกับเนื้อหาแพ็กทรัพยากรเฉพาะ โปรดปรึกษาทีมงานก่อนใช้งาน
 
+- Mods ที่ใช้งานได้:
+  - Optifine/Sodium/Optimization Mods
+  - Xaero's Minimap (and similar minimap mods)
+  - Distance Horizons
+  - Litematica
+- Mods ที่ห้ามใช้งาน:
+  - X-ray
+  - Hacked Clients/Mods (KillAura, Reach, etc.)
+  - Macros
+  - FreeCam
+  - Litematica Printer
+  - Litematica EasyPlace Mode
+
 ### 9.3 ทรัพยากรของเซิร์ฟเวอร์และทรัพย์สินทางปัญญา
 
 - ทรัพยากรทั้งหมดของเซิร์ฟเวอร์ ซึ่งรวมถึงแต่ไม่จำกัดเพียง:

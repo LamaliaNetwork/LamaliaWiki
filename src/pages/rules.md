@@ -226,6 +226,19 @@ The following forms of advertising are not allowed:
 - Optifine and other performance-enhancing mods are generally allowed.
 - Minimal HUDs and map mods are permitted as long as they don't provide an unfair advantage.
 
+- Known Allowed Mods:
+  - Optifine/Sodium/Optimization Mods
+  - Xaero's Minimap (and similar minimap mods)
+  - Distance Horizons
+  - Litematica
+- Known Disallowed Mods:
+  - X-ray
+  - Hacked Clients/Mods (KillAura, Reach, etc.)
+  - Macros
+  - FreeCam
+  - Litematica Printer
+  - Litematica EasyPlace Mode
+
 ### 9.2 Texture Packs
 
 - Texture packs that do not provide an unfair advantage (such as x-ray) are allowed.
