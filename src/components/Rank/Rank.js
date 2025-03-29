@@ -2,7 +2,7 @@ import React, { useRef } from "react"
 import styles from "./styles.module.css"
 import * as ICON from "../Icon/Icon"
 
-import { rankData } from "./RankData"
+import { rankData } from "./rankData"
 
 // Feature component for each card
 function Feature({
