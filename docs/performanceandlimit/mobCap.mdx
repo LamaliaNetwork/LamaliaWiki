@@ -1,18 +1,10 @@
-import { TH, EN } from '@site/src/components/LanguageComponents'
 import History from "@site/src/components/history/HistoryTable"
 import GenMetaData from "@site/src/components/SEO/GenMetaData"
 
 
 # Mob Cap Limit
 
-<EN>
 This configuration is designed to manage the density of NPCs (villagers, animals, and monsters) in specific areas. It aims to enhance performance by imposing limits on the number of entities within close proximity.
-</EN>
-
-<TH>
-การกำหนดค่านี้มีวัตถุประสงค์เพื่อจัดการความหนาแน่นของ NPC (ชาวบ้าน, สัตว์, และมอนสเตอร์) ในพื้นที่เฉพาะ
-โดยมุ่งหวังที่จะปรับปรุงประสิทธิภาพโดยการกำหนดขีดจำกัดจำนวนเอนทิตี้ภายในระยะใกล้
-</TH>
 
 <GenMetaData 
   description="This configuration is designed to manage the density of NPCs (villagers, animals, and monsters) in specific areas."
@@ -20,7 +12,7 @@ This configuration is designed to manage the density of NPCs (villagers, animals
 />
 
 :::danger Please Note:
-#### <EN>This is subject to change, please monitor regularly!</EN><TH>อาจมีการเปลี่ยนแปลง กรุณาติดตามข้อมูลเป็นประจำ!</TH>
+#### This is subject to change, please monitor regularly!
 :::
 
 ---
@@ -28,85 +20,40 @@ This configuration is designed to manage the density of NPCs (villagers, animals
 ## Animal and Monster Farm Limits
 
 ### Animal Farm Limits
-<TH>ขีดจำกัดฟาร์มสัตว์</TH>
 
-<EN>
 - **Maximum Entities**: 50 animals within a chunk.
 - **Condition**: 
   - **Entity Type**: All animal types
   - **count**: 50 
   - **radius**: 1 Chunk
 - **Action**: Remove excess animals. (Kill)
-</EN>
-<TH>
-- **จำนวนเอนทิตี้สูงสุด**: สัตว์สูงสุด 50 ตัวภายในระยะ 1 ชังค์
-- **เงื่อนไข**: 
-  - **ประเภทเอนทิตี้**: สัตว์ทุกประเภท
-  - **จำนวน**: 50 
-  - **ระยะ**: 1 ชังค์
-- **การจัดการ**: ลบสัตว์ส่วนเกิน (ฆ่า)
-</TH>
 
   
 ### Monster Farm Limits
-<TH>ขีดจำกัดฟาร์มมอนสเตอร์</TH>
-
-<EN>
 - **Maximum Entities**: 50 monsters within a chunk
 - **Condition**: 
   - **Entity Type**: All monster types
   - **count**: 50 
   - **radius**: 1 Chunk
 - **Action**: Remove excess monsters. (Kill)
-</EN>
-<TH>
-- **จำนวนเอนทิตี้สูงสุด**: มอนสเตอร์สูงสุด 50 ตัวภายในระยะ 1 ชังค์
-- **เงื่อนไข**: 
-  - **ประเภทเอนทิตี้**: มอนสเตอร์ทุกประเภท
-  - **จำนวน**: 50 
-  - **ระยะ**: 1 ชังค์
-- **การจัดการ**: ลบมอนสเตอร์ส่วนเกิน (ฆ่า)
-</TH>
 ---
 
 ## Villager Density Limit
-<TH> ขีดจำกัดความหนาแน่นของชาวบ้าน (Villager)</TH>
 
 ### Disable Breeding in Large Villager Farms
-<TH>ปิดการผสมพันธุ์ในฟาร์มชาวบ้านขนาดใหญ่</TH>
 
-<EN>
 Disables breeding if there are 20 or more villagers within a 10-block radius from itself .
 - **Condition**: 
   - **Entity Type**: Villager
   - **count**: 20 
   - **radius**: 10 block
 - **Action**: Disable breeding without removing existing villagers.
-</EN>
-<TH>
-ปิดการผสมพันธุ์หากมีชาวบ้าน 20 คนขึ้นไปภายในระยะ 10 บล็อกจากตัวเอง
-- **เงื่อนไข**: 
-  - **ประเภทเอนทิตี้**: ชาวบ้าน (Villager)
-  - **จำนวน**: 20 
-  - **ระยะ**: 10 บล็อก
-- **การจัดการ**: ปิดการผสมพันธุ์โดยไม่ลบชาวบ้านที่มีอยู่
-</TH>
 
 ### Villager Limits
-<EN>
 - **Maximum Entities**: 20 villagers within a 5-block radius.
 - **Condition**: 
   - **Entity Type**: Villager
   - **count**: 20 
   - **radius**: 5 block
 - **Action**: Remove excess villagers. (Kill)
-</EN>
-<TH> 
-- **จำนวนเอนทิตี้สูงสุด**: ชาวบ้านสูงสุด 20 คนภายในระยะ 5 บล็อก
-- **เงื่อนไข**: 
-  - **ประเภทเอนทิตี้**: ชาวบ้าน (Villager)
-  - **จำนวน**: 20 
-  - **ระยะ**: 5 บล็อก
-- **การจัดการ**: ลบชาวบ้านส่วนเกิน (ฆ่า)
-</TH>
 ---

@@ -1,0 +1,31 @@
+---
+sidebar_position: 7
+---
+
+import History from "@site/src/components/history/HistoryTable"
+import GenMetaData from "@site/src/components/SEO/GenMetaData"
+
+# Hopper Filter
+
+:::warning
+ปัจจุบันอยู่ในช่วง Open Beta (ทุกคนสามารถลองได้ แต่ราคาบน Quest Board ค่อนข้างสูง)
+:::
+
+<GenMetaData
+  description="Feature that helps you filter items in a hopper by placing an item frame on a Hopper, the Hopper to only accept items that match those within the frame."
+  keywords="Hopper Filter, Hopper filter, Hopper, Item Frame, Filter, Filter items, Items, lamalia hopper filter, Hopper filter lamalia"
+/>
+
+## How to filter?
+
+วางกรอบโชว์สิ่งของบนฮอปเปอร์ และใส่ไอเทมที่ต้องการคัดกรองบนกรอบโชว์สิ่งของ จะทำให้ฮอปเปอร์รับไอเทมที่ตรงกับไอเทมบนกรอบโชว์สิ่งของเท่านั้น ความเร็วในการถ่ายโอนไอเทมไม่มีการเปลี่ยนแปลง
+![Hopper Filter](\img\doc\features\hopper_filter\Hopper_Filter.webp)
+
+:::tip
+รองรับการกำหนดชื่อไอเทมเอง และจะกรองเฉพาะชื่อที่ตรงกันเท่านั้น.
+:::
+
+<History releasesData={[
+    { release: "2.2.0", description: "- Added: Hopper Filter to Beta Testers." },
+    { release: "2.3.0", description: "- Changed: Hopper Filter Moved Out From Beta Testers to quest shop (1000 Quest Points)" },
+  ]} />

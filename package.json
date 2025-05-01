@@ -9,7 +9,7 @@
     "build": "npx docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "serve": "npx docusaurus serve --port 3000 --host 0.0.0.0"
+    "serve": "npx docusaurus serve --port 3000 --host localhost"
   },
   "dependencies": {
     "@ant-design/icons": "^5.5.2",
