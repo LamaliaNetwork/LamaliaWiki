@@ -1,0 +1,62 @@
+{
+    "enchantments.guide.title": {
+      "message": "คู่มือการร่ายมนต์",
+      "description": "ชื่อของหน้าคู่มือการร่ายมนต์"
+    },
+    "enchantments.guide.tip": {
+      "message": "**เคล็ดลับ:** เพื่อให้ได้ร่ายมนต์แบบโอเวอร์โหลด รวมร่ายมนต์ระดับเดียวกัน 2 อันเพื่อเลื่อนระดับ (เช่น 4+4 = 5, 5+5 = 6, ...) ค่าใช้จ่ายจะไม่แพงเกินไป!",
+      "description": "เคล็ดลับสำหรับการรวมร่ายมนต์"
+    },
+    "enchantments.guide.vanilla": {
+      "message": "คู่มือการร่ายมนต์แบบวานิลลา",
+      "description": "หัวข้อสำหรับการร่ายมนต์แบบวานิลลา"
+    },
+    "enchantments.guide.custom": {
+      "message": "คู่มือการร่ายมนต์แบบกำหนดเอง",
+      "description": "หัวข้อสำหรับการร่ายมนต์แบบกำหนดเอง"
+    },
+    "enchantments.title": {
+      "message": "การร่ายมนต์",
+      "description": "ชื่อทั่วไปสำหรับส่วนการร่ายมนต์"
+    },
+    "enchantments.no_vanilla_enchantments": {
+      "message": "ไม่มีร่ายมนต์แบบวานิลลา",
+      "description": "ข้อความเมื่อไม่มีร่ายมนต์แบบวานิลลา"
+    },
+    "enchantments.no_custom_enchantments": {
+      "message": "ไม่มีร่ายมนต์แบบกำหนดเอง",
+      "description": "ข้อความเมื่อไม่มีร่ายมนต์แบบกำหนดเอง"
+    },
+    "enchantments.columns.enchantment": {
+      "message": "การร่ายมนต์",
+      "description": "หัวคอลัมน์สำหรับชื่อการร่ายมนต์"
+    },
+    "enchantments.columns.max_level": {
+      "message": "ระดับสูงสุด",
+      "description": "หัวคอลัมน์สำหรับระดับสูงสุด"
+    },
+    "enchantments.columns.description": {
+      "message": "คำอธิบาย",
+      "description": "หัวคอลัมน์สำหรับคำอธิบายการร่ายมนต์"
+    },
+    "enchantments.columns.conflicts": {
+      "message": "ขัดแย้ง",
+      "description": "หัวคอลัมน์สำหรับการร่ายมนต์ที่ขัดแย้ง"
+    },
+    "enchantments.columns.notes": {
+      "message": "หมายเหตุ",
+      "description": "หัวคอลัมน์สำหรับหมายเหตุเพิ่มเติม"
+    },
+    "enchantments.level": {
+      "message": "ระดับ {level}",
+      "description": "ป้ายสำหรับระดับการร่ายมนต์ที่มีตัวยึด"
+    },
+    "enchantments.decrease_level": {
+      "message": "ลดระดับการร่ายมนต์",
+      "description": "ป้าย Aria สำหรับปุ่มลดระดับ"
+    },
+    "enchantments.increase_level": {
+      "message": "เพิ่มระดับการร่ายมนต์",
+      "description": "ป้าย Aria สำหรับปุ่มเพิ่มระดับ"
+    }
+  }
