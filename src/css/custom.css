@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #f8b72b;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -19,7 +19,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #f8b72b;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -74,7 +74,7 @@ footer {
 /* Kitt-N 19/11/2024 (add and edit) */
 /* Flowbite Theme CSS*/
 .footer {
-  background-color: rgb(48, 56, 70);
+  background-color: #5c2f04;
   color: #fff;
   font-family: sans-serif;
   padding: 2rem 4rem;
@@ -134,7 +134,7 @@ footer {
 
 .footer-section a {
   text-decoration: none;
-  color: #adadad;
+  color: #c2c1c1;
   transition: color 0.3s;
 }
 
