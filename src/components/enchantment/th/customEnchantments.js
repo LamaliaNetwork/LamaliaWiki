@@ -7,13 +7,15 @@ const customEnchantments = {
         description: "เพิ่มระยะการขุด 3x%placeholder%x3 (กxลxส)",
         placeholder: "%level% * 1",
         conflict: ["Vein Miner"],
+        isCustom: true,
       },
       {
-        name: "Vein Miner, Replanish",
+        name: "Vein Miner",
         maxLevel: 3,
         description: "ขุดได้ถึง %placeholder% บล็อกของสายแร่ในครั้งเดียว",
         placeholder: "%level% + 4",
-        conflict: ["Power Mine"],
+        conflict: ["Power Mine, Replanish"],
+        isCustom: true,
       },
       {
         name: "Replanish",
@@ -21,6 +23,7 @@ const customEnchantments = {
         description: "ปลูกพืชคืนบล็อคที่คุณเก็บเกี่ยวผลผลิต",
         placeholder: "%level% * 1",
         conflict: ["Power Mine, Vein Miner"],
+        isCustom: true,
       },
     ],
     Special: [
@@ -30,6 +33,7 @@ const customEnchantments = {
         description: "ซ่อมแซมไอเทมด้วยความทนทาน %placeholder% เมื่อไม่ได้ใช้งาน ต่อ 5 วินาที",
         placeholder: "%level% + 1 ",
         conflict: ["Mending"],
+        isCustom: true,
       }
     ]
   },
