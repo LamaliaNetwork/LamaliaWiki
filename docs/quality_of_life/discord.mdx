@@ -1,19 +1,16 @@
 ---
 sidebar_position: 1
 ---
-import { TH, EN } from '@site/src/components/LanguageComponents';
 import History from '@site/src/components/history/HistoryTable';
 import GenMetaData from '@site/src/components/SEO/GenMetaData';
 
 # Discord Linking
 ![Discord](/img/doc/quality_of_life/discord/DiscordLinking.svg)
 :::info What is Discord Linking?
-<EN>Discord Linking allows you to send text messages from Discord directly to the in-game chat.</EN>
-<TH>การเชื่อมโยง Discord ช่วยให้สามารถส่งข้อความจาก Discord ไปยังแชทในเกมได้โดยตรง</TH>
+Discord Linking allows you to send text messages from Discord directly to the in-game chat.
 :::
 
 ## Linking Process
-<EN>
 Follow these steps to link your Discord account:
 
 1. **Generate a Link Code**
@@ -47,44 +44,8 @@ Follow these steps to link your Discord account:
    ```
 
    This message confirms that your account is now linked.
-</EN>
-<TH>
-ทำตามขั้นตอนนี้เพื่อเชื่อมโยงกับบัญชี Discord:
-
-1. **สร้างรหัสลิงก์ดิสคอร์ด**
-
-   ใช้คำสั่งต่อไปนี้ในเกม:
-   ```
-   /discord account link
-   ```
-   จะได้รับคำสั่งและรหัส ซึ่งจะเป็นข้อความลักษณะแบบนี้ :
-
-   >**[DiscordBridge]** Please execute the following command in the Discord server: /account link code:**code**
-
-2. **ใช้คำสั่งที่ช่อง #bot บนเซิร์ฟเวอร์ Discord**
-
-   :::tip เกร็ดความรู้
-   ค้นหาช่อง **#bot** บนเซิร์ฟเวอร์ Discord.
-   :::
-
-   ```
-   /account link code:[code]
-   ```
-   ใช้คำสั่งที่ได้รับในช่อง **#bot** บนเซิร์ฟเวอร์ Discord
-
-3. **การยืนยัน**
-
-   หากสำเร็จบอทจะตอบกลับด้วยข้อความลักษณะนี้:
-
-   ```
-   "Successfully linked your Discord account to the Minecraft account (Username)"
-   ```
-
-   ข้อความนี้ยืนยันว่าบัญชีของคุณเชื่อมโยงแล้ว
-</TH>
 
 ## Verifying Your Link Status
-<EN>
 You can check if your Discord account is linked at any time:
 
 1. Use the following command in-game:
@@ -100,49 +61,19 @@ You can check if your Discord account is linked at any time:
 
    **If not linked:**
       > <font color="blue">Link Discord Account</font>
-</EN>
-<TH>
-สามารถตรวจสอบว่าบัญชี Discord ว่าได้รับการเชื่อมโยงบัญชีได้ตลอดเวลา:
 
-1. ใช้คำสั่งต่อไปนี้ในเกม:
-   ```
-   /discord account
-   ```
-
-2. ระบบจะแสดงหน้าต่าง Discord Account:
-
-   **ถ้าเชื่อมโยงบัญชีแล้ว:**
-
-   > <font color="green">Account Linked</font>
-   >>"Account is linked to Discord [Username]
-
-   **ถ้ายังไม่ได้เชื่อมโยงบัญชี:**
-   > <font color="blue">Link Discord Account</font>
-</TH>
 :::caution
-<EN>Make sure to keep your link code private. Anyone with access to this code could potentially link their Discord account to your game account.</EN>
-<TH>ตรวจสอบให้แน่ใจว่าได้เก็บรหัสลิงก์ของคุณไว้เป็นส่วนตัว ผู้ไม่ประสงค์ดีที่เข้าถึงรหัสนี้อาจเชื่อมโยงบัญชี Discord ของพวกเขากับบัญชีเกมของคุณ</TH>
+Make sure to keep your link code private. Anyone with access to this code could potentially link their Discord account to your game account.
 :::
 
 ## Troubleshooting
-<EN>
 If you encounter any issues during the linking process:
 
 1. Ensure you're using command in channel **#bot**.
 2. Double-check that you've entered the link code correctly.
 3. Try generating a new link code if the old one doesn't work.
 4. If problems persist, contact a server administrator for assistance.
-</EN>
-<TH>
-หากคุณพบปัญหาใด ๆ ในระหว่างกระบวนการเชื่อมโยง:
-
-1. ตรวจสอบให้แน่ใจว่าใช้คำสั่งในช่อง **#bot** ถูกต้อง
-2. ตรวจสอบอีกครั้งที่ว่าป้อนรหัสลิงก์ที่ถูกต้อง
-3. ลองสร้างรหัสลิงก์ใหม่หากรหัสเดิมไม่ทำงาน
-4. หากปัญหายังคงอยู่ให้ติดต่อผู้ดูแลระบบเซิร์ฟเวอร์เพื่อขอความช่วยเหลือ
-</TH>
 
 :::note
-<EN>Remember, linking your Discord account enhances your gameplay experience by allowing cross-platform communication. Enjoy the seamless integration!</EN>
-<TH>โปรดจำไว้ว่าการเชื่อมโยงบัญชี Discord ของคุณช่วยเพิ่มประสบการณ์การเล่นเกมของคุณโดยอนุญาตให้การสื่อสารข้ามแพลตฟอร์ม เพลิดเพลินไปกับการใช้งานที่ลื่นไหลไร้รอยต่อ</TH>
+Remember, linking your Discord account enhances your gameplay experience by allowing cross-platform communication. Enjoy the seamless integration!
 :::

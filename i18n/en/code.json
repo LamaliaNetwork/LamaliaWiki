@@ -1,0 +1,62 @@
+{
+    "enchantments.guide.title": {
+      "message": "Enchantments Guide",
+      "description": "Title of the enchantments guide page"
+    },
+    "enchantments.guide.tip": {
+      "message": "**Tip:** To get overloaded enchantments, combine 2 enchantments of the same level to get the next level (e.g., 4+4 = 5, 5+5 = 6, ...). The cost will not get too expensive!",
+      "description": "Tip for combining enchantments"
+    },
+    "enchantments.guide.vanilla": {
+      "message": "Vanilla Enchantment Guide",
+      "description": "Section title for vanilla enchantments"
+    },
+    "enchantments.guide.custom": {
+      "message": "Custom Enchantment Guide",
+      "description": "Section title for custom enchantments"
+    },
+    "enchantments.title": {
+      "message": "Enchantments",
+      "description": "General title for enchantment sections"
+    },
+    "enchantments.no_vanilla_enchantments": {
+      "message": "No vanilla enchantments available",
+      "description": "Message when no vanilla enchantments are available"
+    },
+    "enchantments.no_custom_enchantments": {
+      "message": "No custom enchantments available",
+      "description": "Message when no custom enchantments are available"
+    },
+    "enchantments.columns.enchantment": {
+      "message": "Enchantment",
+      "description": "Column header for enchantment name"
+    },
+    "enchantments.columns.max_level": {
+      "message": "Max Level",
+      "description": "Column header for maximum level"
+    },
+    "enchantments.columns.description": {
+      "message": "Description",
+      "description": "Column header for enchantment description"
+    },
+    "enchantments.columns.conflicts": {
+      "message": "Conflicts",
+      "description": "Column header for enchantment conflicts"
+    },
+    "enchantments.columns.notes": {
+      "message": "Notes",
+      "description": "Column header for additional notes"
+    },
+    "enchantments.level": {
+      "message": "Level {level}",
+      "description": "Label for enchantment level with placeholder"
+    },
+    "enchantments.decrease_level": {
+      "message": "Decrease enchantment level",
+      "description": "Aria label for decrease level button"
+    },
+    "enchantments.increase_level": {
+      "message": "Increase enchantment level",
+      "description": "Aria label for increase level button"
+    }
+  }

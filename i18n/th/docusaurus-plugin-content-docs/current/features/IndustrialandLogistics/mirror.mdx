@@ -1,0 +1,74 @@
+﻿---
+sidebar_position: 6
+---
+import { TH, EN } from '@site/src/components/LanguageComponents';
+import History from "@site/src/components/history/HistoryTable"
+import GenMetaData from "@site/src/components/SEO/GenMetaData"
+
+# Mirror Feature
+
+:::info
+ฟีเจอร์ Mirror ช่วยให้สามารถสร้างวัตถุบนแกน x, y และ z พร้อมกันได้
+:::
+
+<GenMetaData
+  description="The Mirror feature allows you to build in parallel on the x, y, z axis."
+  keywords="Mirror, Mirror feature, Mirror build, Mirror block, Mirror block destruction, Mirror block placement, Mirror block range, Mirror block axis, Mirror block center, Mirror block activation, Mirror block deactivation, Mirror block usage, Mirror block tips, Mirror block safe usage, Mirror block plan, Mirror block clear area, Mirror block start small, Mirror block regular saves, Mirror block administrator responsibility, lamalia Mirror, Mirror lamalia"
+  />
+
+:::warning ต้องการแรงค์ Astral ขึ้นไป 
+:::
+
+:::danger
+ฟีเจอร์นี้อาจเป็นอันตรายได้ โปรดใช้งานอย่างระมัดระวัง!
+:::
+
+![Mirror Feature Demonstration](\img\doc\features\mirror\mirror.gif)
+
+## Important Information
+
+:::warning
+1. Mirror จะมีผลเฉพาะการวางบล็อกเท่านั้น ไม่มีผลกับการทำลายบล็อก
+2. หากมีบล็อคที่กีดขวางอยู่ในระยะ Mirror บล็อกนั้นจะถูกทำลาย
+3. Mirror มีระยะการทำงานจำกัดที่ 50 บล็อก
+4. **ปิดการใช้งาน Mirror ทุกครั้งหลังใช้งาน**
+:::
+
+## Usage
+
+1. เปิดใช้งานฟีเจอร์ mirror ด้วยคำสั่ง:
+   ```
+   /mirror
+   ```
+
+2. กำหนดจุดศูนย์กลาง (Center)
+
+   ![Mirror Center Location](/img/doc/features/mirror/mirrorCenterSet.png)
+
+3. กำหนดแกน x y z
+
+4. เปิดใช้งาน Mirror
+
+5. เริ่มใช้งานได้เลย!
+
+6. ใช้เสร็จอย่าลืม ปิดการใช้งาน Mirror
+
+:::caution
+**แอดมินจะไม่รับผิดชอบต่อการใช้งาน Mirror ที่ไม่เหมาะสม**
+:::
+
+## Tips for Safe Mirror Usage
+การใช้งาน Mirror อย่างปลอดภัย
+
+1. **วางแผนการสร้าง:** ก่อนเปิดใช้งาน Mirror ให้วางแผนการสร้างของคุณเพื่อหลีกเลี่ยงผลที่ไม่พึงประสงค์
+2. **เคลียพื้นที่:** ตรวจสอบให้แน่ใจว่าบริเวณ Mirror ไม่มีอะไรกีดขวาง
+3. **เริ่มสร้างจากเล็กๆก่อน:** เริ่มสร้างจากสิ่งๆเล็กๆก่อน เพื่อเรียนรู้ถึงวิธีการทำงานของ Mirror
+4. **หมั่นบึนทึก:** หากเป็นไปได้ ควรสำรองข้อมูลหรือใช้ Mirror ในพื้นที่ที่สามารถกู้คืนได้ง่าย
+
+:::note
+ฟีเจอร์ Mirror เป็นเครื่องมือทรงพลังที่สามารถเพิ่มความเร็วให้กับการสร้างแบบสมมาตร อย่างไรก็ตาม ฟีเจอร์นี้ควรใช้งานด้วยความระมัดระวังเพื่อหลีกเลี่ยงเลี่ยงผลที่ไม่พึงประสงค์
+:::
+
+<History releasesData={[
+    { release: "1.4.0", description: "- Added: /mirror command to Astral Rank." },
+  ]} />

@@ -9,7 +9,7 @@ export const footerConfig = {
   footerSections: [
     {
       title: "Official Store",
-      links: [{ text: "Store", url: "https://store.lamalia.net/" }],
+      links: [{ text: "Store", url: "https://lamalia.net/" }],
     },
     {
       title: "Resources",

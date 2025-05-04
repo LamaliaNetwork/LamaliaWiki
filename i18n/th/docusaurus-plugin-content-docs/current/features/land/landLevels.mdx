@@ -1,0 +1,102 @@
+﻿---
+sidebar_position: 2
+---
+import History from '@site/src/components/history/HistoryTable';
+import GenMetaData from '@site/src/components/SEO/GenMetaData';
+
+# Land Levels and Taxes
+
+แต่ละแลนด์จะมีระดับเฉพาะของตัวเอง พร้อมกับสิทธิพิเศษที่เพิ่มขึ้นตามระดับ เมื่อคุณพัฒนาแลนด์ของคุณ คุณสามารถไต่ระดับเหล่านี้เพื่อรับสิทธิประโยชน์มากขึ้น
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="home" label="Level 1: Home" default>
+
+### Home
+
+ทุกแลนด์เริ่มต้นที่ระดับนี้
+
+  </TabItem>
+  <TabItem value="village" label="Level 2: Village">
+
+### Village
+
+:::note Requirements
+- พื้นที่ที่เคลม: 9
+- สมาชิกภายในแลนด์: 3
+:::
+
+:::tip Perks
+- ครอบครองชังก์ได้เพิ่ม: +12
+- ค่าบำรุงรักษา (Upkeep) : +5%
+:::
+
+  </TabItem>
+  <TabItem value="town" label="Level 3: Town">
+
+### Town
+
+:::note Requirements
+- พื้นที่ที่เคลม: 20
+- สมาชิกภายในแลนด์: 7
+:::
+
+:::tip Perks
+- ครอบครองชังก์ได้เพิ่ม: +25
+- ค่าบำรุงรักษา (Upkeep) : +10%
+:::
+
+  </TabItem>
+  <TabItem value="province" label="Level 4: Province">
+
+### Province
+
+:::note Requirements
+- พื้นที่ที่เคลม: 45
+- สมาชิกภายในแลนด์: 12
+:::
+
+:::tip Perks
+- ครอบครองชังก์ได้เพิ่ม: +50
+- ค่าบำรุงรักษา (Upkeep) : +25%
+:::
+
+  </TabItem>
+  <TabItem value="land" label="Level 5: Land">
+
+### Land
+
+:::note Requirements
+- พื้นที่ที่เคลม: 120
+- สมาชิกภายในแลนด์: 20
+:::
+
+:::tip Perks
+- ครอบครองชังก์ได้เพิ่ม: +100
+- ค่าบำรุงรักษา (Upkeep) : +50%
+:::
+
+  </TabItem>
+</Tabs>
+
+## Land Taxes & Upkeep
+
+:::info
+ภาษีและค่าบำรุงรักษาจะถูกรวบรวมทุกวันตอนเที่ยงคืน
+:::
+
+### Tax
+การกำหนดภาษีขึ้นอยู่กับเจ้าของแลนด์
+
+### Upkeep
+หากคุณเป็นเจ้าของดินแดน คุณจะต้องจ่าย **3$/ชังก์** ที่คุณครอบครอง
+
+:::note Upkeep Calculation
+(3 x ชังก์) x ค่าบำรุงรักษา
+:::
+
+:::caution
+โปรดจำไว้ว่าเมื่อระดับแลนด์ของคุณเพิ่มขึ้น เปอร์เซ็นต์ค่าบำรุงรักษาก็จะเพิ่มขึ้นด้วยเช่นกัน ดังนั้น อย่าลืมปรับสมดุลการเติบโตของดินแดนกับความสามารถในการดูแลรักษาของคุณ!
+:::

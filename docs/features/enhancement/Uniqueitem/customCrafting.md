@@ -2,8 +2,6 @@
 
 Lamalia features several custom crafting recipes to enhance your gameplay experience. Here are the unique items you can craft:
 
-## Bundle
-
 ![Bundle Crafting Recipe](/img/doc/features/customCrafting/bundle.png)
 
 **Description:** A bundle allows you to store multiple stacks of items in a single inventory slot, making inventory management much easier.
