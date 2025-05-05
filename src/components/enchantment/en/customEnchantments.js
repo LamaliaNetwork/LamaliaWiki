@@ -7,13 +7,15 @@ const customEnchantments = {
         description: "Increased digging distance 3x%placeholder%x3 (wxdxh)",
         placeholder: "%level% * 1",
         conflict: ["Vein Miner"],
+        isCustom: true,
       },
       {
-        name: "Vein Miner, Replanish",
+        name: "Vein Miner",
         maxLevel: 3,
         description: "mines up to %placeholder% blocks of the ore vein at once",
         placeholder: "%level% + 4",
-        conflict: ["Power Mine"],
+        conflict: ["Power Mine, Replanish"],
+        isCustom: true,
       },
       {
         name: "Replanish",
@@ -21,6 +23,7 @@ const customEnchantments = {
         description: "Replenish the blocks where you harvested the produce.",
         placeholder: "%level% * 1",
         conflict: ["Power Mine, Vein Miner"],
+        isCustom: true,
       },
     ],
     Special: [
@@ -30,6 +33,7 @@ const customEnchantments = {
         description: "Repair items by %placeholder% durability when not in use. per 5 seconds",
         placeholder: "%level% + 1 ",
         conflict: ["Mending"],
+        isCustom: true,
       }
     ]
   },

@@ -6,6 +6,7 @@ import { evaluate } from "mathjs";
 import Heading from "@theme/Heading";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Translate, { translate } from "@docusaurus/Translate";
+import styles from "./styles.module.css";
 
 import enVanillaEnchantments from "./en/vanillaEnchantments";
 import enCustomEnchantments from "./en/customEnchantments";
@@ -44,7 +45,10 @@ const renderDescription = (enchant, level) => {
   if (placeholderValue === "-") return desc;
   if (typeof placeholderValue === "string") {
     return desc.replace("%placeholder%", placeholderValue); // ลบ % เพื่อรองรับหน่วยเช่น "blocks"
-  } else if (typeof placeholderValue === "object" && placeholderValue !== null) {
+  } else if (
+    typeof placeholderValue === "object" &&
+    placeholderValue !== null
+  ) {
     Object.entries(placeholderValue).forEach(([key, value]) => {
       desc = desc.replace(
         `%${key}%`,
@@ -56,9 +60,12 @@ const renderDescription = (enchant, level) => {
   return desc;
 };
 
-const EnchantmentRow = ({ enchant }) => {
+const EnchantmentRow = ({ enchant, isCustom }) => {
   const [level, setLevel] = useState(enchant.maxLevel);
-  const description = useMemo(() => renderDescription(enchant, level), [enchant, level]);
+  const description = useMemo(
+    () => renderDescription(enchant, level),
+    [enchant, level]
+  );
 
   const handleIncreaseLevel = () => {
     if (level < enchant.maxLevel) setLevel(level + 1);
@@ -70,7 +77,9 @@ const EnchantmentRow = ({ enchant }) => {
 
   return (
     <tr>
-      <td>{enchant.name}</td>
+      <td className={isCustom ? styles.customEntclass : ""}>
+        {enchant.name}
+      </td>
       <td>{enchant.maxLevel}</td>
       <td>
         {description}
@@ -79,7 +88,10 @@ const EnchantmentRow = ({ enchant }) => {
             <button
               onClick={handleDecreaseLevel}
               disabled={level === 1}
-              aria-label={translate({ id: "enchantments.decrease_level", message: "Decrease enchantment level" })}
+              aria-label={translate({
+                id: "enchantments.decrease_level",
+                message: "Decrease enchantment level",
+              })}
             >
               -
             </button>
@@ -95,7 +107,10 @@ const EnchantmentRow = ({ enchant }) => {
             <button
               onClick={handleIncreaseLevel}
               disabled={level === enchant.maxLevel}
-              aria-label={translate({ id: "enchantments.increase_level", message: "Increase enchantment level" })}
+              aria-label={translate({
+                id: "enchantments.increase_level",
+                message: "Increase enchantment level",
+              })}
             >
               +
             </button>
@@ -121,22 +136,34 @@ const EnchantmentTable = ({ category, enchants }) => {
         <thead>
           <tr>
             <th>
-              <Translate id="enchantments.columns.enchantment" description="Enchantment column header">
+              <Translate
+                id="enchantments.columns.enchantment"
+                description="Enchantment column header"
+              >
                 Enchantment
               </Translate>
             </th>
             <th>
-              <Translate id="enchantments.columns.max_level" description="Max Level column header">
+              <Translate
+                id="enchantments.columns.max_level"
+                description="Max Level column header"
+              >
                 Max Level
               </Translate>
             </th>
             <th>
-              <Translate id="enchantments.columns.description" description="Description column header">
+              <Translate
+                id="enchantments.columns.description"
+                description="Description column header"
+              >
                 Description
               </Translate>
             </th>
             <th>
-              <Translate id="enchantments.columns.conflicts" description="Conflicts column header">
+              <Translate
+                id="enchantments.columns.conflicts"
+                description="Conflicts column header"
+              >
                 Conflicts
               </Translate>
             </th>
@@ -149,7 +176,7 @@ const EnchantmentTable = ({ category, enchants }) => {
         </thead>
         <tbody>
           {enchants.map((enchant) => (
-            <EnchantmentRow key={enchant.name} enchant={enchant} />
+            <EnchantmentRow key={enchant.name} enchant={enchant} isCustom={enchant.isCustom} />
           ))}
         </tbody>
       </table>
@@ -160,7 +187,8 @@ const EnchantmentTable = ({ category, enchants }) => {
 export function VanillaEnchantmentsDisplay() {
   const { i18n } = useDocusaurusContext();
   const language = i18n.currentLocale || "en";
-  const vanillaEnchantments = language === "th" ? thVanillaEnchantments : enVanillaEnchantments;
+  const vanillaEnchantments =
+    language === "th" ? thVanillaEnchantments : enVanillaEnchantments;
 
   const vanillaCategories = vanillaEnchantments?.vanilla
     ? Object.keys(vanillaEnchantments.vanilla)
@@ -168,7 +196,10 @@ export function VanillaEnchantmentsDisplay() {
   if (!vanillaCategories.length) {
     return (
       <div>
-        <Translate id="enchantments.no_vanilla_enchantments" description="No vanilla enchantments message">
+        <Translate
+          id="enchantments.no_vanilla_enchantments"
+          description="No vanilla enchantments message"
+        >
           No vanilla enchantments available.
         </Translate>
       </div>
@@ -194,7 +225,8 @@ export function VanillaEnchantmentsDisplay() {
 export function CustomEnchantmentsDisplay() {
   const { i18n } = useDocusaurusContext();
   const language = i18n.currentLocale || "en";
-  const customEnchantments = language === "th" ? thCustomEnchantments : enCustomEnchantments;
+  const customEnchantments =
+    language === "th" ? thCustomEnchantments : enCustomEnchantments;
 
   const customCategories = customEnchantments?.custom
     ? Object.keys(customEnchantments.custom)
@@ -202,7 +234,10 @@ export function CustomEnchantmentsDisplay() {
   if (!customCategories.length) {
     return (
       <div>
-        <Translate id="enchantments.no_custom_enchantments" description="No custom enchantments message">
+        <Translate
+          id="enchantments.no_custom_enchantments"
+          description="No custom enchantments message"
+        >
           No custom enchantments available.
         </Translate>
       </div>

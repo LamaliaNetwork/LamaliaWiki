@@ -1,0 +1,50 @@
+.customEntclassWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.customEntclassWrapper::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border-radius: 50%;
+  background: conic-gradient(#ff0000, #ff4d6e, #ffffff, #ff4d6e, #ff0000);
+  animation: spin 3s linear infinite;
+  z-index: 0;
+  filter: blur(6px);
+}
+
+.customEntclass {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(90deg, #ff0000, #ff4d6e, #ffffff, #ff4d6e, #ff0000);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  animation: shine 3s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+  100% {
+    background-position: 0% center;
+  }
+}
