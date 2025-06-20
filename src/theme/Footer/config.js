@@ -4,7 +4,7 @@ export const footerConfig = {
   socialLinks: {
     facebook: "https://www.facebook.com/profile.php?id=61556568863338",
     discord: "https://discord.gg/pH7P23uVSu",
-    store: "https://store.lamalia.net/",
+    store: "https://lamalia.net/",
   },
   footerSections: [
     {
@@ -16,7 +16,7 @@ export const footerConfig = {
       links: [
         { text: "Docs", url: "/docs/intro" },
         { text: "Patch Notes", url: "/patchNotes" },
-        { text: "Maps", url: "/embed" },
+        { text: "Maps", url: "/more/Map" },
       ],
     },
     {
