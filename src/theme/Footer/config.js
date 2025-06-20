@@ -32,8 +32,9 @@ export const footerConfig = {
     {
       title: "Legal",
       links: [
-        { text: "Rules", url: "/rules" },
-        { text: "Privacy Policy", url: "/privacy" },
+        { text: "Rules", url: "https://lamalia.net/rules" },
+        { text: "Terms of Service", url: "https://lamalia.net/terms" },
+        { text: "Privacy Policy", url: "https://lamalia.net/privacy" },
       ],
     },
   ],

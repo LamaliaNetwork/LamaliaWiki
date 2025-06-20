@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/lamalialogooriginal.svg',
 
   // Set the production url of your site here
-  url: 'https://play.lamalia.net:25590',
+  url: 'https://map.lamalia.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
